@@ -1,16 +1,13 @@
 
-library(gsheet)
+
 library(tidyr)
 library(leaflet)
 library(stringr)
-library(googleway)
 library(purrr)
-library(log4r)
 library(httr)
 library(jsonlite)
 library(sf)
 library(plotly)
-
 
 
 get_arcgis_services <- function(service = NULL, folder = NULL, layer = NULL, return_geojson = FALSE) {
