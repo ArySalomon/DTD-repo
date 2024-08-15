@@ -1,359 +1,410 @@
 
-
-## GOOGLE MAPS SCRAPPER
-
-# https://console.cloud.google.com/marketplace/product/google/places-backend.googleapis.com?q=search&referrer=search&hl=es-419&project=mapsapi-430314
-# https://developers.google.com/maps/documentation/places/web-service/details?hl=es-419
-# https://developers.google.com/maps/documentation/places/web-service/supported_types?hl=es-419
-
-library(sf)
-library(ggplot2)
-library(leaflet)
-library(writexl)
-
-library(googleway)
+library(gsheet)
 library(tidyr)
+library(leaflet)
+library(stringr)
+library(googleway)
 library(purrr)
+library(log4r)
+library(httr)
+library(jsonlite)
+library(sf)
+library(plotly)
 
 
-# Google maps APIkey
-API_KEY <- ""
 
-# Categorías seleccionadas para la consulta
-places_types <- c(
-  # "city_hall",
-  # "local_government_office",
-  # "embassy",
-  "beauty_salon",
-  "clothing_store",
-  "electronics_store",
-  "fire_station",
-  "florist",
-  "furniture_store",
-  "gym",
-  "hair_care",
-  "hardware_store",
-  "home_goods_store",
-  "jewelry_store",
-  "library",
-  # "light_rail_station",
-  "locksmith",
-  "painter",
-  "pet_store",
-  "plumber",
-  "post_office",
-  "real_estate_agency",
-  "shoe_store",
-  "storage",
-  # "subway_station",
-  # "taxi_stand",
-  # "train_station",
-  "veterinary_care",
-  # "transit_station"
-)
-
-places_list <- lapply(places_types, function(x) list())
-names(places_list) <- places_types
-
-# Centroides seleccionados para la consulta
-centroides <- list(c(-32.88350,-68.90119), # favorita
-                  c(-32.88350,-68.84619)) # plaza chile
-
-# Loop para consultar cada categoría en cada radio
-for (centroide in seq_along(centroides)) { 
-  for (type_n in seq_along(places_types)) { 
+get_arcgis_services <- function(service = NULL, folder = NULL, layer = NULL, return_geojson = FALSE) {
+  # Define the root URL of the ArcGIS REST API services directory
+  root_url <- "https://webgis.ciudaddemendoza.gob.ar/server/rest/services"
+  
+  # Get token
+  token_response <- httr::POST("https://webgis.ciudaddemendoza.gob.ar/portal/sharing/rest/generateToken",
+                               body = list(
+                                 username = "cchavarini",
+                                 password = "",
+                                 referer = "webgis.ciudaddemendoza.gob.ar/portal",
+                                 f = "json"),
+                               encode = "form")
+  
+  token <- httr::content(token_response)$token
+  
+  if (!is.null(folder) & !is.null(service)) {
+    # Construct URL for querying features if folder and service are provided
+    service_url <- paste0(root_url, "/", folder, "/", service, "/FeatureServer/1/query")
     
-    # reporta inicio del proceso
-    print(toupper(paste0("EXTRACCIÓN DE ", names(places_list)[type_n], " EN CENTROIDE ", centroide, " COMENZADA")))
-    
-    # consulta inicial
-    new_places <- google_places(place_type = places_types[type_n], 
-                                location = centroides[[centroide]],
-                                radius = 4165, # radio de la consulta en metros
-                                key = API_KEY)
-    
-    # reinicia el contador de iteraciones
-    iter_numb <- 0
-    
-    # espera de 5 segundos para asegurar la integridad de las consultas
-    Sys.sleep(5)
-    
-    # Whileloop para iterar por cada página de la respuesta (límite máximo de 20 filas)
-    while (new_places$status == "OK" && nrow(data.frame(new_places$results)) > 0) { 
+    if (return_geojson) {
+      # Request the features of the layer as GeoJSON
+      resultOffset <- 0
+      all_data <- list()
+      params <- list(
+        where = "1=1",
+        outFields = "*",
+        f = "geojson",
+        token = token,
+        resultOffset = resultOffset,
+        resultRecordCount = 1000  # Adjust as necessary, the default might be 1000
+      )
       
-      # Guarda la categoría consultada en una columna de la respuesta
-      new_places$results$requested_type <- places_types[[type_n]]
-      
-      # guarda la nueva consulta en la lista
-      places_list[[type_n]][[length(places_list[[type_n]]) + 1]] <- data.frame(new_places$results) 
-      
-      # reporta el número de iteración
-      iter_numb <- iter_numb + 1
-      print(paste("ITERACIÓN NÚMERO: ", iter_numb)) 
-      
-      # reporta si el token de la siguiente página es nulo y rompe el whileloop
-      if (is.null(new_places$next_page_token)) { 
-        print("TOKEN NULO: NO HAY MÁS RESULTADOS")
-        break
+      repeat {
+        # Make the HTTP request
+        response <- GET(service_url, query = params)
+        
+        # Check if the request was successful
+        if (status_code(response) != 200) {
+          stop("Request failed with status code: ", status_code(response))
+        }
+        
+        # Parse the response
+        geojson <- content(response, "text", encoding = "UTF-8")
+        temp_data <- st_read(geojson, quiet = TRUE)
+        
+        # Break if no more data is returned
+        if (nrow(temp_data) == 0) {
+          break
+        }
+        
+        # Append the data to the list
+        all_data <- append(all_data, list(temp_data))
+        
+        # Increment the resultOffset
+        resultOffset <- resultOffset + nrow(temp_data)
+        params$resultOffset <- resultOffset
       }
       
-      # nueva consulta con el token de la siguiente página
-      new_places <- google_places(place_type = places_types[type_n], 
-                                  location = centroides[[centroide]],
-                                  radius = 4165,
-                                  key = API_KEY,
-                                  page_token = new_places$next_page_token)
-      
-      # espera de 5 segundos para asegurar la integridad de las consultas
-      Sys.sleep(5) 
-      
-      # reporta si se rompe el whileloop
-      if (new_places$status != "OK" || !nrow(data.frame(new_places$results)) > 0) {
-        print("SOLICITUD INVÁLIDA O NO MÁS RESULTADOS")
+      # Function to add missing columns
+      add_missing_columns <- function(df, all_columns) {
+        missing_columns <- setdiff(all_columns, colnames(df))
+        df[missing_columns] <- NA
+        return(df)
       }
       
+      # Get all unique columns
+      all_columns <- unique(unlist(lapply(all_data, colnames)))
+      
+      # Add missing columns to all dataframes
+      all_data <- lapply(all_data, add_missing_columns, all_columns = all_columns)
+      
+      # Combine all the data into a single sf object
+      geojson_layer <- do.call(rbind, all_data)
+      
+      return(geojson_layer)
+    }
+  } else if (!is.null(folder)) {
+    # If only folder is provided, get the services within the folder
+    folder_url <- paste0(root_url, "/", folder)
+    response <- GET(folder_url, query = list(token = token, f = "json"))
+    
+    if (status_code(response) != 200) {
+      stop("Request failed with status code: ", status_code(response))
     }
     
-    # reporta estado del proceso
-    cat(toupper(paste0("EXTRACCIÓN DE ", names(places_list)[type_n], " EN CENTROIDE ", centroide, " FINALIZADA EN ", iter_numb, " ITERACIONES")), "\n\n")
+    services <- fromJSON(content(response, "text"))
+    return(services)
+  } else if (is.null(service)) {
+    # If no 'service' and 'folder' arguments are provided, get the list of all services
+    response <- GET(root_url, query = list(token = token, f = "json"))
+    services <- fromJSON(content(response, "text"))
+    return(services)
+  } else if (is.null(layer)) {
+    # If 'service' is provided but not 'layer', get the layers within that specific service
+    service_url <- paste0(root_url, "/", service, "/MapServer")
+    response <- GET(service_url, query = list(f = "json"))
+    layers <- fromJSON(content(response, "text"))
+    return(layers$layers)
+  } else {
+    # If both 'service' and 'layer' are provided
+    layer_url <- paste0(root_url, "/", service, "/FeatureServer/", layer, "/query")
     
+    if (return_geojson) {
+      # Request the features of the layer as GeoJSON
+      resultOffset <- 0
+      all_data <- list()
+      params <- list(
+        where = "1=1",
+        outFields = "*",
+        f = "geojson",
+        token = token,
+        resultOffset = resultOffset,
+        resultRecordCount = 1000  # Adjust as necessary, the default might be 1000
+      )
+      
+      repeat {
+        # Make the HTTP request
+        response <- GET(layer_url, query = params)
+        
+        # Check if the request was successful
+        if (status_code(response) != 200) {
+          stop("Request failed with status code: ", status_code(response))
+        }
+        
+        # Parse the response
+        geojson <- content(response, "text", encoding = "UTF-8")
+        temp_data <- st_read(geojson, quiet = TRUE)
+        
+        # Break if no more data is returned
+        if (nrow(temp_data) == 0) {
+          break
+        }
+        
+        # Append the data to the list
+        all_data <- append(all_data, list(temp_data))
+        
+        # Increment the resultOffset
+        resultOffset <- resultOffset + nrow(temp_data)
+        params$resultOffset <- resultOffset
+      }
+      
+      # Function to add missing columns
+      add_missing_columns <- function(df, all_columns) {
+        missing_columns <- setdiff(all_columns, colnames(df))
+        df[missing_columns] <- NA
+        return(df)
+      }
+      
+      # Get all unique columns
+      all_columns <- unique(unlist(lapply(all_data, colnames)))
+      
+      # Add missing columns to all dataframes
+      all_data <- lapply(all_data, add_missing_columns, all_columns = all_columns)
+      
+      # Combine all the data into a single sf object
+      geojson_layer <- do.call(rbind, all_data)
+      
+      return(geojson_layer)
+    } else {
+      # Request the layer details
+      response <- GET(layer_url, query = list(f = "json", token = token))
+      layer_details <- fromJSON(content(response, "text"))
+      return(layer_details)
+    }
   }
 }
 
-# Convierte la lista de resultados en una tabla
-places_list <- places_list %>%
-                unlist(recursive = FALSE) %>%
-                dplyr::bind_rows() %>%
-                dplyr::distinct(place_id, .keep_all = TRUE)
+# manzanas (layer)
+get_arcgis_services()
+get_arcgis_services(service = "Catastro_público")
+manzanas_sf <- get_arcgis_services(service = "Catastro_público", layer = 3, return_geojson = TRUE)
 
-# Dataframe para guardar los detalles
-details_dataframe <- data.frame(
-  name = character(), 
-  address = character(), 
-  phone = character(), 
-  intl_phone = character(), 
-  lat = character(), 
-  lng = character(), 
-  weekday_text = character(), 
-  place_id = character(), 
-  rating = character(), 
-  delivery = character(), 
-  dine_in = character(), 
-  reservable = character(), 
-  serves_beer = character(), 
-  serves_breakfast = character(), 
-  serves_brunch = character(), 
-  serves_dinner = character(), 
-  serves_lunch = character(), 
-  serves_vegetarian_food = character(), 
-  serves_wine = character(), 
-  takeout = character(), 
-  wheelchair_accessible_entrance = character(), 
-  user_ratings_total = character(), 
-  website = character(), 
-  url = character(), 
-  types = character(),
-  stringsAsFactors = FALSE
-)
+# Parcelas - PH (layer)
+get_arcgis_services()
+get_arcgis_services(service = "Catastro_público")
+propiedad_horizontal <- get_arcgis_services(service = "Catastro_público", layer = 7, return_geojson = TRUE)
+
+# Espacios verdes
+get_arcgis_services()
+get_arcgis_services(service = "Ambiente_público")
+espacios_verdes <- get_arcgis_services(service = "Ambiente_público", layer = 10, return_geojson = TRUE)
+
+# comercios (folder)
+get_arcgis_services(folder = "Comercio")
+comercio <- get_arcgis_services(folder = "Comercio", service = "Comercio", return_geojson = TRUE)
 
 
-# Loop por cada id para solicitar los detalles
+# Fiscalización comercial
 
-iter_numb <- 0
-
-for (id in places_list$place_id) {
-  
-  # Guardamos los detalles
-  details <- google_place_details(place_id = id,
-                                  language = "es",
-                                  key = API_KEY,
-                                  simplify = TRUE)
-  
-  # Convertimos los detalles en una fila
-  row <- data.frame(
-    name = ifelse(!is.null(details$result$name),
-                as.character(details$result$name),
-                NA_character_),
-    address = ifelse(!is.null(details$result$formatted_address),
-                as.character(details$result$formatted_address),
-                NA_character_),
-    phone = ifelse(!is.null(details$result$formatted_phone_number),
-                as.character(details$result$formatted_phone_number),
-                NA_character_),
-    intl_phone = ifelse(!is.null(details$result$international_phone_number),
-                as.character(details$result$international_phone_number),
-                NA_character_),
-    lat = ifelse(!is.null(details$result$geometry$location$lat),
-                 as.character(details$result$geometry$location$lat),
-                 NA_character_),
-    lng = ifelse(!is.null(details$result$geometry$location$lng),
-                 as.character(details$result$geometry$location$lng),
-                 NA_character_),
-    weekday_text = ifelse(!is.null(details$result$opening_hours$weekday_text), 
-                as.character(paste(details$result$opening_hours$weekday_text, collapse = ";;")), 
-                NA_character_),
-    place_id = ifelse(!is.null(details$result$place_id),
-                as.character(details$result$place_id),
-                NA_character_),
-    rating = ifelse(!is.null(details$result$rating),
-                as.character(details$result$rating),
-                NA_character_),
-    delivery = ifelse(!is.null(details$result$delivery), 
-                as.character(paste(details$result$delivery)), 
-                NA_character_),
-    dine_in = ifelse(!is.null(details$result$dine_in), 
-                as.character(paste(details$result$dine_in)), 
-                NA_character_),
-    reservable = ifelse(!is.null(details$result$reservable), 
-                as.character(paste(details$result$reservable)), 
-                NA_character_),
-    serves_beer = ifelse(!is.null(details$result$serves_beer), 
-                as.character(paste(details$result$serves_beer)), 
-                NA_character_),
-    serves_breakfast = ifelse(!is.null(details$result$serves_breakfast), 
-                as.character(paste(details$result$serves_breakfast)), 
-                NA_character_),
-    serves_brunch = ifelse(!is.null(details$result$serves_brunch), 
-                as.character(paste(details$result$serves_brunch)), 
-                NA_character_),
-    serves_dinner = ifelse(!is.null(details$result$serves_dinner), 
-                as.character(paste(details$result$serves_dinner)), 
-                NA_character_),
-    serves_lunch = ifelse(!is.null(details$result$serves_lunch),
-                as.character(paste(details$result$serves_lunch)), 
-                NA_character_),
-    serves_vegetarian_food = ifelse(!is.null(details$result$serves_vegetarian_food),
-                as.character(paste(details$result$serves_vegetarian_food)), 
-                NA_character_),
-    serves_wine = ifelse(!is.null(details$result$serves_wine),
-                as.character(paste(details$result$serves_wine)), 
-                NA_character_),
-    takeout = ifelse(!is.null(details$result$takeout),
-                as.character(paste(details$result$takeout)), 
-                NA_character_),
-    wheelchair_accessible_entrance = ifelse(!is.null(details$result$wheelchair_accessible_entrance), 
-                as.character(paste(details$result$wheelchair_accessible_entrance)), 
-                NA_character_),
-    user_ratings_total = ifelse(!is.null(details$result$user_ratings_total),
-                as.character(details$result$user_ratings_total),
-                NA_character_),
-    website = ifelse(!is.null(details$result$website),
-                as.character(details$result$website),
-                NA_character_),
-    url = ifelse(!is.null(details$result$url),
-                as.character(details$result$url),
-                NA_character_),
-    stringsAsFactors = FALSE
-  )
-  
-  # Guardamos la fila en el dataframe
-  details_dataframe <- rbind(details_dataframe, row)
-  
-  # Reporte estado del proceso
-  iter_numb <- iter_numb+1
-  print(paste0("ITERACIÓN NÚMERO ", iter_numb))
-  
-}
-
-# backup <- list(places_list, details_dataframe)
-
-# Combinamos la tabla lugares con la tabla de detalles
-places_details <- merge(details_dataframe[, c("place_id", colnames(details_dataframe)[-which(colnames(details_dataframe) %in% colnames(places_list))])], places_list, by = "place_id")
-
-places_details <- places_details %>% dplyr::select(c(
-                                    "name", "address", "phone", "intl_phone", "lat", "lng", "weekday_text", 
-                                    "place_id", "rating", "delivery", "dine_in", "reservable", "serves_beer", 
-                                    "serves_breakfast", "serves_brunch", "serves_dinner", "serves_lunch", 
-                                    "serves_vegetarian_food", "serves_wine", "takeout", 
-                                    "wheelchair_accessible_entrance", "user_ratings_total", "website", 
-                                    "url", "types", "requested_type", "permanently_closed", "price_level"
-                                  )) %>% dplyr::mutate(types = purrr::map_chr(types, ~ ifelse(!is.null(.x), paste(.x, collapse = ";;"), NA_character_)))
+# Extraído de googlescrapper
+# places_list$lat <- places_list$geometry$location$lat
+# places_list$lng <- places_list$geometry$location$lng
+# 
+# places_list$types <- as.character(paste(places_list$types))
+# 
+# writexl::write_xlsx(places_list, path = "C:/Users/arysa/Downloads/places_list.xlsx")
 
 
-writexl::write_xlsx(places_details, path = "C:/Users/arysa/Downloads/places_details.xlsx")
+# create sf
+places_list_sf <- st_as_sf(places_list, coords = c("lng", "lat"), crs = st_crs(secciones))
+
+places_list_sf <- places_list_sf %>% dplyr::mutate(url_maps = paste0("https://www.google.com/maps/place/?q=place_id:", reference))
+
+places_list_sf <- places_list_sf %>% dplyr::filter(is.na(permanently_closed))
+
+
 save.image(file = "googlemaps_request.RData")
 
+# Funcion para identificar manzana más cercana a cada punto y moverlos al borde
 
-  # Alojamiento
-  # Agencias de viaje
-  # Gastronomia
-  # Vinoteca
-  # Alquileresde vehículos
+nearest_polygon <- function(points_sf, polygons_sf, polygon_id_col) {
+  # Find the nearest polygon for each point and assign the corresponding polygon ID
+  points_sf$nearest_polygon_id <- polygons_sf[[polygon_id_col]][st_nearest_feature(points_sf, polygons_sf)]
   
- 
-  c(  # faltante
-    # "city_hall",
-    # "local_government_office",
-    # "embassy",
-    # "beauty_salon",
-    # "clothing_store",
-    # "electronics_store",
-    # "fire_station",
-    # "florist",
-    # "furniture_store",
-    # "gym",
-    # "hair_care",
-    # "hardware_store",
-    # "home_goods_store",
-    # "jewelry_store",
-    # "library",
-    # "light_rail_station",
-    # "locksmith",
-    # "painter",
-    # "pet_store",
-    # "plumber",
-    # "post_office",
-    # "real_estate_agency",
-    # "shoe_store",
-    # "storage",
-    # "subway_station",
-    # "taxi_stand",
-    # "train_station",
-    # "veterinary_care",
-    # "transit_station"
-                        ) %in%
-  c( # ya solicitado
-      "police",
-      "car_dealer",
-      "car_rental",
-      "casino",
-      "church",
-      "supermarket",
-      "tourist_attraction",
-      "shopping_mall",
-      "spa",
-      "stadium",
-      "pharmacy",
-      "movie_theater",
-      "museum",
-      "night_club",
-      "park",
-      "parking",
-      "liquor_store",
-      "hospital",
-      "doctor",
-      "dentist",
-      "book_store",
-      "bank",
-      "gas_station",
-      "art_gallery",
-      "travel_agency",
-      "convenience_store",
-      "bakery",
-      "bar",
-      "cafe",
-      "meal_delivery",
-      "meal_takeaway",
-      "restaurant",
-      "store",
-      "department_store",
-      "atm",
-      "drugstore",
-      "laundry",
-      "insurance_agency",
-      "lodging"
-      )
+  # Move the points to the border of the nearest polygon
+  points_sf <- points_sf %>%
+    dplyr::rowwise() %>%
+    dplyr::mutate(
+      # Filter the corresponding polygon using the associated column (e.g., "objectid_1")
+      corresponding_polygon = st_geometry(manzanas_sf %>%
+                                            dplyr::filter(objectid_1 == nearest_polygon_id)),
+      # Calculate the nearest point on the polygon's border
+      nearest_point = st_nearest_points(geometry, corresponding_polygon) %>%
+        st_cast("POINT") %>%
+        .[2] # Select the point on the polygon border
+    ) %>%
+    dplyr::ungroup() %>%
+    st_set_geometry("nearest_point")
+  
+  return(points_sf)
+}
 
+places_list_sf <- nearest_polygon(points_sf = places_list_sf,
+                                  polygons_sf = manzanas_sf,
+                                  polygon_id_col = "objectid_1")
+
+comercio_sf <- nearest_polygon(points_sf = comercio_sf,
+                                polygons_sf = manzanas_sf,
+                                polygon_id_col = "objectid_1")
+
+# Función para identificar puntos dentro de un buffer
+check_point_intersections <- function(buffers, geompoints, radius = NULL) {
+  # If a radius is provided, create buffer-polygons
+  if (!is.null(radius)) {
+    shapefile1_buffers <- st_buffer(buffers, dist = radius)
+  } else { # If not, assumes that the shapefiles already contain buffer-polygons
+    shapefile1_buffers <- buffers
+  }
+  
+  # Check if any point in geompoints intersects with the buffers
+  intersections <- st_intersects(geompoints, shapefile1_buffers, sparse = FALSE)
+  
+  # Create a logical vector indicating if an intersection was found for each point
+  intersects_logical <- apply(intersections, 1, any)
+  
+  return(intersects_logical)
+}
+
+# Filter the polygons that fit within segunda seccion
+
+comercio$segunda_sec <- check_point_intersections(geompoints = comercio, buffers = secciones)
+comercio_sf <- comercio %>% dplyr::filter(segunda_sec == "TRUE") %>% 
+                            dplyr::filter(is.na(fecha_baja_referencia_act))
+
+places_list_sf$segunda_sec <- check_point_intersections(geompoints = places_list_sf, buffers = secciones)
+places_list_sf <- places_list_sf %>% dplyr::filter(segunda_sec == "TRUE")
+
+manzanas_sf$segunda_sec <- check_point_intersections(geompoints = manzanas_sf, buffers = secciones)
+manzanas_sf <- manzanas_sf %>% dplyr::filter(segunda_sec == "TRUE")
+
+propiedad_horizontal$segunda_sec <- check_point_intersections(geompoints = st_centroid(propiedad_horizontal), buffers = secciones)
+propiedad_horizontal <- propiedad_horizontal %>% dplyr::filter(segunda_sec == "TRUE")
+
+espacios_verdes$segunda_sec <- check_point_intersections(geompoints = st_centroid(espacios_verdes), buffers = secciones)
+espacios_verdes <- espacios_verdes %>% dplyr::filter(segunda_sec == "TRUE")
+
+places_list_sf$espacio_verde <- check_point_intersections(geompoints = places_list_sf, buffers = espacios_verdes, radius = 2)
+places_list_sf <- places_list_sf %>% dplyr::filter(!espacio_verde == "TRUE") %>% 
+                                      dplyr::filter(!nearest_polygon_id %in% c(605, 610))
+
+# Columnas para indicar si tiene una cuenta a 10 metros e indicar si es PH
+
+places_list_sf$phorizontal <- check_point_intersections(geompoints = places_list_sf, buffers = propiedad_horizontal, radius = 1)
+
+
+calculate_nearest_distance <- function(basesf, nearsf, polygon_id_col) {
+  # Ensure the polygon_id_col exists in both shapefiles
+  if (!(polygon_id_col %in% colnames(basesf) && polygon_id_col %in% colnames(nearsf))) {
+    stop("The specified polygon_id_col does not exist in one or both shapefiles.")
+  }
+  
+  # Initialize a vector to store distances
+  nearest_distances <- vector("numeric", length = nrow(basesf))
+  
+  # Loop over each row in the first shapefile
+  for (i in seq_len(nrow(basesf))) {
+    current_polygon_id <- basesf[[polygon_id_col]][i]
+    
+    # Filter nearsf by the same polygon_id as the current row in basesf
+    filtered_nearsf <- nearsf %>%
+      dplyr::filter(.data[[polygon_id_col]] == current_polygon_id)
+    
+    # Calculate the minimum distance to the nearest point in the filtered nearsf
+    if (nrow(filtered_nearsf) > 0) {
+      nearest_distances[i] <- min(st_distance(st_geometry(basesf[i, ]), st_geometry(filtered_nearsf)), na.rm = TRUE)
+    } else {
+      nearest_distances[i] <- NA_real_  # No matching points found in nearsf
+    }
+  }
+  
+  # Return the vector of distances
+  return(nearest_distances)
+}
+
+# calculamos el punto mínimo más cercano
+places_list_sf$dist <- calculate_nearest_distance(basesf = places_list_sf, nearsf = comercio_sf, polygon_id_col = "nearest_polygon_id")
+
+# si hay NA le asignamos el max(dist)
+places_list_sf$dist[is.na(places_list_sf$dist)] <- max(places_list_sf$dist, na.rm = TRUE)
+
+# Variable categórica para clasificar los que están a - 10 como habilitados
+places_list_sf$intersects <- ifelse(is.na(places_list_sf$dist) | places_list_sf$dist > 10, FALSE, TRUE)
+
+table(is.na(places_list_sf$dist))
+table(places_list_sf$intersects)
+
+
+
+places_list_sf %>%
+  dplyr::filter(user_ratings_total > 3) %>%
+  dplyr::rowwise() %>%
+  dplyr::filter(
+    !(any(str_detect(types, regex("tourist_attraction|park|local_government_office|museum|school|church|place_of_worship", ignore_case = TRUE))) &
+        !any(str_detect(types, regex("store", ignore_case = TRUE))))
+  ) %>%
+  dplyr::ungroup() %>% View()
+
+
+leaflet() %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  addPolygons(
+    data = manzanas_sf,
+    color = ~colorFactor(palette = "Set1", domain = manzanas_sf$objectid_1)(objectid_1),
+    weight = 2,
+    fillOpacity = 0.1
+  ) %>%
+  addPolygons(
+    data = propiedad_horizontal,
+    color = "grey",
+    weight = 2,
+    fillOpacity = 0
+  ) %>%
+  addCircleMarkers(
+    data = places_list_sf %>%
+      dplyr::filter(user_ratings_total > 3) %>%
+      dplyr::rowwise() %>%
+      dplyr::filter(
+        !(any(str_detect(types, regex("tourist_attraction|park|local_government_office|museum|school|church|place_of_worship", ignore_case = TRUE))) &
+            !any(str_detect(types, regex("store", ignore_case = TRUE))))
+      ) %>%
+      dplyr::filter(intersects == "TRUE") %>% 
+      dplyr::ungroup(),
+    radius = 5,
+    color = ~"green",  # Conditional color based on 'intersect'
+    fillOpacity = 1,
+    stroke = FALSE,
+    popup = ~paste0("<strong>", name, "</strong><br><a href='", url_maps, "' target='_blank'>", url_maps, "</a>")
+  ) %>%
+  addCircleMarkers(
+    data = places_list_sf %>%
+      dplyr::filter(user_ratings_total > 3) %>%
+      dplyr::rowwise() %>%
+      dplyr::filter(
+        !(any(str_detect(types, regex("tourist_attraction|park|local_government_office|museum|school|church|place_of_worship", ignore_case = TRUE))) &
+            !any(str_detect(types, regex("store", ignore_case = TRUE))))
+      ) %>%
+      dplyr::filter(!intersects == "TRUE") %>% 
+      dplyr::ungroup(),
+    radius = 5,
+    color = ~colorNumeric(palette = c("gold", "orange", "red", "brown"), domain = places_list_sf$dist)(dist),  # Conditional color based on 'intersect'
+    fillOpacity = 1,
+    stroke = FALSE,
+    popup = ~paste0("<strong>", name, "</strong><br><a href='", url_maps, "' target='_blank'>", url_maps, "</a>")
+  ) %>%
+  addCircleMarkers(
+    data = comercio_sf,
+    radius = 5,
+    color = "grey",
+    fillOpacity = 0.1,
+    stroke = FALSE,
+    popup = ~nombre_fantasia
+  )
 
 
 
