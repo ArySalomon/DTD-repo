@@ -18,7 +18,7 @@ get_arcgis_services <- function(service = NULL, folder = NULL, layer = NULL, ret
   token_response <- httr::POST("https://webgis.ciudaddemendoza.gob.ar/portal/sharing/rest/generateToken",
                                body = list(
                                  username = "cchavarini",
-                                 password = "@MZA.ide_2024",
+                                 password = "",
                                  referer = "webgis.ciudaddemendoza.gob.ar/portal",
                                  f = "json"),
                                encode = "form")
