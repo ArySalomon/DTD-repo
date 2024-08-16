@@ -1,5 +1,4 @@
 
-
 library(tidyr)
 library(leaflet)
 library(stringr)
@@ -8,6 +7,7 @@ library(httr)
 library(jsonlite)
 library(sf)
 library(plotly)
+library(RColorBrewer)
 
 
 get_arcgis_services <- function(service = NULL, folder = NULL, layer = NULL, return_geojson = FALSE) {
@@ -18,7 +18,7 @@ get_arcgis_services <- function(service = NULL, folder = NULL, layer = NULL, ret
   token_response <- httr::POST("https://webgis.ciudaddemendoza.gob.ar/portal/sharing/rest/generateToken",
                                body = list(
                                  username = "cchavarini",
-                                 password = "",
+                                 password = "@MZA.ide_2024",
                                  referer = "webgis.ciudaddemendoza.gob.ar/portal",
                                  f = "json"),
                                encode = "form")
@@ -187,7 +187,7 @@ get_arcgis_services()
 get_arcgis_services(service = "Catastro_público")
 propiedad_horizontal <- get_arcgis_services(service = "Catastro_público", layer = 7, return_geojson = TRUE)
 
-# Espacios verdes
+# Espacios verdes (layer)
 get_arcgis_services()
 get_arcgis_services(service = "Ambiente_público")
 espacios_verdes <- get_arcgis_services(service = "Ambiente_público", layer = 10, return_geojson = TRUE)
@@ -195,6 +195,32 @@ espacios_verdes <- get_arcgis_services(service = "Ambiente_público", layer = 10
 # comercios (folder)
 get_arcgis_services(folder = "Comercio")
 comercio <- get_arcgis_services(folder = "Comercio", service = "Comercio", return_geojson = TRUE)
+
+# Sociedad
+get_arcgis_services()
+get_arcgis_services(service = "Sociedad_público")
+
+get_arcgis_services(service = "Sociedad_público")[c(4, 5, 6, 11, 12, 14, 16, 18, 19, 20, 22, 24, 26, 27, 28, 29, 31, 32, 33, 34, 35, 41, 42, 43, 44, 45), ]$name
+get_arcgis_services(service = "Sociedad_público")[-c(4, 5, 6, 11, 12, 14, 16, 18, 19, 20, 22, 24, 26, 27, 28, 29, 31, 32, 33, 34, 35, 41, 42, 43, 44, 45), ]$name
+
+rm(x, combined_shapefile)
+
+for (x in c(4, 5, 6, 11, 12, 14, 16, 18, 19, 20, 22, 24, 26, 27, 28, 29, 31, 32, 33, 34, 35, 41, 42, 43, 44, 45)) {
+  
+  sociedad <- get_arcgis_services(service = "Sociedad_público", layer = x, return_geojson = TRUE)[, "geometry"]
+  sociedad$name <- get_arcgis_services(service = "Sociedad_público")[x, ]$name
+  
+  # Check if the sociedad shapefile has a CRS, if not, assign WGS 84 (EPSG:4326)
+  if (is.na(st_crs(sociedad))) {
+    st_crs(sociedad) <- st_crs(4326)
+  }
+  
+  if (!exists("locaciones_restringidas")) {
+    locaciones_restringidas <- sociedad
+  } else {
+    locaciones_restringidas <- rbind(locaciones_restringidas, sociedad)
+  }
+}
 
 
 # Fiscalización comercial
@@ -247,8 +273,8 @@ places_list_sf <- nearest_polygon(points_sf = places_list_sf,
                                   polygon_id_col = "objectid_1")
 
 comercio_sf <- nearest_polygon(points_sf = comercio_sf,
-                                polygons_sf = manzanas_sf,
-                                polygon_id_col = "objectid_1")
+                               polygons_sf = manzanas_sf,
+                               polygon_id_col = "objectid_1")
 
 # Función para identificar puntos dentro de un buffer
 check_point_intersections <- function(buffers, geompoints, radius = NULL) {
@@ -272,7 +298,7 @@ check_point_intersections <- function(buffers, geompoints, radius = NULL) {
 
 comercio$segunda_sec <- check_point_intersections(geompoints = comercio, buffers = secciones)
 comercio_sf <- comercio %>% dplyr::filter(segunda_sec == "TRUE") %>% 
-                            dplyr::filter(is.na(fecha_baja_referencia_act))
+  dplyr::filter(is.na(fecha_baja_referencia_act))
 
 places_list_sf$segunda_sec <- check_point_intersections(geompoints = places_list_sf, buffers = secciones)
 places_list_sf <- places_list_sf %>% dplyr::filter(segunda_sec == "TRUE")
@@ -286,13 +312,13 @@ propiedad_horizontal <- propiedad_horizontal %>% dplyr::filter(segunda_sec == "T
 espacios_verdes$segunda_sec <- check_point_intersections(geompoints = st_centroid(espacios_verdes), buffers = secciones)
 espacios_verdes <- espacios_verdes %>% dplyr::filter(segunda_sec == "TRUE")
 
+locaciones_restringidas$segunda_sec <- check_point_intersections(geompoints = locaciones_restringidas, buffers = secciones)
+locaciones_restringidas <- locaciones_restringidas %>% dplyr::filter(segunda_sec == "TRUE")
+
 places_list_sf$espacio_verde <- check_point_intersections(geompoints = places_list_sf, buffers = espacios_verdes, radius = 2)
 places_list_sf <- places_list_sf %>% dplyr::filter(!espacio_verde == "TRUE") %>% 
-                                      dplyr::filter(!nearest_polygon_id %in% c(605, 610))
+  dplyr::filter(!nearest_polygon_id %in% c(605, 610))
 
-# Columnas para indicar si tiene una cuenta a 10 metros e indicar si es PH
-
-places_list_sf$phorizontal <- check_point_intersections(geompoints = places_list_sf, buffers = propiedad_horizontal, radius = 1)
 
 
 calculate_nearest_distance <- function(basesf, nearsf, polygon_id_col) {
@@ -331,10 +357,19 @@ places_list_sf$dist <- calculate_nearest_distance(basesf = places_list_sf, nears
 places_list_sf$dist[is.na(places_list_sf$dist)] <- max(places_list_sf$dist, na.rm = TRUE)
 
 # Variable categórica para clasificar los que están a - 10 como habilitados
-places_list_sf$intersects <- ifelse(is.na(places_list_sf$dist) | places_list_sf$dist > 10, FALSE, TRUE)
+places_list_sf$intersects <- ifelse(is.na(places_list_sf$dist) | places_list_sf$dist > 10, TRUE, FALSE)
+
+# Columna para indicar si tiene una cuenta a 1 metros e indicar si es PH
+places_list_sf$phorizontal <- check_point_intersections(geompoints = places_list_sf, buffers = propiedad_horizontal, radius = 1)
+
+# Columna para indicar si tiene una locación restringida a 10 metros (solo se muestran ubicaciones de googlemaps gastronómicas)
+places_list_sf$sociedad <- check_point_intersections(geompoints = places_list_sf, buffers = locaciones_restringidas, radius = 10)
+
+
 
 table(is.na(places_list_sf$dist))
 table(places_list_sf$intersects)
+table(places_list_sf$intersects, places_list_sf$sociedad)
 
 
 
@@ -346,6 +381,8 @@ places_list_sf %>%
         !any(str_detect(types, regex("store", ignore_case = TRUE))))
   ) %>%
   dplyr::ungroup() %>% View()
+
+
 
 
 leaflet() %>%
@@ -363,36 +400,93 @@ leaflet() %>%
     fillOpacity = 0
   ) %>%
   addCircleMarkers(
-    data = places_list_sf %>%
+    data = places_list_sf %>% # Places cercanos a un lugar restringido
       dplyr::filter(user_ratings_total > 3) %>%
       dplyr::rowwise() %>%
       dplyr::filter(
         !(any(str_detect(types, regex("tourist_attraction|park|local_government_office|museum|school|church|place_of_worship", ignore_case = TRUE))) &
             !any(str_detect(types, regex("store", ignore_case = TRUE))))
       ) %>%
-      dplyr::filter(intersects == "TRUE") %>% 
+      dplyr::filter(!intersects == "TRUE", sociedad == "TRUE") %>% 
       dplyr::ungroup(),
     radius = 5,
-    color = ~"green",  # Conditional color based on 'intersect'
+    color = "blue",
     fillOpacity = 1,
     stroke = FALSE,
     popup = ~paste0("<strong>", name, "</strong><br><a href='", url_maps, "' target='_blank'>", url_maps, "</a>")
   ) %>%
   addCircleMarkers(
-    data = places_list_sf %>%
+    data = locaciones_restringidas,
+    radius = 5,
+    color = "magenta",
+    fillOpacity = 0.1,
+    stroke = FALSE,
+    popup = ~name
+  ) %>%
+  addCircleMarkers(
+    data = comercio_sf,
+    radius = 5,
+    color = "grey",
+    fillOpacity = 0.1,
+    stroke = FALSE,
+    popup = ~nombre_fantasia
+  ) %>% 
+# %>%
+#   addCircleMarkers(
+#     data = places_list_sf %>% # Places cercanos a una cuenta comercial
+#       dplyr::filter(user_ratings_total > 3) %>%
+#       dplyr::rowwise() %>%
+#       dplyr::filter(
+#         !(any(str_detect(types, regex("tourist_attraction|park|local_government_office|museum|school|church|place_of_worship", ignore_case = TRUE))) &
+#             !any(str_detect(types, regex("store", ignore_case = TRUE))))
+#       ) %>%
+#       dplyr::filter(intersects == "TRUE") %>% 
+#       dplyr::ungroup(),
+#     radius = 5,
+#     color = ~"green",  # Conditional color based on 'intersect'
+#     fillOpacity = 1,
+#     stroke = FALSE,
+#     popup = ~paste0("<strong>", name, "</strong><br><a href='", url_maps, "' target='_blank'>", url_maps, "</a>")
+#   )
+# %>%
+#   addCircleMarkers(
+#     data = places_list_sf %>% # Places lejanos a una cuenta comercial
+#       dplyr::filter(user_ratings_total > 3) %>%
+#       dplyr::rowwise() %>%
+#       dplyr::filter(
+#         !(any(str_detect(types, regex("tourist_attraction|park|local_government_office|museum|school|church|place_of_worship", ignore_case = TRUE))) &
+#             !any(str_detect(types, regex("store", ignore_case = TRUE))))
+#       ) %>%
+#       dplyr::filter(intersects == "FALSE", sociedad == "TRUE") %>% 
+#       dplyr::ungroup(),
+#     radius = 5,
+#     color = ~colorNumeric(palette = c("gold", "orange", "red", "brown"), domain = places_list_sf$dist)(dist),  # Conditional color based on 'intersect'
+#     fillOpacity = 1,
+#     stroke = FALSE,
+#     popup = ~paste0("<strong>", name, "</strong><br><a href='", url_maps, "' target='_blank'>", url_maps, "</a>")
+#   ) %>%
+  addCircleMarkers(
+    data = places_list_sf %>% # Places cercanos a un lugar restringido
       dplyr::filter(user_ratings_total > 3) %>%
       dplyr::rowwise() %>%
       dplyr::filter(
         !(any(str_detect(types, regex("tourist_attraction|park|local_government_office|museum|school|church|place_of_worship", ignore_case = TRUE))) &
             !any(str_detect(types, regex("store", ignore_case = TRUE))))
       ) %>%
-      dplyr::filter(!intersects == "TRUE") %>% 
+      dplyr::filter(!intersects == "TRUE", sociedad == "TRUE") %>% 
       dplyr::ungroup(),
     radius = 5,
-    color = ~colorNumeric(palette = c("gold", "orange", "red", "brown"), domain = places_list_sf$dist)(dist),  # Conditional color based on 'intersect'
+    color = "blue",
     fillOpacity = 1,
     stroke = FALSE,
     popup = ~paste0("<strong>", name, "</strong><br><a href='", url_maps, "' target='_blank'>", url_maps, "</a>")
+  ) %>%
+  addCircleMarkers(
+    data = locaciones_restringidas,
+    radius = 5,
+    color = "magenta",
+    fillOpacity = 0.1,
+    stroke = FALSE
   ) %>%
   addCircleMarkers(
     data = comercio_sf,
