@@ -200,28 +200,39 @@ comercio <- get_arcgis_services(folder = "Comercio", service = "Comercio", retur
 get_arcgis_services()
 get_arcgis_services(service = "Sociedad_público")
 
-get_arcgis_services(service = "Sociedad_público")[c(4, 5, 6, 11, 12, 14, 16, 18, 19, 20, 22, 24, 26, 27, 28, 29, 31, 32, 33, 34, 35, 41, 42, 43, 44, 45), ]$name
-get_arcgis_services(service = "Sociedad_público")[-c(4, 5, 6, 11, 12, 14, 16, 18, 19, 20, 22, 24, 26, 27, 28, 29, 31, 32, 33, 34, 35, 41, 42, 43, 44, 45), ]$name
+get_arcgis_services(service = "Sociedad_público")[c(4, 5, 6, 11, 12, 14, 16, 18, 19, 20, 22, 24, 26, 27, 28, 29, 31, 33, 34, 35, 41, 42, 43, 44, 45), ]$name
+get_arcgis_services(service = "Sociedad_público")[-c(4, 5, 6, 11, 12, 14, 16, 18, 19, 20, 22, 24, 26, 27, 28, 29, 31, 33, 34, 35, 41, 42, 43, 44, 45), ]$name
 
-rm(x, combined_shapefile)
 
-for (x in c(4, 5, 6, 11, 12, 14, 16, 18, 19, 20, 22, 24, 26, 27, 28, 29, 31, 32, 33, 34, 35, 41, 42, 43, 44, 45)) {
+rm(locaciones_restringidas)
+
+for (x in c(4, 5, 6, 11, 12, 14, 16, 18, 19, 20, 22, 24, 26, 27, 28, 29, 31, 33, 34, 35, 41, 42, 43, 44, 45)) {
   
-  sociedad <- get_arcgis_services(service = "Sociedad_público", layer = x, return_geojson = TRUE)[, "geometry"]
-  sociedad$name <- get_arcgis_services(service = "Sociedad_público")[x, ]$name
+  sociedad_new <- get_arcgis_services(service = "Sociedad_público", layer = x, return_geojson = TRUE)
   
-  # Check if the sociedad shapefile has a CRS, if not, assign WGS 84 (EPSG:4326)
-  if (is.na(st_crs(sociedad))) {
-    st_crs(sociedad) <- st_crs(4326)
+  if (x == 44) { # la capa 44 es la única que no tiene nombre. Entonces nombramos con domicilio
+    sociedad_new <- sociedad_new[which(colnames(sociedad_new) == "domicilio")]
+    colnames(sociedad_new) <- c("nombre", "geometry")
+  } else {
+    sociedad_new <- sociedad_new[which(colnames(sociedad_new) %in% c("nombre", "desc_full", "name", "clubes", "titular"))[1]]
+    colnames(sociedad_new) <- c("nombre", "geometry")
+  }
+  
+  sociedad_new$tipo <- get_arcgis_services(service = "Sociedad_público")[x+1, ]$name
+  
+  if (is.na(st_crs(sociedad_new))) {
+    sociedad_new <- st_transform(sociedad_new, crs = 4326)
   }
   
   if (!exists("locaciones_restringidas")) {
-    locaciones_restringidas <- sociedad
+    locaciones_restringidas <- sociedad_new
   } else {
-    locaciones_restringidas <- rbind(locaciones_restringidas, sociedad)
+    locaciones_restringidas <- rbind(locaciones_restringidas, sociedad_new)
   }
 }
 
+# Arreglamos la capa "Gimnasios municipales" (polígonos)
+locaciones_restringidas <- st_centroid(locaciones_restringidas)
 
 # Fiscalización comercial
 
@@ -275,6 +286,12 @@ places_list_sf <- nearest_polygon(points_sf = places_list_sf,
 comercio_sf <- nearest_polygon(points_sf = comercio_sf,
                                polygons_sf = manzanas_sf,
                                polygon_id_col = "objectid_1")
+
+
+locaciones_restringidas <- nearest_polygon(points_sf = locaciones_restringidas,
+                               polygons_sf = manzanas_sf,
+                               polygon_id_col = "objectid_1")
+
 
 # Función para identificar puntos dentro de un buffer
 check_point_intersections <- function(buffers, geompoints, radius = NULL) {
@@ -356,8 +373,8 @@ places_list_sf$dist <- calculate_nearest_distance(basesf = places_list_sf, nears
 # si hay NA le asignamos el max(dist)
 places_list_sf$dist[is.na(places_list_sf$dist)] <- max(places_list_sf$dist, na.rm = TRUE)
 
-# Variable categórica para clasificar los que están a - 10 como habilitados
-places_list_sf$intersects <- ifelse(is.na(places_list_sf$dist) | places_list_sf$dist > 10, TRUE, FALSE)
+  # Variable categórica para clasificar los que están a + 10m de una cuenta NO HABILITADOS
+places_list_sf$sin_cuenta <- ifelse(places_list_sf$dist > 10, TRUE, FALSE)
 
 # Columna para indicar si tiene una cuenta a 1 metros e indicar si es PH
 places_list_sf$phorizontal <- check_point_intersections(geompoints = places_list_sf, buffers = propiedad_horizontal, radius = 1)
@@ -365,12 +382,13 @@ places_list_sf$phorizontal <- check_point_intersections(geompoints = places_list
 # Columna para indicar si tiene una locación restringida a 10 metros (solo se muestran ubicaciones de googlemaps gastronómicas)
 places_list_sf$sociedad <- check_point_intersections(geompoints = places_list_sf, buffers = locaciones_restringidas, radius = 10)
 
-
-
-table(is.na(places_list_sf$dist))
-table(places_list_sf$intersects)
-table(places_list_sf$intersects, places_list_sf$sociedad)
-
+places_list_sf <- places_list_sf %>% # solo los que interseccionan con sociedad y NO son gastronómicos, se marcan TRUE en "sociedad_clean"
+  dplyr::mutate(
+    gastronomico = str_detect(types, regex("food|restaurant", ignore_case = TRUE)),
+    sociedad_clean = ifelse(sociedad == "TRUE" & gastronomico == "FALSE", "TRUE",
+                      ifelse(sociedad == "TRUE" & gastronomico == "TRUE", "FALSE", "FALSE")
+    )
+  )
 
 
 places_list_sf %>%
@@ -381,8 +399,6 @@ places_list_sf %>%
         !any(str_detect(types, regex("store", ignore_case = TRUE))))
   ) %>%
   dplyr::ungroup() %>% View()
-
-
 
 
 leaflet() %>%
@@ -400,28 +416,20 @@ leaflet() %>%
     fillOpacity = 0
   ) %>%
   addCircleMarkers(
-    data = places_list_sf %>% # Places cercanos a un lugar restringido
+    data = places_list_sf %>% # Places cercanos a un lugar restringido NO GASTRONOMICOS (en azul los que zafan de la clasificación en "sociedad_clean")
       dplyr::filter(user_ratings_total > 3) %>%
       dplyr::rowwise() %>%
       dplyr::filter(
         !(any(str_detect(types, regex("tourist_attraction|park|local_government_office|museum|school|church|place_of_worship", ignore_case = TRUE))) &
             !any(str_detect(types, regex("store", ignore_case = TRUE))))
       ) %>%
-      dplyr::filter(!intersects == "TRUE", sociedad == "TRUE") %>% 
+      dplyr::filter(sin_cuenta == "TRUE", sociedad == "TRUE", gastronomico == "FALSE") %>% 
       dplyr::ungroup(),
     radius = 5,
     color = "blue",
     fillOpacity = 1,
     stroke = FALSE,
     popup = ~paste0("<strong>", name, "</strong><br><a href='", url_maps, "' target='_blank'>", url_maps, "</a>")
-  ) %>%
-  addCircleMarkers(
-    data = locaciones_restringidas,
-    radius = 5,
-    color = "magenta",
-    fillOpacity = 0.1,
-    stroke = FALSE,
-    popup = ~name
   ) %>%
   addCircleMarkers(
     data = comercio_sf,
@@ -440,7 +448,7 @@ leaflet() %>%
 #         !(any(str_detect(types, regex("tourist_attraction|park|local_government_office|museum|school|church|place_of_worship", ignore_case = TRUE))) &
 #             !any(str_detect(types, regex("store", ignore_case = TRUE))))
 #       ) %>%
-#       dplyr::filter(intersects == "TRUE") %>% 
+#       dplyr::filter(sin_cuenta == "TRUE") %>% 
 #       dplyr::ungroup(),
 #     radius = 5,
 #     color = ~"green",  # Conditional color based on 'intersect'
@@ -457,7 +465,7 @@ leaflet() %>%
 #         !(any(str_detect(types, regex("tourist_attraction|park|local_government_office|museum|school|church|place_of_worship", ignore_case = TRUE))) &
 #             !any(str_detect(types, regex("store", ignore_case = TRUE))))
 #       ) %>%
-#       dplyr::filter(intersects == "FALSE", sociedad == "TRUE") %>% 
+#       dplyr::filter(sin_cuenta == "FALSE", sociedad == "TRUE") %>% 
 #       dplyr::ungroup(),
 #     radius = 5,
 #     color = ~colorNumeric(palette = c("gold", "orange", "red", "brown"), domain = places_list_sf$dist)(dist),  # Conditional color based on 'intersect'
@@ -466,27 +474,12 @@ leaflet() %>%
 #     popup = ~paste0("<strong>", name, "</strong><br><a href='", url_maps, "' target='_blank'>", url_maps, "</a>")
 #   ) %>%
   addCircleMarkers(
-    data = places_list_sf %>% # Places cercanos a un lugar restringido
-      dplyr::filter(user_ratings_total > 3) %>%
-      dplyr::rowwise() %>%
-      dplyr::filter(
-        !(any(str_detect(types, regex("tourist_attraction|park|local_government_office|museum|school|church|place_of_worship", ignore_case = TRUE))) &
-            !any(str_detect(types, regex("store", ignore_case = TRUE))))
-      ) %>%
-      dplyr::filter(!intersects == "TRUE", sociedad == "TRUE") %>% 
-      dplyr::ungroup(),
-    radius = 5,
-    color = "blue",
-    fillOpacity = 1,
-    stroke = FALSE,
-    popup = ~paste0("<strong>", name, "</strong><br><a href='", url_maps, "' target='_blank'>", url_maps, "</a>")
-  ) %>%
-  addCircleMarkers(
     data = locaciones_restringidas,
     radius = 5,
     color = "magenta",
-    fillOpacity = 0.1,
-    stroke = FALSE
+    fillOpacity = 1,
+    stroke = FALSE,
+    popup = ~paste0(tipo, ": ", nombre)
   ) %>%
   addCircleMarkers(
     data = comercio_sf,
@@ -497,5 +490,69 @@ leaflet() %>%
     popup = ~nombre_fantasia
   )
 
+
+
+leaflet() %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  addPolygons(
+    data = manzanas_sf,
+    color = ~colorFactor(palette = "Set1", domain = manzanas_sf$objectid_1)(objectid_1),
+    weight = 2,
+    fillOpacity = 0.1
+  ) %>%
+  addPolygons(
+    data = propiedad_horizontal,
+    color = "grey",
+    weight = 2,
+    fillOpacity = 0
+  ) %>%
+    addCircleMarkers(
+      data = places_list_sf %>% # Places cercanos a una cuenta comercial
+        dplyr::filter(user_ratings_total > 3) %>%
+        dplyr::rowwise() %>%
+        dplyr::filter(
+          !(any(str_detect(types, regex("tourist_attraction|park|local_government_office|museum|school|church|place_of_worship", ignore_case = TRUE))) &
+              !any(str_detect(types, regex("store", ignore_case = TRUE))))
+        ) %>%
+        dplyr::filter(sin_cuenta == "FALSE") %>%
+        dplyr::ungroup(),
+      radius = 5,
+      color = ~"green",  # Conditional color based on 'intersect'
+      fillOpacity = 1,
+      stroke = FALSE,
+      popup = ~paste0("<strong>", name, "</strong><br><a href='", url_maps, "' target='_blank'>", url_maps, "</a>")
+    ) %>%
+    addCircleMarkers(
+      data = places_list_sf %>% # Places lejanos a una cuenta comercial
+        dplyr::filter(user_ratings_total > 3) %>%
+        dplyr::rowwise() %>%
+        dplyr::filter(
+          !(any(str_detect(types, regex("tourist_attraction|park|local_government_office|museum|school|church|place_of_worship", ignore_case = TRUE))) &
+              !any(str_detect(types, regex("store", ignore_case = TRUE))))
+        ) %>%
+        dplyr::filter(sin_cuenta == "TRUE", sociedad_clean == "FALSE") %>% # probables inhabilitados solo los sin_cuenta y los que NO interseccionan con sociedad (o son gastronomicos)
+        dplyr::ungroup(),
+      radius = 5,
+      color = ~colorNumeric(palette = c("gold", "orange", "red", "brown"), domain = places_list_sf$dist)(dist),  # Conditional color based on 'intersect'
+      fillOpacity = 1,
+      stroke = FALSE,
+      popup = ~paste0("<strong>", name, "</strong><br><a href='", url_maps, "' target='_blank'>", url_maps, "</a>")
+    ) %>%
+  addCircleMarkers(
+    data = places_list_sf %>% # Places lejanos a una cuenta comercial
+      dplyr::filter(user_ratings_total > 3) %>%
+      dplyr::rowwise() %>%
+      dplyr::filter(
+        !(any(str_detect(types, regex("tourist_attraction|park|local_government_office|museum|school|church|place_of_worship", ignore_case = TRUE))) &
+            !any(str_detect(types, regex("store", ignore_case = TRUE))))
+      ) %>%
+      dplyr::filter(sin_cuenta == "TRUE", sociedad_clean == "TRUE") %>% # excluidos porque interseccionan con sociedad y NO son gastronómicos (sirve de nada aparentemente)
+      dplyr::ungroup(),
+    radius = 5,
+    color = ~"magenta",
+    fillOpacity = 1,
+    stroke = FALSE,
+    popup = ~paste0("<strong>", name, "</strong><br><a href='", url_maps, "' target='_blank'>", url_maps, "</a>")
+  )
 
 
