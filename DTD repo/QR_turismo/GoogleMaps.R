@@ -200,13 +200,15 @@ comercio <- get_arcgis_services(folder = "Comercio", service = "Comercio", retur
 get_arcgis_services()
 get_arcgis_services(service = "Sociedad_público")
 
-get_arcgis_services(service = "Sociedad_público")[c(4, 5, 6, 11, 12, 14, 16, 18, 19, 20, 22, 24, 26, 27, 28, 29, 31, 33, 34, 35, 41, 42, 43, 44, 45), ]$name
-get_arcgis_services(service = "Sociedad_público")[-c(4, 5, 6, 11, 12, 14, 16, 18, 19, 20, 22, 24, 26, 27, 28, 29, 31, 33, 34, 35, 41, 42, 43, 44, 45), ]$name
+
+get_arcgis_services(service = "Sociedad_público")[(c(4, 5, 6, 11, 12, 14, 16, 19, 24, 26, 27, 28, 29, 31, 33, 34, 35, 43)+1), ]$name
+get_arcgis_services(service = "Sociedad_público")[-(c(4, 5, 6, 11, 12, 14, 16, 19, 24, 26, 27, 28, 29, 31, 33, 34, 35, 43)+1), ]$name
 
 
-rm(locaciones_restringidas)
+rm(locaciones_restringidas, x)
 
-for (x in c(4, 5, 6, 11, 12, 14, 16, 18, 19, 20, 22, 24, 26, 27, 28, 29, 31, 33, 34, 35, 41, 42, 43, 44, 45)) {
+
+for (x in c(4, 5, 6, 11, 12, 14, 16, 19, 24, 26, 27, 28, 29, 31, 33, 34, 35, 43)) {
   
   sociedad_new <- get_arcgis_services(service = "Sociedad_público", layer = x, return_geojson = TRUE)
   
@@ -231,67 +233,27 @@ for (x in c(4, 5, 6, 11, 12, 14, 16, 18, 19, 20, 22, 24, 26, 27, 28, 29, 31, 33,
   }
 }
 
+
 # Arreglamos la capa "Gimnasios municipales" (polígonos)
 locaciones_restringidas <- st_centroid(locaciones_restringidas)
 
-# Fiscalización comercial
 
-# Extraído de googlescrapper
+# Googlescrapper
 # places_list$lat <- places_list$geometry$location$lat
 # places_list$lng <- places_list$geometry$location$lng
 # 
 # places_list$types <- as.character(paste(places_list$types))
 # 
 # writexl::write_xlsx(places_list, path = "C:/Users/arysa/Downloads/places_list.xlsx")
-
-
-# create sf
-places_list_sf <- st_as_sf(places_list, coords = c("lng", "lat"), crs = st_crs(secciones))
-
-places_list_sf <- places_list_sf %>% dplyr::mutate(url_maps = paste0("https://www.google.com/maps/place/?q=place_id:", reference))
-
-places_list_sf <- places_list_sf %>% dplyr::filter(is.na(permanently_closed))
-
+# 
+# # create sf
+# places_list_sf <- st_as_sf(places_list, coords = c("lng", "lat"), crs = st_crs(secciones))
+# 
+# places_list_sf <- places_list_sf %>% dplyr::mutate(url_maps = paste0("https://www.google.com/maps/place/?q=place_id:", reference))
+# 
+# places_list_sf <- places_list_sf %>% dplyr::filter(is.na(permanently_closed))
 
 save.image(file = "googlemaps_request.RData")
-
-# Funcion para identificar manzana más cercana a cada punto y moverlos al borde
-
-nearest_polygon <- function(points_sf, polygons_sf, polygon_id_col) {
-  # Find the nearest polygon for each point and assign the corresponding polygon ID
-  points_sf$nearest_polygon_id <- polygons_sf[[polygon_id_col]][st_nearest_feature(points_sf, polygons_sf)]
-  
-  # Move the points to the border of the nearest polygon
-  points_sf <- points_sf %>%
-    dplyr::rowwise() %>%
-    dplyr::mutate(
-      # Filter the corresponding polygon using the associated column (e.g., "objectid_1")
-      corresponding_polygon = st_geometry(manzanas_sf %>%
-                                            dplyr::filter(objectid_1 == nearest_polygon_id)),
-      # Calculate the nearest point on the polygon's border
-      nearest_point = st_nearest_points(geometry, corresponding_polygon) %>%
-        st_cast("POINT") %>%
-        .[2] # Select the point on the polygon border
-    ) %>%
-    dplyr::ungroup() %>%
-    st_set_geometry("nearest_point")
-  
-  return(points_sf)
-}
-
-places_list_sf <- nearest_polygon(points_sf = places_list_sf,
-                                  polygons_sf = manzanas_sf,
-                                  polygon_id_col = "objectid_1")
-
-comercio_sf <- nearest_polygon(points_sf = comercio_sf,
-                               polygons_sf = manzanas_sf,
-                               polygon_id_col = "objectid_1")
-
-
-locaciones_restringidas <- nearest_polygon(points_sf = locaciones_restringidas,
-                               polygons_sf = manzanas_sf,
-                               polygon_id_col = "objectid_1")
-
 
 # Función para identificar puntos dentro de un buffer
 check_point_intersections <- function(buffers, geompoints, radius = NULL) {
@@ -338,6 +300,45 @@ places_list_sf <- places_list_sf %>% dplyr::filter(!espacio_verde == "TRUE") %>%
 
 
 
+# Funcion para identificar manzana más cercana a cada punto y moverlos al borde
+nearest_polygon <- function(points_sf, polygons_sf, polygon_id_col) {
+  # Find the nearest polygon for each point and assign the corresponding polygon ID
+  points_sf$nearest_polygon_id <- polygons_sf[[polygon_id_col]][st_nearest_feature(points_sf, polygons_sf)]
+  
+  # Move the points to the border of the nearest polygon
+  points_sf <- points_sf %>%
+    dplyr::rowwise() %>%
+    dplyr::mutate(
+      # Filter the corresponding polygon using the associated column (e.g., "objectid_1")
+      corresponding_polygon = st_geometry(manzanas_sf %>%
+                                            dplyr::filter(objectid_1 == nearest_polygon_id)),
+      # Calculate the nearest point on the polygon's border
+      nearest_point = st_nearest_points(geometry, corresponding_polygon) %>%
+        st_cast("POINT") %>%
+        .[2] # Select the point on the polygon border
+    ) %>%
+    dplyr::ungroup() %>%
+    st_set_geometry("nearest_point")
+  
+  return(points_sf)
+}
+
+places_list_sf <- nearest_polygon(points_sf = places_list_sf,
+                                  polygons_sf = manzanas_sf,
+                                  polygon_id_col = "objectid_1")
+
+comercio_sf <- nearest_polygon(points_sf = comercio_sf,
+                               polygons_sf = manzanas_sf,
+                               polygon_id_col = "objectid_1")
+
+
+locaciones_restringidas <- nearest_polygon(points_sf = locaciones_restringidas,
+                                           polygons_sf = manzanas_sf,
+                                           polygon_id_col = "objectid_1")
+
+
+
+# Funcion para calcular el punto más cercano
 calculate_nearest_distance <- function(basesf, nearsf, polygon_id_col) {
   # Ensure the polygon_id_col exists in both shapefiles
   if (!(polygon_id_col %in% colnames(basesf) && polygon_id_col %in% colnames(nearsf))) {
@@ -384,21 +385,12 @@ places_list_sf$sociedad <- check_point_intersections(geompoints = places_list_sf
 
 places_list_sf <- places_list_sf %>% # solo los que interseccionan con sociedad y NO son gastronómicos, se marcan TRUE en "sociedad_clean"
   dplyr::mutate(
-    gastronomico = str_detect(types, regex("food|restaurant", ignore_case = TRUE)),
+    gastronomico = str_detect(types, regex("food|restaurant|bar", ignore_case = TRUE)),
     sociedad_clean = ifelse(sociedad == "TRUE" & gastronomico == "FALSE", "TRUE",
                       ifelse(sociedad == "TRUE" & gastronomico == "TRUE", "FALSE", "FALSE")
     )
   )
 
-
-places_list_sf %>%
-  dplyr::filter(user_ratings_total > 3) %>%
-  dplyr::rowwise() %>%
-  dplyr::filter(
-    !(any(str_detect(types, regex("tourist_attraction|park|local_government_office|museum|school|church|place_of_worship", ignore_case = TRUE))) &
-        !any(str_detect(types, regex("store", ignore_case = TRUE))))
-  ) %>%
-  dplyr::ungroup() %>% View()
 
 
 leaflet() %>%
@@ -423,7 +415,7 @@ leaflet() %>%
         !(any(str_detect(types, regex("tourist_attraction|park|local_government_office|museum|school|church|place_of_worship", ignore_case = TRUE))) &
             !any(str_detect(types, regex("store", ignore_case = TRUE))))
       ) %>%
-      dplyr::filter(sin_cuenta == "TRUE", sociedad == "TRUE", gastronomico == "FALSE") %>% 
+      dplyr::filter(sin_cuenta == "TRUE", sociedad_clean == "TRUE") %>% 
       dplyr::ungroup(),
     radius = 5,
     color = "blue",
