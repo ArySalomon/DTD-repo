@@ -1,4 +1,7 @@
 
+
+# bakup <- list(resources_data, packages_data)
+
 library(openxlsx)
 library(ckanr)
 library(httr)
