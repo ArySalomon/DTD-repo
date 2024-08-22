@@ -185,6 +185,9 @@ manzanas_sf <- get_arcgis_services(service = "Catastro_público", layer = 3, ret
 # Parcelas - PH (layer)
 get_arcgis_services()
 get_arcgis_services(service = "Catastro_público")
+
+parcelas <- get_arcgis_services(service = "Catastro_público", layer = 1, return_geojson = TRUE)
+
 propiedad_horizontal <- get_arcgis_services(service = "Catastro_público", layer = 7, return_geojson = TRUE)
 
 # Espacios verdes (layer)
@@ -246,12 +249,6 @@ locaciones_restringidas <- st_centroid(locaciones_restringidas)
 # 
 # writexl::write_xlsx(places_list, path = "C:/Users/arysa/Downloads/places_list.xlsx")
 # 
-# # create sf
-# places_list_sf <- st_as_sf(places_list, coords = c("lng", "lat"), crs = st_crs(secciones))
-# 
-# places_list_sf <- places_list_sf %>% dplyr::mutate(url_maps = paste0("https://www.google.com/maps/place/?q=place_id:", reference))
-# 
-# places_list_sf <- places_list_sf %>% dplyr::filter(is.na(permanently_closed))
 
 save.image(file = "googlemaps_request.RData")
 
@@ -275,15 +272,24 @@ check_point_intersections <- function(buffers, geompoints, radius = NULL) {
 
 # Filter the polygons that fit within segunda seccion
 
-comercio$segunda_sec <- check_point_intersections(geompoints = comercio, buffers = secciones)
-comercio_sf <- comercio %>% dplyr::filter(segunda_sec == "TRUE") %>% 
-  dplyr::filter(is.na(fecha_baja_referencia_act))
+places_list_sf <- st_as_sf(places_list, coords = c("lng", "lat"), crs = st_crs(secciones))
+places_list_sf <- places_list_sf %>% dplyr::mutate(url_maps = paste0("https://www.google.com/maps/place/?q=place_id:", reference))
+places_list_sf <- places_list_sf %>% dplyr::filter(is.na(permanently_closed))
 
 places_list_sf$segunda_sec <- check_point_intersections(geompoints = places_list_sf, buffers = secciones)
 places_list_sf <- places_list_sf %>% dplyr::filter(segunda_sec == "TRUE")
 
+
+comercio$segunda_sec <- check_point_intersections(geompoints = comercio, buffers = secciones)
+comercio_sf <- comercio %>% dplyr::filter(segunda_sec == "TRUE") %>% 
+  dplyr::filter(is.na(fecha_baja_referencia_act))
+
+
 manzanas_sf$segunda_sec <- check_point_intersections(geompoints = manzanas_sf, buffers = secciones)
 manzanas_sf <- manzanas_sf %>% dplyr::filter(segunda_sec == "TRUE")
+
+parcelas$segunda_sec <- check_point_intersections(geompoints = st_centroid(st_make_valid(parcelas)), buffers = secciones)
+parcelas <- parcelas %>% dplyr::filter(segunda_sec == "TRUE")
 
 propiedad_horizontal$segunda_sec <- check_point_intersections(geompoints = st_centroid(propiedad_horizontal), buffers = secciones)
 propiedad_horizontal <- propiedad_horizontal %>% dplyr::filter(segunda_sec == "TRUE")
@@ -293,11 +299,6 @@ espacios_verdes <- espacios_verdes %>% dplyr::filter(segunda_sec == "TRUE")
 
 locaciones_restringidas$segunda_sec <- check_point_intersections(geompoints = locaciones_restringidas, buffers = secciones)
 locaciones_restringidas <- locaciones_restringidas %>% dplyr::filter(segunda_sec == "TRUE")
-
-places_list_sf$espacio_verde <- check_point_intersections(geompoints = places_list_sf, buffers = espacios_verdes, radius = 2)
-places_list_sf <- places_list_sf %>% dplyr::filter(!espacio_verde == "TRUE") %>% 
-  dplyr::filter(!nearest_polygon_id %in% c(605, 610))
-
 
 
 # Funcion para identificar manzana más cercana a cada punto y moverlos al borde
@@ -326,6 +327,11 @@ nearest_polygon <- function(points_sf, polygons_sf, polygon_id_col) {
 places_list_sf <- nearest_polygon(points_sf = places_list_sf,
                                   polygons_sf = manzanas_sf,
                                   polygon_id_col = "objectid_1")
+
+places_list_sf$espacio_verde <- check_point_intersections(geompoints = places_list_sf, buffers = espacios_verdes, radius = 2)
+places_list_sf <- places_list_sf %>% dplyr::filter(!espacio_verde == "TRUE") %>% 
+  dplyr::filter(!nearest_polygon_id %in% c(605, 610))
+
 
 comercio_sf <- nearest_polygon(points_sf = comercio_sf,
                                polygons_sf = manzanas_sf,
@@ -369,19 +375,18 @@ calculate_nearest_distance <- function(basesf, nearsf, polygon_id_col) {
 }
 
 # calculamos el punto mínimo más cercano
-places_list_sf$dist <- calculate_nearest_distance(basesf = places_list_sf, nearsf = comercio_sf, polygon_id_col = "nearest_polygon_id")
-
-# si hay NA le asignamos el max(dist)
-places_list_sf$dist[is.na(places_list_sf$dist)] <- max(places_list_sf$dist, na.rm = TRUE)
-
-  # Variable categórica para clasificar los que están a + 10m de una cuenta NO HABILITADOS
-places_list_sf$sin_cuenta <- ifelse(places_list_sf$dist > 10, TRUE, FALSE)
+places_list_sf$dist_comercio <- calculate_nearest_distance(basesf = places_list_sf, nearsf = comercio_sf, polygon_id_col = "nearest_polygon_id")
+places_list_sf$dist_comercio[is.na(places_list_sf$dist_comercio)] <- max(places_list_sf$dist_comercio, na.rm = TRUE) # si hay NA le asignamos el max(dist_comercio)
+places_list_sf$sin_cuenta <- ifelse(places_list_sf$dist_comercio > 10, TRUE, FALSE) # Variable categórica para clasificar los que están a + 10m de una cuenta NO HABILITADOS
 
 # Columna para indicar si tiene una cuenta a 1 metros e indicar si es PH
 places_list_sf$phorizontal <- check_point_intersections(geompoints = places_list_sf, buffers = propiedad_horizontal, radius = 1)
 
 # Columna para indicar si tiene una locación restringida a 10 metros (solo se muestran ubicaciones de googlemaps gastronómicas)
-places_list_sf$sociedad <- check_point_intersections(geompoints = places_list_sf, buffers = locaciones_restringidas, radius = 10)
+places_list_sf$dist_sociedad <- calculate_nearest_distance(basesf = places_list_sf, nearsf = locaciones_restringidas, polygon_id_col = "nearest_polygon_id")
+places_list_sf$dist_sociedad[is.na(places_list_sf$dist_sociedad)] <- max(places_list_sf$dist_sociedad, na.rm = TRUE) # si hay NA le asignamos el max(dist)
+places_list_sf$sociedad <- ifelse(places_list_sf$dist_sociedad < 20, TRUE, FALSE)# Variable categórica para clasificar cercanos a lugar restringido
+
 
 places_list_sf <- places_list_sf %>% # solo los que interseccionan con sociedad y NO son gastronómicos, se marcan TRUE en "sociedad_clean"
   dplyr::mutate(
@@ -541,7 +546,7 @@ leaflet() %>%
       dplyr::filter(sin_cuenta == "TRUE", sociedad_clean == "TRUE") %>% # excluidos porque interseccionan con sociedad y NO son gastronómicos (sirve de nada aparentemente)
       dplyr::ungroup(),
     radius = 5,
-    color = ~"magenta",
+    color = "magenta",
     fillOpacity = 1,
     stroke = FALSE,
     popup = ~paste0("<strong>", name, "</strong><br><a href='", url_maps, "' target='_blank'>", url_maps, "</a>")
