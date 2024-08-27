@@ -343,6 +343,9 @@ locaciones_restringidas <- nearest_polygon(points_sf = locaciones_restringidas,
                                            polygon_id_col = "objectid_1")
 
 
+# backup <- locaciones_restringidas
+parcelas$restringidas <- st_intersects(parcelas, locaciones_restringidas, sparse = FALSE) %>% apply(1, any)
+
 
 # Funcion para calcular el punto más cercano
 calculate_nearest_distance <- function(basesf, nearsf, polygon_id_col) {
@@ -383,9 +386,14 @@ places_list_sf$sin_cuenta <- ifelse(places_list_sf$dist_comercio > 10, TRUE, FAL
 places_list_sf$phorizontal <- check_point_intersections(geompoints = places_list_sf, buffers = propiedad_horizontal, radius = 1)
 
 # Columna para indicar si tiene una locación restringida a 10 metros (solo se muestran ubicaciones de googlemaps gastronómicas)
-places_list_sf$dist_sociedad <- calculate_nearest_distance(basesf = places_list_sf, nearsf = locaciones_restringidas, polygon_id_col = "nearest_polygon_id")
-places_list_sf$dist_sociedad[is.na(places_list_sf$dist_sociedad)] <- max(places_list_sf$dist_sociedad, na.rm = TRUE) # si hay NA le asignamos el max(dist)
-places_list_sf$sociedad <- ifelse(places_list_sf$dist_sociedad < 20, TRUE, FALSE)# Variable categórica para clasificar cercanos a lugar restringido
+# places_list_sf$dist_sociedad <- calculate_nearest_distance(basesf = places_list_sf, nearsf = locaciones_restringidas, polygon_id_col = "nearest_polygon_id")
+# places_list_sf$dist_sociedad[is.na(places_list_sf$dist_sociedad)] <- max(places_list_sf$dist_sociedad, na.rm = TRUE) # si hay NA le asignamos el max(dist)
+# places_list_sf$sociedad <- ifelse(places_list_sf$dist_sociedad < 20, TRUE, FALSE)# Variable categórica para clasificar cercanos a lugar restringido
+
+# backup <- places_list_sf
+
+places_list_sf$sociedad <- st_intersects(places_list_sf, parcelas %>% 
+                                       dplyr::filter(restringidas == "TRUE"),sparse = FALSE) %>% apply(1, any)
 
 
 places_list_sf <- places_list_sf %>% # solo los que interseccionan con sociedad y NO son gastronómicos, se marcan TRUE en "sociedad_clean"
@@ -397,6 +405,12 @@ places_list_sf <- places_list_sf %>% # solo los que interseccionan con sociedad 
   )
 
 
+## 
+
+places_list_sf %>% # Places cercanos a un lugar restringido NO GASTRONOMICOS (en azul los que zafan de la clasificación en "sociedad_clean")
+  dplyr::filter(sin_cuenta == "TRUE", sociedad_clean == "TRUE") %>% 
+  dplyr::ungroup()
+
 
 leaflet() %>%
   addProviderTiles(providers$CartoDB.Positron) %>%
@@ -407,7 +421,7 @@ leaflet() %>%
     fillOpacity = 0.1
   ) %>%
   addPolygons(
-    data = propiedad_horizontal,
+    data = parcelas,
     color = "grey",
     weight = 2,
     fillOpacity = 0
