@@ -2,19 +2,12 @@
 
 save.image(file = "googlemaps_request.RData")
 
-# Googlescrapper
-# places_list$lat <- places_list$geometry$location$lat
-# places_list$lng <- places_list$geometry$location$lng
-# 
-# places_list$types <- as.character(paste(places_list$types))
-# 
-# writexl::write_xlsx(places_list, path = "C:/Users/arysa/Downloads/places_list.xlsx")
+##
 
-# Filter the polygons that fit within segunda seccion
-
-places_list_sf <- st_as_sf(places_list, coords = c("lng", "lat"), crs = st_crs(secciones))
-places_list_sf <- places_list_sf %>% dplyr::mutate(url_maps = paste0("https://www.google.com/maps/place/?q=place_id:", reference))
+# filter segunda seccion
+places_list_sf <- places_list_sf[!is.na(places_list_sf$seccion), ]
 places_list_sf <- places_list_sf %>% dplyr::filter(is.na(permanently_closed))
+
 
 places_list_sf$segunda_sec <- check_point_intersections(geompoints = places_list_sf, buffers = secciones)
 places_list_sf <- places_list_sf %>% dplyr::filter(segunda_sec == "TRUE")

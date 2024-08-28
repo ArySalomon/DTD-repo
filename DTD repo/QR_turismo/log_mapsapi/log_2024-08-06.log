@@ -1,0 +1,1648 @@
+INFO  [2024-08-06 08:21:42] Starting the extraction process
+INFO  [2024-08-06 08:21:44] Extraction of police in centroid 1 started
+INFO  [2024-08-06 08:21:49] Iteration number: 1
+INFO  [2024-08-06 08:21:50] Token null: No more results
+INFO  [2024-08-06 08:21:50] Extraction of police in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:21:50] Extraction of car_dealer in centroid 1 started
+INFO  [2024-08-06 08:21:54] Extraction of car_dealer in centroid 1 completed in 0 iterations
+INFO  [2024-08-06 08:21:54] Extraction of car_rental in centroid 1 started
+INFO  [2024-08-06 08:21:59] Iteration number: 1
+INFO  [2024-08-06 08:21:59] Token null: No more results
+INFO  [2024-08-06 08:21:59] Extraction of car_rental in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:21:59] Extraction of casino in centroid 1 started
+INFO  [2024-08-06 08:22:04] Extraction of casino in centroid 1 completed in 0 iterations
+INFO  [2024-08-06 08:22:04] Extraction of church in centroid 1 started
+INFO  [2024-08-06 08:22:09] Iteration number: 1
+INFO  [2024-08-06 08:22:09] Token null: No more results
+INFO  [2024-08-06 08:22:09] Extraction of church in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:22:09] Extraction of supermarket in centroid 1 started
+INFO  [2024-08-06 08:22:14] Iteration number: 1
+INFO  [2024-08-06 08:22:14] Token null: No more results
+INFO  [2024-08-06 08:22:14] Extraction of supermarket in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:22:14] Extraction of tourist_attraction in centroid 1 started
+INFO  [2024-08-06 08:22:19] Iteration number: 1
+INFO  [2024-08-06 08:22:19] Token null: No more results
+INFO  [2024-08-06 08:22:19] Extraction of tourist_attraction in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:22:19] Extraction of shopping_mall in centroid 1 started
+INFO  [2024-08-06 08:22:23] Extraction of shopping_mall in centroid 1 completed in 0 iterations
+INFO  [2024-08-06 08:22:23] Extraction of spa in centroid 1 started
+INFO  [2024-08-06 08:22:28] Iteration number: 1
+INFO  [2024-08-06 08:22:28] Token null: No more results
+INFO  [2024-08-06 08:22:28] Extraction of spa in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:22:28] Extraction of stadium in centroid 1 started
+INFO  [2024-08-06 08:22:33] Extraction of stadium in centroid 1 completed in 0 iterations
+INFO  [2024-08-06 08:22:33] Extraction of pharmacy in centroid 1 started
+INFO  [2024-08-06 08:22:38] Iteration number: 1
+INFO  [2024-08-06 08:22:38] Token null: No more results
+INFO  [2024-08-06 08:22:38] Extraction of pharmacy in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:22:38] Extraction of movie_theater in centroid 1 started
+INFO  [2024-08-06 08:22:43] Iteration number: 1
+INFO  [2024-08-06 08:22:43] Token null: No more results
+INFO  [2024-08-06 08:22:43] Extraction of movie_theater in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:22:43] Extraction of museum in centroid 1 started
+INFO  [2024-08-06 08:22:47] Iteration number: 1
+INFO  [2024-08-06 08:22:47] Token null: No more results
+INFO  [2024-08-06 08:22:47] Extraction of museum in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:22:47] Extraction of night_club in centroid 1 started
+INFO  [2024-08-06 08:22:52] Extraction of night_club in centroid 1 completed in 0 iterations
+INFO  [2024-08-06 08:22:52] Extraction of park in centroid 1 started
+INFO  [2024-08-06 08:22:57] Iteration number: 1
+INFO  [2024-08-06 08:22:57] Token null: No more results
+INFO  [2024-08-06 08:22:57] Extraction of park in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:22:57] Extraction of parking in centroid 1 started
+INFO  [2024-08-06 08:23:02] Iteration number: 1
+INFO  [2024-08-06 08:23:02] Token null: No more results
+INFO  [2024-08-06 08:23:02] Extraction of parking in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:23:02] Extraction of liquor_store in centroid 1 started
+INFO  [2024-08-06 08:23:07] Iteration number: 1
+INFO  [2024-08-06 08:23:07] Token null: No more results
+INFO  [2024-08-06 08:23:07] Extraction of liquor_store in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:23:07] Extraction of hospital in centroid 1 started
+INFO  [2024-08-06 08:23:11] Iteration number: 1
+INFO  [2024-08-06 08:23:11] Token null: No more results
+INFO  [2024-08-06 08:23:11] Extraction of hospital in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:23:11] Extraction of doctor in centroid 1 started
+INFO  [2024-08-06 08:23:16] Iteration number: 1
+INFO  [2024-08-06 08:23:21] Iteration number: 2
+INFO  [2024-08-06 08:23:21] Token null: No more results
+INFO  [2024-08-06 08:23:21] Extraction of doctor in centroid 1 completed in 2 iterations
+INFO  [2024-08-06 08:23:21] Extraction of dentist in centroid 1 started
+INFO  [2024-08-06 08:23:26] Iteration number: 1
+INFO  [2024-08-06 08:23:26] Token null: No more results
+INFO  [2024-08-06 08:23:26] Extraction of dentist in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:23:26] Extraction of book_store in centroid 1 started
+INFO  [2024-08-06 08:23:31] Iteration number: 1
+INFO  [2024-08-06 08:23:31] Token null: No more results
+INFO  [2024-08-06 08:23:31] Extraction of book_store in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:23:31] Extraction of bank in centroid 1 started
+INFO  [2024-08-06 08:23:36] Iteration number: 1
+INFO  [2024-08-06 08:23:36] Token null: No more results
+INFO  [2024-08-06 08:23:36] Extraction of bank in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:23:36] Extraction of gas_station in centroid 1 started
+INFO  [2024-08-06 08:23:41] Extraction of gas_station in centroid 1 completed in 0 iterations
+INFO  [2024-08-06 08:23:41] Extraction of art_gallery in centroid 1 started
+INFO  [2024-08-06 08:23:45] Extraction of art_gallery in centroid 1 completed in 0 iterations
+INFO  [2024-08-06 08:23:45] Extraction of travel_agency in centroid 1 started
+INFO  [2024-08-06 08:23:50] Iteration number: 1
+INFO  [2024-08-06 08:23:50] Token null: No more results
+INFO  [2024-08-06 08:23:50] Extraction of travel_agency in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:23:50] Extraction of convenience_store in centroid 1 started
+INFO  [2024-08-06 08:23:55] Iteration number: 1
+INFO  [2024-08-06 08:23:55] Token null: No more results
+INFO  [2024-08-06 08:23:55] Extraction of convenience_store in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:23:55] Extraction of bakery in centroid 1 started
+INFO  [2024-08-06 08:24:00] Iteration number: 1
+INFO  [2024-08-06 08:24:00] Token null: No more results
+INFO  [2024-08-06 08:24:00] Extraction of bakery in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:24:00] Extraction of bar in centroid 1 started
+INFO  [2024-08-06 08:24:05] Iteration number: 1
+INFO  [2024-08-06 08:24:05] Token null: No more results
+INFO  [2024-08-06 08:24:05] Extraction of bar in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:24:05] Extraction of cafe in centroid 1 started
+INFO  [2024-08-06 08:24:09] Iteration number: 1
+INFO  [2024-08-06 08:24:09] Token null: No more results
+INFO  [2024-08-06 08:24:09] Extraction of cafe in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:24:09] Extraction of meal_delivery in centroid 1 started
+INFO  [2024-08-06 08:24:15] Iteration number: 1
+INFO  [2024-08-06 08:24:15] Token null: No more results
+INFO  [2024-08-06 08:24:15] Extraction of meal_delivery in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:24:15] Extraction of meal_takeaway in centroid 1 started
+INFO  [2024-08-06 08:24:20] Iteration number: 1
+INFO  [2024-08-06 08:24:20] Token null: No more results
+INFO  [2024-08-06 08:24:20] Extraction of meal_takeaway in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:24:20] Extraction of restaurant in centroid 1 started
+INFO  [2024-08-06 08:24:25] Iteration number: 1
+INFO  [2024-08-06 08:24:25] Token null: No more results
+INFO  [2024-08-06 08:24:25] Extraction of restaurant in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:24:25] Extraction of store in centroid 1 started
+INFO  [2024-08-06 08:24:30] Iteration number: 1
+INFO  [2024-08-06 08:24:35] Iteration number: 2
+INFO  [2024-08-06 08:24:40] Iteration number: 3
+INFO  [2024-08-06 08:24:40] Token null: No more results
+INFO  [2024-08-06 08:24:40] Extraction of store in centroid 1 completed in 3 iterations
+INFO  [2024-08-06 08:24:40] Extraction of department_store in centroid 1 started
+INFO  [2024-08-06 08:24:45] Extraction of department_store in centroid 1 completed in 0 iterations
+INFO  [2024-08-06 08:24:45] Extraction of atm in centroid 1 started
+INFO  [2024-08-06 08:24:50] Iteration number: 1
+INFO  [2024-08-06 08:24:50] Token null: No more results
+INFO  [2024-08-06 08:24:50] Extraction of atm in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:24:50] Extraction of drugstore in centroid 1 started
+INFO  [2024-08-06 08:24:55] Iteration number: 1
+INFO  [2024-08-06 08:24:55] Token null: No more results
+INFO  [2024-08-06 08:24:55] Extraction of drugstore in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:24:55] Extraction of laundry in centroid 1 started
+INFO  [2024-08-06 08:24:59] Extraction of laundry in centroid 1 completed in 0 iterations
+INFO  [2024-08-06 08:24:59] Extraction of insurance_agency in centroid 1 started
+INFO  [2024-08-06 08:25:04] Iteration number: 1
+INFO  [2024-08-06 08:25:04] Token null: No more results
+INFO  [2024-08-06 08:25:04] Extraction of insurance_agency in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:25:04] Extraction of lodging in centroid 1 started
+INFO  [2024-08-06 08:25:10] Iteration number: 1
+INFO  [2024-08-06 08:25:14] Iteration number: 2
+INFO  [2024-08-06 08:25:14] Token null: No more results
+INFO  [2024-08-06 08:25:14] Extraction of lodging in centroid 1 completed in 2 iterations
+INFO  [2024-08-06 08:25:14] Extraction of beauty_salon in centroid 1 started
+INFO  [2024-08-06 08:25:19] Iteration number: 1
+INFO  [2024-08-06 08:25:19] Token null: No more results
+INFO  [2024-08-06 08:25:19] Extraction of beauty_salon in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:25:19] Extraction of clothing_store in centroid 1 started
+INFO  [2024-08-06 08:25:24] Iteration number: 1
+INFO  [2024-08-06 08:25:24] Token null: No more results
+INFO  [2024-08-06 08:25:24] Extraction of clothing_store in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:25:24] Extraction of electronics_store in centroid 1 started
+INFO  [2024-08-06 08:25:29] Iteration number: 1
+INFO  [2024-08-06 08:25:29] Token null: No more results
+INFO  [2024-08-06 08:25:29] Extraction of electronics_store in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:25:29] Extraction of fire_station in centroid 1 started
+INFO  [2024-08-06 08:25:34] Extraction of fire_station in centroid 1 completed in 0 iterations
+INFO  [2024-08-06 08:25:34] Extraction of florist in centroid 1 started
+INFO  [2024-08-06 08:25:39] Extraction of florist in centroid 1 completed in 0 iterations
+INFO  [2024-08-06 08:25:39] Extraction of furniture_store in centroid 1 started
+INFO  [2024-08-06 08:25:43] Extraction of furniture_store in centroid 1 completed in 0 iterations
+INFO  [2024-08-06 08:25:43] Extraction of gym in centroid 1 started
+INFO  [2024-08-06 08:25:48] Iteration number: 1
+INFO  [2024-08-06 08:25:48] Token null: No more results
+INFO  [2024-08-06 08:25:48] Extraction of gym in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:25:48] Extraction of hair_care in centroid 1 started
+INFO  [2024-08-06 08:25:53] Iteration number: 1
+INFO  [2024-08-06 08:25:53] Token null: No more results
+INFO  [2024-08-06 08:25:53] Extraction of hair_care in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:25:53] Extraction of hardware_store in centroid 1 started
+INFO  [2024-08-06 08:25:57] Iteration number: 1
+INFO  [2024-08-06 08:25:57] Token null: No more results
+INFO  [2024-08-06 08:25:57] Extraction of hardware_store in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:25:57] Extraction of home_goods_store in centroid 1 started
+INFO  [2024-08-06 08:26:02] Extraction of home_goods_store in centroid 1 completed in 0 iterations
+INFO  [2024-08-06 08:26:02] Extraction of jewelry_store in centroid 1 started
+INFO  [2024-08-06 08:26:07] Iteration number: 1
+INFO  [2024-08-06 08:26:07] Token null: No more results
+INFO  [2024-08-06 08:26:07] Extraction of jewelry_store in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:26:07] Extraction of library in centroid 1 started
+INFO  [2024-08-06 08:26:12] Iteration number: 1
+INFO  [2024-08-06 08:26:12] Token null: No more results
+INFO  [2024-08-06 08:26:12] Extraction of library in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:26:12] Extraction of locksmith in centroid 1 started
+INFO  [2024-08-06 08:26:17] Extraction of locksmith in centroid 1 completed in 0 iterations
+INFO  [2024-08-06 08:26:17] Extraction of painter in centroid 1 started
+INFO  [2024-08-06 08:26:24] Extraction of painter in centroid 1 completed in 0 iterations
+INFO  [2024-08-06 08:26:24] Extraction of pet_store in centroid 1 started
+INFO  [2024-08-06 08:26:28] Extraction of pet_store in centroid 1 completed in 0 iterations
+INFO  [2024-08-06 08:26:28] Extraction of plumber in centroid 1 started
+INFO  [2024-08-06 08:26:33] Extraction of plumber in centroid 1 completed in 0 iterations
+INFO  [2024-08-06 08:26:33] Extraction of post_office in centroid 1 started
+INFO  [2024-08-06 08:26:37] Iteration number: 1
+INFO  [2024-08-06 08:26:37] Token null: No more results
+INFO  [2024-08-06 08:26:37] Extraction of post_office in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:26:37] Extraction of real_estate_agency in centroid 1 started
+INFO  [2024-08-06 08:26:42] Iteration number: 1
+INFO  [2024-08-06 08:26:42] Token null: No more results
+INFO  [2024-08-06 08:26:42] Extraction of real_estate_agency in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:26:42] Extraction of shoe_store in centroid 1 started
+INFO  [2024-08-06 08:26:47] Extraction of shoe_store in centroid 1 completed in 0 iterations
+INFO  [2024-08-06 08:26:47] Extraction of storage in centroid 1 started
+INFO  [2024-08-06 08:26:51] Iteration number: 1
+INFO  [2024-08-06 08:26:51] Token null: No more results
+INFO  [2024-08-06 08:26:51] Extraction of storage in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:26:51] Extraction of veterinary_care in centroid 1 started
+INFO  [2024-08-06 08:26:56] Iteration number: 1
+INFO  [2024-08-06 08:26:56] Token null: No more results
+INFO  [2024-08-06 08:26:56] Extraction of veterinary_care in centroid 1 completed in 1 iterations
+INFO  [2024-08-06 08:26:56] Extraction of police in centroid 2 started
+INFO  [2024-08-06 08:27:01] Iteration number: 1
+INFO  [2024-08-06 08:27:01] Token null: No more results
+INFO  [2024-08-06 08:27:01] Extraction of police in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:27:01] Extraction of car_dealer in centroid 2 started
+INFO  [2024-08-06 08:27:06] Iteration number: 1
+INFO  [2024-08-06 08:27:06] Token null: No more results
+INFO  [2024-08-06 08:27:06] Extraction of car_dealer in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:27:06] Extraction of car_rental in centroid 2 started
+INFO  [2024-08-06 08:27:11] Iteration number: 1
+INFO  [2024-08-06 08:27:11] Token null: No more results
+INFO  [2024-08-06 08:27:11] Extraction of car_rental in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:27:11] Extraction of casino in centroid 2 started
+INFO  [2024-08-06 08:27:15] Extraction of casino in centroid 2 completed in 0 iterations
+INFO  [2024-08-06 08:27:15] Extraction of church in centroid 2 started
+INFO  [2024-08-06 08:27:20] Iteration number: 1
+INFO  [2024-08-06 08:27:20] Token null: No more results
+INFO  [2024-08-06 08:27:20] Extraction of church in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:27:20] Extraction of supermarket in centroid 2 started
+INFO  [2024-08-06 08:27:25] Iteration number: 1
+INFO  [2024-08-06 08:27:25] Token null: No more results
+INFO  [2024-08-06 08:27:25] Extraction of supermarket in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:27:25] Extraction of tourist_attraction in centroid 2 started
+INFO  [2024-08-06 08:27:30] Iteration number: 1
+INFO  [2024-08-06 08:27:30] Token null: No more results
+INFO  [2024-08-06 08:27:30] Extraction of tourist_attraction in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:27:30] Extraction of shopping_mall in centroid 2 started
+INFO  [2024-08-06 08:27:35] Iteration number: 1
+INFO  [2024-08-06 08:27:35] Token null: No more results
+INFO  [2024-08-06 08:27:35] Extraction of shopping_mall in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:27:35] Extraction of spa in centroid 2 started
+INFO  [2024-08-06 08:27:40] Iteration number: 1
+INFO  [2024-08-06 08:27:40] Token null: No more results
+INFO  [2024-08-06 08:27:40] Extraction of spa in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:27:40] Extraction of stadium in centroid 2 started
+INFO  [2024-08-06 08:27:45] Extraction of stadium in centroid 2 completed in 0 iterations
+INFO  [2024-08-06 08:27:45] Extraction of pharmacy in centroid 2 started
+INFO  [2024-08-06 08:27:49] Iteration number: 1
+INFO  [2024-08-06 08:27:49] Token null: No more results
+INFO  [2024-08-06 08:27:49] Extraction of pharmacy in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:27:49] Extraction of movie_theater in centroid 2 started
+INFO  [2024-08-06 08:27:55] Iteration number: 1
+INFO  [2024-08-06 08:27:55] Token null: No more results
+INFO  [2024-08-06 08:27:55] Extraction of movie_theater in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:27:55] Extraction of museum in centroid 2 started
+INFO  [2024-08-06 08:28:00] Iteration number: 1
+INFO  [2024-08-06 08:28:00] Token null: No more results
+INFO  [2024-08-06 08:28:00] Extraction of museum in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:28:00] Extraction of night_club in centroid 2 started
+INFO  [2024-08-06 08:28:04] Iteration number: 1
+INFO  [2024-08-06 08:28:04] Token null: No more results
+INFO  [2024-08-06 08:28:04] Extraction of night_club in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:28:04] Extraction of park in centroid 2 started
+INFO  [2024-08-06 08:28:09] Iteration number: 1
+INFO  [2024-08-06 08:28:09] Token null: No more results
+INFO  [2024-08-06 08:28:09] Extraction of park in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:28:09] Extraction of parking in centroid 2 started
+INFO  [2024-08-06 08:28:14] Iteration number: 1
+INFO  [2024-08-06 08:28:14] Token null: No more results
+INFO  [2024-08-06 08:28:14] Extraction of parking in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:28:14] Extraction of liquor_store in centroid 2 started
+INFO  [2024-08-06 08:28:19] Iteration number: 1
+INFO  [2024-08-06 08:28:19] Token null: No more results
+INFO  [2024-08-06 08:28:19] Extraction of liquor_store in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:28:19] Extraction of hospital in centroid 2 started
+INFO  [2024-08-06 08:28:24] Iteration number: 1
+INFO  [2024-08-06 08:28:24] Token null: No more results
+INFO  [2024-08-06 08:28:24] Extraction of hospital in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:28:24] Extraction of doctor in centroid 2 started
+INFO  [2024-08-06 08:28:29] Iteration number: 1
+INFO  [2024-08-06 08:28:34] Iteration number: 2
+INFO  [2024-08-06 08:28:34] Token null: No more results
+INFO  [2024-08-06 08:28:34] Extraction of doctor in centroid 2 completed in 2 iterations
+INFO  [2024-08-06 08:28:34] Extraction of dentist in centroid 2 started
+INFO  [2024-08-06 08:28:39] Iteration number: 1
+INFO  [2024-08-06 08:28:39] Token null: No more results
+INFO  [2024-08-06 08:28:39] Extraction of dentist in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:28:39] Extraction of book_store in centroid 2 started
+INFO  [2024-08-06 08:28:44] Iteration number: 1
+INFO  [2024-08-06 08:28:44] Token null: No more results
+INFO  [2024-08-06 08:28:44] Extraction of book_store in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:28:44] Extraction of bank in centroid 2 started
+INFO  [2024-08-06 08:28:49] Iteration number: 1
+INFO  [2024-08-06 08:28:49] Token null: No more results
+INFO  [2024-08-06 08:28:49] Extraction of bank in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:28:49] Extraction of gas_station in centroid 2 started
+INFO  [2024-08-06 08:28:53] Extraction of gas_station in centroid 2 completed in 0 iterations
+INFO  [2024-08-06 08:28:53] Extraction of art_gallery in centroid 2 started
+INFO  [2024-08-06 08:28:58] Iteration number: 1
+INFO  [2024-08-06 08:28:58] Token null: No more results
+INFO  [2024-08-06 08:28:58] Extraction of art_gallery in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:28:58] Extraction of travel_agency in centroid 2 started
+INFO  [2024-08-06 08:29:03] Iteration number: 1
+INFO  [2024-08-06 08:29:03] Token null: No more results
+INFO  [2024-08-06 08:29:03] Extraction of travel_agency in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:29:03] Extraction of convenience_store in centroid 2 started
+INFO  [2024-08-06 08:29:07] Iteration number: 1
+INFO  [2024-08-06 08:29:07] Token null: No more results
+INFO  [2024-08-06 08:29:07] Extraction of convenience_store in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:29:07] Extraction of bakery in centroid 2 started
+INFO  [2024-08-06 08:29:12] Iteration number: 1
+INFO  [2024-08-06 08:29:12] Token null: No more results
+INFO  [2024-08-06 08:29:12] Extraction of bakery in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:29:12] Extraction of bar in centroid 2 started
+INFO  [2024-08-06 08:29:18] Iteration number: 1
+INFO  [2024-08-06 08:29:18] Token null: No more results
+INFO  [2024-08-06 08:29:18] Extraction of bar in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:29:18] Extraction of cafe in centroid 2 started
+INFO  [2024-08-06 08:29:23] Iteration number: 1
+INFO  [2024-08-06 08:29:23] Token null: No more results
+INFO  [2024-08-06 08:29:23] Extraction of cafe in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:29:23] Extraction of meal_delivery in centroid 2 started
+INFO  [2024-08-06 08:29:28] Iteration number: 1
+INFO  [2024-08-06 08:29:28] Token null: No more results
+INFO  [2024-08-06 08:29:28] Extraction of meal_delivery in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:29:28] Extraction of meal_takeaway in centroid 2 started
+INFO  [2024-08-06 08:29:32] Iteration number: 1
+INFO  [2024-08-06 08:29:32] Token null: No more results
+INFO  [2024-08-06 08:29:32] Extraction of meal_takeaway in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:29:32] Extraction of restaurant in centroid 2 started
+INFO  [2024-08-06 08:29:37] Iteration number: 1
+INFO  [2024-08-06 08:29:42] Iteration number: 2
+INFO  [2024-08-06 08:29:42] Token null: No more results
+INFO  [2024-08-06 08:29:42] Extraction of restaurant in centroid 2 completed in 2 iterations
+INFO  [2024-08-06 08:29:42] Extraction of store in centroid 2 started
+INFO  [2024-08-06 08:29:47] Iteration number: 1
+INFO  [2024-08-06 08:29:52] Iteration number: 2
+INFO  [2024-08-06 08:29:58] Iteration number: 3
+INFO  [2024-08-06 08:29:58] Token null: No more results
+INFO  [2024-08-06 08:29:58] Extraction of store in centroid 2 completed in 3 iterations
+INFO  [2024-08-06 08:29:58] Extraction of department_store in centroid 2 started
+INFO  [2024-08-06 08:30:02] Extraction of department_store in centroid 2 completed in 0 iterations
+INFO  [2024-08-06 08:30:02] Extraction of atm in centroid 2 started
+INFO  [2024-08-06 08:30:07] Iteration number: 1
+INFO  [2024-08-06 08:30:07] Token null: No more results
+INFO  [2024-08-06 08:30:07] Extraction of atm in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:30:07] Extraction of drugstore in centroid 2 started
+INFO  [2024-08-06 08:30:12] Extraction of drugstore in centroid 2 completed in 0 iterations
+INFO  [2024-08-06 08:30:12] Extraction of laundry in centroid 2 started
+INFO  [2024-08-06 08:30:16] Extraction of laundry in centroid 2 completed in 0 iterations
+INFO  [2024-08-06 08:30:16] Extraction of insurance_agency in centroid 2 started
+INFO  [2024-08-06 08:30:22] Iteration number: 1
+INFO  [2024-08-06 08:30:22] Token null: No more results
+INFO  [2024-08-06 08:30:22] Extraction of insurance_agency in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:30:22] Extraction of lodging in centroid 2 started
+INFO  [2024-08-06 08:30:27] Iteration number: 1
+INFO  [2024-08-06 08:30:31] Iteration number: 2
+INFO  [2024-08-06 08:30:31] Token null: No more results
+INFO  [2024-08-06 08:30:31] Extraction of lodging in centroid 2 completed in 2 iterations
+INFO  [2024-08-06 08:30:31] Extraction of beauty_salon in centroid 2 started
+INFO  [2024-08-06 08:30:36] Iteration number: 1
+INFO  [2024-08-06 08:30:36] Token null: No more results
+INFO  [2024-08-06 08:30:36] Extraction of beauty_salon in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:30:36] Extraction of clothing_store in centroid 2 started
+INFO  [2024-08-06 08:30:41] Iteration number: 1
+INFO  [2024-08-06 08:30:46] Iteration number: 2
+INFO  [2024-08-06 08:30:46] Token null: No more results
+INFO  [2024-08-06 08:30:46] Extraction of clothing_store in centroid 2 completed in 2 iterations
+INFO  [2024-08-06 08:30:46] Extraction of electronics_store in centroid 2 started
+INFO  [2024-08-06 08:30:51] Iteration number: 1
+INFO  [2024-08-06 08:30:51] Token null: No more results
+INFO  [2024-08-06 08:30:51] Extraction of electronics_store in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:30:51] Extraction of fire_station in centroid 2 started
+INFO  [2024-08-06 08:30:56] Extraction of fire_station in centroid 2 completed in 0 iterations
+INFO  [2024-08-06 08:30:56] Extraction of florist in centroid 2 started
+INFO  [2024-08-06 08:31:00] Extraction of florist in centroid 2 completed in 0 iterations
+INFO  [2024-08-06 08:31:00] Extraction of furniture_store in centroid 2 started
+INFO  [2024-08-06 08:31:05] Iteration number: 1
+INFO  [2024-08-06 08:31:05] Token null: No more results
+INFO  [2024-08-06 08:31:05] Extraction of furniture_store in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:31:05] Extraction of gym in centroid 2 started
+INFO  [2024-08-06 08:31:10] Iteration number: 1
+INFO  [2024-08-06 08:31:10] Token null: No more results
+INFO  [2024-08-06 08:31:10] Extraction of gym in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:31:10] Extraction of hair_care in centroid 2 started
+INFO  [2024-08-06 08:31:15] Iteration number: 1
+INFO  [2024-08-06 08:31:20] Iteration number: 2
+INFO  [2024-08-06 08:31:20] Token null: No more results
+INFO  [2024-08-06 08:31:20] Extraction of hair_care in centroid 2 completed in 2 iterations
+INFO  [2024-08-06 08:31:20] Extraction of hardware_store in centroid 2 started
+INFO  [2024-08-06 08:31:25] Iteration number: 1
+INFO  [2024-08-06 08:31:25] Token null: No more results
+INFO  [2024-08-06 08:31:25] Extraction of hardware_store in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:31:25] Extraction of home_goods_store in centroid 2 started
+INFO  [2024-08-06 08:31:31] Iteration number: 1
+INFO  [2024-08-06 08:31:31] Token null: No more results
+INFO  [2024-08-06 08:31:31] Extraction of home_goods_store in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:31:31] Extraction of jewelry_store in centroid 2 started
+INFO  [2024-08-06 08:31:35] Iteration number: 1
+INFO  [2024-08-06 08:31:35] Token null: No more results
+INFO  [2024-08-06 08:31:35] Extraction of jewelry_store in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:31:35] Extraction of library in centroid 2 started
+INFO  [2024-08-06 08:31:40] Extraction of library in centroid 2 completed in 0 iterations
+INFO  [2024-08-06 08:31:40] Extraction of locksmith in centroid 2 started
+INFO  [2024-08-06 08:31:45] Extraction of locksmith in centroid 2 completed in 0 iterations
+INFO  [2024-08-06 08:31:45] Extraction of painter in centroid 2 started
+INFO  [2024-08-06 08:31:49] Extraction of painter in centroid 2 completed in 0 iterations
+INFO  [2024-08-06 08:31:49] Extraction of pet_store in centroid 2 started
+INFO  [2024-08-06 08:31:54] Extraction of pet_store in centroid 2 completed in 0 iterations
+INFO  [2024-08-06 08:31:54] Extraction of plumber in centroid 2 started
+INFO  [2024-08-06 08:31:58] Extraction of plumber in centroid 2 completed in 0 iterations
+INFO  [2024-08-06 08:31:58] Extraction of post_office in centroid 2 started
+INFO  [2024-08-06 08:32:03] Iteration number: 1
+INFO  [2024-08-06 08:32:03] Token null: No more results
+INFO  [2024-08-06 08:32:03] Extraction of post_office in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:32:03] Extraction of real_estate_agency in centroid 2 started
+INFO  [2024-08-06 08:32:08] Iteration number: 1
+INFO  [2024-08-06 08:32:08] Token null: No more results
+INFO  [2024-08-06 08:32:08] Extraction of real_estate_agency in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:32:08] Extraction of shoe_store in centroid 2 started
+INFO  [2024-08-06 08:32:14] Iteration number: 1
+INFO  [2024-08-06 08:32:14] Token null: No more results
+INFO  [2024-08-06 08:32:14] Extraction of shoe_store in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:32:14] Extraction of storage in centroid 2 started
+INFO  [2024-08-06 08:32:18] Iteration number: 1
+INFO  [2024-08-06 08:32:18] Token null: No more results
+INFO  [2024-08-06 08:32:18] Extraction of storage in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:32:18] Extraction of veterinary_care in centroid 2 started
+INFO  [2024-08-06 08:32:23] Iteration number: 1
+INFO  [2024-08-06 08:32:23] Token null: No more results
+INFO  [2024-08-06 08:32:23] Extraction of veterinary_care in centroid 2 completed in 1 iterations
+INFO  [2024-08-06 08:32:23] Extraction of police in centroid 3 started
+INFO  [2024-08-06 08:32:28] Extraction of police in centroid 3 completed in 0 iterations
+INFO  [2024-08-06 08:32:28] Extraction of car_dealer in centroid 3 started
+INFO  [2024-08-06 08:32:33] Iteration number: 1
+INFO  [2024-08-06 08:32:33] Token null: No more results
+INFO  [2024-08-06 08:32:33] Extraction of car_dealer in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:32:33] Extraction of car_rental in centroid 3 started
+INFO  [2024-08-06 08:32:37] Extraction of car_rental in centroid 3 completed in 0 iterations
+INFO  [2024-08-06 08:32:37] Extraction of casino in centroid 3 started
+INFO  [2024-08-06 08:32:42] Extraction of casino in centroid 3 completed in 0 iterations
+INFO  [2024-08-06 08:32:42] Extraction of church in centroid 3 started
+INFO  [2024-08-06 08:32:47] Iteration number: 1
+INFO  [2024-08-06 08:32:47] Token null: No more results
+INFO  [2024-08-06 08:32:47] Extraction of church in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:32:47] Extraction of supermarket in centroid 3 started
+INFO  [2024-08-06 08:32:52] Iteration number: 1
+INFO  [2024-08-06 08:32:52] Token null: No more results
+INFO  [2024-08-06 08:32:52] Extraction of supermarket in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:32:52] Extraction of tourist_attraction in centroid 3 started
+INFO  [2024-08-06 08:32:57] Iteration number: 1
+INFO  [2024-08-06 08:32:57] Token null: No more results
+INFO  [2024-08-06 08:32:57] Extraction of tourist_attraction in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:32:57] Extraction of shopping_mall in centroid 3 started
+INFO  [2024-08-06 08:33:01] Iteration number: 1
+INFO  [2024-08-06 08:33:01] Token null: No more results
+INFO  [2024-08-06 08:33:01] Extraction of shopping_mall in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:33:01] Extraction of spa in centroid 3 started
+INFO  [2024-08-06 08:33:06] Iteration number: 1
+INFO  [2024-08-06 08:33:06] Token null: No more results
+INFO  [2024-08-06 08:33:06] Extraction of spa in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:33:06] Extraction of stadium in centroid 3 started
+INFO  [2024-08-06 08:33:11] Extraction of stadium in centroid 3 completed in 0 iterations
+INFO  [2024-08-06 08:33:11] Extraction of pharmacy in centroid 3 started
+INFO  [2024-08-06 08:33:16] Iteration number: 1
+INFO  [2024-08-06 08:33:16] Token null: No more results
+INFO  [2024-08-06 08:33:16] Extraction of pharmacy in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:33:16] Extraction of movie_theater in centroid 3 started
+INFO  [2024-08-06 08:33:20] Iteration number: 1
+INFO  [2024-08-06 08:33:20] Token null: No more results
+INFO  [2024-08-06 08:33:20] Extraction of movie_theater in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:33:20] Extraction of museum in centroid 3 started
+INFO  [2024-08-06 08:33:25] Extraction of museum in centroid 3 completed in 0 iterations
+INFO  [2024-08-06 08:33:25] Extraction of night_club in centroid 3 started
+INFO  [2024-08-06 08:33:30] Iteration number: 1
+INFO  [2024-08-06 08:33:30] Token null: No more results
+INFO  [2024-08-06 08:33:30] Extraction of night_club in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:33:30] Extraction of park in centroid 3 started
+INFO  [2024-08-06 08:33:35] Iteration number: 1
+INFO  [2024-08-06 08:33:35] Token null: No more results
+INFO  [2024-08-06 08:33:35] Extraction of park in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:33:35] Extraction of parking in centroid 3 started
+INFO  [2024-08-06 08:33:40] Iteration number: 1
+INFO  [2024-08-06 08:33:40] Token null: No more results
+INFO  [2024-08-06 08:33:40] Extraction of parking in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:33:40] Extraction of liquor_store in centroid 3 started
+INFO  [2024-08-06 08:33:45] Iteration number: 1
+INFO  [2024-08-06 08:33:45] Token null: No more results
+INFO  [2024-08-06 08:33:45] Extraction of liquor_store in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:33:45] Extraction of hospital in centroid 3 started
+INFO  [2024-08-06 08:33:50] Iteration number: 1
+INFO  [2024-08-06 08:33:50] Token null: No more results
+INFO  [2024-08-06 08:33:50] Extraction of hospital in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:33:50] Extraction of doctor in centroid 3 started
+INFO  [2024-08-06 08:33:55] Iteration number: 1
+INFO  [2024-08-06 08:34:00] Iteration number: 2
+INFO  [2024-08-06 08:34:00] Token null: No more results
+INFO  [2024-08-06 08:34:00] Extraction of doctor in centroid 3 completed in 2 iterations
+INFO  [2024-08-06 08:34:00] Extraction of dentist in centroid 3 started
+INFO  [2024-08-06 08:34:05] Iteration number: 1
+INFO  [2024-08-06 08:34:05] Token null: No more results
+INFO  [2024-08-06 08:34:05] Extraction of dentist in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:34:05] Extraction of book_store in centroid 3 started
+INFO  [2024-08-06 08:34:10] Iteration number: 1
+INFO  [2024-08-06 08:34:10] Token null: No more results
+INFO  [2024-08-06 08:34:10] Extraction of book_store in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:34:10] Extraction of bank in centroid 3 started
+INFO  [2024-08-06 08:34:15] Iteration number: 1
+INFO  [2024-08-06 08:34:15] Token null: No more results
+INFO  [2024-08-06 08:34:15] Extraction of bank in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:34:15] Extraction of gas_station in centroid 3 started
+INFO  [2024-08-06 08:34:20] Iteration number: 1
+INFO  [2024-08-06 08:34:20] Token null: No more results
+INFO  [2024-08-06 08:34:20] Extraction of gas_station in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:34:20] Extraction of art_gallery in centroid 3 started
+INFO  [2024-08-06 08:34:25] Iteration number: 1
+INFO  [2024-08-06 08:34:25] Token null: No more results
+INFO  [2024-08-06 08:34:25] Extraction of art_gallery in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:34:25] Extraction of travel_agency in centroid 3 started
+INFO  [2024-08-06 08:34:30] Iteration number: 1
+INFO  [2024-08-06 08:34:30] Token null: No more results
+INFO  [2024-08-06 08:34:30] Extraction of travel_agency in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:34:30] Extraction of convenience_store in centroid 3 started
+INFO  [2024-08-06 08:34:35] Iteration number: 1
+INFO  [2024-08-06 08:34:35] Token null: No more results
+INFO  [2024-08-06 08:34:35] Extraction of convenience_store in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:34:35] Extraction of bakery in centroid 3 started
+INFO  [2024-08-06 08:34:40] Iteration number: 1
+INFO  [2024-08-06 08:34:40] Token null: No more results
+INFO  [2024-08-06 08:34:40] Extraction of bakery in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:34:40] Extraction of bar in centroid 3 started
+INFO  [2024-08-06 08:34:45] Iteration number: 1
+INFO  [2024-08-06 08:34:45] Token null: No more results
+INFO  [2024-08-06 08:34:45] Extraction of bar in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:34:45] Extraction of cafe in centroid 3 started
+INFO  [2024-08-06 08:34:50] Iteration number: 1
+INFO  [2024-08-06 08:34:50] Token null: No more results
+INFO  [2024-08-06 08:34:50] Extraction of cafe in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:34:50] Extraction of meal_delivery in centroid 3 started
+INFO  [2024-08-06 08:34:55] Iteration number: 1
+INFO  [2024-08-06 08:34:55] Token null: No more results
+INFO  [2024-08-06 08:34:55] Extraction of meal_delivery in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:34:55] Extraction of meal_takeaway in centroid 3 started
+INFO  [2024-08-06 08:35:00] Iteration number: 1
+INFO  [2024-08-06 08:35:00] Token null: No more results
+INFO  [2024-08-06 08:35:00] Extraction of meal_takeaway in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:35:00] Extraction of restaurant in centroid 3 started
+INFO  [2024-08-06 08:35:05] Iteration number: 1
+INFO  [2024-08-06 08:35:10] Iteration number: 2
+INFO  [2024-08-06 08:35:10] Token null: No more results
+INFO  [2024-08-06 08:35:10] Extraction of restaurant in centroid 3 completed in 2 iterations
+INFO  [2024-08-06 08:35:10] Extraction of store in centroid 3 started
+INFO  [2024-08-06 08:35:15] Iteration number: 1
+INFO  [2024-08-06 08:35:20] Iteration number: 2
+INFO  [2024-08-06 08:35:25] Iteration number: 3
+INFO  [2024-08-06 08:35:25] Token null: No more results
+INFO  [2024-08-06 08:35:25] Extraction of store in centroid 3 completed in 3 iterations
+INFO  [2024-08-06 08:35:25] Extraction of department_store in centroid 3 started
+INFO  [2024-08-06 08:35:30] Extraction of department_store in centroid 3 completed in 0 iterations
+INFO  [2024-08-06 08:35:30] Extraction of atm in centroid 3 started
+INFO  [2024-08-06 08:35:34] Extraction of atm in centroid 3 completed in 0 iterations
+INFO  [2024-08-06 08:35:34] Extraction of drugstore in centroid 3 started
+INFO  [2024-08-06 08:35:40] Iteration number: 1
+INFO  [2024-08-06 08:35:40] Token null: No more results
+INFO  [2024-08-06 08:35:40] Extraction of drugstore in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:35:40] Extraction of laundry in centroid 3 started
+INFO  [2024-08-06 08:35:44] Iteration number: 1
+INFO  [2024-08-06 08:35:44] Token null: No more results
+INFO  [2024-08-06 08:35:44] Extraction of laundry in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:35:44] Extraction of insurance_agency in centroid 3 started
+INFO  [2024-08-06 08:35:49] Iteration number: 1
+INFO  [2024-08-06 08:35:49] Token null: No more results
+INFO  [2024-08-06 08:35:49] Extraction of insurance_agency in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:35:49] Extraction of lodging in centroid 3 started
+INFO  [2024-08-06 08:35:55] Iteration number: 1
+INFO  [2024-08-06 08:35:59] Iteration number: 2
+INFO  [2024-08-06 08:35:59] Token null: No more results
+INFO  [2024-08-06 08:35:59] Extraction of lodging in centroid 3 completed in 2 iterations
+INFO  [2024-08-06 08:35:59] Extraction of beauty_salon in centroid 3 started
+INFO  [2024-08-06 08:36:04] Iteration number: 1
+INFO  [2024-08-06 08:36:04] Token null: No more results
+INFO  [2024-08-06 08:36:04] Extraction of beauty_salon in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:36:04] Extraction of clothing_store in centroid 3 started
+INFO  [2024-08-06 08:36:09] Iteration number: 1
+INFO  [2024-08-06 08:36:14] Iteration number: 2
+INFO  [2024-08-06 08:36:14] Token null: No more results
+INFO  [2024-08-06 08:36:14] Extraction of clothing_store in centroid 3 completed in 2 iterations
+INFO  [2024-08-06 08:36:14] Extraction of electronics_store in centroid 3 started
+INFO  [2024-08-06 08:36:19] Iteration number: 1
+INFO  [2024-08-06 08:36:19] Token null: No more results
+INFO  [2024-08-06 08:36:19] Extraction of electronics_store in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:36:19] Extraction of fire_station in centroid 3 started
+INFO  [2024-08-06 08:36:23] Extraction of fire_station in centroid 3 completed in 0 iterations
+INFO  [2024-08-06 08:36:23] Extraction of florist in centroid 3 started
+INFO  [2024-08-06 08:36:28] Extraction of florist in centroid 3 completed in 0 iterations
+INFO  [2024-08-06 08:36:28] Extraction of furniture_store in centroid 3 started
+INFO  [2024-08-06 08:36:33] Iteration number: 1
+INFO  [2024-08-06 08:36:33] Token null: No more results
+INFO  [2024-08-06 08:36:33] Extraction of furniture_store in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:36:33] Extraction of gym in centroid 3 started
+INFO  [2024-08-06 08:36:38] Iteration number: 1
+INFO  [2024-08-06 08:36:38] Token null: No more results
+INFO  [2024-08-06 08:36:38] Extraction of gym in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:36:38] Extraction of hair_care in centroid 3 started
+INFO  [2024-08-06 08:36:43] Iteration number: 1
+INFO  [2024-08-06 08:36:43] Token null: No more results
+INFO  [2024-08-06 08:36:43] Extraction of hair_care in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:36:43] Extraction of hardware_store in centroid 3 started
+INFO  [2024-08-06 08:36:48] Iteration number: 1
+INFO  [2024-08-06 08:36:48] Token null: No more results
+INFO  [2024-08-06 08:36:48] Extraction of hardware_store in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:36:48] Extraction of home_goods_store in centroid 3 started
+INFO  [2024-08-06 08:36:53] Iteration number: 1
+INFO  [2024-08-06 08:36:57] Iteration number: 2
+INFO  [2024-08-06 08:36:57] Token null: No more results
+INFO  [2024-08-06 08:36:57] Extraction of home_goods_store in centroid 3 completed in 2 iterations
+INFO  [2024-08-06 08:36:57] Extraction of jewelry_store in centroid 3 started
+INFO  [2024-08-06 08:37:02] Extraction of jewelry_store in centroid 3 completed in 0 iterations
+INFO  [2024-08-06 08:37:02] Extraction of library in centroid 3 started
+INFO  [2024-08-06 08:37:06] Extraction of library in centroid 3 completed in 0 iterations
+INFO  [2024-08-06 08:37:06] Extraction of locksmith in centroid 3 started
+INFO  [2024-08-06 08:37:11] Iteration number: 1
+INFO  [2024-08-06 08:37:11] Token null: No more results
+INFO  [2024-08-06 08:37:11] Extraction of locksmith in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:37:11] Extraction of painter in centroid 3 started
+INFO  [2024-08-06 08:37:16] Iteration number: 1
+INFO  [2024-08-06 08:37:16] Token null: No more results
+INFO  [2024-08-06 08:37:16] Extraction of painter in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:37:16] Extraction of pet_store in centroid 3 started
+INFO  [2024-08-06 08:37:21] Extraction of pet_store in centroid 3 completed in 0 iterations
+INFO  [2024-08-06 08:37:21] Extraction of plumber in centroid 3 started
+INFO  [2024-08-06 08:37:25] Extraction of plumber in centroid 3 completed in 0 iterations
+INFO  [2024-08-06 08:37:25] Extraction of post_office in centroid 3 started
+INFO  [2024-08-06 08:37:30] Iteration number: 1
+INFO  [2024-08-06 08:37:30] Token null: No more results
+INFO  [2024-08-06 08:37:30] Extraction of post_office in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:37:30] Extraction of real_estate_agency in centroid 3 started
+INFO  [2024-08-06 08:37:35] Iteration number: 1
+INFO  [2024-08-06 08:37:35] Token null: No more results
+INFO  [2024-08-06 08:37:35] Extraction of real_estate_agency in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:37:35] Extraction of shoe_store in centroid 3 started
+INFO  [2024-08-06 08:37:40] Iteration number: 1
+INFO  [2024-08-06 08:37:40] Token null: No more results
+INFO  [2024-08-06 08:37:40] Extraction of shoe_store in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:37:40] Extraction of storage in centroid 3 started
+INFO  [2024-08-06 08:37:45] Iteration number: 1
+INFO  [2024-08-06 08:37:45] Token null: No more results
+INFO  [2024-08-06 08:37:45] Extraction of storage in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:37:45] Extraction of veterinary_care in centroid 3 started
+INFO  [2024-08-06 08:37:49] Iteration number: 1
+INFO  [2024-08-06 08:37:49] Token null: No more results
+INFO  [2024-08-06 08:37:49] Extraction of veterinary_care in centroid 3 completed in 1 iterations
+INFO  [2024-08-06 08:37:49] Extraction of police in centroid 4 started
+INFO  [2024-08-06 08:37:54] Extraction of police in centroid 4 completed in 0 iterations
+INFO  [2024-08-06 08:37:54] Extraction of car_dealer in centroid 4 started
+INFO  [2024-08-06 08:37:59] Iteration number: 1
+INFO  [2024-08-06 08:37:59] Token null: No more results
+INFO  [2024-08-06 08:37:59] Extraction of car_dealer in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:37:59] Extraction of car_rental in centroid 4 started
+INFO  [2024-08-06 08:38:04] Iteration number: 1
+INFO  [2024-08-06 08:38:04] Token null: No more results
+INFO  [2024-08-06 08:38:04] Extraction of car_rental in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:38:04] Extraction of casino in centroid 4 started
+INFO  [2024-08-06 08:38:08] Extraction of casino in centroid 4 completed in 0 iterations
+INFO  [2024-08-06 08:38:08] Extraction of church in centroid 4 started
+INFO  [2024-08-06 08:38:13] Extraction of church in centroid 4 completed in 0 iterations
+INFO  [2024-08-06 08:38:13] Extraction of supermarket in centroid 4 started
+INFO  [2024-08-06 08:38:17] Iteration number: 1
+INFO  [2024-08-06 08:38:17] Token null: No more results
+INFO  [2024-08-06 08:38:17] Extraction of supermarket in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:38:17] Extraction of tourist_attraction in centroid 4 started
+INFO  [2024-08-06 08:38:22] Iteration number: 1
+INFO  [2024-08-06 08:38:22] Token null: No more results
+INFO  [2024-08-06 08:38:22] Extraction of tourist_attraction in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:38:22] Extraction of shopping_mall in centroid 4 started
+INFO  [2024-08-06 08:38:27] Iteration number: 1
+INFO  [2024-08-06 08:38:27] Token null: No more results
+INFO  [2024-08-06 08:38:27] Extraction of shopping_mall in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:38:27] Extraction of spa in centroid 4 started
+INFO  [2024-08-06 08:38:32] Iteration number: 1
+INFO  [2024-08-06 08:38:32] Token null: No more results
+INFO  [2024-08-06 08:38:32] Extraction of spa in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:38:32] Extraction of stadium in centroid 4 started
+INFO  [2024-08-06 08:38:36] Extraction of stadium in centroid 4 completed in 0 iterations
+INFO  [2024-08-06 08:38:36] Extraction of pharmacy in centroid 4 started
+INFO  [2024-08-06 08:38:41] Iteration number: 1
+INFO  [2024-08-06 08:38:41] Token null: No more results
+INFO  [2024-08-06 08:38:41] Extraction of pharmacy in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:38:41] Extraction of movie_theater in centroid 4 started
+INFO  [2024-08-06 08:38:46] Extraction of movie_theater in centroid 4 completed in 0 iterations
+INFO  [2024-08-06 08:38:46] Extraction of museum in centroid 4 started
+INFO  [2024-08-06 08:38:51] Iteration number: 1
+INFO  [2024-08-06 08:38:51] Token null: No more results
+INFO  [2024-08-06 08:38:51] Extraction of museum in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:38:51] Extraction of night_club in centroid 4 started
+INFO  [2024-08-06 08:38:55] Iteration number: 1
+INFO  [2024-08-06 08:38:55] Token null: No more results
+INFO  [2024-08-06 08:38:55] Extraction of night_club in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:38:55] Extraction of park in centroid 4 started
+INFO  [2024-08-06 08:39:00] Iteration number: 1
+INFO  [2024-08-06 08:39:00] Token null: No more results
+INFO  [2024-08-06 08:39:00] Extraction of park in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:39:00] Extraction of parking in centroid 4 started
+INFO  [2024-08-06 08:39:05] Iteration number: 1
+INFO  [2024-08-06 08:39:10] Iteration number: 2
+INFO  [2024-08-06 08:39:10] Token null: No more results
+INFO  [2024-08-06 08:39:10] Extraction of parking in centroid 4 completed in 2 iterations
+INFO  [2024-08-06 08:39:10] Extraction of liquor_store in centroid 4 started
+INFO  [2024-08-06 08:39:15] Iteration number: 1
+INFO  [2024-08-06 08:39:15] Token null: No more results
+INFO  [2024-08-06 08:39:15] Extraction of liquor_store in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:39:15] Extraction of hospital in centroid 4 started
+INFO  [2024-08-06 08:39:20] Iteration number: 1
+INFO  [2024-08-06 08:39:25] Iteration number: 2
+INFO  [2024-08-06 08:39:25] Token null: No more results
+INFO  [2024-08-06 08:39:25] Extraction of hospital in centroid 4 completed in 2 iterations
+INFO  [2024-08-06 08:39:25] Extraction of doctor in centroid 4 started
+INFO  [2024-08-06 08:39:30] Iteration number: 1
+INFO  [2024-08-06 08:39:35] Iteration number: 2
+INFO  [2024-08-06 08:39:40] Iteration number: 3
+INFO  [2024-08-06 08:39:40] Token null: No more results
+INFO  [2024-08-06 08:39:40] Extraction of doctor in centroid 4 completed in 3 iterations
+INFO  [2024-08-06 08:39:40] Extraction of dentist in centroid 4 started
+INFO  [2024-08-06 08:39:45] Iteration number: 1
+INFO  [2024-08-06 08:39:50] Iteration number: 2
+INFO  [2024-08-06 08:39:50] Token null: No more results
+INFO  [2024-08-06 08:39:50] Extraction of dentist in centroid 4 completed in 2 iterations
+INFO  [2024-08-06 08:39:50] Extraction of book_store in centroid 4 started
+INFO  [2024-08-06 08:39:55] Iteration number: 1
+INFO  [2024-08-06 08:39:55] Token null: No more results
+INFO  [2024-08-06 08:39:55] Extraction of book_store in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:39:55] Extraction of bank in centroid 4 started
+INFO  [2024-08-06 08:40:00] Iteration number: 1
+INFO  [2024-08-06 08:40:00] Token null: No more results
+INFO  [2024-08-06 08:40:00] Extraction of bank in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:40:00] Extraction of gas_station in centroid 4 started
+INFO  [2024-08-06 08:40:05] Extraction of gas_station in centroid 4 completed in 0 iterations
+INFO  [2024-08-06 08:40:05] Extraction of art_gallery in centroid 4 started
+INFO  [2024-08-06 08:40:09] Iteration number: 1
+INFO  [2024-08-06 08:40:09] Token null: No more results
+INFO  [2024-08-06 08:40:09] Extraction of art_gallery in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:40:09] Extraction of travel_agency in centroid 4 started
+INFO  [2024-08-06 08:40:14] Iteration number: 1
+INFO  [2024-08-06 08:40:19] Iteration number: 2
+INFO  [2024-08-06 08:40:19] Token null: No more results
+INFO  [2024-08-06 08:40:19] Extraction of travel_agency in centroid 4 completed in 2 iterations
+INFO  [2024-08-06 08:40:19] Extraction of convenience_store in centroid 4 started
+INFO  [2024-08-06 08:40:24] Iteration number: 1
+INFO  [2024-08-06 08:40:24] Token null: No more results
+INFO  [2024-08-06 08:40:24] Extraction of convenience_store in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:40:24] Extraction of bakery in centroid 4 started
+INFO  [2024-08-06 08:40:29] Iteration number: 1
+INFO  [2024-08-06 08:40:29] Token null: No more results
+INFO  [2024-08-06 08:40:29] Extraction of bakery in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:40:29] Extraction of bar in centroid 4 started
+INFO  [2024-08-06 08:40:34] Iteration number: 1
+INFO  [2024-08-06 08:40:39] Iteration number: 2
+INFO  [2024-08-06 08:40:39] Token null: No more results
+INFO  [2024-08-06 08:40:39] Extraction of bar in centroid 4 completed in 2 iterations
+INFO  [2024-08-06 08:40:39] Extraction of cafe in centroid 4 started
+INFO  [2024-08-06 08:40:44] Iteration number: 1
+INFO  [2024-08-06 08:40:49] Iteration number: 2
+INFO  [2024-08-06 08:40:49] Token null: No more results
+INFO  [2024-08-06 08:40:49] Extraction of cafe in centroid 4 completed in 2 iterations
+INFO  [2024-08-06 08:40:49] Extraction of meal_delivery in centroid 4 started
+INFO  [2024-08-06 08:40:53] Iteration number: 1
+INFO  [2024-08-06 08:40:53] Token null: No more results
+INFO  [2024-08-06 08:40:53] Extraction of meal_delivery in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:40:53] Extraction of meal_takeaway in centroid 4 started
+INFO  [2024-08-06 08:40:58] Iteration number: 1
+INFO  [2024-08-06 08:40:58] Token null: No more results
+INFO  [2024-08-06 08:40:58] Extraction of meal_takeaway in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:40:58] Extraction of restaurant in centroid 4 started
+INFO  [2024-08-06 08:41:04] Iteration number: 1
+INFO  [2024-08-06 08:41:08] Iteration number: 2
+INFO  [2024-08-06 08:41:14] Iteration number: 3
+INFO  [2024-08-06 08:41:14] Token null: No more results
+INFO  [2024-08-06 08:41:14] Extraction of restaurant in centroid 4 completed in 3 iterations
+INFO  [2024-08-06 08:41:14] Extraction of store in centroid 4 started
+INFO  [2024-08-06 08:41:19] Iteration number: 1
+INFO  [2024-08-06 08:41:24] Iteration number: 2
+INFO  [2024-08-06 08:41:29] Iteration number: 3
+INFO  [2024-08-06 08:41:29] Token null: No more results
+INFO  [2024-08-06 08:41:29] Extraction of store in centroid 4 completed in 3 iterations
+INFO  [2024-08-06 08:41:29] Extraction of department_store in centroid 4 started
+INFO  [2024-08-06 08:41:33] Extraction of department_store in centroid 4 completed in 0 iterations
+INFO  [2024-08-06 08:41:33] Extraction of atm in centroid 4 started
+INFO  [2024-08-06 08:41:38] Iteration number: 1
+INFO  [2024-08-06 08:41:38] Token null: No more results
+INFO  [2024-08-06 08:41:38] Extraction of atm in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:41:38] Extraction of drugstore in centroid 4 started
+INFO  [2024-08-06 08:41:43] Iteration number: 1
+INFO  [2024-08-06 08:41:43] Token null: No more results
+INFO  [2024-08-06 08:41:43] Extraction of drugstore in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:41:43] Extraction of laundry in centroid 4 started
+INFO  [2024-08-06 08:41:48] Iteration number: 1
+INFO  [2024-08-06 08:41:48] Token null: No more results
+INFO  [2024-08-06 08:41:48] Extraction of laundry in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:41:48] Extraction of insurance_agency in centroid 4 started
+INFO  [2024-08-06 08:41:53] Iteration number: 1
+INFO  [2024-08-06 08:41:58] Iteration number: 2
+INFO  [2024-08-06 08:41:58] Token null: No more results
+INFO  [2024-08-06 08:41:58] Extraction of insurance_agency in centroid 4 completed in 2 iterations
+INFO  [2024-08-06 08:41:58] Extraction of lodging in centroid 4 started
+INFO  [2024-08-06 08:42:03] Iteration number: 1
+INFO  [2024-08-06 08:42:08] Iteration number: 2
+INFO  [2024-08-06 08:42:13] Iteration number: 3
+INFO  [2024-08-06 08:42:13] Token null: No more results
+INFO  [2024-08-06 08:42:13] Extraction of lodging in centroid 4 completed in 3 iterations
+INFO  [2024-08-06 08:42:13] Extraction of beauty_salon in centroid 4 started
+INFO  [2024-08-06 08:42:18] Iteration number: 1
+INFO  [2024-08-06 08:42:24] Iteration number: 2
+INFO  [2024-08-06 08:42:24] Token null: No more results
+INFO  [2024-08-06 08:42:24] Extraction of beauty_salon in centroid 4 completed in 2 iterations
+INFO  [2024-08-06 08:42:24] Extraction of clothing_store in centroid 4 started
+INFO  [2024-08-06 08:42:29] Iteration number: 1
+INFO  [2024-08-06 08:42:34] Iteration number: 2
+INFO  [2024-08-06 08:42:39] Iteration number: 3
+INFO  [2024-08-06 08:42:39] Token null: No more results
+INFO  [2024-08-06 08:42:39] Extraction of clothing_store in centroid 4 completed in 3 iterations
+INFO  [2024-08-06 08:42:39] Extraction of electronics_store in centroid 4 started
+INFO  [2024-08-06 08:42:44] Iteration number: 1
+INFO  [2024-08-06 08:42:44] Token null: No more results
+INFO  [2024-08-06 08:42:44] Extraction of electronics_store in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:42:44] Extraction of fire_station in centroid 4 started
+INFO  [2024-08-06 08:42:49] Iteration number: 1
+INFO  [2024-08-06 08:42:49] Token null: No more results
+INFO  [2024-08-06 08:42:49] Extraction of fire_station in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:42:49] Extraction of florist in centroid 4 started
+INFO  [2024-08-06 08:42:53] Iteration number: 1
+INFO  [2024-08-06 08:42:53] Token null: No more results
+INFO  [2024-08-06 08:42:53] Extraction of florist in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:42:53] Extraction of furniture_store in centroid 4 started
+INFO  [2024-08-06 08:42:58] Iteration number: 1
+INFO  [2024-08-06 08:42:58] Token null: No more results
+INFO  [2024-08-06 08:42:58] Extraction of furniture_store in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:42:58] Extraction of gym in centroid 4 started
+INFO  [2024-08-06 08:43:03] Iteration number: 1
+INFO  [2024-08-06 08:43:03] Token null: No more results
+INFO  [2024-08-06 08:43:03] Extraction of gym in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:43:03] Extraction of hair_care in centroid 4 started
+INFO  [2024-08-06 08:43:09] Iteration number: 1
+INFO  [2024-08-06 08:43:14] Iteration number: 2
+INFO  [2024-08-06 08:43:14] Token null: No more results
+INFO  [2024-08-06 08:43:14] Extraction of hair_care in centroid 4 completed in 2 iterations
+INFO  [2024-08-06 08:43:14] Extraction of hardware_store in centroid 4 started
+INFO  [2024-08-06 08:43:19] Iteration number: 1
+INFO  [2024-08-06 08:43:19] Token null: No more results
+INFO  [2024-08-06 08:43:19] Extraction of hardware_store in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:43:19] Extraction of home_goods_store in centroid 4 started
+INFO  [2024-08-06 08:43:23] Iteration number: 1
+INFO  [2024-08-06 08:43:23] Token null: No more results
+INFO  [2024-08-06 08:43:23] Extraction of home_goods_store in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:43:23] Extraction of jewelry_store in centroid 4 started
+INFO  [2024-08-06 08:43:28] Iteration number: 1
+INFO  [2024-08-06 08:43:28] Token null: No more results
+INFO  [2024-08-06 08:43:28] Extraction of jewelry_store in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:43:28] Extraction of library in centroid 4 started
+INFO  [2024-08-06 08:43:33] Iteration number: 1
+INFO  [2024-08-06 08:43:33] Token null: No more results
+INFO  [2024-08-06 08:43:33] Extraction of library in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:43:33] Extraction of locksmith in centroid 4 started
+INFO  [2024-08-06 08:43:38] Iteration number: 1
+INFO  [2024-08-06 08:43:38] Token null: No more results
+INFO  [2024-08-06 08:43:38] Extraction of locksmith in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:43:38] Extraction of painter in centroid 4 started
+INFO  [2024-08-06 08:43:43] Extraction of painter in centroid 4 completed in 0 iterations
+INFO  [2024-08-06 08:43:43] Extraction of pet_store in centroid 4 started
+INFO  [2024-08-06 08:43:47] Extraction of pet_store in centroid 4 completed in 0 iterations
+INFO  [2024-08-06 08:43:47] Extraction of plumber in centroid 4 started
+INFO  [2024-08-06 08:43:52] Iteration number: 1
+INFO  [2024-08-06 08:43:52] Token null: No more results
+INFO  [2024-08-06 08:43:52] Extraction of plumber in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:43:52] Extraction of post_office in centroid 4 started
+INFO  [2024-08-06 08:43:57] Iteration number: 1
+INFO  [2024-08-06 08:43:57] Token null: No more results
+INFO  [2024-08-06 08:43:57] Extraction of post_office in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:43:57] Extraction of real_estate_agency in centroid 4 started
+INFO  [2024-08-06 08:44:02] Iteration number: 1
+INFO  [2024-08-06 08:44:07] Iteration number: 2
+INFO  [2024-08-06 08:44:07] Token null: No more results
+INFO  [2024-08-06 08:44:07] Extraction of real_estate_agency in centroid 4 completed in 2 iterations
+INFO  [2024-08-06 08:44:07] Extraction of shoe_store in centroid 4 started
+INFO  [2024-08-06 08:44:12] Iteration number: 1
+INFO  [2024-08-06 08:44:12] Token null: No more results
+INFO  [2024-08-06 08:44:12] Extraction of shoe_store in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:44:12] Extraction of storage in centroid 4 started
+INFO  [2024-08-06 08:44:17] Iteration number: 1
+INFO  [2024-08-06 08:44:17] Token null: No more results
+INFO  [2024-08-06 08:44:17] Extraction of storage in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:44:17] Extraction of veterinary_care in centroid 4 started
+INFO  [2024-08-06 08:44:22] Iteration number: 1
+INFO  [2024-08-06 08:44:22] Token null: No more results
+INFO  [2024-08-06 08:44:22] Extraction of veterinary_care in centroid 4 completed in 1 iterations
+INFO  [2024-08-06 08:44:22] Extraction of police in centroid 5 started
+INFO  [2024-08-06 08:44:26] Extraction of police in centroid 5 completed in 0 iterations
+INFO  [2024-08-06 08:44:26] Extraction of car_dealer in centroid 5 started
+INFO  [2024-08-06 08:44:31] Iteration number: 1
+INFO  [2024-08-06 08:44:31] Token null: No more results
+INFO  [2024-08-06 08:44:31] Extraction of car_dealer in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:44:31] Extraction of car_rental in centroid 5 started
+INFO  [2024-08-06 08:44:37] Iteration number: 1
+INFO  [2024-08-06 08:44:37] Token null: No more results
+INFO  [2024-08-06 08:44:37] Extraction of car_rental in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:44:37] Extraction of casino in centroid 5 started
+INFO  [2024-08-06 08:44:41] Extraction of casino in centroid 5 completed in 0 iterations
+INFO  [2024-08-06 08:44:41] Extraction of church in centroid 5 started
+INFO  [2024-08-06 08:44:46] Iteration number: 1
+INFO  [2024-08-06 08:44:46] Token null: No more results
+INFO  [2024-08-06 08:44:46] Extraction of church in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:44:46] Extraction of supermarket in centroid 5 started
+INFO  [2024-08-06 08:44:51] Iteration number: 1
+INFO  [2024-08-06 08:44:51] Token null: No more results
+INFO  [2024-08-06 08:44:51] Extraction of supermarket in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:44:51] Extraction of tourist_attraction in centroid 5 started
+INFO  [2024-08-06 08:44:56] Iteration number: 1
+INFO  [2024-08-06 08:44:56] Token null: No more results
+INFO  [2024-08-06 08:44:56] Extraction of tourist_attraction in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:44:56] Extraction of shopping_mall in centroid 5 started
+INFO  [2024-08-06 08:45:01] Iteration number: 1
+INFO  [2024-08-06 08:45:01] Token null: No more results
+INFO  [2024-08-06 08:45:01] Extraction of shopping_mall in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:45:01] Extraction of spa in centroid 5 started
+INFO  [2024-08-06 08:45:06] Iteration number: 1
+INFO  [2024-08-06 08:45:06] Token null: No more results
+INFO  [2024-08-06 08:45:06] Extraction of spa in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:45:06] Extraction of stadium in centroid 5 started
+INFO  [2024-08-06 08:45:10] Extraction of stadium in centroid 5 completed in 0 iterations
+INFO  [2024-08-06 08:45:10] Extraction of pharmacy in centroid 5 started
+INFO  [2024-08-06 08:45:15] Iteration number: 1
+INFO  [2024-08-06 08:45:15] Token null: No more results
+INFO  [2024-08-06 08:45:15] Extraction of pharmacy in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:45:15] Extraction of movie_theater in centroid 5 started
+INFO  [2024-08-06 08:45:20] Iteration number: 1
+INFO  [2024-08-06 08:45:20] Token null: No more results
+INFO  [2024-08-06 08:45:20] Extraction of movie_theater in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:45:20] Extraction of museum in centroid 5 started
+INFO  [2024-08-06 08:45:25] Iteration number: 1
+INFO  [2024-08-06 08:45:25] Token null: No more results
+INFO  [2024-08-06 08:45:25] Extraction of museum in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:45:25] Extraction of night_club in centroid 5 started
+INFO  [2024-08-06 08:45:30] Iteration number: 1
+INFO  [2024-08-06 08:45:30] Token null: No more results
+INFO  [2024-08-06 08:45:30] Extraction of night_club in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:45:30] Extraction of park in centroid 5 started
+INFO  [2024-08-06 08:45:35] Iteration number: 1
+INFO  [2024-08-06 08:45:35] Token null: No more results
+INFO  [2024-08-06 08:45:35] Extraction of park in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:45:35] Extraction of parking in centroid 5 started
+INFO  [2024-08-06 08:45:40] Iteration number: 1
+INFO  [2024-08-06 08:45:45] Iteration number: 2
+INFO  [2024-08-06 08:45:50] Iteration number: 3
+INFO  [2024-08-06 08:45:50] Token null: No more results
+INFO  [2024-08-06 08:45:50] Extraction of parking in centroid 5 completed in 3 iterations
+INFO  [2024-08-06 08:45:50] Extraction of liquor_store in centroid 5 started
+INFO  [2024-08-06 08:45:55] Iteration number: 1
+INFO  [2024-08-06 08:45:55] Token null: No more results
+INFO  [2024-08-06 08:45:55] Extraction of liquor_store in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:45:55] Extraction of hospital in centroid 5 started
+INFO  [2024-08-06 08:46:00] Iteration number: 1
+INFO  [2024-08-06 08:46:05] Iteration number: 2
+INFO  [2024-08-06 08:46:05] Token null: No more results
+INFO  [2024-08-06 08:46:05] Extraction of hospital in centroid 5 completed in 2 iterations
+INFO  [2024-08-06 08:46:05] Extraction of doctor in centroid 5 started
+INFO  [2024-08-06 08:46:11] Iteration number: 1
+INFO  [2024-08-06 08:46:16] Iteration number: 2
+INFO  [2024-08-06 08:46:21] Iteration number: 3
+INFO  [2024-08-06 08:46:21] Token null: No more results
+INFO  [2024-08-06 08:46:21] Extraction of doctor in centroid 5 completed in 3 iterations
+INFO  [2024-08-06 08:46:21] Extraction of dentist in centroid 5 started
+INFO  [2024-08-06 08:46:26] Iteration number: 1
+INFO  [2024-08-06 08:46:31] Iteration number: 2
+INFO  [2024-08-06 08:46:31] Token null: No more results
+INFO  [2024-08-06 08:46:31] Extraction of dentist in centroid 5 completed in 2 iterations
+INFO  [2024-08-06 08:46:31] Extraction of book_store in centroid 5 started
+INFO  [2024-08-06 08:46:36] Iteration number: 1
+INFO  [2024-08-06 08:46:41] Iteration number: 2
+INFO  [2024-08-06 08:46:41] Token null: No more results
+INFO  [2024-08-06 08:46:41] Extraction of book_store in centroid 5 completed in 2 iterations
+INFO  [2024-08-06 08:46:41] Extraction of bank in centroid 5 started
+INFO  [2024-08-06 08:46:46] Iteration number: 1
+INFO  [2024-08-06 08:46:46] Token null: No more results
+INFO  [2024-08-06 08:46:46] Extraction of bank in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:46:46] Extraction of gas_station in centroid 5 started
+INFO  [2024-08-06 08:46:51] Iteration number: 1
+INFO  [2024-08-06 08:46:51] Token null: No more results
+INFO  [2024-08-06 08:46:51] Extraction of gas_station in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:46:51] Extraction of art_gallery in centroid 5 started
+INFO  [2024-08-06 08:46:56] Iteration number: 1
+INFO  [2024-08-06 08:46:56] Token null: No more results
+INFO  [2024-08-06 08:46:56] Extraction of art_gallery in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:46:56] Extraction of travel_agency in centroid 5 started
+INFO  [2024-08-06 08:47:01] Iteration number: 1
+INFO  [2024-08-06 08:47:06] Iteration number: 2
+INFO  [2024-08-06 08:47:11] Iteration number: 3
+INFO  [2024-08-06 08:47:11] Token null: No more results
+INFO  [2024-08-06 08:47:11] Extraction of travel_agency in centroid 5 completed in 3 iterations
+INFO  [2024-08-06 08:47:11] Extraction of convenience_store in centroid 5 started
+INFO  [2024-08-06 08:47:16] Iteration number: 1
+INFO  [2024-08-06 08:47:16] Token null: No more results
+INFO  [2024-08-06 08:47:16] Extraction of convenience_store in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:47:16] Extraction of bakery in centroid 5 started
+INFO  [2024-08-06 08:47:21] Iteration number: 1
+INFO  [2024-08-06 08:47:21] Token null: No more results
+INFO  [2024-08-06 08:47:21] Extraction of bakery in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:47:21] Extraction of bar in centroid 5 started
+INFO  [2024-08-06 08:47:26] Iteration number: 1
+INFO  [2024-08-06 08:47:26] Token null: No more results
+INFO  [2024-08-06 08:47:26] Extraction of bar in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:47:26] Extraction of cafe in centroid 5 started
+INFO  [2024-08-06 08:47:31] Iteration number: 1
+INFO  [2024-08-06 08:47:36] Iteration number: 2
+INFO  [2024-08-06 08:47:41] Iteration number: 3
+INFO  [2024-08-06 08:47:41] Token null: No more results
+INFO  [2024-08-06 08:47:41] Extraction of cafe in centroid 5 completed in 3 iterations
+INFO  [2024-08-06 08:47:41] Extraction of meal_delivery in centroid 5 started
+INFO  [2024-08-06 08:47:46] Iteration number: 1
+INFO  [2024-08-06 08:47:46] Token null: No more results
+INFO  [2024-08-06 08:47:46] Extraction of meal_delivery in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:47:46] Extraction of meal_takeaway in centroid 5 started
+INFO  [2024-08-06 08:47:51] Iteration number: 1
+INFO  [2024-08-06 08:47:51] Token null: No more results
+INFO  [2024-08-06 08:47:51] Extraction of meal_takeaway in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:47:51] Extraction of restaurant in centroid 5 started
+INFO  [2024-08-06 08:47:56] Iteration number: 1
+INFO  [2024-08-06 08:48:01] Iteration number: 2
+INFO  [2024-08-06 08:48:07] Iteration number: 3
+INFO  [2024-08-06 08:48:07] Token null: No more results
+INFO  [2024-08-06 08:48:07] Extraction of restaurant in centroid 5 completed in 3 iterations
+INFO  [2024-08-06 08:48:07] Extraction of store in centroid 5 started
+INFO  [2024-08-06 08:48:12] Iteration number: 1
+INFO  [2024-08-06 08:48:17] Iteration number: 2
+INFO  [2024-08-06 08:48:22] Iteration number: 3
+INFO  [2024-08-06 08:48:22] Token null: No more results
+INFO  [2024-08-06 08:48:22] Extraction of store in centroid 5 completed in 3 iterations
+INFO  [2024-08-06 08:48:22] Extraction of department_store in centroid 5 started
+INFO  [2024-08-06 08:48:27] Iteration number: 1
+INFO  [2024-08-06 08:48:27] Token null: No more results
+INFO  [2024-08-06 08:48:27] Extraction of department_store in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:48:27] Extraction of atm in centroid 5 started
+INFO  [2024-08-06 08:48:32] Iteration number: 1
+INFO  [2024-08-06 08:48:32] Token null: No more results
+INFO  [2024-08-06 08:48:32] Extraction of atm in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:48:32] Extraction of drugstore in centroid 5 started
+INFO  [2024-08-06 08:48:36] Extraction of drugstore in centroid 5 completed in 0 iterations
+INFO  [2024-08-06 08:48:36] Extraction of laundry in centroid 5 started
+INFO  [2024-08-06 08:48:41] Iteration number: 1
+INFO  [2024-08-06 08:48:41] Token null: No more results
+INFO  [2024-08-06 08:48:41] Extraction of laundry in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:48:41] Extraction of insurance_agency in centroid 5 started
+INFO  [2024-08-06 08:48:46] Iteration number: 1
+INFO  [2024-08-06 08:48:51] Iteration number: 2
+INFO  [2024-08-06 08:48:51] Token null: No more results
+INFO  [2024-08-06 08:48:51] Extraction of insurance_agency in centroid 5 completed in 2 iterations
+INFO  [2024-08-06 08:48:51] Extraction of lodging in centroid 5 started
+INFO  [2024-08-06 08:48:57] Iteration number: 1
+INFO  [2024-08-06 08:49:02] Iteration number: 2
+INFO  [2024-08-06 08:49:07] Iteration number: 3
+INFO  [2024-08-06 08:49:07] Token null: No more results
+INFO  [2024-08-06 08:49:07] Extraction of lodging in centroid 5 completed in 3 iterations
+INFO  [2024-08-06 08:49:07] Extraction of beauty_salon in centroid 5 started
+INFO  [2024-08-06 08:49:12] Iteration number: 1
+INFO  [2024-08-06 08:49:17] Iteration number: 2
+INFO  [2024-08-06 08:49:22] Iteration number: 3
+INFO  [2024-08-06 08:49:22] Token null: No more results
+INFO  [2024-08-06 08:49:22] Extraction of beauty_salon in centroid 5 completed in 3 iterations
+INFO  [2024-08-06 08:49:22] Extraction of clothing_store in centroid 5 started
+INFO  [2024-08-06 08:49:27] Iteration number: 1
+INFO  [2024-08-06 08:49:32] Iteration number: 2
+INFO  [2024-08-06 08:49:37] Iteration number: 3
+INFO  [2024-08-06 08:49:37] Token null: No more results
+INFO  [2024-08-06 08:49:37] Extraction of clothing_store in centroid 5 completed in 3 iterations
+INFO  [2024-08-06 08:49:37] Extraction of electronics_store in centroid 5 started
+INFO  [2024-08-06 08:49:42] Iteration number: 1
+INFO  [2024-08-06 08:49:42] Token null: No more results
+INFO  [2024-08-06 08:49:42] Extraction of electronics_store in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:49:42] Extraction of fire_station in centroid 5 started
+INFO  [2024-08-06 08:49:47] Extraction of fire_station in centroid 5 completed in 0 iterations
+INFO  [2024-08-06 08:49:47] Extraction of florist in centroid 5 started
+INFO  [2024-08-06 08:49:51] Iteration number: 1
+INFO  [2024-08-06 08:49:51] Token null: No more results
+INFO  [2024-08-06 08:49:51] Extraction of florist in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:49:51] Extraction of furniture_store in centroid 5 started
+INFO  [2024-08-06 08:49:57] Iteration number: 1
+INFO  [2024-08-06 08:49:57] Token null: No more results
+INFO  [2024-08-06 08:49:57] Extraction of furniture_store in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:49:57] Extraction of gym in centroid 5 started
+INFO  [2024-08-06 08:50:02] Iteration number: 1
+INFO  [2024-08-06 08:50:02] Token null: No more results
+INFO  [2024-08-06 08:50:02] Extraction of gym in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:50:02] Extraction of hair_care in centroid 5 started
+INFO  [2024-08-06 08:50:07] Iteration number: 1
+INFO  [2024-08-06 08:50:12] Iteration number: 2
+INFO  [2024-08-06 08:50:17] Iteration number: 3
+INFO  [2024-08-06 08:50:17] Token null: No more results
+INFO  [2024-08-06 08:50:17] Extraction of hair_care in centroid 5 completed in 3 iterations
+INFO  [2024-08-06 08:50:17] Extraction of hardware_store in centroid 5 started
+INFO  [2024-08-06 08:50:22] Iteration number: 1
+INFO  [2024-08-06 08:50:22] Token null: No more results
+INFO  [2024-08-06 08:50:22] Extraction of hardware_store in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:50:22] Extraction of home_goods_store in centroid 5 started
+INFO  [2024-08-06 08:50:27] Iteration number: 1
+INFO  [2024-08-06 08:50:32] Iteration number: 2
+INFO  [2024-08-06 08:50:32] Token null: No more results
+INFO  [2024-08-06 08:50:32] Extraction of home_goods_store in centroid 5 completed in 2 iterations
+INFO  [2024-08-06 08:50:32] Extraction of jewelry_store in centroid 5 started
+INFO  [2024-08-06 08:50:37] Iteration number: 1
+INFO  [2024-08-06 08:50:37] Token null: No more results
+INFO  [2024-08-06 08:50:37] Extraction of jewelry_store in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:50:37] Extraction of library in centroid 5 started
+INFO  [2024-08-06 08:50:42] Iteration number: 1
+INFO  [2024-08-06 08:50:42] Token null: No more results
+INFO  [2024-08-06 08:50:42] Extraction of library in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:50:42] Extraction of locksmith in centroid 5 started
+INFO  [2024-08-06 08:50:47] Iteration number: 1
+INFO  [2024-08-06 08:50:47] Token null: No more results
+INFO  [2024-08-06 08:50:47] Extraction of locksmith in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:50:47] Extraction of painter in centroid 5 started
+INFO  [2024-08-06 08:50:52] Extraction of painter in centroid 5 completed in 0 iterations
+INFO  [2024-08-06 08:50:52] Extraction of pet_store in centroid 5 started
+INFO  [2024-08-06 08:50:56] Extraction of pet_store in centroid 5 completed in 0 iterations
+INFO  [2024-08-06 08:50:56] Extraction of plumber in centroid 5 started
+INFO  [2024-08-06 08:51:01] Iteration number: 1
+INFO  [2024-08-06 08:51:01] Token null: No more results
+INFO  [2024-08-06 08:51:01] Extraction of plumber in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:51:01] Extraction of post_office in centroid 5 started
+INFO  [2024-08-06 08:51:06] Iteration number: 1
+INFO  [2024-08-06 08:51:06] Token null: No more results
+INFO  [2024-08-06 08:51:06] Extraction of post_office in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:51:06] Extraction of real_estate_agency in centroid 5 started
+INFO  [2024-08-06 08:51:11] Iteration number: 1
+INFO  [2024-08-06 08:51:16] Iteration number: 2
+INFO  [2024-08-06 08:51:21] Iteration number: 3
+INFO  [2024-08-06 08:51:21] Token null: No more results
+INFO  [2024-08-06 08:51:21] Extraction of real_estate_agency in centroid 5 completed in 3 iterations
+INFO  [2024-08-06 08:51:21] Extraction of shoe_store in centroid 5 started
+INFO  [2024-08-06 08:51:26] Iteration number: 1
+INFO  [2024-08-06 08:51:26] Token null: No more results
+INFO  [2024-08-06 08:51:26] Extraction of shoe_store in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:51:26] Extraction of storage in centroid 5 started
+INFO  [2024-08-06 08:51:32] Iteration number: 1
+INFO  [2024-08-06 08:51:32] Token null: No more results
+INFO  [2024-08-06 08:51:32] Extraction of storage in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:51:32] Extraction of veterinary_care in centroid 5 started
+INFO  [2024-08-06 08:51:36] Iteration number: 1
+INFO  [2024-08-06 08:51:36] Token null: No more results
+INFO  [2024-08-06 08:51:36] Extraction of veterinary_care in centroid 5 completed in 1 iterations
+INFO  [2024-08-06 08:51:36] Extraction of police in centroid 6 started
+INFO  [2024-08-06 08:51:41] Iteration number: 1
+INFO  [2024-08-06 08:51:41] Token null: No more results
+INFO  [2024-08-06 08:51:41] Extraction of police in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:51:41] Extraction of car_dealer in centroid 6 started
+INFO  [2024-08-06 08:51:46] Extraction of car_dealer in centroid 6 completed in 0 iterations
+INFO  [2024-08-06 08:51:46] Extraction of car_rental in centroid 6 started
+INFO  [2024-08-06 08:51:51] Iteration number: 1
+INFO  [2024-08-06 08:51:51] Token null: No more results
+INFO  [2024-08-06 08:51:51] Extraction of car_rental in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:51:51] Extraction of casino in centroid 6 started
+INFO  [2024-08-06 08:51:56] Iteration number: 1
+INFO  [2024-08-06 08:51:56] Token null: No more results
+INFO  [2024-08-06 08:51:56] Extraction of casino in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:51:56] Extraction of church in centroid 6 started
+INFO  [2024-08-06 08:52:01] Iteration number: 1
+INFO  [2024-08-06 08:52:01] Token null: No more results
+INFO  [2024-08-06 08:52:01] Extraction of church in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:52:01] Extraction of supermarket in centroid 6 started
+INFO  [2024-08-06 08:52:06] Iteration number: 1
+INFO  [2024-08-06 08:52:06] Token null: No more results
+INFO  [2024-08-06 08:52:06] Extraction of supermarket in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:52:06] Extraction of tourist_attraction in centroid 6 started
+INFO  [2024-08-06 08:52:11] Iteration number: 1
+INFO  [2024-08-06 08:52:11] Token null: No more results
+INFO  [2024-08-06 08:52:11] Extraction of tourist_attraction in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:52:11] Extraction of shopping_mall in centroid 6 started
+INFO  [2024-08-06 08:52:16] Iteration number: 1
+INFO  [2024-08-06 08:52:16] Token null: No more results
+INFO  [2024-08-06 08:52:16] Extraction of shopping_mall in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:52:16] Extraction of spa in centroid 6 started
+INFO  [2024-08-06 08:52:21] Iteration number: 1
+INFO  [2024-08-06 08:52:21] Token null: No more results
+INFO  [2024-08-06 08:52:21] Extraction of spa in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:52:21] Extraction of stadium in centroid 6 started
+INFO  [2024-08-06 08:52:26] Extraction of stadium in centroid 6 completed in 0 iterations
+INFO  [2024-08-06 08:52:26] Extraction of pharmacy in centroid 6 started
+INFO  [2024-08-06 08:52:30] Iteration number: 1
+INFO  [2024-08-06 08:52:30] Token null: No more results
+INFO  [2024-08-06 08:52:30] Extraction of pharmacy in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:52:30] Extraction of movie_theater in centroid 6 started
+INFO  [2024-08-06 08:52:35] Iteration number: 1
+INFO  [2024-08-06 08:52:35] Token null: No more results
+INFO  [2024-08-06 08:52:35] Extraction of movie_theater in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:52:35] Extraction of museum in centroid 6 started
+INFO  [2024-08-06 08:52:40] Iteration number: 1
+INFO  [2024-08-06 08:52:40] Token null: No more results
+INFO  [2024-08-06 08:52:40] Extraction of museum in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:52:40] Extraction of night_club in centroid 6 started
+INFO  [2024-08-06 08:52:45] Iteration number: 1
+INFO  [2024-08-06 08:52:45] Token null: No more results
+INFO  [2024-08-06 08:52:45] Extraction of night_club in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:52:45] Extraction of park in centroid 6 started
+INFO  [2024-08-06 08:52:50] Iteration number: 1
+INFO  [2024-08-06 08:52:50] Token null: No more results
+INFO  [2024-08-06 08:52:50] Extraction of park in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:52:50] Extraction of parking in centroid 6 started
+INFO  [2024-08-06 08:52:55] Iteration number: 1
+INFO  [2024-08-06 08:53:00] Iteration number: 2
+INFO  [2024-08-06 08:53:00] Token null: No more results
+INFO  [2024-08-06 08:53:00] Extraction of parking in centroid 6 completed in 2 iterations
+INFO  [2024-08-06 08:53:00] Extraction of liquor_store in centroid 6 started
+INFO  [2024-08-06 08:53:05] Iteration number: 1
+INFO  [2024-08-06 08:53:10] Iteration number: 2
+INFO  [2024-08-06 08:53:10] Token null: No more results
+INFO  [2024-08-06 08:53:10] Extraction of liquor_store in centroid 6 completed in 2 iterations
+INFO  [2024-08-06 08:53:10] Extraction of hospital in centroid 6 started
+INFO  [2024-08-06 08:53:15] Iteration number: 1
+INFO  [2024-08-06 08:53:20] Iteration number: 2
+INFO  [2024-08-06 08:53:20] Token null: No more results
+INFO  [2024-08-06 08:53:20] Extraction of hospital in centroid 6 completed in 2 iterations
+INFO  [2024-08-06 08:53:20] Extraction of doctor in centroid 6 started
+INFO  [2024-08-06 08:53:25] Iteration number: 1
+INFO  [2024-08-06 08:53:30] Iteration number: 2
+INFO  [2024-08-06 08:53:36] Iteration number: 3
+INFO  [2024-08-06 08:53:36] Token null: No more results
+INFO  [2024-08-06 08:53:36] Extraction of doctor in centroid 6 completed in 3 iterations
+INFO  [2024-08-06 08:53:36] Extraction of dentist in centroid 6 started
+INFO  [2024-08-06 08:53:41] Iteration number: 1
+INFO  [2024-08-06 08:53:46] Iteration number: 2
+INFO  [2024-08-06 08:53:46] Token null: No more results
+INFO  [2024-08-06 08:53:46] Extraction of dentist in centroid 6 completed in 2 iterations
+INFO  [2024-08-06 08:53:46] Extraction of book_store in centroid 6 started
+INFO  [2024-08-06 08:53:51] Iteration number: 1
+INFO  [2024-08-06 08:53:51] Token null: No more results
+INFO  [2024-08-06 08:53:51] Extraction of book_store in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:53:51] Extraction of bank in centroid 6 started
+INFO  [2024-08-06 08:53:56] Iteration number: 1
+INFO  [2024-08-06 08:53:56] Token null: No more results
+INFO  [2024-08-06 08:53:56] Extraction of bank in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:53:56] Extraction of gas_station in centroid 6 started
+INFO  [2024-08-06 08:54:00] Iteration number: 1
+INFO  [2024-08-06 08:54:00] Token null: No more results
+INFO  [2024-08-06 08:54:00] Extraction of gas_station in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:54:00] Extraction of art_gallery in centroid 6 started
+INFO  [2024-08-06 08:54:05] Iteration number: 1
+INFO  [2024-08-06 08:54:05] Token null: No more results
+INFO  [2024-08-06 08:54:05] Extraction of art_gallery in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:54:05] Extraction of travel_agency in centroid 6 started
+INFO  [2024-08-06 08:54:11] Iteration number: 1
+INFO  [2024-08-06 08:54:16] Iteration number: 2
+INFO  [2024-08-06 08:54:20] Iteration number: 3
+INFO  [2024-08-06 08:54:20] Token null: No more results
+INFO  [2024-08-06 08:54:20] Extraction of travel_agency in centroid 6 completed in 3 iterations
+INFO  [2024-08-06 08:54:20] Extraction of convenience_store in centroid 6 started
+INFO  [2024-08-06 08:54:25] Iteration number: 1
+INFO  [2024-08-06 08:54:25] Token null: No more results
+INFO  [2024-08-06 08:54:25] Extraction of convenience_store in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:54:25] Extraction of bakery in centroid 6 started
+INFO  [2024-08-06 08:54:30] Iteration number: 1
+INFO  [2024-08-06 08:54:30] Token null: No more results
+INFO  [2024-08-06 08:54:30] Extraction of bakery in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:54:30] Extraction of bar in centroid 6 started
+INFO  [2024-08-06 08:54:35] Iteration number: 1
+INFO  [2024-08-06 08:54:41] Iteration number: 2
+INFO  [2024-08-06 08:54:41] Token null: No more results
+INFO  [2024-08-06 08:54:41] Extraction of bar in centroid 6 completed in 2 iterations
+INFO  [2024-08-06 08:54:41] Extraction of cafe in centroid 6 started
+INFO  [2024-08-06 08:54:46] Iteration number: 1
+INFO  [2024-08-06 08:54:51] Iteration number: 2
+INFO  [2024-08-06 08:54:51] Token null: No more results
+INFO  [2024-08-06 08:54:51] Extraction of cafe in centroid 6 completed in 2 iterations
+INFO  [2024-08-06 08:54:51] Extraction of meal_delivery in centroid 6 started
+INFO  [2024-08-06 08:54:56] Iteration number: 1
+INFO  [2024-08-06 08:54:56] Token null: No more results
+INFO  [2024-08-06 08:54:56] Extraction of meal_delivery in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:54:56] Extraction of meal_takeaway in centroid 6 started
+INFO  [2024-08-06 08:55:01] Iteration number: 1
+INFO  [2024-08-06 08:55:01] Token null: No more results
+INFO  [2024-08-06 08:55:01] Extraction of meal_takeaway in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:55:01] Extraction of restaurant in centroid 6 started
+INFO  [2024-08-06 08:55:06] Iteration number: 1
+INFO  [2024-08-06 08:55:11] Iteration number: 2
+INFO  [2024-08-06 08:55:16] Iteration number: 3
+INFO  [2024-08-06 08:55:16] Token null: No more results
+INFO  [2024-08-06 08:55:16] Extraction of restaurant in centroid 6 completed in 3 iterations
+INFO  [2024-08-06 08:55:16] Extraction of store in centroid 6 started
+INFO  [2024-08-06 08:55:21] Iteration number: 1
+INFO  [2024-08-06 08:55:26] Iteration number: 2
+INFO  [2024-08-06 08:55:32] Iteration number: 3
+INFO  [2024-08-06 08:55:32] Token null: No more results
+INFO  [2024-08-06 08:55:32] Extraction of store in centroid 6 completed in 3 iterations
+INFO  [2024-08-06 08:55:32] Extraction of department_store in centroid 6 started
+INFO  [2024-08-06 08:55:36] Extraction of department_store in centroid 6 completed in 0 iterations
+INFO  [2024-08-06 08:55:36] Extraction of atm in centroid 6 started
+INFO  [2024-08-06 08:55:41] Iteration number: 1
+INFO  [2024-08-06 08:55:41] Token null: No more results
+INFO  [2024-08-06 08:55:41] Extraction of atm in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:55:41] Extraction of drugstore in centroid 6 started
+INFO  [2024-08-06 08:55:46] Extraction of drugstore in centroid 6 completed in 0 iterations
+INFO  [2024-08-06 08:55:46] Extraction of laundry in centroid 6 started
+INFO  [2024-08-06 08:55:51] Iteration number: 1
+INFO  [2024-08-06 08:55:51] Token null: No more results
+INFO  [2024-08-06 08:55:51] Extraction of laundry in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:55:51] Extraction of insurance_agency in centroid 6 started
+INFO  [2024-08-06 08:55:56] Iteration number: 1
+INFO  [2024-08-06 08:55:56] Token null: No more results
+INFO  [2024-08-06 08:55:56] Extraction of insurance_agency in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:55:56] Extraction of lodging in centroid 6 started
+INFO  [2024-08-06 08:56:01] Iteration number: 1
+INFO  [2024-08-06 08:56:06] Iteration number: 2
+INFO  [2024-08-06 08:56:12] Iteration number: 3
+INFO  [2024-08-06 08:56:12] Token null: No more results
+INFO  [2024-08-06 08:56:12] Extraction of lodging in centroid 6 completed in 3 iterations
+INFO  [2024-08-06 08:56:12] Extraction of beauty_salon in centroid 6 started
+INFO  [2024-08-06 08:56:17] Iteration number: 1
+INFO  [2024-08-06 08:56:22] Iteration number: 2
+INFO  [2024-08-06 08:56:22] Token null: No more results
+INFO  [2024-08-06 08:56:22] Extraction of beauty_salon in centroid 6 completed in 2 iterations
+INFO  [2024-08-06 08:56:22] Extraction of clothing_store in centroid 6 started
+INFO  [2024-08-06 08:56:27] Iteration number: 1
+INFO  [2024-08-06 08:56:32] Iteration number: 2
+INFO  [2024-08-06 08:56:32] Token null: No more results
+INFO  [2024-08-06 08:56:32] Extraction of clothing_store in centroid 6 completed in 2 iterations
+INFO  [2024-08-06 08:56:32] Extraction of electronics_store in centroid 6 started
+INFO  [2024-08-06 08:56:37] Iteration number: 1
+INFO  [2024-08-06 08:56:37] Token null: No more results
+INFO  [2024-08-06 08:56:37] Extraction of electronics_store in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:56:37] Extraction of fire_station in centroid 6 started
+INFO  [2024-08-06 08:56:42] Extraction of fire_station in centroid 6 completed in 0 iterations
+INFO  [2024-08-06 08:56:42] Extraction of florist in centroid 6 started
+INFO  [2024-08-06 08:56:46] Extraction of florist in centroid 6 completed in 0 iterations
+INFO  [2024-08-06 08:56:46] Extraction of furniture_store in centroid 6 started
+INFO  [2024-08-06 08:56:51] Iteration number: 1
+INFO  [2024-08-06 08:56:51] Token null: No more results
+INFO  [2024-08-06 08:56:51] Extraction of furniture_store in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:56:51] Extraction of gym in centroid 6 started
+INFO  [2024-08-06 08:56:56] Iteration number: 1
+INFO  [2024-08-06 08:56:56] Token null: No more results
+INFO  [2024-08-06 08:56:56] Extraction of gym in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:56:56] Extraction of hair_care in centroid 6 started
+INFO  [2024-08-06 08:57:01] Iteration number: 1
+INFO  [2024-08-06 08:57:06] Iteration number: 2
+INFO  [2024-08-06 08:57:06] Token null: No more results
+INFO  [2024-08-06 08:57:06] Extraction of hair_care in centroid 6 completed in 2 iterations
+INFO  [2024-08-06 08:57:06] Extraction of hardware_store in centroid 6 started
+INFO  [2024-08-06 08:57:11] Extraction of hardware_store in centroid 6 completed in 0 iterations
+INFO  [2024-08-06 08:57:11] Extraction of home_goods_store in centroid 6 started
+INFO  [2024-08-06 08:57:16] Iteration number: 1
+INFO  [2024-08-06 08:57:16] Token null: No more results
+INFO  [2024-08-06 08:57:16] Extraction of home_goods_store in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:57:16] Extraction of jewelry_store in centroid 6 started
+INFO  [2024-08-06 08:57:20] Iteration number: 1
+INFO  [2024-08-06 08:57:20] Token null: No more results
+INFO  [2024-08-06 08:57:20] Extraction of jewelry_store in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:57:20] Extraction of library in centroid 6 started
+INFO  [2024-08-06 08:57:25] Iteration number: 1
+INFO  [2024-08-06 08:57:25] Token null: No more results
+INFO  [2024-08-06 08:57:25] Extraction of library in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:57:25] Extraction of locksmith in centroid 6 started
+INFO  [2024-08-06 08:57:30] Iteration number: 1
+INFO  [2024-08-06 08:57:30] Token null: No more results
+INFO  [2024-08-06 08:57:30] Extraction of locksmith in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:57:30] Extraction of painter in centroid 6 started
+INFO  [2024-08-06 08:57:35] Iteration number: 1
+INFO  [2024-08-06 08:57:35] Token null: No more results
+INFO  [2024-08-06 08:57:35] Extraction of painter in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:57:35] Extraction of pet_store in centroid 6 started
+INFO  [2024-08-06 08:57:39] Extraction of pet_store in centroid 6 completed in 0 iterations
+INFO  [2024-08-06 08:57:39] Extraction of plumber in centroid 6 started
+INFO  [2024-08-06 08:57:44] Extraction of plumber in centroid 6 completed in 0 iterations
+INFO  [2024-08-06 08:57:44] Extraction of post_office in centroid 6 started
+INFO  [2024-08-06 08:57:48] Extraction of post_office in centroid 6 completed in 0 iterations
+INFO  [2024-08-06 08:57:48] Extraction of real_estate_agency in centroid 6 started
+INFO  [2024-08-06 08:57:54] Iteration number: 1
+INFO  [2024-08-06 08:57:59] Iteration number: 2
+INFO  [2024-08-06 08:57:59] Token null: No more results
+INFO  [2024-08-06 08:57:59] Extraction of real_estate_agency in centroid 6 completed in 2 iterations
+INFO  [2024-08-06 08:57:59] Extraction of shoe_store in centroid 6 started
+INFO  [2024-08-06 08:58:03] Iteration number: 1
+INFO  [2024-08-06 08:58:03] Token null: No more results
+INFO  [2024-08-06 08:58:03] Extraction of shoe_store in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:58:03] Extraction of storage in centroid 6 started
+INFO  [2024-08-06 08:58:08] Iteration number: 1
+INFO  [2024-08-06 08:58:08] Token null: No more results
+INFO  [2024-08-06 08:58:08] Extraction of storage in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:58:08] Extraction of veterinary_care in centroid 6 started
+INFO  [2024-08-06 08:58:13] Iteration number: 1
+INFO  [2024-08-06 08:58:13] Token null: No more results
+INFO  [2024-08-06 08:58:13] Extraction of veterinary_care in centroid 6 completed in 1 iterations
+INFO  [2024-08-06 08:58:13] Extraction of police in centroid 7 started
+INFO  [2024-08-06 08:58:18] Iteration number: 1
+INFO  [2024-08-06 08:58:18] Token null: No more results
+INFO  [2024-08-06 08:58:18] Extraction of police in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 08:58:18] Extraction of car_dealer in centroid 7 started
+INFO  [2024-08-06 08:58:22] Extraction of car_dealer in centroid 7 completed in 0 iterations
+INFO  [2024-08-06 08:58:22] Extraction of car_rental in centroid 7 started
+INFO  [2024-08-06 08:58:27] Iteration number: 1
+INFO  [2024-08-06 08:58:27] Token null: No more results
+INFO  [2024-08-06 08:58:27] Extraction of car_rental in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 08:58:27] Extraction of casino in centroid 7 started
+INFO  [2024-08-06 08:58:32] Iteration number: 1
+INFO  [2024-08-06 08:58:32] Token null: No more results
+INFO  [2024-08-06 08:58:32] Extraction of casino in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 08:58:32] Extraction of church in centroid 7 started
+INFO  [2024-08-06 08:58:37] Iteration number: 1
+INFO  [2024-08-06 08:58:37] Token null: No more results
+INFO  [2024-08-06 08:58:37] Extraction of church in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 08:58:37] Extraction of supermarket in centroid 7 started
+INFO  [2024-08-06 08:58:42] Iteration number: 1
+INFO  [2024-08-06 08:58:42] Token null: No more results
+INFO  [2024-08-06 08:58:42] Extraction of supermarket in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 08:58:42] Extraction of tourist_attraction in centroid 7 started
+INFO  [2024-08-06 08:58:47] Iteration number: 1
+INFO  [2024-08-06 08:58:47] Token null: No more results
+INFO  [2024-08-06 08:58:47] Extraction of tourist_attraction in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 08:58:47] Extraction of shopping_mall in centroid 7 started
+INFO  [2024-08-06 08:58:52] Iteration number: 1
+INFO  [2024-08-06 08:58:52] Token null: No more results
+INFO  [2024-08-06 08:58:52] Extraction of shopping_mall in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 08:58:52] Extraction of spa in centroid 7 started
+INFO  [2024-08-06 08:58:57] Iteration number: 1
+INFO  [2024-08-06 08:58:57] Token null: No more results
+INFO  [2024-08-06 08:58:57] Extraction of spa in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 08:58:57] Extraction of stadium in centroid 7 started
+INFO  [2024-08-06 08:59:01] Extraction of stadium in centroid 7 completed in 0 iterations
+INFO  [2024-08-06 08:59:01] Extraction of pharmacy in centroid 7 started
+INFO  [2024-08-06 08:59:06] Iteration number: 1
+INFO  [2024-08-06 08:59:06] Token null: No more results
+INFO  [2024-08-06 08:59:06] Extraction of pharmacy in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 08:59:06] Extraction of movie_theater in centroid 7 started
+INFO  [2024-08-06 08:59:11] Iteration number: 1
+INFO  [2024-08-06 08:59:11] Token null: No more results
+INFO  [2024-08-06 08:59:11] Extraction of movie_theater in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 08:59:11] Extraction of museum in centroid 7 started
+INFO  [2024-08-06 08:59:16] Iteration number: 1
+INFO  [2024-08-06 08:59:16] Token null: No more results
+INFO  [2024-08-06 08:59:16] Extraction of museum in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 08:59:16] Extraction of night_club in centroid 7 started
+INFO  [2024-08-06 08:59:21] Iteration number: 1
+INFO  [2024-08-06 08:59:21] Token null: No more results
+INFO  [2024-08-06 08:59:21] Extraction of night_club in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 08:59:21] Extraction of park in centroid 7 started
+INFO  [2024-08-06 08:59:25] Iteration number: 1
+INFO  [2024-08-06 08:59:25] Token null: No more results
+INFO  [2024-08-06 08:59:25] Extraction of park in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 08:59:25] Extraction of parking in centroid 7 started
+INFO  [2024-08-06 08:59:30] Iteration number: 1
+INFO  [2024-08-06 08:59:35] Iteration number: 2
+INFO  [2024-08-06 08:59:40] Iteration number: 3
+INFO  [2024-08-06 08:59:40] Token null: No more results
+INFO  [2024-08-06 08:59:40] Extraction of parking in centroid 7 completed in 3 iterations
+INFO  [2024-08-06 08:59:40] Extraction of liquor_store in centroid 7 started
+INFO  [2024-08-06 08:59:45] Iteration number: 1
+INFO  [2024-08-06 08:59:50] Iteration number: 2
+INFO  [2024-08-06 08:59:50] Token null: No more results
+INFO  [2024-08-06 08:59:50] Extraction of liquor_store in centroid 7 completed in 2 iterations
+INFO  [2024-08-06 08:59:50] Extraction of hospital in centroid 7 started
+INFO  [2024-08-06 08:59:55] Iteration number: 1
+INFO  [2024-08-06 09:00:00] Iteration number: 2
+INFO  [2024-08-06 09:00:00] Token null: No more results
+INFO  [2024-08-06 09:00:00] Extraction of hospital in centroid 7 completed in 2 iterations
+INFO  [2024-08-06 09:00:00] Extraction of doctor in centroid 7 started
+INFO  [2024-08-06 09:00:05] Iteration number: 1
+INFO  [2024-08-06 09:00:10] Iteration number: 2
+INFO  [2024-08-06 09:00:15] Iteration number: 3
+INFO  [2024-08-06 09:00:15] Token null: No more results
+INFO  [2024-08-06 09:00:15] Extraction of doctor in centroid 7 completed in 3 iterations
+INFO  [2024-08-06 09:00:15] Extraction of dentist in centroid 7 started
+INFO  [2024-08-06 09:00:20] Iteration number: 1
+INFO  [2024-08-06 09:00:25] Iteration number: 2
+INFO  [2024-08-06 09:00:25] Token null: No more results
+INFO  [2024-08-06 09:00:25] Extraction of dentist in centroid 7 completed in 2 iterations
+INFO  [2024-08-06 09:00:25] Extraction of book_store in centroid 7 started
+INFO  [2024-08-06 09:00:30] Iteration number: 1
+INFO  [2024-08-06 09:00:35] Iteration number: 2
+INFO  [2024-08-06 09:00:35] Token null: No more results
+INFO  [2024-08-06 09:00:35] Extraction of book_store in centroid 7 completed in 2 iterations
+INFO  [2024-08-06 09:00:35] Extraction of bank in centroid 7 started
+INFO  [2024-08-06 09:00:40] Iteration number: 1
+INFO  [2024-08-06 09:00:45] Iteration number: 2
+INFO  [2024-08-06 09:00:45] Token null: No more results
+INFO  [2024-08-06 09:00:45] Extraction of bank in centroid 7 completed in 2 iterations
+INFO  [2024-08-06 09:00:45] Extraction of gas_station in centroid 7 started
+INFO  [2024-08-06 09:00:50] Iteration number: 1
+INFO  [2024-08-06 09:00:50] Token null: No more results
+INFO  [2024-08-06 09:00:50] Extraction of gas_station in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 09:00:50] Extraction of art_gallery in centroid 7 started
+INFO  [2024-08-06 09:00:54] Iteration number: 1
+INFO  [2024-08-06 09:00:54] Token null: No more results
+INFO  [2024-08-06 09:00:54] Extraction of art_gallery in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 09:00:54] Extraction of travel_agency in centroid 7 started
+INFO  [2024-08-06 09:01:00] Iteration number: 1
+INFO  [2024-08-06 09:01:04] Iteration number: 2
+INFO  [2024-08-06 09:01:10] Iteration number: 3
+INFO  [2024-08-06 09:01:10] Token null: No more results
+INFO  [2024-08-06 09:01:10] Extraction of travel_agency in centroid 7 completed in 3 iterations
+INFO  [2024-08-06 09:01:10] Extraction of convenience_store in centroid 7 started
+INFO  [2024-08-06 09:01:14] Iteration number: 1
+INFO  [2024-08-06 09:01:14] Token null: No more results
+INFO  [2024-08-06 09:01:14] Extraction of convenience_store in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 09:01:14] Extraction of bakery in centroid 7 started
+INFO  [2024-08-06 09:01:20] Iteration number: 1
+INFO  [2024-08-06 09:01:20] Token null: No more results
+INFO  [2024-08-06 09:01:20] Extraction of bakery in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 09:01:20] Extraction of bar in centroid 7 started
+INFO  [2024-08-06 09:01:24] Iteration number: 1
+INFO  [2024-08-06 09:01:30] Iteration number: 2
+INFO  [2024-08-06 09:01:35] Iteration number: 3
+INFO  [2024-08-06 09:01:35] Token null: No more results
+INFO  [2024-08-06 09:01:35] Extraction of bar in centroid 7 completed in 3 iterations
+INFO  [2024-08-06 09:01:35] Extraction of cafe in centroid 7 started
+INFO  [2024-08-06 09:01:40] Iteration number: 1
+INFO  [2024-08-06 09:01:45] Iteration number: 2
+INFO  [2024-08-06 09:01:50] Iteration number: 3
+INFO  [2024-08-06 09:01:50] Token null: No more results
+INFO  [2024-08-06 09:01:50] Extraction of cafe in centroid 7 completed in 3 iterations
+INFO  [2024-08-06 09:01:50] Extraction of meal_delivery in centroid 7 started
+INFO  [2024-08-06 09:01:55] Iteration number: 1
+INFO  [2024-08-06 09:01:55] Token null: No more results
+INFO  [2024-08-06 09:01:55] Extraction of meal_delivery in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 09:01:55] Extraction of meal_takeaway in centroid 7 started
+INFO  [2024-08-06 09:02:00] Iteration number: 1
+INFO  [2024-08-06 09:02:00] Token null: No more results
+INFO  [2024-08-06 09:02:00] Extraction of meal_takeaway in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 09:02:00] Extraction of restaurant in centroid 7 started
+INFO  [2024-08-06 09:02:05] Iteration number: 1
+INFO  [2024-08-06 09:02:10] Iteration number: 2
+INFO  [2024-08-06 09:02:15] Iteration number: 3
+INFO  [2024-08-06 09:02:15] Token null: No more results
+INFO  [2024-08-06 09:02:15] Extraction of restaurant in centroid 7 completed in 3 iterations
+INFO  [2024-08-06 09:02:15] Extraction of store in centroid 7 started
+INFO  [2024-08-06 09:02:21] Iteration number: 1
+INFO  [2024-08-06 09:02:25] Iteration number: 2
+INFO  [2024-08-06 09:02:31] Iteration number: 3
+INFO  [2024-08-06 09:02:31] Token null: No more results
+INFO  [2024-08-06 09:02:31] Extraction of store in centroid 7 completed in 3 iterations
+INFO  [2024-08-06 09:02:31] Extraction of department_store in centroid 7 started
+INFO  [2024-08-06 09:02:36] Iteration number: 1
+INFO  [2024-08-06 09:02:36] Token null: No more results
+INFO  [2024-08-06 09:02:36] Extraction of department_store in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 09:02:36] Extraction of atm in centroid 7 started
+INFO  [2024-08-06 09:02:41] Iteration number: 1
+INFO  [2024-08-06 09:02:46] Iteration number: 2
+INFO  [2024-08-06 09:02:46] Token null: No more results
+INFO  [2024-08-06 09:02:46] Extraction of atm in centroid 7 completed in 2 iterations
+INFO  [2024-08-06 09:02:46] Extraction of drugstore in centroid 7 started
+INFO  [2024-08-06 09:02:50] Extraction of drugstore in centroid 7 completed in 0 iterations
+INFO  [2024-08-06 09:02:50] Extraction of laundry in centroid 7 started
+INFO  [2024-08-06 09:02:55] Iteration number: 1
+INFO  [2024-08-06 09:02:55] Token null: No more results
+INFO  [2024-08-06 09:02:55] Extraction of laundry in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 09:02:55] Extraction of insurance_agency in centroid 7 started
+INFO  [2024-08-06 09:03:00] Iteration number: 1
+INFO  [2024-08-06 09:03:05] Iteration number: 2
+INFO  [2024-08-06 09:03:05] Token null: No more results
+INFO  [2024-08-06 09:03:05] Extraction of insurance_agency in centroid 7 completed in 2 iterations
+INFO  [2024-08-06 09:03:05] Extraction of lodging in centroid 7 started
+INFO  [2024-08-06 09:03:10] Iteration number: 1
+INFO  [2024-08-06 09:03:15] Iteration number: 2
+INFO  [2024-08-06 09:03:20] Iteration number: 3
+INFO  [2024-08-06 09:03:20] Token null: No more results
+INFO  [2024-08-06 09:03:20] Extraction of lodging in centroid 7 completed in 3 iterations
+INFO  [2024-08-06 09:03:20] Extraction of beauty_salon in centroid 7 started
+INFO  [2024-08-06 09:03:25] Iteration number: 1
+INFO  [2024-08-06 09:03:30] Iteration number: 2
+INFO  [2024-08-06 09:03:35] Iteration number: 3
+INFO  [2024-08-06 09:03:35] Token null: No more results
+INFO  [2024-08-06 09:03:35] Extraction of beauty_salon in centroid 7 completed in 3 iterations
+INFO  [2024-08-06 09:03:35] Extraction of clothing_store in centroid 7 started
+INFO  [2024-08-06 09:03:40] Iteration number: 1
+INFO  [2024-08-06 09:03:45] Iteration number: 2
+INFO  [2024-08-06 09:03:50] Iteration number: 3
+INFO  [2024-08-06 09:03:50] Token null: No more results
+INFO  [2024-08-06 09:03:50] Extraction of clothing_store in centroid 7 completed in 3 iterations
+INFO  [2024-08-06 09:03:50] Extraction of electronics_store in centroid 7 started
+INFO  [2024-08-06 09:03:55] Iteration number: 1
+INFO  [2024-08-06 09:04:00] Iteration number: 2
+INFO  [2024-08-06 09:04:00] Token null: No more results
+INFO  [2024-08-06 09:04:00] Extraction of electronics_store in centroid 7 completed in 2 iterations
+INFO  [2024-08-06 09:04:00] Extraction of fire_station in centroid 7 started
+INFO  [2024-08-06 09:04:05] Extraction of fire_station in centroid 7 completed in 0 iterations
+INFO  [2024-08-06 09:04:05] Extraction of florist in centroid 7 started
+INFO  [2024-08-06 09:04:09] Iteration number: 1
+INFO  [2024-08-06 09:04:09] Token null: No more results
+INFO  [2024-08-06 09:04:09] Extraction of florist in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 09:04:09] Extraction of furniture_store in centroid 7 started
+INFO  [2024-08-06 09:04:14] Iteration number: 1
+INFO  [2024-08-06 09:04:14] Token null: No more results
+INFO  [2024-08-06 09:04:14] Extraction of furniture_store in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 09:04:14] Extraction of gym in centroid 7 started
+INFO  [2024-08-06 09:04:19] Iteration number: 1
+INFO  [2024-08-06 09:04:19] Token null: No more results
+INFO  [2024-08-06 09:04:19] Extraction of gym in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 09:04:19] Extraction of hair_care in centroid 7 started
+INFO  [2024-08-06 09:04:24] Iteration number: 1
+INFO  [2024-08-06 09:04:29] Iteration number: 2
+INFO  [2024-08-06 09:04:34] Iteration number: 3
+INFO  [2024-08-06 09:04:34] Token null: No more results
+INFO  [2024-08-06 09:04:34] Extraction of hair_care in centroid 7 completed in 3 iterations
+INFO  [2024-08-06 09:04:34] Extraction of hardware_store in centroid 7 started
+INFO  [2024-08-06 09:04:39] Iteration number: 1
+INFO  [2024-08-06 09:04:39] Token null: No more results
+INFO  [2024-08-06 09:04:39] Extraction of hardware_store in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 09:04:39] Extraction of home_goods_store in centroid 7 started
+INFO  [2024-08-06 09:04:44] Iteration number: 1
+INFO  [2024-08-06 09:04:49] Iteration number: 2
+INFO  [2024-08-06 09:04:49] Token null: No more results
+INFO  [2024-08-06 09:04:49] Extraction of home_goods_store in centroid 7 completed in 2 iterations
+INFO  [2024-08-06 09:04:49] Extraction of jewelry_store in centroid 7 started
+INFO  [2024-08-06 09:04:55] Iteration number: 1
+INFO  [2024-08-06 09:05:00] Iteration number: 2
+INFO  [2024-08-06 09:05:00] Token null: No more results
+INFO  [2024-08-06 09:05:00] Extraction of jewelry_store in centroid 7 completed in 2 iterations
+INFO  [2024-08-06 09:05:00] Extraction of library in centroid 7 started
+INFO  [2024-08-06 09:05:04] Iteration number: 1
+INFO  [2024-08-06 09:05:04] Token null: No more results
+INFO  [2024-08-06 09:05:04] Extraction of library in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 09:05:04] Extraction of locksmith in centroid 7 started
+INFO  [2024-08-06 09:05:09] Iteration number: 1
+INFO  [2024-08-06 09:05:09] Token null: No more results
+INFO  [2024-08-06 09:05:09] Extraction of locksmith in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 09:05:09] Extraction of painter in centroid 7 started
+INFO  [2024-08-06 09:05:14] Iteration number: 1
+INFO  [2024-08-06 09:05:14] Token null: No more results
+INFO  [2024-08-06 09:05:14] Extraction of painter in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 09:05:14] Extraction of pet_store in centroid 7 started
+INFO  [2024-08-06 09:05:19] Extraction of pet_store in centroid 7 completed in 0 iterations
+INFO  [2024-08-06 09:05:19] Extraction of plumber in centroid 7 started
+INFO  [2024-08-06 09:05:23] Extraction of plumber in centroid 7 completed in 0 iterations
+INFO  [2024-08-06 09:05:23] Extraction of post_office in centroid 7 started
+INFO  [2024-08-06 09:05:27] Extraction of post_office in centroid 7 completed in 0 iterations
+INFO  [2024-08-06 09:05:27] Extraction of real_estate_agency in centroid 7 started
+INFO  [2024-08-06 09:05:32] Iteration number: 1
+INFO  [2024-08-06 09:05:37] Iteration number: 2
+INFO  [2024-08-06 09:05:43] Iteration number: 3
+INFO  [2024-08-06 09:05:43] Token null: No more results
+INFO  [2024-08-06 09:05:43] Extraction of real_estate_agency in centroid 7 completed in 3 iterations
+INFO  [2024-08-06 09:05:43] Extraction of shoe_store in centroid 7 started
+INFO  [2024-08-06 09:05:48] Iteration number: 1
+INFO  [2024-08-06 09:05:53] Iteration number: 2
+INFO  [2024-08-06 09:05:57] Iteration number: 3
+INFO  [2024-08-06 09:05:57] Token null: No more results
+INFO  [2024-08-06 09:05:57] Extraction of shoe_store in centroid 7 completed in 3 iterations
+INFO  [2024-08-06 09:05:57] Extraction of storage in centroid 7 started
+INFO  [2024-08-06 09:06:02] Iteration number: 1
+INFO  [2024-08-06 09:06:02] Token null: No more results
+INFO  [2024-08-06 09:06:02] Extraction of storage in centroid 7 completed in 1 iterations
+INFO  [2024-08-06 09:06:02] Extraction of veterinary_care in centroid 7 started
+INFO  [2024-08-06 09:06:07] Iteration number: 1
+INFO  [2024-08-06 09:06:07] Token null: No more results
+INFO  [2024-08-06 09:06:07] Extraction of veterinary_care in centroid 7 completed in 1 iterations

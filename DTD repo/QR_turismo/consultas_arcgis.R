@@ -1,6 +1,8 @@
 
-
-
+# Segunda sección
+get_arcgis_services()
+get_arcgis_services(service = "Demarcación_y_Divisiones")
+secciones <- get_arcgis_services(service = "Ambiente_público", layer = 6, return_geojson = TRUE) %>% dplyr::filter(sección == "2")
 
 # manzanas (layer)
 get_arcgis_services()

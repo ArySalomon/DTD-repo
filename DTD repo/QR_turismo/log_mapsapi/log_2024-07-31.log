@@ -1,0 +1,1425 @@
+INFO  [2024-07-31 12:15:28] Starting the extraction process
+INFO  [2024-07-31 12:15:29] Extraction of beauty_salon in centroid 1 started
+INFO  [2024-07-31 12:15:35] Iteration number: 1
+INFO  [2024-07-31 12:15:40] Iteration number: 2
+INFO  [2024-07-31 12:15:45] Iteration number: 3
+INFO  [2024-07-31 12:15:45] Token null: No more results
+INFO  [2024-07-31 12:15:45] Extraction of beauty_salon in centroid 1 completed in 3 iterations
+INFO  [2024-07-31 12:15:45] Extraction of clothing_store in centroid 1 started
+INFO  [2024-07-31 12:15:50] Iteration number: 1
+INFO  [2024-07-31 12:15:56] Iteration number: 2
+INFO  [2024-07-31 12:16:01] Iteration number: 3
+INFO  [2024-07-31 12:16:01] Token null: No more results
+INFO  [2024-07-31 12:16:01] Extraction of clothing_store in centroid 1 completed in 3 iterations
+INFO  [2024-07-31 12:16:01] Extraction of electronics_store in centroid 1 started
+INFO  [2024-07-31 12:16:06] Iteration number: 1
+INFO  [2024-07-31 12:16:06] Token null: No more results
+INFO  [2024-07-31 12:16:06] Extraction of electronics_store in centroid 1 completed in 1 iterations
+INFO  [2024-07-31 12:16:06] Extraction of fire_station in centroid 1 started
+INFO  [2024-07-31 12:16:11] Iteration number: 1
+INFO  [2024-07-31 12:16:11] Token null: No more results
+INFO  [2024-07-31 12:16:11] Extraction of fire_station in centroid 1 completed in 1 iterations
+INFO  [2024-07-31 12:16:11] Extraction of florist in centroid 1 started
+INFO  [2024-07-31 12:16:16] Iteration number: 1
+INFO  [2024-07-31 12:16:16] Token null: No more results
+INFO  [2024-07-31 12:16:16] Extraction of florist in centroid 1 completed in 1 iterations
+INFO  [2024-07-31 12:16:16] Extraction of furniture_store in centroid 1 started
+INFO  [2024-07-31 12:16:21] Iteration number: 1
+INFO  [2024-07-31 12:16:21] Token null: No more results
+INFO  [2024-07-31 12:16:21] Extraction of furniture_store in centroid 1 completed in 1 iterations
+INFO  [2024-07-31 12:16:21] Extraction of gym in centroid 1 started
+INFO  [2024-07-31 12:16:26] Iteration number: 1
+INFO  [2024-07-31 12:16:31] Iteration number: 2
+INFO  [2024-07-31 12:16:37] Iteration number: 3
+INFO  [2024-07-31 12:16:37] Token null: No more results
+INFO  [2024-07-31 12:16:37] Extraction of gym in centroid 1 completed in 3 iterations
+INFO  [2024-07-31 12:16:37] Extraction of hair_care in centroid 1 started
+INFO  [2024-07-31 12:16:42] Iteration number: 1
+INFO  [2024-07-31 12:16:47] Iteration number: 2
+INFO  [2024-07-31 12:16:52] Iteration number: 3
+INFO  [2024-07-31 12:16:52] Token null: No more results
+INFO  [2024-07-31 12:16:52] Extraction of hair_care in centroid 1 completed in 3 iterations
+INFO  [2024-07-31 12:16:52] Extraction of hardware_store in centroid 1 started
+INFO  [2024-07-31 12:16:57] Iteration number: 1
+INFO  [2024-07-31 12:16:57] Token null: No more results
+INFO  [2024-07-31 12:16:57] Extraction of hardware_store in centroid 1 completed in 1 iterations
+INFO  [2024-07-31 12:16:57] Extraction of home_goods_store in centroid 1 started
+INFO  [2024-07-31 12:17:02] Iteration number: 1
+INFO  [2024-07-31 12:17:07] Iteration number: 2
+INFO  [2024-07-31 12:17:07] Token null: No more results
+INFO  [2024-07-31 12:17:07] Extraction of home_goods_store in centroid 1 completed in 2 iterations
+INFO  [2024-07-31 12:17:07] Extraction of jewelry_store in centroid 1 started
+INFO  [2024-07-31 12:17:12] Iteration number: 1
+INFO  [2024-07-31 12:17:12] Token null: No more results
+INFO  [2024-07-31 12:17:12] Extraction of jewelry_store in centroid 1 completed in 1 iterations
+INFO  [2024-07-31 12:17:12] Extraction of library in centroid 1 started
+INFO  [2024-07-31 12:17:17] Iteration number: 1
+INFO  [2024-07-31 12:17:17] Token null: No more results
+INFO  [2024-07-31 12:17:17] Extraction of library in centroid 1 completed in 1 iterations
+INFO  [2024-07-31 12:17:17] Extraction of locksmith in centroid 1 started
+INFO  [2024-07-31 12:17:22] Iteration number: 1
+INFO  [2024-07-31 12:17:22] Token null: No more results
+INFO  [2024-07-31 12:17:22] Extraction of locksmith in centroid 1 completed in 1 iterations
+INFO  [2024-07-31 12:17:22] Extraction of painter in centroid 1 started
+INFO  [2024-07-31 12:17:26] Extraction of painter in centroid 1 completed in 0 iterations
+INFO  [2024-07-31 12:17:26] Extraction of pet_store in centroid 1 started
+INFO  [2024-07-31 12:17:31] Iteration number: 1
+INFO  [2024-07-31 12:17:31] Token null: No more results
+INFO  [2024-07-31 12:17:31] Extraction of pet_store in centroid 1 completed in 1 iterations
+INFO  [2024-07-31 12:17:31] Extraction of plumber in centroid 1 started
+INFO  [2024-07-31 12:17:36] Iteration number: 1
+INFO  [2024-07-31 12:17:36] Token null: No more results
+INFO  [2024-07-31 12:17:36] Extraction of plumber in centroid 1 completed in 1 iterations
+INFO  [2024-07-31 12:17:36] Extraction of post_office in centroid 1 started
+INFO  [2024-07-31 12:17:41] Extraction of post_office in centroid 1 completed in 0 iterations
+INFO  [2024-07-31 12:17:41] Extraction of real_estate_agency in centroid 1 started
+INFO  [2024-07-31 12:17:46] Iteration number: 1
+INFO  [2024-07-31 12:17:51] Iteration number: 2
+INFO  [2024-07-31 12:17:51] Token null: No more results
+INFO  [2024-07-31 12:17:51] Extraction of real_estate_agency in centroid 1 completed in 2 iterations
+INFO  [2024-07-31 12:17:51] Extraction of shoe_store in centroid 1 started
+INFO  [2024-07-31 12:17:55] Iteration number: 1
+INFO  [2024-07-31 12:17:55] Token null: No more results
+INFO  [2024-07-31 12:17:55] Extraction of shoe_store in centroid 1 completed in 1 iterations
+INFO  [2024-07-31 12:17:55] Extraction of storage in centroid 1 started
+INFO  [2024-07-31 12:18:01] Iteration number: 1
+INFO  [2024-07-31 12:18:01] Token null: No more results
+INFO  [2024-07-31 12:18:01] Extraction of storage in centroid 1 completed in 1 iterations
+INFO  [2024-07-31 12:18:01] Extraction of veterinary_care in centroid 1 started
+INFO  [2024-07-31 12:18:06] Iteration number: 1
+INFO  [2024-07-31 12:18:06] Token null: No more results
+INFO  [2024-07-31 12:18:06] Extraction of veterinary_care in centroid 1 completed in 1 iterations
+INFO  [2024-07-31 12:18:06] Extraction of beauty_salon in centroid 2 started
+INFO  [2024-07-31 12:18:11] Iteration number: 1
+INFO  [2024-07-31 12:18:17] Iteration number: 2
+INFO  [2024-07-31 12:18:22] Iteration number: 3
+INFO  [2024-07-31 12:18:22] Token null: No more results
+INFO  [2024-07-31 12:18:22] Extraction of beauty_salon in centroid 2 completed in 3 iterations
+INFO  [2024-07-31 12:18:22] Extraction of clothing_store in centroid 2 started
+INFO  [2024-07-31 12:18:27] Iteration number: 1
+INFO  [2024-07-31 12:18:32] Iteration number: 2
+INFO  [2024-07-31 12:18:37] Iteration number: 3
+INFO  [2024-07-31 12:18:37] Token null: No more results
+INFO  [2024-07-31 12:18:37] Extraction of clothing_store in centroid 2 completed in 3 iterations
+INFO  [2024-07-31 12:18:37] Extraction of electronics_store in centroid 2 started
+INFO  [2024-07-31 12:18:42] Iteration number: 1
+INFO  [2024-07-31 12:18:48] Iteration number: 2
+INFO  [2024-07-31 12:18:53] Iteration number: 3
+INFO  [2024-07-31 12:18:53] Token null: No more results
+INFO  [2024-07-31 12:18:53] Extraction of electronics_store in centroid 2 completed in 3 iterations
+INFO  [2024-07-31 12:18:53] Extraction of fire_station in centroid 2 started
+INFO  [2024-07-31 12:18:58] Iteration number: 1
+INFO  [2024-07-31 12:18:58] Token null: No more results
+INFO  [2024-07-31 12:18:58] Extraction of fire_station in centroid 2 completed in 1 iterations
+INFO  [2024-07-31 12:18:58] Extraction of florist in centroid 2 started
+INFO  [2024-07-31 12:19:03] Iteration number: 1
+INFO  [2024-07-31 12:19:03] Token null: No more results
+INFO  [2024-07-31 12:19:03] Extraction of florist in centroid 2 completed in 1 iterations
+INFO  [2024-07-31 12:19:03] Extraction of furniture_store in centroid 2 started
+INFO  [2024-07-31 12:19:08] Iteration number: 1
+INFO  [2024-07-31 12:19:13] Iteration number: 2
+INFO  [2024-07-31 12:19:19] Iteration number: 3
+INFO  [2024-07-31 12:19:19] Token null: No more results
+INFO  [2024-07-31 12:19:19] Extraction of furniture_store in centroid 2 completed in 3 iterations
+INFO  [2024-07-31 12:19:19] Extraction of gym in centroid 2 started
+INFO  [2024-07-31 12:19:24] Iteration number: 1
+INFO  [2024-07-31 12:19:29] Iteration number: 2
+INFO  [2024-07-31 12:19:34] Iteration number: 3
+INFO  [2024-07-31 12:19:34] Token null: No more results
+INFO  [2024-07-31 12:19:34] Extraction of gym in centroid 2 completed in 3 iterations
+INFO  [2024-07-31 12:19:34] Extraction of hair_care in centroid 2 started
+INFO  [2024-07-31 12:19:40] Iteration number: 1
+INFO  [2024-07-31 12:19:45] Iteration number: 2
+INFO  [2024-07-31 12:19:51] Iteration number: 3
+INFO  [2024-07-31 12:19:51] Token null: No more results
+INFO  [2024-07-31 12:19:51] Extraction of hair_care in centroid 2 completed in 3 iterations
+INFO  [2024-07-31 12:19:51] Extraction of hardware_store in centroid 2 started
+INFO  [2024-07-31 12:19:56] Iteration number: 1
+INFO  [2024-07-31 12:20:01] Iteration number: 2
+INFO  [2024-07-31 12:20:06] Iteration number: 3
+INFO  [2024-07-31 12:20:06] Token null: No more results
+INFO  [2024-07-31 12:20:06] Extraction of hardware_store in centroid 2 completed in 3 iterations
+INFO  [2024-07-31 12:20:06] Extraction of home_goods_store in centroid 2 started
+INFO  [2024-07-31 12:20:12] Iteration number: 1
+INFO  [2024-07-31 12:20:17] Iteration number: 2
+INFO  [2024-07-31 12:20:22] Iteration number: 3
+INFO  [2024-07-31 12:20:22] Token null: No more results
+INFO  [2024-07-31 12:20:22] Extraction of home_goods_store in centroid 2 completed in 3 iterations
+INFO  [2024-07-31 12:20:22] Extraction of jewelry_store in centroid 2 started
+INFO  [2024-07-31 12:20:27] Iteration number: 1
+INFO  [2024-07-31 12:20:32] Iteration number: 2
+INFO  [2024-07-31 12:20:37] Iteration number: 3
+INFO  [2024-07-31 12:20:37] Token null: No more results
+INFO  [2024-07-31 12:20:37] Extraction of jewelry_store in centroid 2 completed in 3 iterations
+INFO  [2024-07-31 12:20:37] Extraction of library in centroid 2 started
+INFO  [2024-07-31 12:20:43] Iteration number: 1
+INFO  [2024-07-31 12:20:43] Token null: No more results
+INFO  [2024-07-31 12:20:43] Extraction of library in centroid 2 completed in 1 iterations
+INFO  [2024-07-31 12:20:43] Extraction of locksmith in centroid 2 started
+INFO  [2024-07-31 12:20:48] Iteration number: 1
+INFO  [2024-07-31 12:20:53] Iteration number: 2
+INFO  [2024-07-31 12:20:58] Iteration number: 3
+INFO  [2024-07-31 12:20:58] Token null: No more results
+INFO  [2024-07-31 12:20:58] Extraction of locksmith in centroid 2 completed in 3 iterations
+INFO  [2024-07-31 12:20:58] Extraction of painter in centroid 2 started
+INFO  [2024-07-31 12:21:03] Iteration number: 1
+INFO  [2024-07-31 12:21:03] Token null: No more results
+INFO  [2024-07-31 12:21:03] Extraction of painter in centroid 2 completed in 1 iterations
+INFO  [2024-07-31 12:21:03] Extraction of pet_store in centroid 2 started
+INFO  [2024-07-31 12:21:09] Iteration number: 1
+INFO  [2024-07-31 12:21:14] Iteration number: 2
+INFO  [2024-07-31 12:21:14] Token null: No more results
+INFO  [2024-07-31 12:21:14] Extraction of pet_store in centroid 2 completed in 2 iterations
+INFO  [2024-07-31 12:21:14] Extraction of plumber in centroid 2 started
+INFO  [2024-07-31 12:21:19] Iteration number: 1
+INFO  [2024-07-31 12:21:19] Token null: No more results
+INFO  [2024-07-31 12:21:19] Extraction of plumber in centroid 2 completed in 1 iterations
+INFO  [2024-07-31 12:21:19] Extraction of post_office in centroid 2 started
+INFO  [2024-07-31 12:21:24] Iteration number: 1
+INFO  [2024-07-31 12:21:29] Iteration number: 2
+INFO  [2024-07-31 12:21:29] Token null: No more results
+INFO  [2024-07-31 12:21:29] Extraction of post_office in centroid 2 completed in 2 iterations
+INFO  [2024-07-31 12:21:29] Extraction of real_estate_agency in centroid 2 started
+INFO  [2024-07-31 12:21:35] Iteration number: 1
+INFO  [2024-07-31 12:21:40] Iteration number: 2
+INFO  [2024-07-31 12:21:45] Iteration number: 3
+INFO  [2024-07-31 12:21:45] Token null: No more results
+INFO  [2024-07-31 12:21:45] Extraction of real_estate_agency in centroid 2 completed in 3 iterations
+INFO  [2024-07-31 12:21:45] Extraction of shoe_store in centroid 2 started
+INFO  [2024-07-31 12:21:50] Iteration number: 1
+INFO  [2024-07-31 12:21:55] Iteration number: 2
+INFO  [2024-07-31 12:22:01] Iteration number: 3
+INFO  [2024-07-31 12:22:01] Token null: No more results
+INFO  [2024-07-31 12:22:01] Extraction of shoe_store in centroid 2 completed in 3 iterations
+INFO  [2024-07-31 12:22:01] Extraction of storage in centroid 2 started
+INFO  [2024-07-31 12:22:06] Iteration number: 1
+INFO  [2024-07-31 12:22:11] Iteration number: 2
+INFO  [2024-07-31 12:22:16] Iteration number: 3
+INFO  [2024-07-31 12:22:16] Token null: No more results
+INFO  [2024-07-31 12:22:16] Extraction of storage in centroid 2 completed in 3 iterations
+INFO  [2024-07-31 12:22:16] Extraction of veterinary_care in centroid 2 started
+INFO  [2024-07-31 12:22:21] Iteration number: 1
+INFO  [2024-07-31 12:22:26] Iteration number: 2
+INFO  [2024-07-31 12:22:32] Iteration number: 3
+INFO  [2024-07-31 12:22:32] Token null: No more results
+INFO  [2024-07-31 12:22:32] Extraction of veterinary_care in centroid 2 completed in 3 iterations
+INFO  [2024-07-31 12:24:28] Detail extraction for place ID ChIJmcLxiFUIfpYRzKtfZOhichg completed, total iterations: 1
+INFO  [2024-07-31 12:24:29] Detail extraction for place ID ChIJQeJTcaoJfpYR6kl-oAmhZWU completed, total iterations: 2
+INFO  [2024-07-31 12:24:30] Detail extraction for place ID ChIJRejrkwAJfpYR8T5peBzsjEw completed, total iterations: 3
+INFO  [2024-07-31 12:24:31] Detail extraction for place ID ChIJ8TUz8PwJfpYRnAqsxZXDejA completed, total iterations: 4
+INFO  [2024-07-31 12:24:32] Detail extraction for place ID ChIJk2kbp8QJfpYR3zY8BtS89Co completed, total iterations: 5
+INFO  [2024-07-31 12:24:32] Detail extraction for place ID ChIJfcI9p7oJfpYRoQYIzXken9w completed, total iterations: 6
+INFO  [2024-07-31 12:24:33] Detail extraction for place ID ChIJ5VXcUJbjfZYRrpUL7i6Fzc4 completed, total iterations: 7
+INFO  [2024-07-31 12:24:34] Detail extraction for place ID ChIJjVLe7lXjfZYRjXfGKxPQ_74 completed, total iterations: 8
+INFO  [2024-07-31 12:24:35] Detail extraction for place ID ChIJc1z1fegJfpYRqAy78FjTQxI completed, total iterations: 9
+INFO  [2024-07-31 12:24:36] Detail extraction for place ID ChIJD3S4SsfjfZYRzPAGHW5eNZo completed, total iterations: 10
+INFO  [2024-07-31 12:24:37] Detail extraction for place ID ChIJU2kqQADjfZYR3Md3nVZttmA completed, total iterations: 11
+INFO  [2024-07-31 12:24:37] Detail extraction for place ID ChIJo7rQkrLjfZYRRK4T6SiJLW4 completed, total iterations: 12
+INFO  [2024-07-31 12:24:38] Detail extraction for place ID ChIJ49uhyVDjfZYRM_GBA0xw1J8 completed, total iterations: 13
+INFO  [2024-07-31 12:24:39] Detail extraction for place ID ChIJL_oYP9DjfZYRG73145w_uZg completed, total iterations: 14
+INFO  [2024-07-31 12:24:40] Detail extraction for place ID ChIJIbzx9HHjfZYRbIqlW0aVjjU completed, total iterations: 15
+INFO  [2024-07-31 12:24:41] Detail extraction for place ID ChIJYf-3A6kJfpYRw-Lk3Pdp0y0 completed, total iterations: 16
+INFO  [2024-07-31 12:24:42] Detail extraction for place ID ChIJj9_JTgAJfpYRpqtnMEIMuOc completed, total iterations: 17
+INFO  [2024-07-31 12:24:42] Detail extraction for place ID ChIJqevhfwAJfpYRoxuPrhzTTP0 completed, total iterations: 18
+INFO  [2024-07-31 12:24:43] Detail extraction for place ID ChIJkTi78Q8PfpYRjPej7CYxi8s completed, total iterations: 19
+INFO  [2024-07-31 12:24:44] Detail extraction for place ID ChIJ0Vi5WKAJfpYRzQ9QqljbgKc completed, total iterations: 20
+INFO  [2024-07-31 12:24:45] Detail extraction for place ID ChIJGy2YhxAJfpYRaRuAiM8aQ_0 completed, total iterations: 21
+INFO  [2024-07-31 12:24:45] Detail extraction for place ID ChIJM76JAiQJfpYRU-SX2I-P6EU completed, total iterations: 22
+INFO  [2024-07-31 12:24:46] Detail extraction for place ID ChIJqfWssK8JfpYRnJGsYgTK0tk completed, total iterations: 23
+INFO  [2024-07-31 12:24:47] Detail extraction for place ID ChIJccnDGuoJfpYRlRAb9wIvdGk completed, total iterations: 24
+INFO  [2024-07-31 12:24:48] Detail extraction for place ID ChIJrZhqGZYJfpYRNzhAAEeKDY4 completed, total iterations: 25
+INFO  [2024-07-31 12:24:49] Detail extraction for place ID ChIJ1ygXYdYJfpYRNAZwtZVUG6g completed, total iterations: 26
+INFO  [2024-07-31 12:24:49] Detail extraction for place ID ChIJ93aaE0R1fpYRLKEKdwJ8STU completed, total iterations: 27
+INFO  [2024-07-31 12:24:50] Detail extraction for place ID ChIJR6dVxJkJfpYR3pIocoZJRKQ completed, total iterations: 28
+INFO  [2024-07-31 12:24:51] Detail extraction for place ID ChIJc-IT-UwJfpYRk3m3YZxduek completed, total iterations: 29
+INFO  [2024-07-31 12:24:52] Detail extraction for place ID ChIJB-rGW5kJfpYR4jpRgVdSHDs completed, total iterations: 30
+INFO  [2024-07-31 12:24:53] Detail extraction for place ID ChIJAWKRTtwJfpYRgwju2oTRvBA completed, total iterations: 31
+INFO  [2024-07-31 12:24:54] Detail extraction for place ID ChIJs7LDXlUIfpYRFRxxEj1r0Sw completed, total iterations: 32
+INFO  [2024-07-31 12:24:54] Detail extraction for place ID ChIJXVYHcccJfpYRKm9CFxvz5jk completed, total iterations: 33
+INFO  [2024-07-31 12:24:55] Detail extraction for place ID ChIJwycpBqoJfpYRbu2nbdYbykc completed, total iterations: 34
+INFO  [2024-07-31 12:24:56] Detail extraction for place ID ChIJf2TsfEUJfpYRhZRGF49B19g completed, total iterations: 35
+INFO  [2024-07-31 12:24:57] Detail extraction for place ID ChIJDZOIRnwJfpYRb4_YEQ31HLY completed, total iterations: 36
+INFO  [2024-07-31 12:24:58] Detail extraction for place ID ChIJX7qaVyAJfpYRMce1GAQpQWk completed, total iterations: 37
+INFO  [2024-07-31 12:24:59] Detail extraction for place ID ChIJSwXNI_gJfpYREv8rpB9j1Iw completed, total iterations: 38
+INFO  [2024-07-31 12:24:59] Detail extraction for place ID ChIJMUIXFUvflaARexbmNkJ3h4w completed, total iterations: 39
+INFO  [2024-07-31 12:25:00] Detail extraction for place ID ChIJ8bYrGkEJfpYR8sdGIJUY0_Q completed, total iterations: 40
+INFO  [2024-07-31 12:25:01] Detail extraction for place ID ChIJP3yoNCUJfpYRuE_aYJc4KB8 completed, total iterations: 41
+INFO  [2024-07-31 12:25:02] Detail extraction for place ID ChIJ52lbPxoJfpYRu_vkuZuilXs completed, total iterations: 42
+INFO  [2024-07-31 12:25:03] Detail extraction for place ID ChIJ17PSORoJfpYRiX9oUN3ribk completed, total iterations: 43
+INFO  [2024-07-31 12:25:04] Detail extraction for place ID ChIJc2k6thwJfpYR0RdtUEWnEos completed, total iterations: 44
+INFO  [2024-07-31 12:25:05] Detail extraction for place ID ChIJfSdn_A8JfpYRRadDAZI2g54 completed, total iterations: 45
+INFO  [2024-07-31 12:25:05] Detail extraction for place ID ChIJR0M0jAEJfpYRuOq7KOkn6O8 completed, total iterations: 46
+INFO  [2024-07-31 12:25:06] Detail extraction for place ID ChIJr75FtBEJfpYRgGy-pYJ4qxg completed, total iterations: 47
+INFO  [2024-07-31 12:25:07] Detail extraction for place ID ChIJx8P7hRAJfpYRlIFiO4Uog20 completed, total iterations: 48
+INFO  [2024-07-31 12:25:08] Detail extraction for place ID ChIJl-t69hAJfpYR22D5G_xT7Go completed, total iterations: 49
+INFO  [2024-07-31 12:25:08] Detail extraction for place ID ChIJ-xxDUBwJfpYRs9TAKS0rR7A completed, total iterations: 50
+INFO  [2024-07-31 12:25:09] Detail extraction for place ID ChIJ13ySB6gJfpYRf_HchFad8YE completed, total iterations: 51
+INFO  [2024-07-31 12:25:10] Detail extraction for place ID ChIJYRerKbQLfpYRsuxG1_c7ldE completed, total iterations: 52
+INFO  [2024-07-31 12:25:11] Detail extraction for place ID ChIJgUJPxhsJfpYR_Hgiz_dz5Cw completed, total iterations: 53
+INFO  [2024-07-31 12:25:12] Detail extraction for place ID ChIJJ3h9RgUJfpYRSNnpG5fcPos completed, total iterations: 54
+INFO  [2024-07-31 12:25:13] Detail extraction for place ID ChIJQ0AoIhkJfpYRAZ9EljG1FRA completed, total iterations: 55
+INFO  [2024-07-31 12:25:13] Detail extraction for place ID ChIJYw7vhRAJfpYRL9InfNpXHlc completed, total iterations: 56
+INFO  [2024-07-31 12:25:14] Detail extraction for place ID ChIJy2_seAUJfpYRbzz4PFmA8HA completed, total iterations: 57
+INFO  [2024-07-31 12:25:15] Detail extraction for place ID ChIJrQDSiQ8JfpYRGoB3vd4yk7s completed, total iterations: 58
+INFO  [2024-07-31 12:25:16] Detail extraction for place ID ChIJY3zmjBAJfpYRKebV-1Gh-ew completed, total iterations: 59
+INFO  [2024-07-31 12:25:17] Detail extraction for place ID ChIJ7eIwFg8JfpYRqUK_o0MNMrQ completed, total iterations: 60
+INFO  [2024-07-31 12:25:18] Detail extraction for place ID ChIJlawsZgkJfpYRXdcvr4b4Plo completed, total iterations: 61
+INFO  [2024-07-31 12:25:18] Detail extraction for place ID ChIJ9Yv3gg0JfpYR3AOOmHJtotM completed, total iterations: 62
+INFO  [2024-07-31 12:25:19] Detail extraction for place ID ChIJe_aW7DsJfpYRDLq6FzVAE_A completed, total iterations: 63
+INFO  [2024-07-31 12:25:20] Detail extraction for place ID ChIJT_E1SmsJfpYR8f-mulzKGN0 completed, total iterations: 64
+INFO  [2024-07-31 12:25:21] Detail extraction for place ID ChIJUzzHLW0JfpYRrmcdFvsUUkA completed, total iterations: 65
+INFO  [2024-07-31 12:25:22] Detail extraction for place ID ChIJYyFQ5RHIvJURE0U8bsL5-Ek completed, total iterations: 66
+INFO  [2024-07-31 12:25:22] Detail extraction for place ID ChIJL-BEoWUJfpYRr6fHhldr7Xg completed, total iterations: 67
+INFO  [2024-07-31 12:25:23] Detail extraction for place ID ChIJI4fIpG8JfpYRhnX9xsRagOE completed, total iterations: 68
+INFO  [2024-07-31 12:25:24] Detail extraction for place ID ChIJdU_r9XoJfpYR_sPockiRxg4 completed, total iterations: 69
+INFO  [2024-07-31 12:25:25] Detail extraction for place ID ChIJ_7A58GYJfpYRnKhDYKbshA4 completed, total iterations: 70
+INFO  [2024-07-31 12:25:26] Detail extraction for place ID ChIJt_LNu2UJfpYRFNXqdLsZpfI completed, total iterations: 71
+INFO  [2024-07-31 12:25:27] Detail extraction for place ID ChIJTe30HWwJfpYRYhdP4B6yHug completed, total iterations: 72
+INFO  [2024-07-31 12:25:27] Detail extraction for place ID ChIJRwenqyMJfpYREw5bErscnsg completed, total iterations: 73
+INFO  [2024-07-31 12:25:28] Detail extraction for place ID ChIJaYMGnxMJfpYRzQSxOv9uzqA completed, total iterations: 74
+INFO  [2024-07-31 12:25:29] Detail extraction for place ID ChIJAbN2rjgJfpYRTWMn0SSPfYI completed, total iterations: 75
+INFO  [2024-07-31 12:25:30] Detail extraction for place ID ChIJI8r2siUJfpYRouw1j-Iv3Jg completed, total iterations: 76
+INFO  [2024-07-31 12:25:30] Detail extraction for place ID ChIJJ21VHgMJfpYRaU6cyDWInws completed, total iterations: 77
+INFO  [2024-07-31 12:25:31] Detail extraction for place ID ChIJ10-jdGcJfpYRWNkF61nl_rc completed, total iterations: 78
+INFO  [2024-07-31 12:25:32] Detail extraction for place ID ChIJZaVbXR4JfpYRtlpJFdyX3CQ completed, total iterations: 79
+INFO  [2024-07-31 12:25:33] Detail extraction for place ID ChIJJ18iLyYJfpYRjRm2_Ro31yE completed, total iterations: 80
+INFO  [2024-07-31 12:25:34] Detail extraction for place ID ChIJ5fZUeK4JfpYReQZq-xdqOt4 completed, total iterations: 81
+INFO  [2024-07-31 12:25:35] Detail extraction for place ID ChIJG4EPdtDf8I0R-8E2lSsIOm4 completed, total iterations: 82
+INFO  [2024-07-31 12:25:35] Detail extraction for place ID ChIJq6bLJ50JfpYRAlKdPsxY55k completed, total iterations: 83
+INFO  [2024-07-31 12:25:36] Detail extraction for place ID ChIJiV44xHAJfpYRPUe1CGy-GDA completed, total iterations: 84
+INFO  [2024-07-31 12:25:37] Detail extraction for place ID ChIJT4wxZxwJfpYR10qbbjWiCGA completed, total iterations: 85
+INFO  [2024-07-31 12:25:38] Detail extraction for place ID ChIJQ9JbEnYJfpYRV4y_KpF3jyw completed, total iterations: 86
+INFO  [2024-07-31 12:25:39] Detail extraction for place ID ChIJi59RzuMIfpYRb7oShywFDqY completed, total iterations: 87
+INFO  [2024-07-31 12:25:40] Detail extraction for place ID ChIJSWMe__wJfpYRnLd1n2x5QbQ completed, total iterations: 88
+INFO  [2024-07-31 12:25:40] Detail extraction for place ID ChIJpYhysXAJfpYRW8Y3U7N6lCA completed, total iterations: 89
+INFO  [2024-07-31 12:25:41] Detail extraction for place ID ChIJRRTvFgIJfpYRax5i0emDQCM completed, total iterations: 90
+INFO  [2024-07-31 12:25:42] Detail extraction for place ID ChIJDfB2hHcJfpYRwEZZp7HJDjY completed, total iterations: 91
+INFO  [2024-07-31 12:25:43] Detail extraction for place ID ChIJh7Zi93ftsQERpdc3vgrC9HE completed, total iterations: 92
+INFO  [2024-07-31 12:25:43] Detail extraction for place ID ChIJ63w3gmUJfpYRnnLgXCLNbZ4 completed, total iterations: 93
+INFO  [2024-07-31 12:25:44] Detail extraction for place ID ChIJUSoAmH0JfpYRrq9uZaI3KNA completed, total iterations: 94
+INFO  [2024-07-31 12:25:45] Detail extraction for place ID ChIJPR8HFKUJfpYRpekevR1W7FA completed, total iterations: 95
+INFO  [2024-07-31 12:25:46] Detail extraction for place ID ChIJ_8fHz_0IfpYRF81rd7-kf-g completed, total iterations: 96
+INFO  [2024-07-31 12:25:47] Detail extraction for place ID ChIJNWEcb88JfpYR3biEOV2JMoc completed, total iterations: 97
+INFO  [2024-07-31 12:25:48] Detail extraction for place ID ChIJ80L9dFkLfpYRwDGIMVN_9C8 completed, total iterations: 98
+INFO  [2024-07-31 12:25:48] Detail extraction for place ID ChIJIZwW-kEJfpYRGsf3lD06ZUI completed, total iterations: 99
+INFO  [2024-07-31 12:25:49] Detail extraction for place ID ChIJU1eiXWMJfpYRwvNnicT1lQM completed, total iterations: 100
+INFO  [2024-07-31 12:25:50] Detail extraction for place ID ChIJYeOpf8AJfpYRJ_5xZS_O1vc completed, total iterations: 101
+INFO  [2024-07-31 12:25:51] Detail extraction for place ID ChIJL5WjSJcJfpYRayQxE6lN3co completed, total iterations: 102
+INFO  [2024-07-31 12:25:52] Detail extraction for place ID ChIJwxiGlscJfpYRDP2OET_rMbU completed, total iterations: 103
+INFO  [2024-07-31 12:25:52] Detail extraction for place ID ChIJRWtCnyoJfpYRZo3W9ccUyjw completed, total iterations: 104
+INFO  [2024-07-31 12:25:53] Detail extraction for place ID ChIJbeovBnUJfpYRxf1bbg5JGms completed, total iterations: 105
+INFO  [2024-07-31 12:25:54] Detail extraction for place ID ChIJU80_qzUJfpYRdmLa4Nt_K4E completed, total iterations: 106
+INFO  [2024-07-31 12:25:55] Detail extraction for place ID ChIJGxbpKoLifZYRrXHY3scv8C4 completed, total iterations: 107
+INFO  [2024-07-31 12:25:56] Detail extraction for place ID ChIJ6XaVO63jfZYRIEsySTqkWJM completed, total iterations: 108
+INFO  [2024-07-31 12:25:57] Detail extraction for place ID ChIJj3fvnzgIfpYRpCbMdQnQle4 completed, total iterations: 109
+INFO  [2024-07-31 12:25:57] Detail extraction for place ID ChIJmd97L5sJfpYR5ZgvnRWSLsA completed, total iterations: 110
+INFO  [2024-07-31 12:25:58] Detail extraction for place ID ChIJ8c1NWywJfpYR-iRL_rNdw1o completed, total iterations: 111
+INFO  [2024-07-31 12:25:59] Detail extraction for place ID ChIJKdFtfnQJfpYR_fHot21DhNA completed, total iterations: 112
+INFO  [2024-07-31 12:26:00] Detail extraction for place ID ChIJzVLPFxEJfpYRhkpH9eHyepY completed, total iterations: 113
+INFO  [2024-07-31 12:26:00] Detail extraction for place ID ChIJD5DswcQPfpYRro-77KfYN_I completed, total iterations: 114
+INFO  [2024-07-31 12:26:01] Detail extraction for place ID ChIJ2Radil4JfpYRmm35mKUO1Gw completed, total iterations: 115
+INFO  [2024-07-31 12:26:02] Detail extraction for place ID ChIJe6lKE4rjfZYR6eC3Ft3FL7Y completed, total iterations: 116
+INFO  [2024-07-31 12:26:03] Detail extraction for place ID ChIJhcru0I0JfpYRPMZCtcpXFgM completed, total iterations: 117
+INFO  [2024-07-31 12:26:04] Detail extraction for place ID ChIJ90llWA4JfpYRnbYzJaD_fMg completed, total iterations: 118
+INFO  [2024-07-31 12:26:05] Detail extraction for place ID ChIJuS3cebkJfpYRFZ5pEuT04zM completed, total iterations: 119
+INFO  [2024-07-31 12:26:05] Detail extraction for place ID ChIJwxHZO2cJfpYRMAcCEQWU7Kw completed, total iterations: 120
+INFO  [2024-07-31 12:26:06] Detail extraction for place ID ChIJCUj9BqgJfpYRd332UbEQ5d8 completed, total iterations: 121
+INFO  [2024-07-31 12:26:07] Detail extraction for place ID ChIJZ2kQJ2MJfpYRNhG6hwNQ-IA completed, total iterations: 122
+INFO  [2024-07-31 12:26:08] Detail extraction for place ID ChIJw9cqbmAJfpYRL45mQkNKZ8k completed, total iterations: 123
+INFO  [2024-07-31 12:26:09] Detail extraction for place ID ChIJpXuYHgAJfpYRu797F1rXC7c completed, total iterations: 124
+INFO  [2024-07-31 12:26:10] Detail extraction for place ID ChIJ12LvZbMJfpYR-_V_eoqnun8 completed, total iterations: 125
+INFO  [2024-07-31 12:26:10] Detail extraction for place ID ChIJHz_2SrwJfpYRTcS3jg3TEDw completed, total iterations: 126
+INFO  [2024-07-31 12:26:11] Detail extraction for place ID ChIJ5SC0VV0IfpYRs9dnTvqy9QQ completed, total iterations: 127
+INFO  [2024-07-31 12:26:12] Detail extraction for place ID ChIJO25GbAAJfpYRSaQvHubSOpE completed, total iterations: 128
+INFO  [2024-07-31 12:26:13] Detail extraction for place ID ChIJNV9JZQAJfpYRhWb0SQER0Nk completed, total iterations: 129
+INFO  [2024-07-31 12:26:13] Detail extraction for place ID ChIJBQsqtaEJfpYRfCRD6dBu478 completed, total iterations: 130
+INFO  [2024-07-31 12:26:14] Detail extraction for place ID ChIJ2QmlhKkJfpYR6ppVM3fXZYg completed, total iterations: 131
+INFO  [2024-07-31 12:26:15] Detail extraction for place ID ChIJN0mng6kJfpYRkBdbFNITlkQ completed, total iterations: 132
+INFO  [2024-07-31 12:26:16] Detail extraction for place ID ChIJB2OSqgMJfpYRjZOhZsjFtec completed, total iterations: 133
+INFO  [2024-07-31 12:26:16] Detail extraction for place ID ChIJJy6YcDcJfpYR162v6-1lwpA completed, total iterations: 134
+INFO  [2024-07-31 12:26:17] Detail extraction for place ID ChIJax46yBIJfpYRv23XLyz0WEs completed, total iterations: 135
+INFO  [2024-07-31 12:26:18] Detail extraction for place ID ChIJowVePKoJfpYRm5xcanGlShY completed, total iterations: 136
+INFO  [2024-07-31 12:26:19] Detail extraction for place ID ChIJnZBLM34JfpYRSM90I_YoMhQ completed, total iterations: 137
+INFO  [2024-07-31 12:26:20] Detail extraction for place ID ChIJD7XG5W8JfpYRQ8Oy494aFM8 completed, total iterations: 138
+INFO  [2024-07-31 12:26:20] Detail extraction for place ID ChIJ84MmMpQJfpYRFLxpIkIgwjg completed, total iterations: 139
+INFO  [2024-07-31 12:26:21] Detail extraction for place ID ChIJowkbAu0JfpYRTNoy3mDTueM completed, total iterations: 140
+INFO  [2024-07-31 12:26:22] Detail extraction for place ID ChIJc0zwlVUIfpYRGrtnsStLSlE completed, total iterations: 141
+INFO  [2024-07-31 12:26:23] Detail extraction for place ID ChIJp_c6VUEJfpYR9-jPqqsd6Kk completed, total iterations: 142
+INFO  [2024-07-31 12:26:24] Detail extraction for place ID ChIJH41mRZYJfpYR9QQNwV0ukZY completed, total iterations: 143
+INFO  [2024-07-31 12:26:25] Detail extraction for place ID ChIJQUAZ9UYJfpYRR2oQ8d31DqU completed, total iterations: 144
+INFO  [2024-07-31 12:26:26] Detail extraction for place ID ChIJGbs-kDcJfpYRVNwPdsv5xxI completed, total iterations: 145
+INFO  [2024-07-31 12:26:26] Detail extraction for place ID ChIJzzR94MIJfpYRceAX2TS1U5Q completed, total iterations: 146
+INFO  [2024-07-31 12:26:27] Detail extraction for place ID ChIJv--Bm6oJfpYRHQUPLz3g-Lw completed, total iterations: 147
+INFO  [2024-07-31 12:26:28] Detail extraction for place ID ChIJC2wIXpYJfpYRcu0poF8oBYc completed, total iterations: 148
+INFO  [2024-07-31 12:26:29] Detail extraction for place ID ChIJO3d60f0JfpYREUT1jgazsns completed, total iterations: 149
+INFO  [2024-07-31 12:26:30] Detail extraction for place ID ChIJOZEpAqoJfpYRX-EcVRlEJL0 completed, total iterations: 150
+INFO  [2024-07-31 12:26:31] Detail extraction for place ID ChIJMS3N6akJfpYRf5uPnQnKRx4 completed, total iterations: 151
+INFO  [2024-07-31 12:26:32] Detail extraction for place ID ChIJm73uVJYJfpYR0IdSzrbG9RI completed, total iterations: 152
+INFO  [2024-07-31 12:26:33] Detail extraction for place ID ChIJdREhWJYJfpYRWogHHOFBmuM completed, total iterations: 153
+INFO  [2024-07-31 12:26:34] Detail extraction for place ID ChIJUxcndlAJfpYR2CP11XrOpsQ completed, total iterations: 154
+INFO  [2024-07-31 12:26:34] Detail extraction for place ID ChIJScscihcJfpYRou9TDH1JX0k completed, total iterations: 155
+INFO  [2024-07-31 12:26:35] Detail extraction for place ID ChIJbx-qNWcJfpYRoQ_SoMHrVrc completed, total iterations: 156
+INFO  [2024-07-31 12:26:36] Detail extraction for place ID ChIJs24q4qkJfpYRxXNUER_c9xE completed, total iterations: 157
+INFO  [2024-07-31 12:26:37] Detail extraction for place ID ChIJwSPT36kJfpYRZOACmy-wzRc completed, total iterations: 158
+INFO  [2024-07-31 12:26:38] Detail extraction for place ID ChIJ5V8ZCQcJfpYRfprwayRqsRU completed, total iterations: 159
+INFO  [2024-07-31 12:26:39] Detail extraction for place ID ChIJkXfEJ9wIfpYRIL14e7S5h3o completed, total iterations: 160
+INFO  [2024-07-31 12:26:40] Detail extraction for place ID ChIJpyjNMHEJfpYRiFw_UpEty34 completed, total iterations: 161
+INFO  [2024-07-31 12:26:40] Detail extraction for place ID ChIJ2XDuJRoJfpYRrUh321Ibe2I completed, total iterations: 162
+INFO  [2024-07-31 12:26:41] Detail extraction for place ID ChIJ-Wmqlh4JfpYR0RXK4Kgzdhc completed, total iterations: 163
+INFO  [2024-07-31 12:26:42] Detail extraction for place ID ChIJQ-wc0R4JfpYR6z0_mZGGYuc completed, total iterations: 164
+INFO  [2024-07-31 12:26:43] Detail extraction for place ID ChIJGW0g4h4JfpYRQQAW8n5q6As completed, total iterations: 165
+INFO  [2024-07-31 12:26:44] Detail extraction for place ID ChIJQf0XqRAJfpYRQmh6kOObtwU completed, total iterations: 166
+INFO  [2024-07-31 12:26:45] Detail extraction for place ID ChIJOftNOh8JfpYRxV5t8lLzVcY completed, total iterations: 167
+INFO  [2024-07-31 12:26:46] Detail extraction for place ID ChIJh0P5LR4JfpYRkUkUQ7taeSQ completed, total iterations: 168
+INFO  [2024-07-31 12:26:46] Detail extraction for place ID ChIJqxK9UBgJfpYRXDUyXNb0h8U completed, total iterations: 169
+INFO  [2024-07-31 12:26:47] Detail extraction for place ID ChIJN7-IoBkJfpYRapZgrYcExQY completed, total iterations: 170
+INFO  [2024-07-31 12:26:48] Detail extraction for place ID ChIJ69GMLRkJfpYRJxudq0BDdeM completed, total iterations: 171
+INFO  [2024-07-31 12:26:49] Detail extraction for place ID ChIJjeNoeh8JfpYRHowVceo02GQ completed, total iterations: 172
+INFO  [2024-07-31 12:26:50] Detail extraction for place ID ChIJK0SLQx0JfpYR2Mmq7juN-yo completed, total iterations: 173
+INFO  [2024-07-31 12:26:51] Detail extraction for place ID ChIJK3SZhxkJfpYR5Ambzp2ph6I completed, total iterations: 174
+INFO  [2024-07-31 12:26:52] Detail extraction for place ID ChIJFSUe3ecIfpYRVFvvJOcADvM completed, total iterations: 175
+INFO  [2024-07-31 12:26:52] Detail extraction for place ID ChIJVU7f_RoJfpYR7wVA-DKTgSw completed, total iterations: 176
+INFO  [2024-07-31 12:26:53] Detail extraction for place ID ChIJVU7f_RoJfpYRsxnT9ReX52U completed, total iterations: 177
+INFO  [2024-07-31 12:26:54] Detail extraction for place ID ChIJOww7MBkJfpYR-mWuw0peiRY completed, total iterations: 178
+INFO  [2024-07-31 12:26:55] Detail extraction for place ID ChIJPQBYoBkJfpYRSq-zIzLpIT4 completed, total iterations: 179
+INFO  [2024-07-31 12:26:56] Detail extraction for place ID ChIJ50liAhkJfpYR7zz-JHB2JHo completed, total iterations: 180
+INFO  [2024-07-31 12:26:56] Detail extraction for place ID ChIJ01uGIBkJfpYRmAVoybEmhcg completed, total iterations: 181
+INFO  [2024-07-31 12:26:57] Detail extraction for place ID ChIJAfhNYgcJfpYRF-OUpYN735Q completed, total iterations: 182
+INFO  [2024-07-31 12:26:58] Detail extraction for place ID ChIJRTUR-BkJfpYRY1SjdsWQh3Q completed, total iterations: 183
+INFO  [2024-07-31 12:26:59] Detail extraction for place ID ChIJQf0XqRAJfpYRIi_0qyKLkNo completed, total iterations: 184
+INFO  [2024-07-31 12:27:00] Detail extraction for place ID ChIJ5xs1GeYIfpYRI2b-RRsMGvY completed, total iterations: 185
+INFO  [2024-07-31 12:27:00] Detail extraction for place ID ChIJ_ciKVPYIfpYR0WEw4LLt6XA completed, total iterations: 186
+INFO  [2024-07-31 12:27:01] Detail extraction for place ID ChIJ_55IFhkJfpYRgy0tv7MX7uY completed, total iterations: 187
+INFO  [2024-07-31 12:27:02] Detail extraction for place ID ChIJkeOGChkJfpYRjXE6pr-FF5Q completed, total iterations: 188
+INFO  [2024-07-31 12:27:03] Detail extraction for place ID ChIJBy2tqRAJfpYRPN5rIILSbTI completed, total iterations: 189
+INFO  [2024-07-31 12:27:04] Detail extraction for place ID ChIJOZn6ERkJfpYRy_OOSTrEoaY completed, total iterations: 190
+INFO  [2024-07-31 12:27:05] Detail extraction for place ID ChIJfcN9dTwJfpYRd3BZLCQZWi4 completed, total iterations: 191
+INFO  [2024-07-31 12:27:06] Detail extraction for place ID ChIJGyvyoxkJfpYRU9Zc9Aq2oIc completed, total iterations: 192
+INFO  [2024-07-31 12:27:06] Detail extraction for place ID ChIJAeEIJ-AIfpYRk5FMFJuPNRs completed, total iterations: 193
+INFO  [2024-07-31 12:27:07] Detail extraction for place ID ChIJhV33is8OfpYRCh4kV9V41QY completed, total iterations: 194
+INFO  [2024-07-31 12:27:08] Detail extraction for place ID ChIJEWOfSJkOfpYRvPDHxBgpaaQ completed, total iterations: 195
+INFO  [2024-07-31 12:27:09] Detail extraction for place ID ChIJ2TM1LR0JfpYRKSe5eId7Cw0 completed, total iterations: 196
+INFO  [2024-07-31 12:27:10] Detail extraction for place ID ChIJvWWeFJ3tsQERQsTHnTNUmII completed, total iterations: 197
+INFO  [2024-07-31 12:27:11] Detail extraction for place ID ChIJQf0XqRAJfpYRuDxBFUT-RGs completed, total iterations: 198
+INFO  [2024-07-31 12:27:12] Detail extraction for place ID ChIJcbz9ap3tsQERCIAudUuxAqU completed, total iterations: 199
+INFO  [2024-07-31 12:27:12] Detail extraction for place ID ChIJIyj1KRwJfpYRVmKiKrVLnFQ completed, total iterations: 200
+INFO  [2024-07-31 12:27:13] Detail extraction for place ID ChIJ8aDkJxwJfpYR9Es2Sp7qZYs completed, total iterations: 201
+INFO  [2024-07-31 12:27:14] Detail extraction for place ID ChIJDZGUKRwJfpYRbOOhulLt9uI completed, total iterations: 202
+INFO  [2024-07-31 12:27:15] Detail extraction for place ID ChIJ-cDQmQMJfpYRbBYsptpoUDU completed, total iterations: 203
+INFO  [2024-07-31 12:27:16] Detail extraction for place ID ChIJs7oR5xAJfpYRxOpRczq0U7w completed, total iterations: 204
+INFO  [2024-07-31 12:27:16] Detail extraction for place ID ChIJR-fwpR4JfpYReJV7iMseyhM completed, total iterations: 205
+INFO  [2024-07-31 12:27:17] Detail extraction for place ID ChIJ4QbapB4JfpYRecyGoUOoXUs completed, total iterations: 206
+INFO  [2024-07-31 12:27:18] Detail extraction for place ID ChIJQ21CjR4JfpYRs6evoQxeHj8 completed, total iterations: 207
+INFO  [2024-07-31 12:27:19] Detail extraction for place ID ChIJ8_CwFJ3tsQERkzPvSqE9SNI completed, total iterations: 208
+INFO  [2024-07-31 12:27:20] Detail extraction for place ID ChIJ9WdF9x4JfpYRVtQq6q9LTmE completed, total iterations: 209
+INFO  [2024-07-31 12:27:21] Detail extraction for place ID ChIJqYoQyx4JfpYRzZ3TZw9TjRI completed, total iterations: 210
+INFO  [2024-07-31 12:27:21] Detail extraction for place ID ChIJdfxCxRsJfpYRqE9L1LOHlpc completed, total iterations: 211
+INFO  [2024-07-31 12:27:22] Detail extraction for place ID ChIJvWTrMRkJfpYRg7yOYZLOCvM completed, total iterations: 212
+INFO  [2024-07-31 12:27:23] Detail extraction for place ID ChIJ0yMQ1hsJfpYRaXRzgPfqP7Q completed, total iterations: 213
+INFO  [2024-07-31 12:27:24] Detail extraction for place ID ChIJ2QryMxkJfpYRHfF4F8nHnxg completed, total iterations: 214
+INFO  [2024-07-31 12:27:25] Detail extraction for place ID ChIJxY-PMBkJfpYR0rObpgIZY7A completed, total iterations: 215
+INFO  [2024-07-31 12:27:26] Detail extraction for place ID ChIJxdj1EgQJfpYR3TnIOaNgsvg completed, total iterations: 216
+INFO  [2024-07-31 12:27:26] Detail extraction for place ID ChIJr-dz1x4JfpYRMN-kc_tfxKw completed, total iterations: 217
+INFO  [2024-07-31 12:27:27] Detail extraction for place ID ChIJ2-4EmfgIfpYRxLcZcvPxIyI completed, total iterations: 218
+INFO  [2024-07-31 12:27:28] Detail extraction for place ID ChIJ28emi3EJfpYRWKFyTV7mYLs completed, total iterations: 219
+INFO  [2024-07-31 12:27:29] Detail extraction for place ID ChIJPSR0YUrjfZYRbHAcEOhGSQk completed, total iterations: 220
+INFO  [2024-07-31 12:27:30] Detail extraction for place ID ChIJezhX8Y4JfpYRk0Xy32rFusk completed, total iterations: 221
+INFO  [2024-07-31 12:27:30] Detail extraction for place ID ChIJEcSAjM8JfpYR3o3HHv2QiTs completed, total iterations: 222
+INFO  [2024-07-31 12:27:31] Detail extraction for place ID ChIJS06eeV4JfpYRnetoeyi8gm8 completed, total iterations: 223
+INFO  [2024-07-31 12:27:32] Detail extraction for place ID ChIJi2brfAAJfpYRWiCgZcI2GOA completed, total iterations: 224
+INFO  [2024-07-31 12:27:33] Detail extraction for place ID ChIJTVbMk5sJfpYRT-laIlxqXrI completed, total iterations: 225
+INFO  [2024-07-31 12:27:33] Detail extraction for place ID ChIJ4ZIuG74JfpYRMylp5FRj-3k completed, total iterations: 226
+INFO  [2024-07-31 12:27:34] Detail extraction for place ID ChIJJ2_EOFYIfpYRwICTq3ZJZNg completed, total iterations: 227
+INFO  [2024-07-31 12:27:35] Detail extraction for place ID ChIJsdnqQGsJfpYR9r3_eFe_uf0 completed, total iterations: 228
+INFO  [2024-07-31 12:27:36] Detail extraction for place ID ChIJ34p1XpIJfpYRhucQrZ54QLk completed, total iterations: 229
+INFO  [2024-07-31 12:27:37] Detail extraction for place ID ChIJRzEyKIYJfpYRJwLL3RYgNUw completed, total iterations: 230
+INFO  [2024-07-31 12:27:37] Detail extraction for place ID ChIJ0zd7sYkJfpYR2TgABoPEZ6Q completed, total iterations: 231
+INFO  [2024-07-31 12:27:38] Detail extraction for place ID ChIJpdi_CJwJfpYRQzsnj5KEc48 completed, total iterations: 232
+INFO  [2024-07-31 12:27:39] Detail extraction for place ID ChIJ6zIaEeIIfpYRHV_EOf6wAvM completed, total iterations: 233
+INFO  [2024-07-31 12:27:40] Detail extraction for place ID ChIJ7aJUHmsJfpYRjpD3sHxlSAU completed, total iterations: 234
+INFO  [2024-07-31 12:27:41] Detail extraction for place ID ChIJ0cMShwQJfpYRfJIzqVelYs8 completed, total iterations: 235
+INFO  [2024-07-31 12:27:41] Detail extraction for place ID ChIJ59jhNgAJfpYRXAWqHVhSsPg completed, total iterations: 236
+INFO  [2024-07-31 12:27:42] Detail extraction for place ID ChIJe6BswxsJfpYRsQuZhAPfbP4 completed, total iterations: 237
+INFO  [2024-07-31 12:27:43] Detail extraction for place ID ChIJ7dk0K0cJfpYRCR-DFqM8ZSE completed, total iterations: 238
+INFO  [2024-07-31 12:27:44] Detail extraction for place ID ChIJSYB9AiIJfpYRTBJ_RiiSom4 completed, total iterations: 239
+INFO  [2024-07-31 12:27:45] Detail extraction for place ID ChIJ8eHbmyAJfpYREO6ZefdiydU completed, total iterations: 240
+INFO  [2024-07-31 12:27:45] Detail extraction for place ID ChIJHfyTFMMIfpYRd0m9vwGFhB0 completed, total iterations: 241
+INFO  [2024-07-31 12:27:46] Detail extraction for place ID ChIJHflCETEJfpYRmXNxnG_jPks completed, total iterations: 242
+INFO  [2024-07-31 12:27:47] Detail extraction for place ID ChIJfWA8RBgJfpYR4_MP4Q707hw completed, total iterations: 243
+INFO  [2024-07-31 12:27:48] Detail extraction for place ID ChIJpRG5VRkJfpYRcl8rDs8ueuY completed, total iterations: 244
+INFO  [2024-07-31 12:27:49] Detail extraction for place ID ChIJvSFvOTgJfpYRfBLbun1SHXE completed, total iterations: 245
+INFO  [2024-07-31 12:27:49] Detail extraction for place ID ChIJw0CfehwJfpYR5dWIMmnVbMU completed, total iterations: 246
+INFO  [2024-07-31 12:27:50] Detail extraction for place ID ChIJZ4OtZBIJfpYRM-a1adG9cnI completed, total iterations: 247
+INFO  [2024-07-31 12:27:51] Detail extraction for place ID ChIJtYW46GUJfpYRvGK-IK6Tx3U completed, total iterations: 248
+INFO  [2024-07-31 12:27:52] Detail extraction for place ID ChIJL4qyeJAIfpYRGt_6GdIsB60 completed, total iterations: 249
+INFO  [2024-07-31 12:27:53] Detail extraction for place ID ChIJmdKePhwJfpYRAegQQJH16Z8 completed, total iterations: 250
+INFO  [2024-07-31 12:27:54] Detail extraction for place ID ChIJtUx6gB4JfpYR7JPCmskzR7I completed, total iterations: 251
+INFO  [2024-07-31 12:27:55] Detail extraction for place ID ChIJXcs8FhkJfpYRs-JUDRFoFbU completed, total iterations: 252
+INFO  [2024-07-31 12:27:55] Detail extraction for place ID ChIJ4UWsch4JfpYRp2ql4rKi5DM completed, total iterations: 253
+INFO  [2024-07-31 12:27:56] Detail extraction for place ID ChIJO4gw6CEJfpYRMTNruBnMEoo completed, total iterations: 254
+INFO  [2024-07-31 12:27:57] Detail extraction for place ID ChIJkSKuORkJfpYRCQb-JjuOHSo completed, total iterations: 255
+INFO  [2024-07-31 12:27:58] Detail extraction for place ID ChIJj_deZBkJfpYRIJ6_q3QNEsg completed, total iterations: 256
+INFO  [2024-07-31 12:27:58] Detail extraction for place ID ChIJ5eBdlBMJfpYR0VSazfdtv9Q completed, total iterations: 257
+INFO  [2024-07-31 12:27:59] Detail extraction for place ID ChIJvX3dLR8JfpYR30SEUukIGMc completed, total iterations: 258
+INFO  [2024-07-31 12:28:00] Detail extraction for place ID ChIJBR7Yz_8IfpYRX_Zl9RvFjUY completed, total iterations: 259
+INFO  [2024-07-31 12:28:01] Detail extraction for place ID ChIJ99YbohkJfpYR-2ylTLGrtQI completed, total iterations: 260
+INFO  [2024-07-31 12:28:02] Detail extraction for place ID ChIJ5Xah_hgJfpYR77adQrCvlyk completed, total iterations: 261
+INFO  [2024-07-31 12:28:03] Detail extraction for place ID ChIJEyiGQ-AIfpYRyrmc-8I-oaI completed, total iterations: 262
+INFO  [2024-07-31 12:28:04] Detail extraction for place ID ChIJ2SBK9BgJfpYRWUuzuLFGbr0 completed, total iterations: 263
+INFO  [2024-07-31 12:28:04] Detail extraction for place ID ChIJ52GD7xgJfpYRPWTliOb3La8 completed, total iterations: 264
+INFO  [2024-07-31 12:28:05] Detail extraction for place ID ChIJCYakiRgJfpYRSH16xzcVYqA completed, total iterations: 265
+INFO  [2024-07-31 12:28:06] Detail extraction for place ID ChIJ-Q7RWRcJfpYRM1UmtbElV1M completed, total iterations: 266
+INFO  [2024-07-31 12:28:07] Detail extraction for place ID ChIJi1s-HRwJfpYRg33XkHRbSOs completed, total iterations: 267
+INFO  [2024-07-31 12:28:08] Detail extraction for place ID ChIJeTYfhhgJfpYRqDPdPPTjWB0 completed, total iterations: 268
+INFO  [2024-07-31 12:28:09] Detail extraction for place ID ChIJfYb44jgJfpYRlZMSibDcHUc completed, total iterations: 269
+INFO  [2024-07-31 12:28:10] Detail extraction for place ID ChIJJfWZOhgJfpYRA1g_DW8QYnA completed, total iterations: 270
+INFO  [2024-07-31 12:28:10] Detail extraction for place ID ChIJtx4CdyIJfpYRLs0pNzxxCcg completed, total iterations: 271
+INFO  [2024-07-31 12:28:11] Detail extraction for place ID ChIJrbqYQ-YIfpYRfBPrMpKETEk completed, total iterations: 272
+INFO  [2024-07-31 12:28:12] Detail extraction for place ID ChIJJyz8WBYJfpYRtwFZZawxyqE completed, total iterations: 273
+INFO  [2024-07-31 12:28:13] Detail extraction for place ID ChIJy3U1NGPtsQERMHVwczBg7MI completed, total iterations: 274
+INFO  [2024-07-31 12:28:13] Detail extraction for place ID ChIJFRPVwz0JfpYRFbyw0i1GCXc completed, total iterations: 275
+INFO  [2024-07-31 12:28:14] Detail extraction for place ID ChIJH5zv_-gIfpYReUdYWWzdoNk completed, total iterations: 276
+INFO  [2024-07-31 12:28:15] Detail extraction for place ID ChIJM20G7RQJfpYRj4RWsptbT3M completed, total iterations: 277
+INFO  [2024-07-31 12:28:16] Detail extraction for place ID ChIJg4yxVD8JfpYRgwdEd3y-rGE completed, total iterations: 278
+INFO  [2024-07-31 12:28:17] Detail extraction for place ID ChIJexMWw5MJfpYRAez5vrROHzI completed, total iterations: 279
+INFO  [2024-07-31 12:28:17] Detail extraction for place ID ChIJww858RcJfpYRhCWt0toH3mw completed, total iterations: 280
+INFO  [2024-07-31 12:28:18] Detail extraction for place ID ChIJp3gWY-gIfpYRIvgPwzzBJFc completed, total iterations: 281
+INFO  [2024-07-31 12:28:19] Detail extraction for place ID ChIJIZ0tRz8JfpYRXDM_fTZhnZQ completed, total iterations: 282
+INFO  [2024-07-31 12:28:20] Detail extraction for place ID ChIJW7WMIGsJfpYRrG9cly0NP24 completed, total iterations: 283
+INFO  [2024-07-31 12:28:21] Detail extraction for place ID ChIJFfhLjjAJfpYRpH5VuYADsm8 completed, total iterations: 284
+INFO  [2024-07-31 12:28:21] Detail extraction for place ID ChIJbcULBoIJfpYRCl6EwsChW24 completed, total iterations: 285
+INFO  [2024-07-31 12:28:22] Detail extraction for place ID ChIJ4_bQWKAJfpYRcyBOrEw1GX4 completed, total iterations: 286
+INFO  [2024-07-31 12:28:23] Detail extraction for place ID ChIJGeu6vukIfpYRDnSlOuQk9G4 completed, total iterations: 287
+INFO  [2024-07-31 12:28:24] Detail extraction for place ID ChIJq1vjXMUIfpYRbvu-nPr9PU8 completed, total iterations: 288
+INFO  [2024-07-31 12:28:24] Detail extraction for place ID ChIJVVTUk58JfpYRICdXwV3QrSc completed, total iterations: 289
+INFO  [2024-07-31 12:28:25] Detail extraction for place ID ChIJMVjzAEQJfpYRHV_V9H7sAYg completed, total iterations: 290
+INFO  [2024-07-31 12:28:26] Detail extraction for place ID ChIJN2afuYMJfpYRJyMeuBvXr_U completed, total iterations: 291
+INFO  [2024-07-31 12:28:27] Detail extraction for place ID ChIJW0kofFwJfpYRBZISkWWy5TY completed, total iterations: 292
+INFO  [2024-07-31 12:28:28] Detail extraction for place ID ChIJUfCw1nEIfpYRQF863sLoEtE completed, total iterations: 293
+INFO  [2024-07-31 12:28:28] Detail extraction for place ID ChIJH2U8oAgJfpYR2ZmYA4_0_vM completed, total iterations: 294
+INFO  [2024-07-31 12:28:29] Detail extraction for place ID ChIJTaqh_wUJfpYRYGr1u8prwoc completed, total iterations: 295
+INFO  [2024-07-31 12:28:30] Detail extraction for place ID ChIJ2w4r9F8IfpYRtxgfsuEWvuI completed, total iterations: 296
+INFO  [2024-07-31 12:28:31] Detail extraction for place ID ChIJR4Qj-qkJfpYRvc6wEOxR1e8 completed, total iterations: 297
+INFO  [2024-07-31 12:28:31] Detail extraction for place ID ChIJf6vOTQAJfpYRm_jylV6S5kk completed, total iterations: 298
+INFO  [2024-07-31 12:28:32] Detail extraction for place ID ChIJtyznJqoJfpYRcA2wAyOc3yw completed, total iterations: 299
+INFO  [2024-07-31 12:28:33] Detail extraction for place ID ChIJ0ZuFxR8JfpYRTTThvDuCBHA completed, total iterations: 300
+INFO  [2024-07-31 12:28:34] Detail extraction for place ID ChIJVU7f_RoJfpYRQbc-p5xYa1o completed, total iterations: 301
+INFO  [2024-07-31 12:28:35] Detail extraction for place ID ChIJh8DqEsAIfpYRmouw3TEauQ8 completed, total iterations: 302
+INFO  [2024-07-31 12:28:36] Detail extraction for place ID ChIJZRR5hxoJfpYRkRcinEbTTY0 completed, total iterations: 303
+INFO  [2024-07-31 12:28:36] Detail extraction for place ID ChIJ2a4-QBwJfpYRfS7_yk6XDdo completed, total iterations: 304
+INFO  [2024-07-31 12:28:37] Detail extraction for place ID ChIJRahL4YsJfpYRU_qsmKC6pr8 completed, total iterations: 305
+INFO  [2024-07-31 12:28:38] Detail extraction for place ID ChIJqRbjKR8JfpYR28_T8_4wjho completed, total iterations: 306
+INFO  [2024-07-31 12:28:39] Detail extraction for place ID ChIJt5yJsHQJfpYRHCxqqw76jK0 completed, total iterations: 307
+INFO  [2024-07-31 12:28:39] Detail extraction for place ID ChIJQ_5ezE4JfpYRHU-EUGmxpEY completed, total iterations: 308
+INFO  [2024-07-31 12:28:40] Detail extraction for place ID ChIJwVic_NYJfpYREEN-dLW6MxU completed, total iterations: 309
+INFO  [2024-07-31 12:28:41] Detail extraction for place ID ChIJk2XAeAUJfpYRTMarJWNLjiQ completed, total iterations: 310
+INFO  [2024-07-31 12:28:42] Detail extraction for place ID ChIJ05SJOdTtsQERw8-fYWiEO_0 completed, total iterations: 311
+INFO  [2024-07-31 12:28:43] Detail extraction for place ID ChIJh10ZokEIfpYRo0wLjV06bS0 completed, total iterations: 312
+INFO  [2024-07-31 12:28:43] Detail extraction for place ID ChIJQfAjBN0JfpYRnRNJHw3uRo0 completed, total iterations: 313
+INFO  [2024-07-31 12:28:44] Detail extraction for place ID ChIJDxx1tZsJfpYRbjVqfflbyrY completed, total iterations: 314
+INFO  [2024-07-31 12:28:45] Detail extraction for place ID ChIJHXp805UJfpYRwxxXOY_l5pE completed, total iterations: 315
+INFO  [2024-07-31 12:28:46] Detail extraction for place ID ChIJswOTU3sJfpYRyVGYlI2aC9c completed, total iterations: 316
+INFO  [2024-07-31 12:28:46] Detail extraction for place ID ChIJJZH6-6kJfpYRiijPtXCRO-U completed, total iterations: 317
+INFO  [2024-07-31 12:28:47] Detail extraction for place ID ChIJ8Qbj5qkJfpYRQr8o3lnXSd8 completed, total iterations: 318
+INFO  [2024-07-31 12:28:48] Detail extraction for place ID ChIJHd1M6d0IfpYRxl6XN2w2d1E completed, total iterations: 319
+INFO  [2024-07-31 12:28:49] Detail extraction for place ID ChIJsf5FJG4JfpYR67dA-uKJiYg completed, total iterations: 320
+INFO  [2024-07-31 12:28:50] Detail extraction for place ID ChIJDYcFOgMOfpYRfO_gYjz6kJg completed, total iterations: 321
+INFO  [2024-07-31 12:28:50] Detail extraction for place ID ChIJY7lpRwEJfpYR2oLfa86P8GM completed, total iterations: 322
+INFO  [2024-07-31 12:28:51] Detail extraction for place ID ChIJLVPvcz4JfpYRPLYOtC9xuZk completed, total iterations: 323
+INFO  [2024-07-31 12:28:52] Detail extraction for place ID ChIJ1aa2ZdwIfpYRFH1ivy4EMCI completed, total iterations: 324
+INFO  [2024-07-31 12:28:53] Detail extraction for place ID ChIJVaRSDNkIfpYRu5rb5y8Q7FE completed, total iterations: 325
+INFO  [2024-07-31 12:28:54] Detail extraction for place ID ChIJc3TDZ2sJfpYRWFjVg_Auk2Y completed, total iterations: 326
+INFO  [2024-07-31 12:28:55] Detail extraction for place ID ChIJp-nN1m0JfpYRm830VOxBVSc completed, total iterations: 327
+INFO  [2024-07-31 12:28:55] Detail extraction for place ID ChIJXUKLkeAIfpYRmE99knEg8t0 completed, total iterations: 328
+INFO  [2024-07-31 12:28:56] Detail extraction for place ID ChIJsUJKciIJfpYRvpRITNoe3m0 completed, total iterations: 329
+INFO  [2024-07-31 12:28:57] Detail extraction for place ID ChIJl2RWtnntsQERrx35HY4HgqQ completed, total iterations: 330
+INFO  [2024-07-31 12:28:58] Detail extraction for place ID ChIJF7oY3x4JfpYR0G3_BDCGxZo completed, total iterations: 331
+INFO  [2024-07-31 12:28:59] Detail extraction for place ID ChIJTzdRsh8JfpYR9BchW255ocw completed, total iterations: 332
+INFO  [2024-07-31 12:29:00] Detail extraction for place ID ChIJ5fN8K_4IfpYRxm5Y_aNRDdw completed, total iterations: 333
+INFO  [2024-07-31 12:29:01] Detail extraction for place ID ChIJ9RzKEBkJfpYRJ638jEdM_iM completed, total iterations: 334
+INFO  [2024-07-31 12:29:01] Detail extraction for place ID ChIJEd_HIAQJfpYRdgERXw077hY completed, total iterations: 335
+INFO  [2024-07-31 12:29:02] Detail extraction for place ID ChIJ9Y8g9x8JfpYRXZGTBwLhFos completed, total iterations: 336
+INFO  [2024-07-31 12:29:03] Detail extraction for place ID ChIJwf1ccAcJfpYRhlo5k0d9IDw completed, total iterations: 337
+INFO  [2024-07-31 12:29:04] Detail extraction for place ID ChIJQV820xYJfpYRJahriFEk3qo completed, total iterations: 338
+INFO  [2024-07-31 12:29:05] Detail extraction for place ID ChIJo86bqPEIfpYRS7_NgZa4IsI completed, total iterations: 339
+INFO  [2024-07-31 12:29:06] Detail extraction for place ID ChIJi1BguCQJfpYRAHEUJ1y_CwU completed, total iterations: 340
+INFO  [2024-07-31 12:29:07] Detail extraction for place ID ChIJP5gWHjoJfpYRSby7dk2f7Nk completed, total iterations: 341
+INFO  [2024-07-31 12:29:08] Detail extraction for place ID ChIJFVZ7qNgIfpYRkmIShKScamk completed, total iterations: 342
+INFO  [2024-07-31 12:29:08] Detail extraction for place ID ChIJW94h1T4JfpYRxdxaw4oj-0Y completed, total iterations: 343
+INFO  [2024-07-31 12:29:09] Detail extraction for place ID ChIJRQRUL6gJfpYRN6S6pM_iWI4 completed, total iterations: 344
+INFO  [2024-07-31 12:29:10] Detail extraction for place ID ChIJhydQKxUJfpYRv7gyqni4qBs completed, total iterations: 345
+INFO  [2024-07-31 12:29:11] Detail extraction for place ID ChIJc9sTQD8JfpYRc_D8OkAJsQo completed, total iterations: 346
+INFO  [2024-07-31 12:29:12] Detail extraction for place ID ChIJd5-vEGsJfpYRoSdCzocG1S0 completed, total iterations: 347
+INFO  [2024-07-31 12:29:12] Detail extraction for place ID ChIJJWOt0W0JfpYRTaZzE1kqZFU completed, total iterations: 348
+INFO  [2024-07-31 12:29:13] Detail extraction for place ID ChIJg9ddcpMIfpYRGiJ5Ff2LH4w completed, total iterations: 349
+INFO  [2024-07-31 12:29:14] Detail extraction for place ID ChIJrddcXW4JfpYRUi5kCY8SGxc completed, total iterations: 350
+INFO  [2024-07-31 12:29:15] Detail extraction for place ID ChIJ59_7FpIIfpYREV_KEYDJVII completed, total iterations: 351
+INFO  [2024-07-31 12:29:16] Detail extraction for place ID ChIJmWWdCUQJfpYRnOXG8ko-lxQ completed, total iterations: 352
+INFO  [2024-07-31 12:29:17] Detail extraction for place ID ChIJ8-78u8gIfpYR_Q7nG5OuAkY completed, total iterations: 353
+INFO  [2024-07-31 12:29:18] Detail extraction for place ID ChIJq6IcwP8IfpYREMxs8-Vig5U completed, total iterations: 354
+INFO  [2024-07-31 12:29:18] Detail extraction for place ID ChIJ_VIVe2YJfpYR3au3P4SGO_k completed, total iterations: 355
+INFO  [2024-07-31 12:29:20] Detail extraction for place ID ChIJBaN--WYJfpYRG7L7WjJOeCI completed, total iterations: 356
+INFO  [2024-07-31 12:29:20] Detail extraction for place ID ChIJfVUm2bcIfpYR-xhQuu5yJPk completed, total iterations: 357
+INFO  [2024-07-31 12:29:21] Detail extraction for place ID ChIJxeKkrxkJfpYRJYNv_u0R3VM completed, total iterations: 358
+INFO  [2024-07-31 12:29:22] Detail extraction for place ID ChIJ98UFxRgJfpYRy_F0pJybex4 completed, total iterations: 359
+INFO  [2024-07-31 12:29:23] Detail extraction for place ID ChIJsYoK8W4JfpYRxoPonnn-lA4 completed, total iterations: 360
+INFO  [2024-07-31 12:29:24] Detail extraction for place ID ChIJ_T0iixYJfpYRSpBUPkSSEEM completed, total iterations: 361
+INFO  [2024-07-31 12:29:25] Detail extraction for place ID ChIJQ1akVGwJfpYRuhliTgAnQpw completed, total iterations: 362
+INFO  [2024-07-31 12:29:25] Detail extraction for place ID ChIJ_5wQjOAIfpYR35wA8kVufZg completed, total iterations: 363
+INFO  [2024-07-31 12:29:26] Detail extraction for place ID ChIJz3J1J-AIfpYRXSYwuhaXqic completed, total iterations: 364
+INFO  [2024-07-31 12:29:27] Detail extraction for place ID ChIJ5V6ihRYJfpYR1KibrSPnGTQ completed, total iterations: 365
+INFO  [2024-07-31 12:29:28] Detail extraction for place ID ChIJjx_UTREJfpYRt2CZGH1uZ5o completed, total iterations: 366
+INFO  [2024-07-31 12:29:29] Detail extraction for place ID ChIJEwLgreIIfpYRvSdoc1XBkyo completed, total iterations: 367
+INFO  [2024-07-31 12:29:30] Detail extraction for place ID ChIJMeP26hwJfpYR-5EWMoyIZnM completed, total iterations: 368
+INFO  [2024-07-31 12:29:30] Detail extraction for place ID ChIJvTE3qOkLfpYRiCj5UNDLFZs completed, total iterations: 369
+INFO  [2024-07-31 12:29:31] Detail extraction for place ID ChIJMUMWxx0JfpYRpN1BlCbLJBM completed, total iterations: 370
+INFO  [2024-07-31 12:29:32] Detail extraction for place ID ChIJ6YncfM4JfpYRvzQTlviF1Y0 completed, total iterations: 371
+INFO  [2024-07-31 12:29:33] Detail extraction for place ID ChIJ-Qmqg1UJfpYRoWlUyVC_F6E completed, total iterations: 372
+INFO  [2024-07-31 12:29:34] Detail extraction for place ID ChIJ74K9XyMJfpYRUwSoKLj-FV0 completed, total iterations: 373
+INFO  [2024-07-31 12:29:35] Detail extraction for place ID ChIJe_SsFBwJfpYRw_YH1p1DO-Y completed, total iterations: 374
+INFO  [2024-07-31 12:29:35] Detail extraction for place ID ChIJAR0aOuMIfpYRqSpIl0-C88M completed, total iterations: 375
+INFO  [2024-07-31 12:29:36] Detail extraction for place ID ChIJDwK-kvYJfpYR0Oqz_3Dx2p4 completed, total iterations: 376
+INFO  [2024-07-31 12:29:37] Detail extraction for place ID ChIJVxwheBkJfpYRMqzeUenG5bQ completed, total iterations: 377
+INFO  [2024-07-31 12:29:38] Detail extraction for place ID ChIJ-eSOvwMJfpYRfj2ymLtczeg completed, total iterations: 378
+INFO  [2024-07-31 12:29:39] Detail extraction for place ID ChIJVbq-vTcIfpYREjNvmu7w0Os completed, total iterations: 379
+INFO  [2024-07-31 12:29:40] Detail extraction for place ID ChIJgY-apQgIfpYRPrEabZHtvoE completed, total iterations: 380
+INFO  [2024-07-31 12:29:41] Detail extraction for place ID ChIJ-X7JBF0IfpYRV9z-YCs9yRg completed, total iterations: 381
+INFO  [2024-07-31 12:29:41] Detail extraction for place ID ChIJ7T8zbl0IfpYRIyzj6FqbgfQ completed, total iterations: 382
+INFO  [2024-07-31 12:29:42] Detail extraction for place ID ChIJFStJ11QIfpYRpAq310O8cfc completed, total iterations: 383
+INFO  [2024-07-31 12:29:43] Detail extraction for place ID ChIJnZ3yZKYJfpYRstdT3de65jk completed, total iterations: 384
+INFO  [2024-07-31 12:29:44] Detail extraction for place ID ChIJK99ffKoJfpYRgyyADWcLuxo completed, total iterations: 385
+INFO  [2024-07-31 12:29:45] Detail extraction for place ID ChIJQYRxiqcJfpYR20gAgXoBg74 completed, total iterations: 386
+INFO  [2024-07-31 12:29:46] Detail extraction for place ID ChIJH8SwJyoIfpYRRW8_UVO-GCM completed, total iterations: 387
+INFO  [2024-07-31 12:29:47] Detail extraction for place ID ChIJl_3VG-UJfpYRmK3tBI4GrBo completed, total iterations: 388
+INFO  [2024-07-31 12:29:48] Detail extraction for place ID ChIJXZnJIYcJfpYRXpgnUR4QEbQ completed, total iterations: 389
+INFO  [2024-07-31 12:29:49] Detail extraction for place ID ChIJ0_goOEoIfpYRjA9MsLIJ-R8 completed, total iterations: 390
+INFO  [2024-07-31 12:29:50] Detail extraction for place ID ChIJQdllsUsIfpYRYkZmNV_KMGs completed, total iterations: 391
+INFO  [2024-07-31 12:29:51] Detail extraction for place ID ChIJrToCbjYJfpYRvHLop06xmfk completed, total iterations: 392
+INFO  [2024-07-31 12:29:51] Detail extraction for place ID ChIJJwshd7gJfpYRkpKaZH8kUP4 completed, total iterations: 393
+INFO  [2024-07-31 12:29:52] Detail extraction for place ID ChIJtYJbXM8JfpYRY8J5OmE6aKk completed, total iterations: 394
+INFO  [2024-07-31 12:29:53] Detail extraction for place ID ChIJF5UWTkAIfpYRKz5wB2eu-sg completed, total iterations: 395
+INFO  [2024-07-31 12:29:54] Detail extraction for place ID ChIJAQAAcU4IfpYRhe-ZCUvhvKE completed, total iterations: 396
+INFO  [2024-07-31 12:29:55] Detail extraction for place ID ChIJV8QvjPDjfZYRSoPqk__xtFA completed, total iterations: 397
+INFO  [2024-07-31 12:29:55] Detail extraction for place ID ChIJSf-HXUAJfpYRWfwkPHyHAMk completed, total iterations: 398
+INFO  [2024-07-31 12:29:56] Detail extraction for place ID ChIJIa0XOAAJfpYRmtddhDmRuu4 completed, total iterations: 399
+INFO  [2024-07-31 12:29:57] Detail extraction for place ID ChIJ0awFCkIIfpYRovVqkA1Kph8 completed, total iterations: 400
+INFO  [2024-07-31 12:29:58] Detail extraction for place ID ChIJZ5II4mkIfpYRjkN1ZXM0w_s completed, total iterations: 401
+INFO  [2024-07-31 12:29:59] Detail extraction for place ID ChIJEwuYc-MJfpYR_vKB8OT3kX0 completed, total iterations: 402
+INFO  [2024-07-31 12:30:00] Detail extraction for place ID ChIJs7P2cngJfpYRtwXQLGXsL3I completed, total iterations: 403
+INFO  [2024-07-31 12:30:01] Detail extraction for place ID ChIJZwGwEAAJfpYRqOFXXMlcXHE completed, total iterations: 404
+INFO  [2024-07-31 12:30:01] Detail extraction for place ID ChIJ29dDsDEJfpYR_3XnyeacZnQ completed, total iterations: 405
+INFO  [2024-07-31 12:30:02] Detail extraction for place ID ChIJuU3-UQAJfpYRFigK3edsQ_8 completed, total iterations: 406
+INFO  [2024-07-31 12:30:03] Detail extraction for place ID ChIJFf0IjpcJfpYRQ96L8tn2G3Y completed, total iterations: 407
+INFO  [2024-07-31 12:30:04] Detail extraction for place ID ChIJS_7vAGwIfpYRuEvzxgGMKz4 completed, total iterations: 408
+INFO  [2024-07-31 12:30:05] Detail extraction for place ID ChIJm2maTj0JfpYRtSedk-ovsFI completed, total iterations: 409
+INFO  [2024-07-31 12:30:05] Detail extraction for place ID ChIJ81EoxAcJfpYRPU8Qee9PGeg completed, total iterations: 410
+INFO  [2024-07-31 12:30:06] Detail extraction for place ID ChIJ_a-jbwAJfpYRiS8ffe_9e7M completed, total iterations: 411
+INFO  [2024-07-31 12:30:07] Detail extraction for place ID ChIJA1wGL1AJfpYRZSFA2NtIpVs completed, total iterations: 412
+INFO  [2024-07-31 12:30:08] Detail extraction for place ID ChIJeRQEyf4JfpYRkXe3YpP4Pk4 completed, total iterations: 413
+INFO  [2024-07-31 12:30:09] Detail extraction for place ID ChIJXbAgnxAJfpYRgSM6MHqlNZs completed, total iterations: 414
+INFO  [2024-07-31 12:30:10] Detail extraction for place ID ChIJgX6k3qgJfpYRHdOvRp5HSOs completed, total iterations: 415
+INFO  [2024-07-31 12:30:10] Detail extraction for place ID ChIJw0-cZOMJfpYRfetyWelTxik completed, total iterations: 416
+INFO  [2024-07-31 12:30:11] Detail extraction for place ID ChIJSYUH008JfpYRsabAU9AEiBU completed, total iterations: 417
+INFO  [2024-07-31 12:30:12] Detail extraction for place ID ChIJZVQPXQQJfpYRtS2-yuo5cv8 completed, total iterations: 418
+INFO  [2024-07-31 12:30:13] Detail extraction for place ID ChIJeygoJ9MJfpYRGSqFG-s9yfU completed, total iterations: 419
+INFO  [2024-07-31 12:30:14] Detail extraction for place ID ChIJIX_F9N8JfpYRZdiZxwimYME completed, total iterations: 420
+INFO  [2024-07-31 12:30:15] Detail extraction for place ID ChIJC025pvQJfpYRaPgvbVJeaYY completed, total iterations: 421
+INFO  [2024-07-31 12:30:15] Detail extraction for place ID ChIJa8BdaxQJfpYRAEJwD7m5pPQ completed, total iterations: 422
+INFO  [2024-07-31 12:30:16] Detail extraction for place ID ChIJh3zyYKYJfpYRT-a3eEpwhiU completed, total iterations: 423
+INFO  [2024-07-31 12:30:17] Detail extraction for place ID ChIJVdijUVgIfpYRDHo1ofEO7zk completed, total iterations: 424
+INFO  [2024-07-31 12:30:18] Detail extraction for place ID ChIJk_b-4JvtsQER8APyULOkuqM completed, total iterations: 425
+INFO  [2024-07-31 12:30:19] Detail extraction for place ID ChIJE5oaHhkJfpYRxcuvX3YOxPY completed, total iterations: 426
+INFO  [2024-07-31 12:30:20] Detail extraction for place ID ChIJpX2hLCsJfpYR59JWS7qZvHo completed, total iterations: 427
+INFO  [2024-07-31 12:30:21] Detail extraction for place ID ChIJi1c3owYJfpYRoWsf8fuEq2A completed, total iterations: 428
+INFO  [2024-07-31 12:30:22] Detail extraction for place ID ChIJJx_QX8ELfpYRIIOxxAShPo4 completed, total iterations: 429
+INFO  [2024-07-31 12:30:23] Detail extraction for place ID ChIJkUm95qQJfpYRD74m3sCkmsI completed, total iterations: 430
+INFO  [2024-07-31 12:30:24] Detail extraction for place ID ChIJYQmeKhsJfpYRyq_OiZR7fcY completed, total iterations: 431
+INFO  [2024-07-31 12:30:25] Detail extraction for place ID ChIJ35nzngIJfpYRD3YJZYMKw_w completed, total iterations: 432
+INFO  [2024-07-31 12:30:26] Detail extraction for place ID ChIJcT3TqhUJfpYR3iItwJZOaao completed, total iterations: 433
+INFO  [2024-07-31 12:30:27] Detail extraction for place ID ChIJFzdSKqcJfpYRDzerGElwFYM completed, total iterations: 434
+INFO  [2024-07-31 12:30:28] Detail extraction for place ID ChIJeQErwOEIfpYRmV3O90dzeR0 completed, total iterations: 435
+INFO  [2024-07-31 12:30:29] Detail extraction for place ID ChIJc7suNQQJfpYRfjjw6xtmwpo completed, total iterations: 436
+INFO  [2024-07-31 12:30:29] Detail extraction for place ID ChIJu7k_-xkJfpYRJ8RzYtX8ZDQ completed, total iterations: 437
+INFO  [2024-07-31 12:30:30] Detail extraction for place ID ChIJoayR6RgJfpYR252BAeBSOWQ completed, total iterations: 438
+INFO  [2024-07-31 12:30:31] Detail extraction for place ID ChIJo04M6uEIfpYRJoYmEbPDgec completed, total iterations: 439
+INFO  [2024-07-31 12:30:32] Detail extraction for place ID ChIJty-5M-cIfpYRAhVFv8J8h1w completed, total iterations: 440
+INFO  [2024-07-31 12:30:33] Detail extraction for place ID ChIJ4dYvtHztsQERsIpZ53vXzPc completed, total iterations: 441
+INFO  [2024-07-31 12:30:34] Detail extraction for place ID ChIJKydEtvEIfpYR6-o2T3a088Y completed, total iterations: 442
+INFO  [2024-07-31 12:30:35] Detail extraction for place ID ChIJO4tiid4IfpYR7q0scGI0aJQ completed, total iterations: 443
+INFO  [2024-07-31 12:30:37] Detail extraction for place ID ChIJ2TtN6-cIfpYRlmL-9YRifHM completed, total iterations: 444
+INFO  [2024-07-31 12:30:38] Detail extraction for place ID ChIJ3zVwZqYJfpYR-fp9u7wZ9Mk completed, total iterations: 445
+INFO  [2024-07-31 12:30:39] Detail extraction for place ID ChIJZRUqmBMJfpYRqr4dyOZG6C4 completed, total iterations: 446
+INFO  [2024-07-31 12:30:40] Detail extraction for place ID ChIJ8XUoZAkJfpYRn0ZcD24FV68 completed, total iterations: 447
+INFO  [2024-07-31 12:30:41] Detail extraction for place ID ChIJv1_pIPQIfpYRDieVlz1uwoo completed, total iterations: 448
+INFO  [2024-07-31 12:30:42] Detail extraction for place ID ChIJmYyWbfQIfpYRXkPD3v__lwc completed, total iterations: 449
+INFO  [2024-07-31 12:30:43] Detail extraction for place ID ChIJVeZomsXtsQERz38p5CNOZP4 completed, total iterations: 450
+INFO  [2024-07-31 12:30:44] Detail extraction for place ID ChIJ-Uuzle0IfpYRMLJVPJs3DOg completed, total iterations: 451
+INFO  [2024-07-31 12:30:45] Detail extraction for place ID ChIJv9YgStgIfpYRfsU78-nCotw completed, total iterations: 452
+INFO  [2024-07-31 12:30:48] Detail extraction for place ID ChIJv_CX8qPysQERswmAbJ1YZOQ completed, total iterations: 453
+INFO  [2024-07-31 12:30:48] Detail extraction for place ID ChIJV-IunW4JfpYRG-h3pKuyTAU completed, total iterations: 454
+INFO  [2024-07-31 12:30:50] Detail extraction for place ID ChIJN5vIJWwJfpYRIQnQ_Eurmco completed, total iterations: 455
+INFO  [2024-07-31 12:30:51] Detail extraction for place ID ChIJx2s4CGkJfpYRgzinQiryFE4 completed, total iterations: 456
+INFO  [2024-07-31 12:30:52] Detail extraction for place ID ChIJuZ_dHW4JfpYRd4Y3VBiJyDI completed, total iterations: 457
+INFO  [2024-07-31 12:30:54] Detail extraction for place ID ChIJ4TfsIJAIfpYRaFk3wK3VUYA completed, total iterations: 458
+INFO  [2024-07-31 12:30:55] Detail extraction for place ID ChIJ3S3f02QJfpYRTLZSuEk40Cg completed, total iterations: 459
+INFO  [2024-07-31 12:30:56] Detail extraction for place ID ChIJhZr9YRcJfpYRYfayXWFMDEs completed, total iterations: 460
+INFO  [2024-07-31 12:30:57] Detail extraction for place ID ChIJPWnkjJkIfpYR9ncZxN8ozx0 completed, total iterations: 461
+INFO  [2024-07-31 12:30:58] Detail extraction for place ID ChIJQ6jcWDkJfpYRH0gCGR_4g80 completed, total iterations: 462
+INFO  [2024-07-31 12:30:59] Detail extraction for place ID ChIJ3aLgvhcJfpYRcpLNXYcaUt4 completed, total iterations: 463
+INFO  [2024-07-31 12:31:00] Detail extraction for place ID ChIJG8ZbrMMIfpYR4mWFBBNxD8c completed, total iterations: 464
+INFO  [2024-07-31 12:31:01] Detail extraction for place ID ChIJd7G40XEJfpYRtkZCgb1zsug completed, total iterations: 465
+INFO  [2024-07-31 12:31:02] Detail extraction for place ID ChIJ2S_RufMIfpYR3PZD1hpsbuc completed, total iterations: 466
+INFO  [2024-07-31 12:31:03] Detail extraction for place ID ChIJf3HSeQ8JfpYRxYL5dN2qAew completed, total iterations: 467
+INFO  [2024-07-31 12:31:04] Detail extraction for place ID ChIJFYraLgAJfpYRvOAjpjfGLxM completed, total iterations: 468
+INFO  [2024-07-31 12:31:05] Detail extraction for place ID ChIJvcNo6BwJfpYRwka3ONum7es completed, total iterations: 469
+INFO  [2024-07-31 12:31:05] Detail extraction for place ID ChIJD983WFoJfpYRkCIERkqLFEU completed, total iterations: 470
+INFO  [2024-07-31 12:31:06] Detail extraction for place ID ChIJMy0eEJ3tsQER9DIZiCeQgTI completed, total iterations: 471
+INFO  [2024-07-31 12:31:07] Detail extraction for place ID ChIJhflpGI0JfpYR-s5aOMgLxHA completed, total iterations: 472
+INFO  [2024-07-31 12:31:08] Detail extraction for place ID ChIJR8IzIwIJfpYRAxxUy_RlhMI completed, total iterations: 473
+INFO  [2024-07-31 12:31:09] Detail extraction for place ID ChIJKeK48hsJfpYRFWy8fRUNmEo completed, total iterations: 474
+INFO  [2024-07-31 12:31:10] Detail extraction for place ID ChIJ7Q1Hv3YJfpYR3j5jNBE0wAQ completed, total iterations: 475
+INFO  [2024-07-31 12:31:11] Detail extraction for place ID ChIJdRY4an4JfpYRj_hbJpeI5JM completed, total iterations: 476
+INFO  [2024-07-31 12:31:12] Detail extraction for place ID ChIJ8ZMN6QkJfpYRO7A4JR5Ay-E completed, total iterations: 477
+INFO  [2024-07-31 12:31:13] Detail extraction for place ID ChIJ3c4joGsJfpYRkhsFoJslaNk completed, total iterations: 478
+INFO  [2024-07-31 12:31:14] Detail extraction for place ID ChIJ8XPTO-oJfpYRy4YyRq3A5L4 completed, total iterations: 479
+INFO  [2024-07-31 12:31:15] Detail extraction for place ID ChIJYZWcB36so0sRUdn_SB-V4Ck completed, total iterations: 480
+INFO  [2024-07-31 12:31:16] Detail extraction for place ID ChIJ4W3jwBQJfpYRHlwf0QY61cQ completed, total iterations: 481
+INFO  [2024-07-31 12:31:17] Detail extraction for place ID ChIJYRc93h4JfpYR4XoiX0PjjYo completed, total iterations: 482
+INFO  [2024-07-31 12:31:18] Detail extraction for place ID ChIJ9znoCQAJfpYRax4DO7578B4 completed, total iterations: 483
+INFO  [2024-07-31 12:31:19] Detail extraction for place ID ChIJvQrxvQEJfpYRAsZTSRyLwjs completed, total iterations: 484
+INFO  [2024-07-31 12:31:20] Detail extraction for place ID ChIJuSMZ6wgJfpYRx7X9lto5Buw completed, total iterations: 485
+INFO  [2024-07-31 12:31:22] Detail extraction for place ID ChIJs-FdnakJfpYRqtj5M1iSQ0I completed, total iterations: 486
+INFO  [2024-07-31 12:31:22] Detail extraction for place ID ChIJM0XNYnQJfpYRVpwOh0xfwxU completed, total iterations: 487
+INFO  [2024-07-31 12:31:23] Detail extraction for place ID ChIJW4UYSKgJfpYRE3FqCi0rPKE completed, total iterations: 488
+INFO  [2024-07-31 12:31:24] Detail extraction for place ID ChIJyf5oSCkJfpYR7KkBlnJsWUY completed, total iterations: 489
+INFO  [2024-07-31 12:31:25] Detail extraction for place ID ChIJNV79aAAJfpYR5Gg0oyHv_Mk completed, total iterations: 490
+INFO  [2024-07-31 12:31:25] Detail extraction for place ID ChIJ6fMFuNgJfpYR9Ce3lP8cIkk completed, total iterations: 491
+INFO  [2024-07-31 12:31:26] Detail extraction for place ID ChIJ4fXH-VAJfpYRoeQY0ILi2u0 completed, total iterations: 492
+INFO  [2024-07-31 12:31:27] Detail extraction for place ID ChIJIwoQs98JfpYREX8mcIrHwAw completed, total iterations: 493
+INFO  [2024-07-31 12:31:28] Detail extraction for place ID ChIJfcGVxsAJfpYR1OEtycaEQaw completed, total iterations: 494
+INFO  [2024-07-31 12:31:29] Detail extraction for place ID ChIJwZTGsGnjfZYRX6g4HN1JndY completed, total iterations: 495
+INFO  [2024-07-31 12:31:30] Detail extraction for place ID ChIJFyXF_F3jfZYREZ5NqaKSumY completed, total iterations: 496
+INFO  [2024-07-31 12:31:31] Detail extraction for place ID ChIJXVH13BrjfZYRR2xlEXoXiO0 completed, total iterations: 497
+INFO  [2024-07-31 12:31:32] Detail extraction for place ID ChIJZ8yP2MXjfZYRntJRrM26AH0 completed, total iterations: 498
+INFO  [2024-07-31 12:31:33] Detail extraction for place ID ChIJx95MrAzjfZYRozO6_8zlEUw completed, total iterations: 499
+INFO  [2024-07-31 12:31:33] Detail extraction for place ID ChIJUVHlHBzjfZYRbi-eXt3aoDY completed, total iterations: 500
+INFO  [2024-07-31 12:31:35] Detail extraction for place ID ChIJr-cr_z3jfZYRMoBENOPLYTM completed, total iterations: 501
+INFO  [2024-07-31 12:31:36] Detail extraction for place ID ChIJEwDUJFsJfpYRAnF1DN309zI completed, total iterations: 502
+INFO  [2024-07-31 12:31:37] Detail extraction for place ID ChIJwenLv8cJfpYRcvDETbzyEjI completed, total iterations: 503
+INFO  [2024-07-31 12:31:38] Detail extraction for place ID ChIJ7QiesrwJfpYRzN3ZjgOXK5g completed, total iterations: 504
+INFO  [2024-07-31 12:31:39] Detail extraction for place ID ChIJ1dVVRc0JfpYR9-O3BXmZFqw completed, total iterations: 505
+INFO  [2024-07-31 12:31:40] Detail extraction for place ID ChIJ-YGk7HgJfpYR-M1MC1Mx7ko completed, total iterations: 506
+INFO  [2024-07-31 12:31:41] Detail extraction for place ID ChIJv7MgTaIJfpYRXVQ0VBAb2MQ completed, total iterations: 507
+INFO  [2024-07-31 12:31:41] Detail extraction for place ID ChIJWanb3qkJfpYRh-iU_6e0LfI completed, total iterations: 508
+INFO  [2024-07-31 12:31:42] Detail extraction for place ID ChIJ3Rr-G-kJfpYRHUYZLTi8flM completed, total iterations: 509
+INFO  [2024-07-31 12:31:43] Detail extraction for place ID ChIJaamJM2oIfpYR-UnQj2aLjJM completed, total iterations: 510
+INFO  [2024-07-31 12:31:44] Detail extraction for place ID ChIJd-sjotkJfpYRv4lO6eHQy1M completed, total iterations: 511
+INFO  [2024-07-31 12:31:45] Detail extraction for place ID ChIJV36b-IAJfpYRrh-NmhAQlZM completed, total iterations: 512
+INFO  [2024-07-31 12:31:46] Detail extraction for place ID ChIJB_GyXQAJfpYRrfT3liq8mLk completed, total iterations: 513
+INFO  [2024-07-31 12:31:47] Detail extraction for place ID ChIJNwJoQScJfpYRP5tZPckqFFo completed, total iterations: 514
+INFO  [2024-07-31 12:31:47] Detail extraction for place ID ChIJlVXDnAQJfpYRPz0xP-ZuCRg completed, total iterations: 515
+INFO  [2024-07-31 12:31:48] Detail extraction for place ID ChIJx_mbwBgJfpYRH0uzkVTZ9KY completed, total iterations: 516
+INFO  [2024-07-31 12:31:49] Detail extraction for place ID ChIJBdHxQbwJfpYRJAeLtFnzVYE completed, total iterations: 517
+INFO  [2024-07-31 12:31:50] Detail extraction for place ID ChIJU6NNW3wJfpYRP93tiZ_5hsI completed, total iterations: 518
+INFO  [2024-07-31 12:31:51] Detail extraction for place ID ChIJXauPaoIJfpYRTPvUwiFgInE completed, total iterations: 519
+INFO  [2024-07-31 12:31:51] Detail extraction for place ID ChIJS9AQO9AJfpYR6zL79ZaK7Mc completed, total iterations: 520
+INFO  [2024-07-31 12:31:53] Detail extraction for place ID ChIJt-XCQLwJfpYRVnzcOOulB2g completed, total iterations: 521
+INFO  [2024-07-31 12:31:53] Detail extraction for place ID ChIJUTpN2K0JfpYRiJYnmhnLg_s completed, total iterations: 522
+INFO  [2024-07-31 12:31:54] Detail extraction for place ID ChIJLYX1dr4JfpYRwsFy6b3QsMo completed, total iterations: 523
+INFO  [2024-07-31 12:31:55] Detail extraction for place ID ChIJ0fiZSrwJfpYRambkdVpB1uI completed, total iterations: 524
+INFO  [2024-07-31 12:31:56] Detail extraction for place ID ChIJGYki0ZsJfpYR67BnooWNsEQ completed, total iterations: 525
+INFO  [2024-07-31 12:31:57] Detail extraction for place ID ChIJKaTJ-2MJfpYRx9G5dTnJ7_Y completed, total iterations: 526
+INFO  [2024-07-31 12:31:58] Detail extraction for place ID ChIJ624oE2oJfpYRAybVQ_GMCFY completed, total iterations: 527
+INFO  [2024-07-31 12:31:59] Detail extraction for place ID ChIJWYVU9UoJfpYR0DEqSbIQN0Q completed, total iterations: 528
+INFO  [2024-07-31 12:31:59] Detail extraction for place ID ChIJU_ka_OQJfpYRVdZBD-oOdog completed, total iterations: 529
+INFO  [2024-07-31 12:32:00] Detail extraction for place ID ChIJP1N1atcJfpYRaXYS2OtP2Qg completed, total iterations: 530
+INFO  [2024-07-31 12:32:01] Detail extraction for place ID ChIJreMYdgYJfpYRzhCFJR_-Fx0 completed, total iterations: 531
+INFO  [2024-07-31 12:32:02] Detail extraction for place ID ChIJE84yYBwJfpYRBbxgs-Fqlvs completed, total iterations: 532
+INFO  [2024-07-31 12:32:03] Detail extraction for place ID ChIJ15fTbmMJfpYR35at3nZjJhg completed, total iterations: 533
+INFO  [2024-07-31 12:32:04] Detail extraction for place ID ChIJ_1HDBPEJfpYRqftLsHtBvjI completed, total iterations: 534
+INFO  [2024-07-31 12:32:04] Detail extraction for place ID ChIJo5hEL_MJfpYRFRYoat81YgQ completed, total iterations: 535
+INFO  [2024-07-31 12:32:05] Detail extraction for place ID ChIJE6teAxkJfpYR6lHj7Z5wWYc completed, total iterations: 536
+INFO  [2024-07-31 12:32:06] Detail extraction for place ID ChIJyfoHntgJfpYRiNy-5l-4aFw completed, total iterations: 537
+INFO  [2024-07-31 12:32:07] Detail extraction for place ID ChIJcUPVuxwJfpYRW75SdVLGZbA completed, total iterations: 538
+INFO  [2024-07-31 12:32:07] Detail extraction for place ID ChIJA5dgo9IJfpYR0RG93Q8XIik completed, total iterations: 539
+INFO  [2024-07-31 12:32:08] Detail extraction for place ID ChIJ889IlHIJfpYRbTYBMuRQpHk completed, total iterations: 540
+INFO  [2024-07-31 12:32:09] Detail extraction for place ID ChIJh-sjN9sIfpYRm_k9cLyqWcg completed, total iterations: 541
+INFO  [2024-07-31 12:32:10] Detail extraction for place ID ChIJYRHLOBoJfpYR8KPphG8S6LA completed, total iterations: 542
+INFO  [2024-07-31 12:32:11] Detail extraction for place ID ChIJUVr8gQ8JfpYRgLr-92DApfg completed, total iterations: 543
+INFO  [2024-07-31 12:32:11] Detail extraction for place ID ChIJP7NgIgIJfpYR8fDT24jCWl8 completed, total iterations: 544
+INFO  [2024-07-31 12:32:12] Detail extraction for place ID ChIJS9AMvRsJfpYRJsBpK1GCBYw completed, total iterations: 545
+INFO  [2024-07-31 12:32:13] Detail extraction for place ID ChIJ51D-2gQJfpYRN7FIgvLAkhs completed, total iterations: 546
+INFO  [2024-07-31 12:32:14] Detail extraction for place ID ChIJJ9yL7wQJfpYRvd6bihkTi_c completed, total iterations: 547
+INFO  [2024-07-31 12:32:15] Detail extraction for place ID ChIJK1VK7BkJfpYRDey72HpLmSg completed, total iterations: 548
+INFO  [2024-07-31 12:32:16] Detail extraction for place ID ChIJsw1W7xgJfpYRDWAg85Tt-3Q completed, total iterations: 549
+INFO  [2024-07-31 12:32:17] Detail extraction for place ID ChIJuXUFBt4IfpYR_mlHSqijei8 completed, total iterations: 550
+INFO  [2024-07-31 12:32:17] Detail extraction for place ID ChIJ2f3kHYAJfpYR5SEoEY7W5Yg completed, total iterations: 551
+INFO  [2024-07-31 12:32:18] Detail extraction for place ID ChIJtasZZAwJfpYR__sEERsf3Ts completed, total iterations: 552
+INFO  [2024-07-31 12:32:19] Detail extraction for place ID ChIJ-0M-IBMJfpYRQcaiZRdUL3k completed, total iterations: 553
+INFO  [2024-07-31 12:32:20] Detail extraction for place ID ChIJEzuWPyUJfpYRIXz4rNmrlAY completed, total iterations: 554
+INFO  [2024-07-31 12:32:21] Detail extraction for place ID ChIJI-9ODrkJfpYRms6TAUQNmFU completed, total iterations: 555
+INFO  [2024-07-31 12:32:22] Detail extraction for place ID ChIJhfJTUA0JfpYRZGrxSIqdJFk completed, total iterations: 556
+INFO  [2024-07-31 12:32:23] Detail extraction for place ID ChIJsRVi7TEJfpYRgQa7XCvbBkw completed, total iterations: 557
+INFO  [2024-07-31 12:32:23] Detail extraction for place ID ChIJA3bj_DgJfpYRJf9VZ9tsMBs completed, total iterations: 558
+INFO  [2024-07-31 12:32:24] Detail extraction for place ID ChIJ7QV6kjAJfpYRZWZPMvuVKq8 completed, total iterations: 559
+INFO  [2024-07-31 12:32:25] Detail extraction for place ID ChIJhw0ZqzgJfpYRUrnCBNBhXHw completed, total iterations: 560
+INFO  [2024-07-31 12:32:26] Detail extraction for place ID ChIJITDszjEJfpYRVv2LZDfzd7g completed, total iterations: 561
+INFO  [2024-07-31 12:32:27] Detail extraction for place ID ChIJxw7xeTgJfpYRy8EDtVgyBRE completed, total iterations: 562
+INFO  [2024-07-31 12:32:28] Detail extraction for place ID ChIJ3w1d0GkJfpYRvNvEa3QBRRQ completed, total iterations: 563
+INFO  [2024-07-31 12:32:28] Detail extraction for place ID ChIJibBvR0YJfpYRXounIlhitok completed, total iterations: 564
+INFO  [2024-07-31 12:32:29] Detail extraction for place ID ChIJuynNnUUJfpYROqiRDGo_59k completed, total iterations: 565
+INFO  [2024-07-31 12:32:30] Detail extraction for place ID ChIJ8_ObA5AIfpYRmHMmsBlTGAU completed, total iterations: 566
+INFO  [2024-07-31 12:32:33] Detail extraction for place ID ChIJsdr2p5cIfpYRzQ1DeEWSNr0 completed, total iterations: 567
+INFO  [2024-07-31 12:32:33] Detail extraction for place ID ChIJM5ZgTcoOfpYRXVZ0Ftebtbw completed, total iterations: 568
+INFO  [2024-07-31 12:32:34] Detail extraction for place ID ChIJn8DHA8oOfpYRNSYD7EKaF10 completed, total iterations: 569
+INFO  [2024-07-31 12:32:35] Detail extraction for place ID ChIJ_8gnrxoJfpYR2EhcAqY8vT8 completed, total iterations: 570
+INFO  [2024-07-31 12:32:36] Detail extraction for place ID ChIJZ0Kd3RgJfpYR567kR1_Chnk completed, total iterations: 571
+INFO  [2024-07-31 12:32:37] Detail extraction for place ID ChIJ8yqN9AMJfpYRvxr4ksZZiF0 completed, total iterations: 572
+INFO  [2024-07-31 12:32:38] Detail extraction for place ID ChIJR58RvFwJfpYRWZToDayHb60 completed, total iterations: 573
+INFO  [2024-07-31 12:32:39] Detail extraction for place ID ChIJDV5rEgQJfpYR-CI9UrATuvU completed, total iterations: 574
+INFO  [2024-07-31 12:32:40] Detail extraction for place ID ChIJn_b3Nx0JfpYR9vl8qjf99-4 completed, total iterations: 575
+INFO  [2024-07-31 12:32:41] Detail extraction for place ID ChIJn5YWXh0JfpYROAm8leccNKs completed, total iterations: 576
+INFO  [2024-07-31 12:32:42] Detail extraction for place ID ChIJrYuceh0JfpYRV8ZGC8a8eho completed, total iterations: 577
+INFO  [2024-07-31 12:32:43] Detail extraction for place ID ChIJN3dinYsLfpYR3YCNGfO1tQE completed, total iterations: 578
+INFO  [2024-07-31 12:32:44] Detail extraction for place ID ChIJv1G4cDgJfpYReQTmWRvxfTY completed, total iterations: 579
+INFO  [2024-07-31 12:32:45] Detail extraction for place ID ChIJPZyF7hwJfpYRyB4XTFBf3ns completed, total iterations: 580
+INFO  [2024-07-31 12:32:46] Detail extraction for place ID ChIJC_sk9BwJfpYRmk2pAQTPhAo completed, total iterations: 581
+INFO  [2024-07-31 12:32:47] Detail extraction for place ID ChIJtXeStB0JfpYReJ-dvpE39Tg completed, total iterations: 582
+INFO  [2024-07-31 12:32:48] Detail extraction for place ID ChIJRdQRCxsJfpYRRKvFLDj6i-0 completed, total iterations: 583
+INFO  [2024-07-31 12:32:49] Detail extraction for place ID ChIJHb8yggAJfpYRrdLhVLb2C5E completed, total iterations: 584
+INFO  [2024-07-31 12:32:49] Detail extraction for place ID ChIJLQV2fQHjfZYRUUpcMvUu1F4 completed, total iterations: 585
+INFO  [2024-07-31 12:32:50] Detail extraction for place ID ChIJWQDuDgAJfpYR9_EeoJpzcLY completed, total iterations: 586
+INFO  [2024-07-31 12:32:51] Detail extraction for place ID ChIJOct3EQAJfpYRzmw3YJRpxuc completed, total iterations: 587
+INFO  [2024-07-31 12:32:52] Detail extraction for place ID ChIJKWwgQbwJfpYRHp09ysVvr0c completed, total iterations: 588
+INFO  [2024-07-31 12:32:52] Detail extraction for place ID ChIJHakZEQkJfpYRna_Lv3YnABU completed, total iterations: 589
+INFO  [2024-07-31 12:32:53] Detail extraction for place ID ChIJtaCV900JfpYRwLjxkTedvhg completed, total iterations: 590
+INFO  [2024-07-31 12:32:54] Detail extraction for place ID ChIJ8XOukWkJfpYR31D5R2DRwvI completed, total iterations: 591
+INFO  [2024-07-31 12:32:55] Detail extraction for place ID ChIJE56_Tt8JfpYR6ZKd7bpHopA completed, total iterations: 592
+INFO  [2024-07-31 12:32:56] Detail extraction for place ID ChIJLZFZIx8JfpYR_GWyL8YQ6vU completed, total iterations: 593
+INFO  [2024-07-31 12:32:57] Detail extraction for place ID ChIJwzObfZYJfpYRMOR0SHhGMRc completed, total iterations: 594
+INFO  [2024-07-31 12:32:57] Detail extraction for place ID ChIJg0g1WmwJfpYR6DusPLdcMks completed, total iterations: 595
+INFO  [2024-07-31 12:32:58] Detail extraction for place ID ChIJF2pafJQJfpYRyN2bKhuk6xw completed, total iterations: 596
+INFO  [2024-07-31 12:32:59] Detail extraction for place ID ChIJU3EViCEJfpYRBFPmVZsgef8 completed, total iterations: 597
+INFO  [2024-07-31 12:33:00] Detail extraction for place ID ChIJC6FJ8wkJfpYR7C5FP-2nSuM completed, total iterations: 598
+INFO  [2024-07-31 12:33:01] Detail extraction for place ID ChIJT_MlcBQJfpYRalD59b6N71k completed, total iterations: 599
+INFO  [2024-07-31 12:33:02] Detail extraction for place ID ChIJD1jRmt0IfpYRdO1Wu9u2Ozc completed, total iterations: 600
+INFO  [2024-07-31 12:33:02] Detail extraction for place ID ChIJqWUG0xwOfpYR1AWAsoBxCuM completed, total iterations: 601
+INFO  [2024-07-31 12:33:03] Detail extraction for place ID ChIJKZwWCCAJfpYROebY6Hd5re8 completed, total iterations: 602
+INFO  [2024-07-31 12:33:04] Detail extraction for place ID ChIJDYcFOgMOfpYR_C75ktbozvo completed, total iterations: 603
+INFO  [2024-07-31 12:33:05] Detail extraction for place ID ChIJIcQ06tgIfpYRFxJlyWRbAGo completed, total iterations: 604
+INFO  [2024-07-31 12:33:06] Detail extraction for place ID ChIJ5yzqFNwIfpYRXW3Rtq58Udg completed, total iterations: 605
+INFO  [2024-07-31 12:33:07] Detail extraction for place ID ChIJKXSODTsJfpYR5TAXR5-xpw0 completed, total iterations: 606
+INFO  [2024-07-31 12:33:08] Detail extraction for place ID ChIJ05O07icJfpYRPMq7Jvj0rV4 completed, total iterations: 607
+INFO  [2024-07-31 12:33:09] Detail extraction for place ID ChIJ_ZVNtUAJfpYRRSlzIhCZMAA completed, total iterations: 608
+INFO  [2024-07-31 12:33:09] Detail extraction for place ID ChIJRb4oQNHtsQERhK_uNyY8eeQ completed, total iterations: 609
+INFO  [2024-07-31 12:33:10] Detail extraction for place ID ChIJi9HZMkEJfpYREkymU7npEnw completed, total iterations: 610
+INFO  [2024-07-31 12:33:11] Detail extraction for place ID ChIJKc_zrbHysQERBuz6bVqduQo completed, total iterations: 611
+INFO  [2024-07-31 12:33:12] Detail extraction for place ID ChIJR2tkojEJfpYRDuLzzHGjnWA completed, total iterations: 612
+INFO  [2024-07-31 12:33:13] Detail extraction for place ID ChIJR2kwsxgJfpYRQMeW23eYG4Q completed, total iterations: 613
+INFO  [2024-07-31 12:33:14] Detail extraction for place ID ChIJDXsBHSAJfpYR-4-1eQo6LZ4 completed, total iterations: 614
+INFO  [2024-07-31 12:33:14] Detail extraction for place ID ChIJsQ9JjyEJfpYRDbz7iItfdmI completed, total iterations: 615
+INFO  [2024-07-31 12:33:15] Detail extraction for place ID ChIJR1yP_dAJfpYRhjmm4r5k8G4 completed, total iterations: 616
+INFO  [2024-07-31 12:33:16] Detail extraction for place ID ChIJWU7yLRwJfpYR-h3pn_NlUUk completed, total iterations: 617
+INFO  [2024-07-31 12:33:17] Detail extraction for place ID ChIJD7TJPOMIfpYRkjnrqSjbK7Q completed, total iterations: 618
+INFO  [2024-07-31 12:33:18] Detail extraction for place ID ChIJ3382oR4JfpYRou_lUyPQmV8 completed, total iterations: 619
+INFO  [2024-07-31 12:33:19] Detail extraction for place ID ChIJ78u0zZAJfpYRDR9RKppVU1E completed, total iterations: 620
+INFO  [2024-07-31 12:33:19] Detail extraction for place ID ChIJ2WqUdkQJfpYR65II1Cqe6fg completed, total iterations: 621
+INFO  [2024-07-31 12:33:20] Detail extraction for place ID ChIJgZuVaf4IfpYRLf7yWJJenYo completed, total iterations: 622
+INFO  [2024-07-31 12:33:21] Detail extraction for place ID ChIJ78Mtyh8JfpYREjs8DPcVffU completed, total iterations: 623
+INFO  [2024-07-31 12:33:22] Detail extraction for place ID ChIJnVeKHhoJfpYRSAzfDELlrHw completed, total iterations: 624
+INFO  [2024-07-31 12:33:23] Detail extraction for place ID ChIJO0f9U-AIfpYRatPoDngDLAc completed, total iterations: 625
+INFO  [2024-07-31 12:33:24] Detail extraction for place ID ChIJz_lSaL7tsQERJeOtm8fv3K0 completed, total iterations: 626
+INFO  [2024-07-31 12:33:25] Detail extraction for place ID ChIJGc53hhAJfpYRB4hdo3c8xxk completed, total iterations: 627
+INFO  [2024-07-31 12:33:25] Detail extraction for place ID ChIJ13xjzRkJfpYRG6zJoAKJneQ completed, total iterations: 628
+INFO  [2024-07-31 12:33:26] Detail extraction for place ID ChIJG4aAZQYJfpYR_ZJE7Y8CJiA completed, total iterations: 629
+INFO  [2024-07-31 12:33:27] Detail extraction for place ID ChIJDcvulDkJfpYRo0BWLhih3M4 completed, total iterations: 630
+INFO  [2024-07-31 12:33:28] Detail extraction for place ID ChIJm3KnsCoJfpYRUQ6LCpoRARs completed, total iterations: 631
+INFO  [2024-07-31 12:33:29] Detail extraction for place ID ChIJKxSIKg4JfpYRjJFRInPvta4 completed, total iterations: 632
+INFO  [2024-07-31 12:33:30] Detail extraction for place ID ChIJ7SXDe-UIfpYR1DNajAXV7Q8 completed, total iterations: 633
+INFO  [2024-07-31 12:33:31] Detail extraction for place ID ChIJGaN59RYJfpYRQlXZdeiS5SQ completed, total iterations: 634
+INFO  [2024-07-31 12:33:32] Detail extraction for place ID ChIJP5iDW3cJfpYRRFma82l1FCs completed, total iterations: 635
+INFO  [2024-07-31 12:33:33] Detail extraction for place ID ChIJEx9YSe4IfpYRflIveuWKXOk completed, total iterations: 636
+INFO  [2024-07-31 12:33:34] Detail extraction for place ID ChIJvZAh9T0JfpYRAU5U1Mm7Dws completed, total iterations: 637
+INFO  [2024-07-31 12:33:34] Detail extraction for place ID ChIJdZT0FfEIfpYRbDuikdNg4x0 completed, total iterations: 638
+INFO  [2024-07-31 12:33:35] Detail extraction for place ID ChIJqfZkJBQJfpYR9QSTO-n9ago completed, total iterations: 639
+INFO  [2024-07-31 12:33:36] Detail extraction for place ID ChIJ1Z-hmHztsQERDbqncQUjhTI completed, total iterations: 640
+INFO  [2024-07-31 12:33:37] Detail extraction for place ID ChIJnUc50U8JfpYRvXKMeUS5Xpc completed, total iterations: 641
+INFO  [2024-07-31 12:33:38] Detail extraction for place ID ChIJz7HUvDwJfpYRWwwrROKo8NM completed, total iterations: 642
+INFO  [2024-07-31 12:33:38] Detail extraction for place ID ChIJL5cy_BUJfpYRvwFHaETaHH4 completed, total iterations: 643
+INFO  [2024-07-31 12:33:39] Detail extraction for place ID ChIJr4OTeSMJfpYR9HWFAw5Y-0E completed, total iterations: 644
+INFO  [2024-07-31 12:33:40] Detail extraction for place ID ChIJ-8hzCT8JfpYRZvNh4z70wqU completed, total iterations: 645
+INFO  [2024-07-31 12:33:41] Detail extraction for place ID ChIJoYiJlxcJfpYRd6ttPeCsYwQ completed, total iterations: 646
+INFO  [2024-07-31 12:33:41] Detail extraction for place ID ChIJX4S5O57ysQEROsghE8R_Dxg completed, total iterations: 647
+INFO  [2024-07-31 12:33:42] Detail extraction for place ID ChIJ7a3WssIIfpYRuKEB0hFmyc4 completed, total iterations: 648
+INFO  [2024-07-31 12:33:43] Detail extraction for place ID ChIJezaAStgIfpYRTuz-YI_MmYE completed, total iterations: 649
+INFO  [2024-07-31 12:33:44] Detail extraction for place ID ChIJ01ONfdkIfpYRx4qfcY4gNZw completed, total iterations: 650
+INFO  [2024-07-31 12:33:45] Detail extraction for place ID ChIJ4dYBuT8JfpYRrWJjhPT5zo4 completed, total iterations: 651
+INFO  [2024-07-31 12:33:46] Detail extraction for place ID ChIJ43pEfcXtsQERe_TdPOJqH0A completed, total iterations: 652
+INFO  [2024-07-31 12:33:46] Detail extraction for place ID ChIJaxvSnM4IfpYRBnHoX-MQviE completed, total iterations: 653
+INFO  [2024-07-31 12:33:47] Detail extraction for place ID ChIJRTLe9akJfpYRJKnOhiiAtdg completed, total iterations: 654
+INFO  [2024-07-31 12:33:48] Detail extraction for place ID ChIJyZbUEaoJfpYRwPNvoFY_-Dw completed, total iterations: 655
+INFO  [2024-07-31 12:33:49] Detail extraction for place ID ChIJ3dVW06kJfpYR1DeW3oY70rQ completed, total iterations: 656
+INFO  [2024-07-31 12:33:50] Detail extraction for place ID ChIJaXrErykJfpYRRuEi0xwXkxI completed, total iterations: 657
+INFO  [2024-07-31 12:33:51] Detail extraction for place ID ChIJp7MZKYLifZYRS2ctMVTOepw completed, total iterations: 658
+INFO  [2024-07-31 12:33:51] Detail extraction for place ID ChIJubsG-NDjfZYRo-L1WHPs5YU completed, total iterations: 659
+INFO  [2024-07-31 12:33:52] Detail extraction for place ID ChIJR3y7UZQJfpYRSnZzBZMSpuw completed, total iterations: 660
+INFO  [2024-07-31 12:33:53] Detail extraction for place ID ChIJKYy3XL_tsQERnOdz6QRRUOs completed, total iterations: 661
+INFO  [2024-07-31 12:33:54] Detail extraction for place ID ChIJvW68SrVDfpYRgLR38n5B2BA completed, total iterations: 662
+INFO  [2024-07-31 12:33:54] Detail extraction for place ID ChIJCYyMcUIIfpYRGkDVTNFyYgE completed, total iterations: 663
+INFO  [2024-07-31 12:33:55] Detail extraction for place ID ChIJqQ19en4JfpYRAAMythLsgEo completed, total iterations: 664
+INFO  [2024-07-31 12:33:56] Detail extraction for place ID ChIJ_5NifkAJfpYReZvJaGXtswU completed, total iterations: 665
+INFO  [2024-07-31 12:33:57] Detail extraction for place ID ChIJXRFpZ0oJfpYRYWjp3sHQljY completed, total iterations: 666
+INFO  [2024-07-31 12:33:57] Detail extraction for place ID ChIJoQaFEwALfpYRJkIYNbc4pKs completed, total iterations: 667
+INFO  [2024-07-31 12:33:58] Detail extraction for place ID ChIJaetNUJYJfpYRRTDQwC7fEbs completed, total iterations: 668
+INFO  [2024-07-31 12:33:59] Detail extraction for place ID ChIJwZ_ohxipDa0R-OGRxaf4SzI completed, total iterations: 669
+INFO  [2024-07-31 12:34:00] Detail extraction for place ID ChIJs3JITpYJfpYRN9CgmHtg_D4 completed, total iterations: 670
+INFO  [2024-07-31 12:34:01] Detail extraction for place ID ChIJH86_qqoJfpYRq9isthSamMA completed, total iterations: 671
+INFO  [2024-07-31 12:34:02] Detail extraction for place ID ChIJy4IYFDQJfpYRtPAuK8xp8NI completed, total iterations: 672
+INFO  [2024-07-31 12:34:03] Detail extraction for place ID ChIJFbM_BKgJfpYRpQlsvaxuH5g completed, total iterations: 673
+INFO  [2024-07-31 12:34:04] Detail extraction for place ID ChIJg0223f8IfpYRrHLI6NsfCas completed, total iterations: 674
+INFO  [2024-07-31 12:34:04] Detail extraction for place ID ChIJi3hjGncJfpYRDqDvsgWCt0A completed, total iterations: 675
+INFO  [2024-07-31 12:34:05] Detail extraction for place ID ChIJvZuGHUYJfpYRogHXMnUNsgg completed, total iterations: 676
+INFO  [2024-07-31 12:34:06] Detail extraction for place ID ChIJoTZLLB8JfpYRzSbtqHYy-7U completed, total iterations: 677
+INFO  [2024-07-31 12:34:07] Detail extraction for place ID ChIJO-bkEPEIfpYRfDZ1_-UVjeA completed, total iterations: 678
+INFO  [2024-07-31 12:34:08] Detail extraction for place ID ChIJ0S4m7hYJfpYRp5JFSUEx0AM completed, total iterations: 679
+INFO  [2024-07-31 12:34:09] Detail extraction for place ID ChIJsXZqcdwIfpYR25-11cgYDHc completed, total iterations: 680
+INFO  [2024-07-31 12:34:09] Detail extraction for place ID ChIJ_3tUGxAJfpYRn17a-fcVBM4 completed, total iterations: 681
+INFO  [2024-07-31 12:34:10] Detail extraction for place ID ChIJdeiUKt4IfpYR9Jtkq10O63k completed, total iterations: 682
+INFO  [2024-07-31 12:34:11] Detail extraction for place ID ChIJ_SZ5Lc4IfpYRWq3tpQgr3F0 completed, total iterations: 683
+INFO  [2024-07-31 12:34:12] Detail extraction for place ID ChIJmfU7edcIfpYRHhKOiABGKsI completed, total iterations: 684
+INFO  [2024-07-31 12:34:13] Detail extraction for place ID ChIJoYUgkuAIfpYRY0UmqZOWzH0 completed, total iterations: 685
+INFO  [2024-07-31 12:34:13] Detail extraction for place ID ChIJnWrY5RkJfpYRVKtBHOK9BfY completed, total iterations: 686
+INFO  [2024-07-31 12:34:14] Detail extraction for place ID ChIJDa5z3RgJfpYRr5_qdTiU5IM completed, total iterations: 687
+INFO  [2024-07-31 12:34:15] Detail extraction for place ID ChIJEaPT5EcJfpYRO5iDTVFbsSE completed, total iterations: 688
+INFO  [2024-07-31 12:34:16] Detail extraction for place ID ChIJ8UIYhxkJfpYRazrDoEKTRWI completed, total iterations: 689
+INFO  [2024-07-31 12:34:17] Detail extraction for place ID ChIJV4x5zhgJfpYRMLBq188j_O0 completed, total iterations: 690
+INFO  [2024-07-31 12:34:18] Detail extraction for place ID ChIJTWFf3hQJfpYRewmTUXB7O9c completed, total iterations: 691
+INFO  [2024-07-31 12:34:19] Detail extraction for place ID ChIJDYhCig8JfpYRl2LEP3EHDrs completed, total iterations: 692
+INFO  [2024-07-31 12:34:19] Detail extraction for place ID ChIJja3_mRgJfpYRgHSUjVhDgi4 completed, total iterations: 693
+INFO  [2024-07-31 12:34:20] Detail extraction for place ID ChIJY5pgNR8JfpYR2aB4F3MJgJU completed, total iterations: 694
+INFO  [2024-07-31 12:34:21] Detail extraction for place ID ChIJM3Y1IB8JfpYRDDMQt3XWG5o completed, total iterations: 695
+INFO  [2024-07-31 12:34:22] Detail extraction for place ID ChIJuYz9TN0IfpYR8ivgcgLQb98 completed, total iterations: 696
+INFO  [2024-07-31 12:34:22] Detail extraction for place ID ChIJQRGDNREJfpYRbNfGAHAiFHY completed, total iterations: 697
+INFO  [2024-07-31 12:34:23] Detail extraction for place ID ChIJH0_4yB8JfpYRe3f9uRvuUMo completed, total iterations: 698
+INFO  [2024-07-31 12:34:24] Detail extraction for place ID ChIJ5cWA2R4JfpYRA5oAcZH22Iw completed, total iterations: 699
+INFO  [2024-07-31 12:34:25] Detail extraction for place ID ChIJQ9L49x4JfpYRE_j7IPNfrb0 completed, total iterations: 700
+INFO  [2024-07-31 12:34:26] Detail extraction for place ID ChIJzbaE4B4JfpYRqOcEB5wJnBk completed, total iterations: 701
+INFO  [2024-07-31 12:34:27] Detail extraction for place ID ChIJT3gdsh8JfpYRcR41siWAL-8 completed, total iterations: 702
+INFO  [2024-07-31 12:34:28] Detail extraction for place ID ChIJUcWXrB8JfpYR-9-N_0Sn9YA completed, total iterations: 703
+INFO  [2024-07-31 12:34:28] Detail extraction for place ID ChIJyTHuHh8JfpYRJLeMJqXmNG0 completed, total iterations: 704
+INFO  [2024-07-31 12:34:29] Detail extraction for place ID ChIJM_7rAxkJfpYRpfy-NPKd-dI completed, total iterations: 705
+INFO  [2024-07-31 12:34:30] Detail extraction for place ID ChIJp8iHbRoJfpYRoJg9M6R94yM completed, total iterations: 706
+INFO  [2024-07-31 12:34:31] Detail extraction for place ID ChIJE0JtxBgJfpYR6cBnS0hJ4uI completed, total iterations: 707
+INFO  [2024-07-31 12:34:32] Detail extraction for place ID ChIJNVco5h8JfpYRQ7WC3RPy7hw completed, total iterations: 708
+INFO  [2024-07-31 12:34:33] Detail extraction for place ID ChIJP1_OVTcJfpYRNIbCviGd7gQ completed, total iterations: 709
+INFO  [2024-07-31 12:34:33] Detail extraction for place ID ChIJRxMmRBwJfpYRSEvSvf_BY2M completed, total iterations: 710
+INFO  [2024-07-31 12:34:34] Detail extraction for place ID ChIJQ08PWsoJfpYR23CHK8OJN38 completed, total iterations: 711
+INFO  [2024-07-31 12:34:35] Detail extraction for place ID ChIJKeAqcmYJfpYRyk3ona88X1M completed, total iterations: 712
+INFO  [2024-07-31 12:34:36] Detail extraction for place ID ChIJ20aEohkJfpYREwu4tDl_iu0 completed, total iterations: 713
+INFO  [2024-07-31 12:34:37] Detail extraction for place ID ChIJu4IKGR8JfpYRbcqbmqm_wxk completed, total iterations: 714
+INFO  [2024-07-31 12:34:37] Detail extraction for place ID ChIJWX_LKRoJfpYRr11DO-K-xAQ completed, total iterations: 715
+INFO  [2024-07-31 12:34:38] Detail extraction for place ID ChIJl5r4EBkJfpYR3gr7ZA8oiZQ completed, total iterations: 716
+INFO  [2024-07-31 12:34:39] Detail extraction for place ID ChIJCwQz3RkJfpYRlUznpGtw1YA completed, total iterations: 717
+INFO  [2024-07-31 12:34:40] Detail extraction for place ID ChIJ7ZjA3BkJfpYROw_pxtOI7U4 completed, total iterations: 718
+INFO  [2024-07-31 12:34:42] Detail extraction for place ID ChIJlU3Y5RkJfpYRrNA2Iqo-8Gw completed, total iterations: 719
+INFO  [2024-07-31 12:34:42] Detail extraction for place ID ChIJxazQQRcJfpYRRjKgaDdUJA0 completed, total iterations: 720
+INFO  [2024-07-31 12:34:43] Detail extraction for place ID ChIJKeok8x4JfpYRpsjBM3hLh0k completed, total iterations: 721
+INFO  [2024-07-31 12:34:44] Detail extraction for place ID ChIJ23wjmNYJfpYRUvN-yJTsLRM completed, total iterations: 722
+INFO  [2024-07-31 12:34:45] Detail extraction for place ID ChIJLY-zyDYJfpYRavp22YddVys completed, total iterations: 723
+INFO  [2024-07-31 12:34:45] Detail extraction for place ID ChIJxf44U_MJfpYRGqWPn-Yow4Y completed, total iterations: 724
+INFO  [2024-07-31 12:34:46] Detail extraction for place ID ChIJMXPQQBwJfpYRFOp-3mK4Wzw completed, total iterations: 725
+INFO  [2024-07-31 12:34:47] Detail extraction for place ID ChIJYwlaap3tsQERZJw0NSS7ARo completed, total iterations: 726
+INFO  [2024-07-31 12:34:48] Detail extraction for place ID ChIJk2KUKRwJfpYRYdLLVgXy9Uc completed, total iterations: 727
+INFO  [2024-07-31 12:34:49] Detail extraction for place ID ChIJwRBAap3tsQERv9Pxk4t9xgU completed, total iterations: 728
+INFO  [2024-07-31 12:34:49] Detail extraction for place ID ChIJvcl6XmYJfpYRwVCiBtw8AlE completed, total iterations: 729
+INFO  [2024-07-31 12:34:50] Detail extraction for place ID ChIJrSp2mR4JfpYR5SLz3ZMgadg completed, total iterations: 730
+INFO  [2024-07-31 12:34:51] Detail extraction for place ID ChIJwerWKlcJfpYRZ1U2zzazaP0 completed, total iterations: 731
+INFO  [2024-07-31 12:34:51] Detail extraction for place ID ChIJz3OBdQAJfpYRnNKGO52ItTU completed, total iterations: 732
+INFO  [2024-07-31 12:34:52] Detail extraction for place ID ChIJt1tprx4JfpYRaEmqmVLgI10 completed, total iterations: 733
+INFO  [2024-07-31 12:34:53] Detail extraction for place ID ChIJ-zFZ3R4JfpYRVpwo27YMaGU completed, total iterations: 734
+INFO  [2024-07-31 12:34:54] Detail extraction for place ID ChIJZ99hyx4JfpYRn0KD0suA1v8 completed, total iterations: 735
+INFO  [2024-07-31 12:34:55] Detail extraction for place ID ChIJp2INUh4JfpYRi4iND2_cOIo completed, total iterations: 736
+INFO  [2024-07-31 12:34:55] Detail extraction for place ID ChIJBaCb3R4JfpYRgrDkUhcZmjY completed, total iterations: 737
+INFO  [2024-07-31 12:34:56] Detail extraction for place ID ChIJt5Wt3R4JfpYRA9VDYwfN-lA completed, total iterations: 738
+INFO  [2024-07-31 12:34:57] Detail extraction for place ID ChIJpR6L3B4JfpYRCR94tJWUkIM completed, total iterations: 739
+INFO  [2024-07-31 12:34:58] Detail extraction for place ID ChIJjWlw4DoJfpYRXIoL6biOU1s completed, total iterations: 740
+INFO  [2024-07-31 12:34:59] Detail extraction for place ID ChIJA4tj_R4JfpYR48u8JgI3Zds completed, total iterations: 741
+INFO  [2024-07-31 12:35:00] Detail extraction for place ID ChIJHTuu4h4JfpYRwOaaGy7jLrs completed, total iterations: 742
+INFO  [2024-07-31 12:35:01] Detail extraction for place ID ChIJRYKu0x4JfpYRmwBCj3ymNpc completed, total iterations: 743
+INFO  [2024-07-31 12:35:02] Detail extraction for place ID ChIJT5GlOhkJfpYR82x9-wFNtxo completed, total iterations: 744
+INFO  [2024-07-31 12:35:03] Detail extraction for place ID ChIJbaSThxkJfpYR5U7AiJPsjnI completed, total iterations: 745
+INFO  [2024-07-31 12:35:04] Detail extraction for place ID ChIJYwC7ZPUJfpYRMAidLACMmn8 completed, total iterations: 746
+INFO  [2024-07-31 12:35:05] Detail extraction for place ID ChIJWcuh4j8JfpYR-YzyPGjFpww completed, total iterations: 747
+INFO  [2024-07-31 12:35:05] Detail extraction for place ID ChIJKw0ahxkJfpYRjFfXCuztL4I completed, total iterations: 748
+INFO  [2024-07-31 12:35:06] Detail extraction for place ID ChIJX_REChkJfpYRX6h3GOYFC34 completed, total iterations: 749
+INFO  [2024-07-31 12:35:07] Detail extraction for place ID ChIJ-fpEhhkJfpYR-9ttymUMyjA completed, total iterations: 750
+INFO  [2024-07-31 12:35:08] Detail extraction for place ID ChIJPx8OiBkJfpYRHJ4g41xY32A completed, total iterations: 751
+INFO  [2024-07-31 12:35:09] Detail extraction for place ID ChIJsdkpXLYOfpYR5rkYVZVwnfQ completed, total iterations: 752
+INFO  [2024-07-31 12:35:10] Detail extraction for place ID ChIJ7Uh8-nsJfpYRjRled2Ll0AI completed, total iterations: 753
+INFO  [2024-07-31 12:35:11] Detail extraction for place ID ChIJqbELx_sIfpYRj1eQaPj8Qac completed, total iterations: 754
+INFO  [2024-07-31 12:35:12] Detail extraction for place ID ChIJS41-gjQJfpYRENBdtUG7ilA completed, total iterations: 755
+INFO  [2024-07-31 12:35:13] Detail extraction for place ID ChIJYWBL_RgJfpYRcY68ZPe8aSk completed, total iterations: 756
+INFO  [2024-07-31 12:35:13] Detail extraction for place ID ChIJd-EB6BgJfpYRslpbLPpSKos completed, total iterations: 757
+INFO  [2024-07-31 12:35:14] Detail extraction for place ID ChIJtXi8ohkJfpYR1tEyflXwSUY completed, total iterations: 758
+INFO  [2024-07-31 12:35:15] Detail extraction for place ID ChIJtYx45RgJfpYRQ9a4mQy3IuQ completed, total iterations: 759
+INFO  [2024-07-31 12:35:16] Detail extraction for place ID ChIJ7zVeuxkJfpYRJMlFpzwBUhU completed, total iterations: 760
+INFO  [2024-07-31 12:35:17] Detail extraction for place ID ChIJkSr1wRgJfpYR3luE6Jof4kI completed, total iterations: 761
+INFO  [2024-07-31 12:35:18] Detail extraction for place ID ChIJBZdhvxkJfpYRRTxTncC5bc8 completed, total iterations: 762
+INFO  [2024-07-31 12:35:19] Detail extraction for place ID ChIJESoLyBkJfpYRuue_VJtDn28 completed, total iterations: 763
+INFO  [2024-07-31 12:35:19] Detail extraction for place ID ChIJI4mbJ5oJfpYRZrT3R0yULvU completed, total iterations: 764
+INFO  [2024-07-31 12:35:20] Detail extraction for place ID ChIJPXPCuRkJfpYRP-Jamc3nZng completed, total iterations: 765
+INFO  [2024-07-31 12:35:21] Detail extraction for place ID ChIJixrktxkJfpYR-3WC5yT95pA completed, total iterations: 766
+INFO  [2024-07-31 12:35:22] Detail extraction for place ID ChIJpQksA5cJfpYRBBqAKyI2AZg completed, total iterations: 767
+INFO  [2024-07-31 12:35:23] Detail extraction for place ID ChIJC_vgrT8JfpYResjgiXgJevg completed, total iterations: 768
+INFO  [2024-07-31 12:35:24] Detail extraction for place ID ChIJZRI73BkJfpYRZxZZM_nMD9Y completed, total iterations: 769
+INFO  [2024-07-31 12:35:24] Detail extraction for place ID ChIJo_JdTxgJfpYReKOkg0kJbJQ completed, total iterations: 770
+INFO  [2024-07-31 12:35:25] Detail extraction for place ID ChIJAb4PRhgJfpYREQhQVbsEW7U completed, total iterations: 771
+INFO  [2024-07-31 12:35:26] Detail extraction for place ID ChIJSd8qYpntsQERKyeW1KsN4B0 completed, total iterations: 772
+INFO  [2024-07-31 12:35:27] Detail extraction for place ID ChIJz95OFoHifZYREh-dSEy6rEA completed, total iterations: 773
+INFO  [2024-07-31 12:35:28] Detail extraction for place ID ChIJG3Y0LvMJfpYR7qLVNCX1J00 completed, total iterations: 774
+INFO  [2024-07-31 12:35:29] Detail extraction for place ID ChIJCdvEumsJfpYRtsjBJ5AYcuo completed, total iterations: 775
+INFO  [2024-07-31 12:35:30] Detail extraction for place ID ChIJEWiTF_0JfpYR-vcJIbo0v1E completed, total iterations: 776
+INFO  [2024-07-31 12:35:31] Detail extraction for place ID ChIJq4XAqhoJfpYRZ_nkaSLPphI completed, total iterations: 777
+INFO  [2024-07-31 12:35:32] Detail extraction for place ID ChIJM5Ai8VUIfpYRUVE7drQ7YtM completed, total iterations: 778
+INFO  [2024-07-31 12:35:33] Detail extraction for place ID ChIJ9QlFwx8JfpYRAj7U2-LcQiI completed, total iterations: 779
+INFO  [2024-07-31 12:35:33] Detail extraction for place ID ChIJe2rEDx4JfpYR7UNtxxCzm1s completed, total iterations: 780
+INFO  [2024-07-31 12:35:34] Detail extraction for place ID ChIJa-O9IR4JfpYRI5GAjk7bRWw completed, total iterations: 781
+INFO  [2024-07-31 12:35:35] Detail extraction for place ID ChIJL4FUI_sJfpYRc3kTIbJVYXU completed, total iterations: 782
+INFO  [2024-07-31 12:35:36] Detail extraction for place ID ChIJEegdlYsJfpYRvkTwtXIWW84 completed, total iterations: 783
+INFO  [2024-07-31 12:35:37] Detail extraction for place ID ChIJ65OCcQcJfpYRKyjbsNdL5ck completed, total iterations: 784
+INFO  [2024-07-31 12:35:38] Detail extraction for place ID ChIJy-eOLzoJfpYRxESSYrtQtnM completed, total iterations: 785
+INFO  [2024-07-31 12:35:39] Detail extraction for place ID ChIJMW02LFYJfpYRNhANDt-Tk8M completed, total iterations: 786
+INFO  [2024-07-31 12:35:40] Detail extraction for place ID ChIJ1WHldMAIfpYRvdF-xft4p1M completed, total iterations: 787
+INFO  [2024-07-31 12:35:41] Detail extraction for place ID ChIJne2yMNDtsQER42vwJMX2k38 completed, total iterations: 788
+INFO  [2024-07-31 12:35:42] Detail extraction for place ID ChIJG2srTdQJfpYRDQD2qW_vzLA completed, total iterations: 789
+INFO  [2024-07-31 12:35:43] Detail extraction for place ID ChIJs_NkiLcIfpYRo9_D4CrwUxw completed, total iterations: 790
+INFO  [2024-07-31 12:35:43] Detail extraction for place ID ChIJxVxl4zsLfpYRNvhhJ3DO4Lw completed, total iterations: 791
+INFO  [2024-07-31 12:35:44] Detail extraction for place ID ChIJC8buvvgJfpYRlvffWaTW-wQ completed, total iterations: 792
+INFO  [2024-07-31 12:35:45] Detail extraction for place ID ChIJZ37Q1FwJfpYR9_EAy_sytO0 completed, total iterations: 793
+INFO  [2024-07-31 12:35:46] Detail extraction for place ID ChIJ5Z9N5fYJfpYRMI6q-RyWUnk completed, total iterations: 794
+INFO  [2024-07-31 12:35:47] Detail extraction for place ID ChIJg9W3J9wIfpYRGQz9bm3w3P0 completed, total iterations: 795
+INFO  [2024-07-31 12:35:47] Detail extraction for place ID ChIJB7dKXhoJfpYRqi-_VnkQ-rw completed, total iterations: 796
+INFO  [2024-07-31 12:35:48] Detail extraction for place ID ChIJwQx0MvAIfpYRmA4fadqtzKQ completed, total iterations: 797
+INFO  [2024-07-31 12:35:49] Detail extraction for place ID ChIJC-wGOLwIfpYRUaiqA2hGLXE completed, total iterations: 798
+INFO  [2024-07-31 12:35:50] Detail extraction for place ID ChIJ8aPm17kIfpYR7VN7XRUl8IY completed, total iterations: 799
+INFO  [2024-07-31 12:35:51] Detail extraction for place ID ChIJ00DMJBwJfpYRP5GvInpAjKQ completed, total iterations: 800
+INFO  [2024-07-31 12:35:52] Detail extraction for place ID ChIJt5I6hx4JfpYRwNV8S1xvEnY completed, total iterations: 801
+INFO  [2024-07-31 12:35:53] Detail extraction for place ID ChIJX37W4R4JfpYRiogwoVrr7y8 completed, total iterations: 802
+INFO  [2024-07-31 12:35:53] Detail extraction for place ID ChIJna9P2R4JfpYRSZCxx6QSyd0 completed, total iterations: 803
+INFO  [2024-07-31 12:35:54] Detail extraction for place ID ChIJo26nhxkJfpYR0hHqpjlXjXc completed, total iterations: 804
+INFO  [2024-07-31 12:35:55] Detail extraction for place ID ChIJl1xdjhkJfpYR3FocrTGMmzo completed, total iterations: 805
+INFO  [2024-07-31 12:35:56] Detail extraction for place ID ChIJB80MlhkJfpYR8-pNoQwUQE8 completed, total iterations: 806
+INFO  [2024-07-31 12:35:57] Detail extraction for place ID ChIJqUYMLP8IfpYRwJ22dhlvIVA completed, total iterations: 807
+INFO  [2024-07-31 12:35:57] Detail extraction for place ID ChIJaxTU2P4IfpYRvArLPMHNfPA completed, total iterations: 808
+INFO  [2024-07-31 12:35:58] Detail extraction for place ID ChIJVXCTewUJfpYRjFvGb1cGzh4 completed, total iterations: 809
+INFO  [2024-07-31 12:35:59] Detail extraction for place ID ChIJmZ6PVxgJfpYRJZNZ4x0Gt-g completed, total iterations: 810
+INFO  [2024-07-31 12:36:00] Detail extraction for place ID ChIJd8dylBgJfpYRMrIbUuTATM4 completed, total iterations: 811
+INFO  [2024-07-31 12:36:01] Detail extraction for place ID ChIJRTk9WBcJfpYR1LTOiHRGnZs completed, total iterations: 812
+INFO  [2024-07-31 12:36:02] Detail extraction for place ID ChIJ_0RtPPkIfpYRmQS9CUEk1mk completed, total iterations: 813
+INFO  [2024-07-31 12:36:03] Detail extraction for place ID ChIJK3X4hd8IfpYRvoHpRugkdD4 completed, total iterations: 814
+INFO  [2024-07-31 12:36:03] Detail extraction for place ID ChIJP-oobQcJfpYRnWwDBzYI32U completed, total iterations: 815
+INFO  [2024-07-31 12:36:04] Detail extraction for place ID ChIJMaR_Vj0JfpYRMb1oEQ1HTqI completed, total iterations: 816
+INFO  [2024-07-31 12:36:05] Detail extraction for place ID ChIJrStMySMJfpYRja9JYZ_C4gQ completed, total iterations: 817
+INFO  [2024-07-31 12:36:06] Detail extraction for place ID ChIJzX0uqOgIfpYRtZ9GNTpCBnE completed, total iterations: 818
+INFO  [2024-07-31 12:36:07] Detail extraction for place ID ChIJ3dhlFiMJfpYRlzwVf6ygHug completed, total iterations: 819
+INFO  [2024-07-31 12:36:08] Detail extraction for place ID ChIJ9yjtH4IJfpYRT7g3sbTzEYI completed, total iterations: 820
+INFO  [2024-07-31 12:36:08] Detail extraction for place ID ChIJSRAESvEIfpYRNVS_CGDgqbY completed, total iterations: 821
+INFO  [2024-07-31 12:36:09] Detail extraction for place ID ChIJXY3aSvEIfpYRA9EBTldBg0E completed, total iterations: 822
+INFO  [2024-07-31 12:36:10] Detail extraction for place ID ChIJKdox9osJfpYR4wmVqCTo87k completed, total iterations: 823
+INFO  [2024-07-31 12:36:11] Detail extraction for place ID ChIJ2Yfury0JfpYRcTeMiHbmNDQ completed, total iterations: 824
+INFO  [2024-07-31 12:36:12] Detail extraction for place ID ChIJpdu8YDsJfpYRdqhYq8Ca8kM completed, total iterations: 825
+INFO  [2024-07-31 12:36:13] Detail extraction for place ID ChIJHQKCUxQJfpYRP_rjlYiDLDg completed, total iterations: 826
+INFO  [2024-07-31 12:36:14] Detail extraction for place ID ChIJy3CiiRUJfpYRpAwpshzKy-4 completed, total iterations: 827
+INFO  [2024-07-31 12:36:15] Detail extraction for place ID ChIJYSzhxT8JfpYR7d3KmsVqRKY completed, total iterations: 828
+INFO  [2024-07-31 12:36:16] Detail extraction for place ID ChIJa8sd4fIIfpYRLaA-0d_cvIg completed, total iterations: 829
+INFO  [2024-07-31 12:36:16] Detail extraction for place ID ChIJI3ur0WwJfpYRNNpTPZ9Bo08 completed, total iterations: 830
+INFO  [2024-07-31 12:36:17] Detail extraction for place ID ChIJhUxuL5kJfpYR4M5s1ETwoRc completed, total iterations: 831
+INFO  [2024-07-31 12:36:18] Detail extraction for place ID ChIJq9V6uD0JfpYR5HCDZq0UUnE completed, total iterations: 832
+INFO  [2024-07-31 12:36:19] Detail extraction for place ID ChIJtwHnqikJfpYR7P86qdZ5ivQ completed, total iterations: 833
+INFO  [2024-07-31 12:36:20] Detail extraction for place ID ChIJwSp6qRIPfpYRl_wpqoHr4ZQ completed, total iterations: 834
+INFO  [2024-07-31 12:36:21] Detail extraction for place ID ChIJz9iLK0AJfpYRtG6AYR07Z44 completed, total iterations: 835
+INFO  [2024-07-31 12:36:22] Detail extraction for place ID ChIJD5SGS0cJfpYRHwTaMVQbVCQ completed, total iterations: 836
+INFO  [2024-07-31 12:36:23] Detail extraction for place ID ChIJBUkCJ-gJfpYRJn1oDRI06qY completed, total iterations: 837
+INFO  [2024-07-31 12:36:24] Detail extraction for place ID ChIJsZkK6zEJfpYRtEbCG7vrEnU completed, total iterations: 838
+INFO  [2024-07-31 12:36:25] Detail extraction for place ID ChIJDyFNCjgJfpYRmVG4Z8FFYw8 completed, total iterations: 840
+INFO  [2024-07-31 12:36:26] Detail extraction for place ID ChIJPxR0m3MJfpYRGGJERYEOftQ completed, total iterations: 841
+INFO  [2024-07-31 12:36:27] Detail extraction for place ID ChIJpcYi1UYJfpYRfw3aEgjaKME completed, total iterations: 842
+INFO  [2024-07-31 12:36:28] Detail extraction for place ID ChIJ_wGcWMUIfpYR7z-xH6Yglu0 completed, total iterations: 843
+INFO  [2024-07-31 12:36:28] Detail extraction for place ID ChIJ-TP0cJMIfpYRucfYDX0Bac4 completed, total iterations: 844
+INFO  [2024-07-31 12:36:29] Detail extraction for place ID ChIJ432abcAIfpYRO990v9DJPCQ completed, total iterations: 845
+INFO  [2024-07-31 12:36:30] Detail extraction for place ID ChIJGfBGkekJfpYR44E-1TbYm4U completed, total iterations: 846
+INFO  [2024-07-31 12:36:31] Detail extraction for place ID ChIJE_j7TdgJfpYRzc33BccVl9k completed, total iterations: 847
+INFO  [2024-07-31 12:36:32] Detail extraction for place ID ChIJe3P38UMJfpYRKvMImDXhBMA completed, total iterations: 848
+INFO  [2024-07-31 12:36:33] Detail extraction for place ID ChIJ91m9IHQJfpYR4cH1uFCUmNg completed, total iterations: 849
+INFO  [2024-07-31 12:36:34] Detail extraction for place ID ChIJDQuJ0SoJfpYRUFxaPaIc6hQ completed, total iterations: 850
+INFO  [2024-07-31 12:36:35] Detail extraction for place ID ChIJVU7f_RoJfpYRBlG6fjhvSZM completed, total iterations: 851
+INFO  [2024-07-31 12:36:36] Detail extraction for place ID ChIJVU7f_RoJfpYRe9_5p776evA completed, total iterations: 852
+INFO  [2024-07-31 12:36:37] Detail extraction for place ID ChIJbZ2IYT8JfpYRtPfu5TY-tr4 completed, total iterations: 853
+INFO  [2024-07-31 12:36:38] Detail extraction for place ID ChIJr4CejecJfpYRqxrxOWSEDfo completed, total iterations: 854
+INFO  [2024-07-31 12:36:38] Detail extraction for place ID ChIJqSQ2ySMJfpYRkSlY879Ich0 completed, total iterations: 855
+INFO  [2024-07-31 12:36:39] Detail extraction for place ID ChIJp5uDcL8JfpYRzrhVSnvdxh8 completed, total iterations: 856
+INFO  [2024-07-31 12:36:40] Detail extraction for place ID ChIJHRMQWeMJfpYRExBMFVGStU0 completed, total iterations: 857
+INFO  [2024-07-31 12:36:41] Detail extraction for place ID ChIJp1vkeg4JfpYRS66oG1NGF6I completed, total iterations: 858
+INFO  [2024-07-31 12:36:42] Detail extraction for place ID ChIJ7_SKT2UJfpYR2NFFUT2sJbk completed, total iterations: 859
+INFO  [2024-07-31 12:36:42] Detail extraction for place ID ChIJpUs5fZ_ysQERu6yXuCt5xT0 completed, total iterations: 860
+INFO  [2024-07-31 12:36:43] Detail extraction for place ID ChIJC0qqGfwMfpYRZMsSIQTA9N8 completed, total iterations: 861
+INFO  [2024-07-31 12:36:44] Detail extraction for place ID ChIJ3YFKl-oJfpYRXdH66P0ka0E completed, total iterations: 862
+INFO  [2024-07-31 12:36:45] Detail extraction for place ID ChIJFU7iyo8JfpYR1rI9fWGZ9mY completed, total iterations: 863
+INFO  [2024-07-31 12:36:46] Detail extraction for place ID ChIJ27a0S_oJfpYRhKCdUaluhfo completed, total iterations: 864
+INFO  [2024-07-31 12:36:47] Detail extraction for place ID ChIJ5bKhincJfpYRz0zIYgZw1YM completed, total iterations: 865
+INFO  [2024-07-31 12:36:48] Detail extraction for place ID ChIJGUXOxP8IfpYRQSLhkI15-9w completed, total iterations: 866
+INFO  [2024-07-31 12:36:49] Detail extraction for place ID ChIJmXy6ZbgJfpYRpXpD8xtwtSQ completed, total iterations: 867
+INFO  [2024-07-31 12:36:50] Detail extraction for place ID ChIJgfsgPpYJfpYROZV3G8FBG8w completed, total iterations: 868
+INFO  [2024-07-31 12:36:51] Detail extraction for place ID ChIJl6LCaeYIfpYRKQ0xCreeK9M completed, total iterations: 869
+INFO  [2024-07-31 12:36:52] Detail extraction for place ID ChIJN07l3yMJfpYRV55srIoAUfc completed, total iterations: 870
+INFO  [2024-07-31 12:36:53] Detail extraction for place ID ChIJBy-tt_EIfpYRqhDpC8XUCGU completed, total iterations: 871
+INFO  [2024-07-31 12:36:54] Detail extraction for place ID ChIJjZmp8aAJfpYRCJIpdWAd-no completed, total iterations: 872
+INFO  [2024-07-31 12:36:55] Detail extraction for place ID ChIJZWGXaM8IfpYROx1999l6oIQ completed, total iterations: 873
+INFO  [2024-07-31 12:36:56] Detail extraction for place ID ChIJvbJksh0JfpYROPUpOqQf1sE completed, total iterations: 874
+INFO  [2024-07-31 12:36:56] Detail extraction for place ID ChIJbQ-5GSMJfpYRUSntV-AOYnM completed, total iterations: 875
+INFO  [2024-07-31 12:36:57] Detail extraction for place ID ChIJ60n_xvYIfpYR6GHVoO6iGYc completed, total iterations: 876
+INFO  [2024-07-31 12:36:58] Detail extraction for place ID ChIJubcBnyMJfpYR7wCDb_xGm3Y completed, total iterations: 877
+INFO  [2024-07-31 12:36:59] Detail extraction for place ID ChIJEbnPz_EIfpYRfyHXE3miGI4 completed, total iterations: 878
+INFO  [2024-07-31 12:37:00] Detail extraction for place ID ChIJVUEzEfEIfpYRJqNpm1xjPxA completed, total iterations: 879
+INFO  [2024-07-31 12:37:01] Detail extraction for place ID ChIJpWWR3RcJfpYRe_hQ_DZl2oQ completed, total iterations: 880
+INFO  [2024-07-31 12:37:02] Detail extraction for place ID ChIJE-rtjiUJfpYRw715ZbXoiQY completed, total iterations: 881
+INFO  [2024-07-31 12:37:03] Detail extraction for place ID ChIJpaKzWMIIfpYR7XexLmWf8tI completed, total iterations: 882
+INFO  [2024-07-31 12:37:04] Detail extraction for place ID ChIJOc1K66HysQERqklb_utWGDQ completed, total iterations: 883
+INFO  [2024-07-31 12:37:04] Detail extraction for place ID ChIJUxHgG-0IfpYRGyRZ83zl8xA completed, total iterations: 884
+INFO  [2024-07-31 12:37:05] Detail extraction for place ID ChIJxc1i3jEJfpYRJrMGhdu6oBM completed, total iterations: 885
+INFO  [2024-07-31 12:37:06] Detail extraction for place ID ChIJp1uM6TEJfpYRftk5OWQ7zwU completed, total iterations: 886
+INFO  [2024-07-31 12:37:07] Detail extraction for place ID ChIJw7ulCYoIfpYRUofBCNDPjr0 completed, total iterations: 887
+INFO  [2024-07-31 12:37:08] Detail extraction for place ID ChIJvb4Z-SoJfpYRuj6bSqexwF4 completed, total iterations: 888
+INFO  [2024-07-31 12:37:09] Detail extraction for place ID ChIJk2eAcRAuo5URaE2yAvWpbko completed, total iterations: 889
+INFO  [2024-07-31 12:37:10] Detail extraction for place ID ChIJRwme_UIJfpYRl0-YvP-WcXs completed, total iterations: 890
+INFO  [2024-07-31 12:37:11] Detail extraction for place ID ChIJd77K00QJfpYREPNevMULhA4 completed, total iterations: 891
+INFO  [2024-07-31 12:37:12] Detail extraction for place ID ChIJBWHhZp4JfpYR6vutcNoeCiU completed, total iterations: 892
+INFO  [2024-07-31 12:37:12] Detail extraction for place ID ChIJEWtd0ZEIfpYRSqZq5AC5-2s completed, total iterations: 893
+INFO  [2024-07-31 12:37:13] Detail extraction for place ID ChIJW-SJXscIfpYRW6UR0SQrZDE completed, total iterations: 894
+INFO  [2024-07-31 12:37:14] Detail extraction for place ID ChIJw3QxdbHysQERvJNxu4zcb0o completed, total iterations: 895
+INFO  [2024-07-31 12:37:16] Detail extraction for place ID ChIJoSDoVpAIfpYRM4t7B9o-Hx4 completed, total iterations: 896
+INFO  [2024-07-31 12:37:16] Detail extraction for place ID ChIJRTJ3KpEIfpYR-p1ttUPZ5Qc completed, total iterations: 897
+INFO  [2024-07-31 12:37:17] Detail extraction for place ID ChIJA6pv_LgIfpYRza9hBaFPta0 completed, total iterations: 898
+INFO  [2024-07-31 12:37:18] Detail extraction for place ID ChIJW1SDU4UIfpYRVeR0OMYg-pc completed, total iterations: 899
+INFO  [2024-07-31 12:37:19] Detail extraction for place ID ChIJxayLA0oJfpYRujK4W-Hx8GQ completed, total iterations: 900
+INFO  [2024-07-31 12:37:20] Detail extraction for place ID ChIJERfndmMJfpYRtYXc-5a90SI completed, total iterations: 901
+INFO  [2024-07-31 12:37:21] Detail extraction for place ID ChIJA03sONEOfpYRE3iDq3t12bY completed, total iterations: 902
+INFO  [2024-07-31 12:37:22] Detail extraction for place ID ChIJl1fuKloJfpYRduABE9gu9Lw completed, total iterations: 903
+INFO  [2024-07-31 12:37:23] Detail extraction for place ID ChIJaQLOzmUJfpYRgwN236JCStM completed, total iterations: 904
+INFO  [2024-07-31 12:37:23] Detail extraction for place ID ChIJ9a56IAAJfpYRD9H-xQu1fJU completed, total iterations: 905
+INFO  [2024-07-31 12:37:24] Detail extraction for place ID ChIJYbXFJgAJfpYRYPbUyrTzucU completed, total iterations: 906
+INFO  [2024-07-31 12:37:25] Detail extraction for place ID ChIJN3NTtAoJfpYR1qTNsJPt3xE completed, total iterations: 907
+INFO  [2024-07-31 12:37:26] Detail extraction for place ID ChIJsUDzK9AOfpYRSaxFZPHdjr4 completed, total iterations: 908
+INFO  [2024-07-31 12:37:26] Detail extraction for place ID ChIJfQZOPwAJfpYRx1ULyvL-UhY completed, total iterations: 909
+INFO  [2024-07-31 12:37:27] Detail extraction for place ID ChIJb6oTMhAJfpYRAj0vUuFSLQo completed, total iterations: 910
+INFO  [2024-07-31 12:37:28] Detail extraction for place ID ChIJ19pZD_8JfpYRM7UWqgGkeMw completed, total iterations: 911
+INFO  [2024-07-31 12:37:29] Detail extraction for place ID ChIJr4-1sz4JfpYRTRKOBGBbMqI completed, total iterations: 912
+INFO  [2024-07-31 12:37:30] Detail extraction for place ID ChIJgVx7guwIfpYR_YSrFKbHmuU completed, total iterations: 913
+INFO  [2024-07-31 12:37:30] Detail extraction for place ID ChIJc8Jqj6MJfpYRHZyGsrJyAlY completed, total iterations: 914
+INFO  [2024-07-31 12:37:31] Detail extraction for place ID ChIJE5VPypIIfpYRxfn1FqGQksQ completed, total iterations: 915
+INFO  [2024-07-31 12:37:32] Detail extraction for place ID ChIJl_vOcHgJfpYRhReBQscBK94 completed, total iterations: 916
+INFO  [2024-07-31 12:37:33] Detail extraction for place ID ChIJgaBiujoJfpYRavET_u7lYiw completed, total iterations: 917
+INFO  [2024-07-31 12:37:34] Detail extraction for place ID ChIJH5JPgjwJfpYRGGvxOEH8CAI completed, total iterations: 918
+INFO  [2024-07-31 12:37:35] Detail extraction for place ID ChIJRc71PbDysQEROL-DOFStCmI completed, total iterations: 919
+INFO  [2024-07-31 12:37:36] Detail extraction for place ID ChIJjyHnU4MJfpYRXJtvVewrWT8 completed, total iterations: 920
+INFO  [2024-07-31 12:37:37] Detail extraction for place ID ChIJXxOJtjQJfpYR-AX6NoPjh_w completed, total iterations: 921
+INFO  [2024-07-31 12:37:37] Detail extraction for place ID ChIJiSaEn5MLfpYRpz5zWnBZSDE completed, total iterations: 922
+INFO  [2024-07-31 12:37:38] Detail extraction for place ID ChIJgzF5LBEJfpYR2KoSum8_Axo completed, total iterations: 923
+INFO  [2024-07-31 12:37:39] Detail extraction for place ID ChIJJU1eTzgJfpYRtRctxCbx6IA completed, total iterations: 924
+INFO  [2024-07-31 12:37:40] Detail extraction for place ID ChIJI5xSLzAJfpYRCgN0H56yt8s completed, total iterations: 925
+INFO  [2024-07-31 12:37:41] Detail extraction for place ID ChIJsyhpNUEJfpYREttmcZpTl9U completed, total iterations: 926
+INFO  [2024-07-31 12:37:42] Detail extraction for place ID ChIJLUNNjZAIfpYRjaNNrrzaAd0 completed, total iterations: 927
+INFO  [2024-07-31 12:37:43] Detail extraction for place ID ChIJf5YOXhYJfpYRHYTnawpfX6g completed, total iterations: 928
+INFO  [2024-07-31 12:37:44] Detail extraction for place ID ChIJBU2XER0JfpYRw5MI9wQKX_4 completed, total iterations: 929
+INFO  [2024-07-31 12:37:45] Detail extraction for place ID ChIJu0I-fVsJfpYRMKkjnlK4z-k completed, total iterations: 930
+INFO  [2024-07-31 12:37:49] Detail extraction for place ID ChIJa9ATi_0IfpYRblw4b1tvHQs completed, total iterations: 931
+INFO  [2024-07-31 12:37:50] Detail extraction for place ID ChIJkaa2eQAJfpYRh_AmCycpMEg completed, total iterations: 932
+INFO  [2024-07-31 12:37:51] Detail extraction for place ID ChIJz7N8T_kIfpYRWCt8cNYSFe8 completed, total iterations: 933
+INFO  [2024-07-31 12:37:52] Detail extraction for place ID ChIJl6syIMMJfpYRoUQ20BM6qcY completed, total iterations: 934
+INFO  [2024-07-31 12:37:53] Detail extraction for place ID ChIJgzF5LBEJfpYRFp-ib7x8Ugk completed, total iterations: 935
+INFO  [2024-07-31 12:37:54] Detail extraction for place ID ChIJgfDLDrEOfpYRWwfB3DQB8ok completed, total iterations: 936
+INFO  [2024-07-31 12:37:57] Detail extraction for place ID ChIJD-QXpfMJfpYRrkqBKT5yL1U completed, total iterations: 937
+INFO  [2024-07-31 12:37:58] Detail extraction for place ID ChIJc6jXr-oJfpYRwLJEjZ6FGG4 completed, total iterations: 938
+INFO  [2024-07-31 12:37:59] Detail extraction for place ID ChIJZXOk3eoIfpYRYkUfraFA2fI completed, total iterations: 939
+INFO  [2024-07-31 12:38:00] Detail extraction for place ID ChIJ-x1p8jEJfpYR3CJi0RNLigA completed, total iterations: 940
+INFO  [2024-07-31 12:38:01] Detail extraction for place ID ChIJqW-XNYoIfpYRmKqREoU2K0s completed, total iterations: 941
+INFO  [2024-07-31 12:38:01] Detail extraction for place ID ChIJSwJjSwAJfpYRPZI8tM-TY7A completed, total iterations: 942
+INFO  [2024-07-31 12:38:02] Detail extraction for place ID ChIJLT13N54JfpYRe6nJ1eiEI_s completed, total iterations: 943
+INFO  [2024-07-31 12:38:03] Detail extraction for place ID ChIJsUM56m8JfpYRhGUnLF3uWB4 completed, total iterations: 944
+INFO  [2024-07-31 12:38:04] Detail extraction for place ID ChIJccm0oL4JfpYRuM2ReBUsUVE completed, total iterations: 945
+INFO  [2024-07-31 12:38:05] Detail extraction for place ID ChIJ5bqvbc4JfpYRyijCJ0bxjiU completed, total iterations: 946
+INFO  [2024-07-31 12:38:06] Detail extraction for place ID ChIJnWJqsx0PfpYRnGX16IU6mIg completed, total iterations: 947
+INFO  [2024-07-31 12:38:06] Detail extraction for place ID ChIJEbGmX1wJfpYR9K5HZYpLjMw completed, total iterations: 948
+INFO  [2024-07-31 12:38:07] Detail extraction for place ID ChIJpYz0_4wJfpYRA2dSQNGJe_c completed, total iterations: 949
+INFO  [2024-07-31 12:38:09] Detail extraction for place ID ChIJn-XDaG4JfpYRwnP0cIVPMHs completed, total iterations: 950
+INFO  [2024-07-31 12:38:09] Detail extraction for place ID ChIJW0CFT8kOfpYRku65qK8GO4Q completed, total iterations: 951
+INFO  [2024-07-31 12:38:11] Detail extraction for place ID ChIJywoh2bUPfpYRq2t3ctcIi_Q completed, total iterations: 952
+INFO  [2024-07-31 12:38:11] Detail extraction for place ID ChIJJb33uTgIfpYRvi36AFxuvGk completed, total iterations: 953
+INFO  [2024-07-31 12:38:12] Detail extraction for place ID ChIJXYAaozgIfpYRvmd0SDWUakc completed, total iterations: 954
+INFO  [2024-07-31 12:38:13] Detail extraction for place ID ChIJ2VAMzKsJfpYRb69SZfx18Vs completed, total iterations: 955
+INFO  [2024-07-31 12:38:14] Detail extraction for place ID ChIJtV0H_BAJfpYRA7N5NEY4YG4 completed, total iterations: 956
+INFO  [2024-07-31 12:38:15] Detail extraction for place ID ChIJoaEU56kJfpYRPN0sU6OaBVs completed, total iterations: 957
+INFO  [2024-07-31 12:38:16] Detail extraction for place ID ChIJT1lrVgcJfpYRNtPRmhFOhMw completed, total iterations: 958
+INFO  [2024-07-31 12:38:16] Detail extraction for place ID ChIJnevQp9gIfpYRYVuYxXiMzOo completed, total iterations: 959
+INFO  [2024-07-31 12:38:17] Detail extraction for place ID ChIJjf3nyNIJfpYRo5KA5M5vrqo completed, total iterations: 960
+INFO  [2024-07-31 12:38:19] Detail extraction for place ID ChIJMUCMNQQIfpYRlolraj4UanQ completed, total iterations: 961
+INFO  [2024-07-31 12:38:19] Detail extraction for place ID ChIJT8A1O-8JfpYRbE9oItDou_c completed, total iterations: 962
+INFO  [2024-07-31 12:38:20] Detail extraction for place ID ChIJxym4D0oJfpYRubyvB3_tBDI completed, total iterations: 963
+INFO  [2024-07-31 12:38:22] Detail extraction for place ID ChIJJSqmfcwJfpYR_D_LA7oeMs4 completed, total iterations: 964
+INFO  [2024-07-31 12:38:23] Detail extraction for place ID ChIJJcb8uuJCfpYR9eOuG2BZe9k completed, total iterations: 965
+INFO  [2024-07-31 12:38:23] Detail extraction for place ID ChIJbZ4dVX0JfpYRL3yatVwhC44 completed, total iterations: 966
+INFO  [2024-07-31 12:38:24] Detail extraction for place ID ChIJV2NPfqgJfpYRy0eB4yMUhOQ completed, total iterations: 967
+INFO  [2024-07-31 12:38:25] Detail extraction for place ID ChIJ9bcaHtUJfpYRXicGk_jvLVI completed, total iterations: 968
+INFO  [2024-07-31 12:38:26] Detail extraction for place ID ChIJFehaT6YJfpYRJEaXB6tRzLw completed, total iterations: 969
+INFO  [2024-07-31 12:38:27] Detail extraction for place ID ChIJYwxij1UIfpYRxAQSAmfzUwE completed, total iterations: 970
+INFO  [2024-07-31 12:38:28] Detail extraction for place ID ChIJ_WdSTuAJfpYR_WsECmolSkA completed, total iterations: 971
+INFO  [2024-07-31 12:38:29] Detail extraction for place ID ChIJ336hUakJfpYRN6e1xswCYnU completed, total iterations: 972
+INFO  [2024-07-31 12:38:29] Detail extraction for place ID ChIJYXY6ymIJfpYRW_miZXE_MZQ completed, total iterations: 973
+INFO  [2024-07-31 12:38:30] Detail extraction for place ID ChIJ08_ttqwJfpYR1n_jf63_Ks0 completed, total iterations: 974
+INFO  [2024-07-31 12:38:31] Detail extraction for place ID ChIJl205tAAJfpYR0etktVFqY24 completed, total iterations: 975
+INFO  [2024-07-31 12:38:32] Detail extraction for place ID ChIJNcT27KcJfpYRxP_C8yFpaEw completed, total iterations: 976
+INFO  [2024-07-31 12:38:33] Detail extraction for place ID ChIJPRw2HwMJfpYRxKInMmS4fK4 completed, total iterations: 977
+INFO  [2024-07-31 12:38:34] Detail extraction for place ID ChIJm0xoIRkJfpYRkpR7ip_RBi4 completed, total iterations: 978
+INFO  [2024-07-31 12:38:35] Detail extraction for place ID ChIJg2F9XhwJfpYRZ8dvQKISXIU completed, total iterations: 979
+INFO  [2024-07-31 12:38:36] Detail extraction for place ID ChIJeQmUhxAJfpYRLMQJtFRFuDY completed, total iterations: 980
+INFO  [2024-07-31 12:38:36] Detail extraction for place ID ChIJ6zaNPfkIfpYRTaRrAo7oi_M completed, total iterations: 981
+INFO  [2024-07-31 12:38:37] Detail extraction for place ID ChIJYcUFJ_4IfpYRbdxSnU8rCkM completed, total iterations: 982
+INFO  [2024-07-31 12:38:38] Detail extraction for place ID ChIJYa_7GzUJfpYR-9gLkqZBzOE completed, total iterations: 983
+INFO  [2024-07-31 12:38:39] Detail extraction for place ID ChIJb_WC5xAJfpYRZCMEyuqUcjo completed, total iterations: 984
+INFO  [2024-07-31 12:38:40] Detail extraction for place ID ChIJo19nfxkJfpYRn747mscZddk completed, total iterations: 985
+INFO  [2024-07-31 12:38:41] Detail extraction for place ID ChIJB80MlhkJfpYRV5Vk7StJ37U completed, total iterations: 986
+INFO  [2024-07-31 12:38:42] Detail extraction for place ID ChIJ59FRLRAJfpYRcgg19VvTeRk completed, total iterations: 987
+INFO  [2024-07-31 12:38:43] Detail extraction for place ID ChIJj4eKAhMJfpYRC9pNmsvuxHc completed, total iterations: 988
+INFO  [2024-07-31 12:38:44] Detail extraction for place ID ChIJG-OCABMJfpYRbi38bneTUVY completed, total iterations: 989
+INFO  [2024-07-31 12:38:45] Detail extraction for place ID ChIJx_ACtNkIfpYR9dzOM1QAQj0 completed, total iterations: 990
+INFO  [2024-07-31 12:38:45] Detail extraction for place ID ChIJ2Z47bvkIfpYR8iQSFucyQrw completed, total iterations: 991
+INFO  [2024-07-31 12:38:46] Detail extraction for place ID ChIJRXD4HOYIfpYRkYy_M3Ih0qQ completed, total iterations: 992
+INFO  [2024-07-31 12:38:47] Detail extraction for place ID ChIJZWG_gQYJfpYRWC9PabfWA30 completed, total iterations: 993
+INFO  [2024-07-31 12:38:48] Detail extraction for place ID ChIJX3UfHucIfpYRRl97s8sVf0E completed, total iterations: 994
+INFO  [2024-07-31 12:38:49] Detail extraction for place ID ChIJVU7f_RoJfpYRWIgQjnPVlAw completed, total iterations: 995
+INFO  [2024-07-31 12:38:50] Detail extraction for place ID ChIJuQX1XhsJfpYRHO2GzeDInyA completed, total iterations: 996
+INFO  [2024-07-31 12:38:51] Detail extraction for place ID ChIJJ5hUnRkJfpYRO4ymVOTltxM completed, total iterations: 997
+INFO  [2024-07-31 12:38:52] Detail extraction for place ID ChIJyU7pry0JfpYR7Hr1IbN24ws completed, total iterations: 998
+INFO  [2024-07-31 12:38:52] Detail extraction for place ID ChIJrz3H-xkJfpYR3dL67a0c1rU completed, total iterations: 999
+INFO  [2024-07-31 12:38:53] Detail extraction for place ID ChIJYa0y5RsJfpYRnTzPRPkut40 completed, total iterations: 1000
+INFO  [2024-07-31 12:38:54] Detail extraction for place ID ChIJR6cL3xgJfpYRiE5vlA3T9M8 completed, total iterations: 1001
+INFO  [2024-07-31 12:38:55] Detail extraction for place ID ChIJTc7OnhwJfpYR5ccCQYDE-iI completed, total iterations: 1002
+INFO  [2024-07-31 12:38:56] Detail extraction for place ID ChIJr474pRwJfpYRxND-TxzD41Q completed, total iterations: 1003
+INFO  [2024-07-31 12:38:57] Detail extraction for place ID ChIJ7Sx52QQJfpYRQtM9nlnSGUM completed, total iterations: 1004
+INFO  [2024-07-31 12:38:57] Detail extraction for place ID ChIJb-z6tXntsQER3kWM5X4r5yc completed, total iterations: 1005
+INFO  [2024-07-31 12:38:58] Detail extraction for place ID ChIJr3v3UxoJfpYRGl9zZuu5U14 completed, total iterations: 1006
+INFO  [2024-07-31 12:38:59] Detail extraction for place ID ChIJb4FhgRkJfpYREUDdxU9aZMY completed, total iterations: 1007
+INFO  [2024-07-31 12:39:00] Detail extraction for place ID ChIJb4FhgRkJfpYRSZ5p7GEGZCs completed, total iterations: 1008
+INFO  [2024-07-31 12:39:01] Detail extraction for place ID ChIJp8iHbRoJfpYRx8fuBfjCvJI completed, total iterations: 1009
+INFO  [2024-07-31 12:39:02] Detail extraction for place ID ChIJbWXZAxkJfpYRdpcGFgsq5yM completed, total iterations: 1010
+INFO  [2024-07-31 12:39:03] Detail extraction for place ID ChIJwViE6xNDfpYR_LAy5hB7PxA completed, total iterations: 1011
+INFO  [2024-07-31 12:39:04] Detail extraction for place ID ChIJvT3H-xkJfpYR0AIlnCQZRnQ completed, total iterations: 1012
+INFO  [2024-07-31 12:39:04] Detail extraction for place ID ChIJ50k3WyAJfpYRcMbQF5wvpzU completed, total iterations: 1013
+INFO  [2024-07-31 12:39:05] Detail extraction for place ID ChIJrRSKSBgJfpYRAQTqwjpGgqs completed, total iterations: 1014
+INFO  [2024-07-31 12:39:06] Detail extraction for place ID ChIJIaSFVwwJfpYRWwcAWiTYwXo completed, total iterations: 1015
+INFO  [2024-07-31 12:39:07] Detail extraction for place ID ChIJm23ishEJfpYR0ANZwvwdZiM completed, total iterations: 1016
+INFO  [2024-07-31 12:39:08] Detail extraction for place ID ChIJtQoI9hAJfpYRKptUqKGAZ2A completed, total iterations: 1017
+INFO  [2024-07-31 12:39:08] Detail extraction for place ID ChIJJxLvOBoJfpYR_0v29xrKwNo completed, total iterations: 1018
+INFO  [2024-07-31 12:39:09] Detail extraction for place ID ChIJuey0tXztsQERxD-GCXsJivQ completed, total iterations: 1019
+INFO  [2024-07-31 12:39:10] Detail extraction for place ID ChIJWyPUAxcJfpYRMOaGW7j5nAE completed, total iterations: 1020
+INFO  [2024-07-31 12:39:11] Detail extraction for place ID ChIJof_rxRsJfpYRKR266c-dFSA completed, total iterations: 1021
+INFO  [2024-07-31 12:39:12] Detail extraction for place ID ChIJFRdyGbEOfpYR5OKX8aXuBaM completed, total iterations: 1022
+INFO  [2024-07-31 12:39:13] Detail extraction for place ID ChIJozUWMxEJfpYRpDbJ86DZB6I completed, total iterations: 1023
+INFO  [2024-07-31 12:39:14] Detail extraction for place ID ChIJ_cTZaBYJfpYRlkOna3h5ga8 completed, total iterations: 1024
+INFO  [2024-07-31 12:39:15] Detail extraction for place ID ChIJu_5wkecIfpYRkxOQbOw4VFo completed, total iterations: 1025
+INFO  [2024-07-31 12:39:16] Detail extraction for place ID ChIJzdEyKRQJfpYRLT90Mi9t2ZE completed, total iterations: 1026
+INFO  [2024-07-31 12:39:16] Detail extraction for place ID ChIJIyN_wT0JfpYRywUB9PZYI9g completed, total iterations: 1027
+INFO  [2024-07-31 12:39:17] Detail extraction for place ID ChIJifw6--cIfpYREHTXkoGxaX4 completed, total iterations: 1028
+INFO  [2024-07-31 12:39:18] Detail extraction for place ID ChIJeWo5Sz8JfpYRSVGOX2QfM1g completed, total iterations: 1029
+INFO  [2024-07-31 12:39:19] Detail extraction for place ID ChIJb13NETsJfpYRDkzxRswwM4o completed, total iterations: 1030
+INFO  [2024-07-31 12:39:20] Detail extraction for place ID ChIJMSaPliUJfpYR1xNWn2YrKbQ completed, total iterations: 1031
+INFO  [2024-07-31 12:39:21] Detail extraction for place ID ChIJUcR7uncJfpYRfCoxhv8AO7c completed, total iterations: 1032
+INFO  [2024-07-31 12:39:21] Detail extraction for place ID ChIJUYR7LZQJfpYRzmfeLxUG1W0 completed, total iterations: 1033
+INFO  [2024-07-31 12:39:22] Detail extraction for place ID ChIJDaELNDkJfpYRK6HaFdZT3q0 completed, total iterations: 1034
+INFO  [2024-07-31 12:39:24] Detail extraction for place ID ChIJVU7f_RoJfpYRX39stbUw-cY completed, total iterations: 1035
+INFO  [2024-07-31 12:39:24] Detail extraction for place ID ChIJxUjZDRkJfpYRRJV2JO-k6is completed, total iterations: 1036
+INFO  [2024-07-31 12:39:25] Detail extraction for place ID ChIJ79WaIxkJfpYRMQ7VRl01aKo completed, total iterations: 1037
+INFO  [2024-07-31 12:39:26] Detail extraction for place ID ChIJX_8gMBkJfpYR8KLhSU7amt8 completed, total iterations: 1038
+INFO  [2024-07-31 12:39:27] Detail extraction for place ID ChIJgXZdnRkJfpYRT-zR1BooE_k completed, total iterations: 1039
+INFO  [2024-07-31 12:39:28] Detail extraction for place ID ChIJv3Lr4yEJfpYRBPHVcs8rY9c completed, total iterations: 1040
+INFO  [2024-07-31 12:39:29] Detail extraction for place ID ChIJ_7B0yh4JfpYRg4BYAJDy0Ko completed, total iterations: 1041
+INFO  [2024-07-31 12:39:30] Detail extraction for place ID ChIJpbYh0h4JfpYRc4cwRtc25zQ completed, total iterations: 1042
+INFO  [2024-07-31 12:39:31] Detail extraction for place ID ChIJZ8phd_7MfZYRSy-khDWD1U8 completed, total iterations: 1043
+INFO  [2024-07-31 12:39:32] Detail extraction for place ID ChIJ627EFRkJfpYRY1Z1s6x1OxY completed, total iterations: 1044
+INFO  [2024-07-31 12:39:33] Detail extraction for place ID ChIJxWlMBh8JfpYRYZ2yGAsjnJI completed, total iterations: 1045
+INFO  [2024-07-31 12:39:34] Detail extraction for place ID ChIJQVvMIhkJfpYRPxg6_ipx8lM completed, total iterations: 1046
+INFO  [2024-07-31 12:39:34] Detail extraction for place ID ChIJ39lWpxkJfpYRQxkfJqDMor4 completed, total iterations: 1047
+INFO  [2024-07-31 12:39:35] Detail extraction for place ID ChIJAxWMnhkJfpYREnLqQ7YO-Ao completed, total iterations: 1048
+INFO  [2024-07-31 12:39:36] Detail extraction for place ID ChIJPVZnKhkJfpYRycZVULdlKic completed, total iterations: 1049
+INFO  [2024-07-31 12:39:37] Detail extraction for place ID ChIJKX0edR8JfpYRRdvo2NrgmlI completed, total iterations: 1050
+INFO  [2024-07-31 12:39:38] Detail extraction for place ID ChIJn1JFjhkJfpYR9fsBeH_PKxU completed, total iterations: 1051
+INFO  [2024-07-31 12:39:39] Detail extraction for place ID ChIJqXhiihkJfpYRkjktUtsWQYY completed, total iterations: 1052
+INFO  [2024-07-31 12:39:40] Detail extraction for place ID ChIJhfhReP7MfZYRgQ2m-ecEqTM completed, total iterations: 1053
+INFO  [2024-07-31 12:39:40] Detail extraction for place ID ChIJ1R9hERoJfpYRzUFD3NVAUSA completed, total iterations: 1054
+INFO  [2024-07-31 12:39:41] Detail extraction for place ID ChIJ5Ra4choJfpYRn95BFNug82Q completed, total iterations: 1055
+INFO  [2024-07-31 12:39:42] Detail extraction for place ID ChIJe0JeZxAJfpYRUgy6ueFnWMw completed, total iterations: 1056
+INFO  [2024-07-31 12:39:43] Detail extraction for place ID ChIJReFlZxAJfpYRM9Q7E3mdHXs completed, total iterations: 1057
+INFO  [2024-07-31 12:39:44] Detail extraction for place ID ChIJ5XKRvRcJfpYResSNlzLMwIA completed, total iterations: 1058
+INFO  [2024-07-31 12:39:45] Detail extraction for place ID ChIJawCT2BUJfpYRonrLVFIpOf4 completed, total iterations: 1059
+INFO  [2024-07-31 12:39:45] Detail extraction for place ID ChIJrXOa5JMIfpYR5vek0WbO9PE completed, total iterations: 1060
+INFO  [2024-07-31 12:39:46] Detail extraction for place ID ChIJf42Kz2cJfpYROrc-Gn4LcZU completed, total iterations: 1061
+INFO  [2024-07-31 12:39:47] Detail extraction for place ID ChIJjWo09RUJfpYRkHe_ZjwlB5E completed, total iterations: 1062
+INFO  [2024-07-31 12:39:48] Detail extraction for place ID ChIJ22u-WGYJfpYR_UQ467qobfQ completed, total iterations: 1063
+INFO  [2024-07-31 12:39:49] Detail extraction for place ID ChIJVU7f_RoJfpYR7KqNmAocZEk completed, total iterations: 1064
+INFO  [2024-07-31 12:39:50] Detail extraction for place ID ChIJ69GMLRkJfpYR9X3mdwZQp_4 completed, total iterations: 1065
+INFO  [2024-07-31 12:39:51] Detail extraction for place ID ChIJ99ZPTxgJfpYRmRC_PbBSyeQ completed, total iterations: 1066
+INFO  [2024-07-31 12:39:52] Detail extraction for place ID ChIJL6bru1AJfpYRUzNKopNdiDg completed, total iterations: 1067
+INFO  [2024-07-31 12:39:52] Detail extraction for place ID ChIJ9SXoulAJfpYRsxx-khuh584 completed, total iterations: 1068
+INFO  [2024-07-31 12:39:53] Detail extraction for place ID ChIJ2zGRXxYJfpYR8OyEXSWrqrg completed, total iterations: 1069
+INFO  [2024-07-31 12:39:54] Detail extraction for place ID ChIJL0gUSEMJfpYRxDqsKkY_n6g completed, total iterations: 1070
+INFO  [2024-07-31 12:39:55] Detail extraction for place ID ChIJd4jy9BwJfpYRdSfn7lf9td4 completed, total iterations: 1071
+INFO  [2024-07-31 12:39:56] Detail extraction for place ID ChIJI5PNovAJfpYR40OibaI7EDg completed, total iterations: 1072
+INFO  [2024-07-31 12:39:56] Detail extraction for place ID ChIJjQ6ftx0JfpYR67I-_YJ4jxU completed, total iterations: 1073
+INFO  [2024-07-31 12:39:57] Detail extraction for place ID ChIJb0mkSBwJfpYRrXCxxDxL2X8 completed, total iterations: 1074
+INFO  [2024-07-31 12:39:58] Detail extraction for place ID ChIJZ0WfFJ3tsQERirPV0S6pabc completed, total iterations: 1075
+INFO  [2024-07-31 12:40:00] Detail extraction for place ID ChIJUcLZ1h0JfpYRRObF79RN52I completed, total iterations: 1076
+INFO  [2024-07-31 12:40:00] Detail extraction for place ID ChIJfS1e1h0JfpYRbZVH3U-WR7c completed, total iterations: 1077
+INFO  [2024-07-31 12:40:01] Detail extraction for place ID ChIJQ48lKRwJfpYRwWkjylcvkfg completed, total iterations: 1078
+INFO  [2024-07-31 12:40:02] Detail extraction for place ID ChIJm6J_GBwJfpYRG1cHhYbvMvw completed, total iterations: 1079
+INFO  [2024-07-31 12:40:03] Detail extraction for place ID ChIJF2HtBkIJfpYR-q1JCD7keNo completed, total iterations: 1080
+INFO  [2024-07-31 12:40:03] Detail extraction for place ID ChIJ93-zGBwJfpYR-Uf2FLspyTQ completed, total iterations: 1081
+INFO  [2024-07-31 12:40:04] Detail extraction for place ID ChIJ44vJGBwJfpYR_9Rq49lS0ac completed, total iterations: 1082
+INFO  [2024-07-31 12:40:05] Detail extraction for place ID ChIJNZmnuR4JfpYR-wq2WWFtOxo completed, total iterations: 1083
+INFO  [2024-07-31 12:40:06] Detail extraction for place ID ChIJe8nvFZ0JfpYREq22nfuv9Rs completed, total iterations: 1084
+INFO  [2024-07-31 12:40:07] Detail extraction for place ID ChIJyzwpQ53tsQERefl_D07WdRE completed, total iterations: 1085
+INFO  [2024-07-31 12:40:08] Detail extraction for place ID ChIJzd_tqRAJfpYRzl602HPY-Zg completed, total iterations: 1086
+INFO  [2024-07-31 12:40:09] Detail extraction for place ID ChIJrc198VoJfpYR9bNBGOnZPhg completed, total iterations: 1087
+INFO  [2024-07-31 12:40:09] Detail extraction for place ID ChIJX7dg9xkJfpYRGnrBRTGohIY completed, total iterations: 1088
+INFO  [2024-07-31 12:40:10] Detail extraction for place ID ChIJO61PSAAJfpYRpz43OPy94g8 completed, total iterations: 1089
+INFO  [2024-07-31 12:40:11] Detail extraction for place ID ChIJIbwjgl7jfZYREXqf_4TCFE4 completed, total iterations: 1090
+INFO  [2024-07-31 12:40:12] Detail extraction for place ID ChIJ464C9U7jfZYRlBmk5NoMx98 completed, total iterations: 1091
+INFO  [2024-07-31 12:40:13] Detail extraction for place ID ChIJkzeYmDgIfpYRPBGyexZ7ArU completed, total iterations: 1092
+INFO  [2024-07-31 12:40:13] Detail extraction for place ID ChIJn1OYCbwJfpYRMvFDAM55HB0 completed, total iterations: 1093
+INFO  [2024-07-31 12:40:14] Detail extraction for place ID ChIJ6asZxLgJfpYR7Ttj8ZrvIhw completed, total iterations: 1094
+INFO  [2024-07-31 12:40:15] Detail extraction for place ID ChIJXedGdtXtsQER2Tg10N7onOg completed, total iterations: 1095
+INFO  [2024-07-31 12:40:16] Detail extraction for place ID ChIJASRtFyEJfpYR6hMfebaBaFU completed, total iterations: 1096
+INFO  [2024-07-31 12:40:17] Detail extraction for place ID ChIJX6duFvIJfpYRyby3YCLDXCA completed, total iterations: 1097
+INFO  [2024-07-31 12:40:17] Detail extraction for place ID ChIJxXxh6P4JfpYRC8yyLl3UB3g completed, total iterations: 1098
+INFO  [2024-07-31 12:40:18] Detail extraction for place ID ChIJs4slBOwJfpYRxP_Mh50qo5U completed, total iterations: 1099
+INFO  [2024-07-31 12:40:19] Detail extraction for place ID ChIJ3ztshyYJfpYRnnzKgaSO4zU completed, total iterations: 1100
+INFO  [2024-07-31 12:40:20] Detail extraction for place ID ChIJn7s8ipYJfpYRO7B0eg1bt14 completed, total iterations: 1101
+INFO  [2024-07-31 12:40:21] Detail extraction for place ID ChIJ9QrkdqgJfpYRsdKIcTjbdrU completed, total iterations: 1102
+INFO  [2024-07-31 12:40:21] Detail extraction for place ID ChIJ7dxjVZYJfpYRBDZeFo2Phqo completed, total iterations: 1103
+INFO  [2024-07-31 12:40:22] Detail extraction for place ID ChIJv5Ht4qYJfpYR8X_8TxUa9Ws completed, total iterations: 1104
+INFO  [2024-07-31 12:40:23] Detail extraction for place ID ChIJ_0qYdAAJfpYRgYdZLFIj4Bg completed, total iterations: 1105
+INFO  [2024-07-31 12:40:24] Detail extraction for place ID ChIJTb1-j_gIfpYRAuwApSeHiLE completed, total iterations: 1106
+INFO  [2024-07-31 12:40:25] Detail extraction for place ID ChIJXXMFswAJfpYR2OO3I0N0SOs completed, total iterations: 1107
+INFO  [2024-07-31 12:40:25] Detail extraction for place ID ChIJ6bkFNv8IfpYRwVVfL3gZAiE completed, total iterations: 1108
+INFO  [2024-07-31 12:40:27] Detail extraction for place ID ChIJu9Wt85MJfpYRekMVWXlfI2o completed, total iterations: 1109
+INFO  [2024-07-31 12:40:27] Detail extraction for place ID ChIJzfhG1P8IfpYRwX6xoC5fY0M completed, total iterations: 1110
+INFO  [2024-07-31 12:40:28] Detail extraction for place ID ChIJ5dy41wAJfpYRLz-I-N0cySE completed, total iterations: 1111
+INFO  [2024-07-31 12:40:29] Detail extraction for place ID ChIJdf7kdgYJfpYRWyAvtG3iVek completed, total iterations: 1112
+INFO  [2024-07-31 12:40:30] Detail extraction for place ID ChIJJzrUDwYJfpYRy9emjHIJYdg completed, total iterations: 1113
+INFO  [2024-07-31 12:40:31] Detail extraction for place ID ChIJ-eqxLfgIfpYR-qJqZymcITw completed, total iterations: 1114
+INFO  [2024-07-31 12:40:31] Detail extraction for place ID ChIJt6ZewaAJfpYREFVJwbWpYGc completed, total iterations: 1115
+INFO  [2024-07-31 12:40:32] Detail extraction for place ID ChIJxcLIf6HysQERl7PgsPw2GV0 completed, total iterations: 1116
+INFO  [2024-07-31 12:40:33] Detail extraction for place ID ChIJGxi6AJAIfpYRFXNKJyZEv20 completed, total iterations: 1117
+INFO  [2024-07-31 12:40:34] Detail extraction for place ID ChIJ66VnF2cJfpYRy-1ybJbFZPM completed, total iterations: 1118
+INFO  [2024-07-31 12:40:35] Detail extraction for place ID ChIJX1kc_BwJfpYRgTpRJ5NvEt4 completed, total iterations: 1119
+INFO  [2024-07-31 12:40:35] Detail extraction for place ID ChIJyZWPY1kJfpYRgfHKMiXEFgo completed, total iterations: 1120
+INFO  [2024-07-31 12:40:36] Detail extraction for place ID ChIJwwNMcQIJfpYRZVV3V1KNXr0 completed, total iterations: 1121
+INFO  [2024-07-31 12:40:37] Detail extraction for place ID ChIJawEk0B0JfpYRwrcuU88YNmw completed, total iterations: 1122
+INFO  [2024-07-31 12:40:38] Detail extraction for place ID ChIJ8aKyWZ3tsQERf533Wp1Vvr8 completed, total iterations: 1123
+INFO  [2024-07-31 12:40:38] Detail extraction for place ID ChIJU5cCOxwJfpYRRfK-tk5H7Go completed, total iterations: 1124
+INFO  [2024-07-31 12:40:39] Detail extraction for place ID ChIJX6sSTuIIfpYRoH5KdWWve5Q completed, total iterations: 1125
+INFO  [2024-07-31 12:40:40] Detail extraction for place ID ChIJU4lwZFYJfpYRKhAVUnPeHJo completed, total iterations: 1126
+INFO  [2024-07-31 12:40:41] Detail extraction for place ID ChIJlYbWx1EJfpYRL5IIMnCYEkE completed, total iterations: 1127
+INFO  [2024-07-31 12:40:42] Detail extraction for place ID ChIJD369YyMJfpYR2ZVY22KyQVA completed, total iterations: 1128
+INFO  [2024-07-31 12:40:42] Detail extraction for place ID ChIJ3_AVJysJfpYRv3nGTXAvMZU completed, total iterations: 1129
+INFO  [2024-07-31 12:40:43] Detail extraction for place ID ChIJmyfa_qoJfpYRrSHlACeHjsg completed, total iterations: 1130
+INFO  [2024-07-31 12:40:44] Detail extraction for place ID ChIJa8Ws5WgJfpYRNfid1WccByE completed, total iterations: 1131
+INFO  [2024-07-31 12:40:45] Detail extraction for place ID ChIJQccgTP8JfpYRKPReEQxsUxE completed, total iterations: 1132
+INFO  [2024-07-31 12:40:45] Detail extraction for place ID ChIJoZgOcOMIfpYRGfH1BxATFJA completed, total iterations: 1133
+INFO  [2024-07-31 12:40:46] Detail extraction for place ID ChIJa8CxYOMIfpYRugX_1fc7FBQ completed, total iterations: 1134
+INFO  [2024-07-31 12:40:47] Detail extraction for place ID ChIJ1SBoWfEJfpYRVRkxgXbPo7g completed, total iterations: 1135
+INFO  [2024-07-31 12:40:48] Detail extraction for place ID ChIJ8z3Zv-MIfpYRr2OlkhYIK-M completed, total iterations: 1136
+INFO  [2024-07-31 12:40:49] Detail extraction for place ID ChIJL-FJ6b4JfpYREUaXClRGtfA completed, total iterations: 1137
+INFO  [2024-07-31 12:40:49] Detail extraction for place ID ChIJj0nIdI0JfpYR0K_tsxn2peM completed, total iterations: 1138
+INFO  [2024-07-31 12:40:50] Detail extraction for place ID ChIJO-J30RoJfpYRGB1mfWcEk_Q completed, total iterations: 1139
+INFO  [2024-07-31 12:40:51] Detail extraction for place ID ChIJm6f9r_4IfpYReSh7SZHWfzY completed, total iterations: 1140
+INFO  [2024-07-31 12:40:52] Detail extraction for place ID ChIJw4vsYfIJfpYR-gI_74-sgqA completed, total iterations: 1141
+INFO  [2024-07-31 12:40:52] Detail extraction for place ID ChIJ3YNb5v4IfpYRCmm1YuxHcoU completed, total iterations: 1142
+INFO  [2024-07-31 12:40:53] Detail extraction for place ID ChIJ_T5dXRoJfpYRShultcaT7DA completed, total iterations: 1143
+INFO  [2024-07-31 12:40:54] Detail extraction for place ID ChIJqz6Z1v8IfpYRkZt7cbNjzzs completed, total iterations: 1144
+INFO  [2024-07-31 12:40:55] Detail extraction for place ID ChIJrQ3S4_4IfpYR2b_l_cAu-ew completed, total iterations: 1145
+INFO  [2024-07-31 12:40:56] Detail extraction for place ID ChIJaZDXfgEJfpYRhSntdoM_rok completed, total iterations: 1146
+INFO  [2024-07-31 12:40:56] Detail extraction for place ID ChIJnS3-HWMJfpYR3-Q7cwBjIj4 completed, total iterations: 1147
+INFO  [2024-07-31 12:40:57] Detail extraction for place ID ChIJ3cSf9x8JfpYRTpLROhgsUvY completed, total iterations: 1148
+INFO  [2024-07-31 12:40:58] Detail extraction for place ID ChIJxeSmVuAIfpYR0HREVKxfVvI completed, total iterations: 1149
+INFO  [2024-07-31 12:40:59] Detail extraction for place ID ChIJS5dlrBoJfpYRmv3vHVbI4kw completed, total iterations: 1150
+INFO  [2024-07-31 12:41:00] Detail extraction for place ID ChIJCyILTh8JfpYRkkFeJQVioYg completed, total iterations: 1151
+INFO  [2024-07-31 12:41:01] Detail extraction for place ID ChIJhzIgphAJfpYRXG0FOme2e8k completed, total iterations: 1152
+INFO  [2024-07-31 12:41:03] Detail extraction for place ID ChIJyUyYVeQIfpYRB9C60yhdFp8 completed, total iterations: 1153
+INFO  [2024-07-31 12:41:03] Detail extraction for place ID ChIJVYKi-kcJfpYRLzdbClTcTNc completed, total iterations: 1154
+INFO  [2024-07-31 12:41:04] Detail extraction for place ID ChIJU-rqVi4JfpYRybzhssLTlcc completed, total iterations: 1155
+INFO  [2024-07-31 12:41:05] Detail extraction for place ID ChIJU2fGlokJfpYRvIFAJFdRrp8 completed, total iterations: 1156
+INFO  [2024-07-31 12:41:06] Detail extraction for place ID ChIJP-aJ9A8JfpYRqF6AA2xNz3g completed, total iterations: 1157
+INFO  [2024-07-31 12:41:07] Detail extraction for place ID ChIJDw07w-AIfpYRdHeWBIi4zAk completed, total iterations: 1158
+INFO  [2024-07-31 12:41:08] Detail extraction for place ID ChIJM06U1xkJfpYRCu2c8yLaLO8 completed, total iterations: 1159
+INFO  [2024-07-31 12:41:09] Detail extraction for place ID ChIJyTn0aRAJfpYRXddZ50JiVz4 completed, total iterations: 1160
+INFO  [2024-07-31 12:41:09] Detail extraction for place ID ChIJe40goF4JfpYRC2EeqyFSSF8 completed, total iterations: 1161
+INFO  [2024-07-31 12:41:10] Detail extraction for place ID ChIJhQ4JOX0JfpYRbhi_VRaU3lk completed, total iterations: 1162
+INFO  [2024-07-31 12:41:11] Detail extraction for place ID ChIJM43i1lYJfpYRQ3djF3qdoGI completed, total iterations: 1163
+INFO  [2024-07-31 12:41:12] Detail extraction for place ID ChIJl_uSleAIfpYRGGzdM0VxQg4 completed, total iterations: 1164
+INFO  [2024-07-31 12:41:12] Detail extraction for place ID ChIJG9DfbyIJfpYRfAbmLXzUNAM completed, total iterations: 1165
+INFO  [2024-07-31 12:41:14] Detail extraction for place ID ChIJd7bDgOAIfpYRe0k4EWJjLGg completed, total iterations: 1166
+INFO  [2024-07-31 12:41:14] Detail extraction for place ID ChIJyyOd2-YIfpYRO1YXmHrpEuM completed, total iterations: 1167
+INFO  [2024-07-31 12:41:16] Detail extraction for place ID ChIJH9Sv26kJfpYRix2i-Bj4vow completed, total iterations: 1168
+INFO  [2024-07-31 12:41:17] Detail extraction for place ID ChIJ_ZFLvkAIfpYRlgEANZt2Ki0 completed, total iterations: 1169
+INFO  [2024-07-31 12:41:18] Detail extraction for place ID ChIJZVdG3b0JfpYRTy4vvY6mwg8 completed, total iterations: 1170
+INFO  [2024-07-31 12:41:19] Detail extraction for place ID ChIJv5hHPJQJfpYRPX82dB6JSIw completed, total iterations: 1171
+INFO  [2024-07-31 12:41:20] Detail extraction for place ID ChIJe0_sG6gJfpYRMdeKT3VuaG8 completed, total iterations: 1172
+INFO  [2024-07-31 12:41:21] Detail extraction for place ID ChIJIcLAZvMIfpYR90nfdw5NmoM completed, total iterations: 1173
+INFO  [2024-07-31 12:41:22] Detail extraction for place ID ChIJvSUnFDsJfpYRU1j_x_wUQCc completed, total iterations: 1174
+INFO  [2024-07-31 12:41:22] Detail extraction for place ID ChIJ33zBlXMJfpYRYKUCATr4pLk completed, total iterations: 1175
+INFO  [2024-07-31 12:41:23] Detail extraction for place ID ChIJ0-yRjSwJfpYRCNk8fh7dvHE completed, total iterations: 1176
+INFO  [2024-07-31 12:41:24] Detail extraction for place ID ChIJ3-1-Fm8JfpYRk-kUmi6tQk8 completed, total iterations: 1177
+INFO  [2024-07-31 12:41:26] Detail extraction for place ID ChIJpXSyVFsJfpYR0-UsQE1vx-M completed, total iterations: 1178
+INFO  [2024-07-31 12:41:26] Detail extraction for place ID ChIJq2KfJlsJfpYR5WmHGEOVOME completed, total iterations: 1179
+INFO  [2024-07-31 12:41:27] Detail extraction for place ID ChIJM9ISIXsJfpYRp5RZ1eGlPSw completed, total iterations: 1180
+INFO  [2024-07-31 12:41:28] Detail extraction for place ID ChIJ6WvVVvkIfpYR19KYNNomRvw completed, total iterations: 1181
+INFO  [2024-07-31 12:41:29] Detail extraction for place ID ChIJN91Ya6cJfpYRw9CiOcYJGqg completed, total iterations: 1182
+INFO  [2024-07-31 12:41:30] Detail extraction for place ID ChIJ-34ug4sJfpYRvjSHudl-Wv8 completed, total iterations: 1183
+INFO  [2024-07-31 12:41:31] Detail extraction for place ID ChIJH6gMSPwIfpYRiIL7q6kjULI completed, total iterations: 1184
+INFO  [2024-07-31 12:41:32] Detail extraction for place ID ChIJEb_gyl8JfpYRVD2x0vfYyOU completed, total iterations: 1185
+INFO  [2024-07-31 12:41:33] Detail extraction for place ID ChIJVU7f_RoJfpYRgn6hAAf1AoA completed, total iterations: 1186
+INFO  [2024-07-31 12:41:34] Detail extraction for place ID ChIJVU7f_RoJfpYRlven3UmmRE4 completed, total iterations: 1187
+INFO  [2024-07-31 12:41:35] Detail extraction for place ID ChIJVU7f_RoJfpYRYiGF8xVLDfM completed, total iterations: 1188
+INFO  [2024-07-31 12:41:35] Detail extraction for place ID ChIJVU7f_RoJfpYRiroqdHH3b1c completed, total iterations: 1189
+INFO  [2024-07-31 12:41:36] Detail extraction for place ID ChIJr-ZVMbMJfpYRqtMahItqWAg completed, total iterations: 1190
+INFO  [2024-07-31 12:41:37] Detail extraction for place ID ChIJ-ynDuJftsQERE6c0D8i4Zow completed, total iterations: 1191
+INFO  [2024-07-31 12:41:38] Detail extraction for place ID ChIJzUp3TgAJfpYRt_rn0v9OFck completed, total iterations: 1192
+INFO  [2024-07-31 12:41:38] Detail extraction for place ID ChIJdUnyjxoJfpYRgIG4pD6d8RM completed, total iterations: 1193
+INFO  [2024-07-31 12:41:39] Detail extraction for place ID ChIJcW9A7f8JfpYRCNY-eUnn_wc completed, total iterations: 1194
+INFO  [2024-07-31 12:41:40] Detail extraction for place ID ChIJq9bvy_gIfpYRbsGa6Oku-Lg completed, total iterations: 1195
+INFO  [2024-07-31 12:41:41] Detail extraction for place ID ChIJ3SUwfxgJfpYRyByYn_O8AZQ completed, total iterations: 1196
+INFO  [2024-07-31 12:41:42] Detail extraction for place ID ChIJX2wOXSIJfpYReMsxcGb5Q88 completed, total iterations: 1197
+INFO  [2024-07-31 12:41:43] Detail extraction for place ID ChIJEYPGCN4IfpYRjfcfq-9CABM completed, total iterations: 1198
+INFO  [2024-07-31 12:41:43] Detail extraction for place ID ChIJ7zGPx_kJfpYRTMUjfgzZBuE completed, total iterations: 1199
+INFO  [2024-07-31 12:41:44] Detail extraction for place ID ChIJf9lpFO4JfpYRiX0stL0gst4 completed, total iterations: 1200
+INFO  [2024-07-31 12:41:45] Detail extraction for place ID ChIJs6ncZd0IfpYReRGbOhtkz5M completed, total iterations: 1201
+INFO  [2024-07-31 12:41:46] Detail extraction for place ID ChIJv_aSHt0IfpYRXbQcA0xpta8 completed, total iterations: 1202
+INFO  [2024-07-31 12:41:47] Detail extraction for place ID ChIJNWAUEzsJfpYRxfFmecjkmgc completed, total iterations: 1203
+INFO  [2024-07-31 12:41:48] Detail extraction for place ID ChIJDxBAuugJfpYRczvKkIbe_Eo completed, total iterations: 1204
+INFO  [2024-07-31 12:41:48] Detail extraction for place ID ChIJQ3lQlAkJfpYR_m1i1L5aBog completed, total iterations: 1205
+INFO  [2024-07-31 12:41:49] Detail extraction for place ID ChIJoZjnLiUJfpYRRMCeiD2vMMg completed, total iterations: 1206
+INFO  [2024-07-31 12:41:50] Detail extraction for place ID ChIJAfpuNHQJfpYR2qC7-ilMMdk completed, total iterations: 1207
+INFO  [2024-07-31 12:41:51] Detail extraction for place ID ChIJTXieuD8JfpYRWP5vsWNPmKs completed, total iterations: 1208
+INFO  [2024-07-31 12:41:52] Detail extraction for place ID ChIJ7U1-dD4PfpYRBsEESdybkAw completed, total iterations: 1209
+INFO  [2024-07-31 12:41:52] Detail extraction for place ID ChIJoyVNuz8JfpYRuDN1EsDbA9E completed, total iterations: 1210
+INFO  [2024-07-31 12:41:53] Detail extraction for place ID ChIJh1V4uhIJfpYRf6Cr_qRXs0U completed, total iterations: 1211
+INFO  [2024-07-31 12:41:54] Detail extraction for place ID ChIJU3gdt6AJfpYRGpBzV9dAeBM completed, total iterations: 1212
+INFO  [2024-07-31 12:41:55] Detail extraction for place ID ChIJCVzvoGsJfpYR0-rVAT54QOU completed, total iterations: 1213
+INFO  [2024-07-31 12:41:56] Detail extraction for place ID ChIJ0QEiq0AJfpYRnquZ709n2kA completed, total iterations: 1214
+INFO  [2024-07-31 12:41:56] Detail extraction for place ID ChIJyV6DKC4JfpYRIlV6uF2CSeE completed, total iterations: 1215
+INFO  [2024-07-31 12:41:57] Detail extraction for place ID ChIJHxAyJg8JfpYR5hxJfYBnxAY completed, total iterations: 1216
+INFO  [2024-07-31 12:41:58] Detail extraction for place ID ChIJYXNz3zEJfpYRmk49xJsBk0o completed, total iterations: 1217
+INFO  [2024-07-31 12:41:59] Detail extraction for place ID ChIJWfcQqNAIfpYRMwdEZPtCGpg completed, total iterations: 1218
+INFO  [2024-07-31 12:42:00] Detail extraction for place ID ChIJrYQ3y0AJfpYRuF34EEo4VIg completed, total iterations: 1219
+INFO  [2024-07-31 12:42:01] Detail extraction for place ID ChIJVU7f_RoJfpYRRhs65Q6cf6c completed, total iterations: 1220
+INFO  [2024-07-31 13:00:20] Script finished
