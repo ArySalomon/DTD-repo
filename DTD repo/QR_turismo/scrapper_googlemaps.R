@@ -236,10 +236,4 @@ places_list$types <- as.character(paste(places_list$types))
 
 writexl::write_xlsx(places_list, path = "C:/Users/arysa/Downloads/places_list.xlsx")
 
-# create sf
-places_list_sf <- st_as_sf(places_list, coords = c("lng", "lat"), crs = st_crs(secciones))
-
-places_list_sf <- places_list_sf %>% mutate(url_maps = paste0("https://www.google.com/maps/place/?q=place_id:", reference))
-
-places_list_sf <- places_list_sf %>% filter(is.na(permanently_closed))
 

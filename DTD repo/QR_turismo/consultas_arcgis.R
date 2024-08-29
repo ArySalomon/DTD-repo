@@ -2,7 +2,7 @@
 # Segunda sección
 get_arcgis_services()
 get_arcgis_services(service = "Demarcación_y_Divisiones")
-secciones <- get_arcgis_services(service = "Ambiente_público", layer = 6, return_geojson = TRUE) %>% dplyr::filter(sección == "2")
+secciones <- get_arcgis_services(service = "Demarcación_y_Divisiones", layer = 6, return_geojson = TRUE) %>% dplyr::filter(seccion == "2")
 
 # manzanas (layer)
 get_arcgis_services()
@@ -57,4 +57,5 @@ for (x in c(4, 5, 6, 11, 12, 14, 16, 19, 24, 26, 27, 28, 29, 31, 33, 34, 35, 43)
     locaciones_restringidas <- rbind(locaciones_restringidas, sociedad_new)
   }
 }
+
 

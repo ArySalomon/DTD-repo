@@ -1,60 +1,86 @@
 
 
-save.image(file = "googlemaps_request.RData")
-
-##
-
-# filter segunda seccion
-places_list_sf <- places_list_sf[!is.na(places_list_sf$seccion), ]
-places_list_sf <- places_list_sf %>% dplyr::filter(is.na(permanently_closed))
+save.image(file = "googlemaps_request1.RData")
 
 
-places_list_sf$segunda_sec <- check_point_intersections(geompoints = places_list_sf, buffers = secciones)
-places_list_sf <- places_list_sf %>% dplyr::filter(segunda_sec == "TRUE")
+# create sf
+
+library(readxl)
+places_list <- read_excel("places_list.xlsx")
+View(places_list)
+
+comercio_sf <- comercio %>% 
+  mutate(segunda_sec = check_point_intersections(geompoints = ., buffers = secciones)) %>% 
+  filter(segunda_sec == TRUE, is.na(fecha_baja_referencia_act))
 
 
-comercio$segunda_sec <- check_point_intersections(geompoints = comercio, buffers = secciones)
-comercio_sf <- comercio %>% dplyr::filter(segunda_sec == "TRUE") %>% 
-  dplyr::filter(is.na(fecha_baja_referencia_act))
+manzanas_sf <- manzanas_sf %>% 
+  mutate(segunda_sec = check_point_intersections(geompoints = ., buffers = secciones)) %>% 
+  filter(segunda_sec == "TRUE")
 
 
-manzanas_sf$segunda_sec <- check_point_intersections(geompoints = manzanas_sf, buffers = secciones)
-manzanas_sf <- manzanas_sf %>% dplyr::filter(segunda_sec == "TRUE")
+parcelas <- parcelas %>%
+  st_make_valid() %>%
+  mutate(segunda_sec = check_point_intersections(geompoints = st_centroid(.), buffers = secciones)) %>%
+  filter(segunda_sec == "TRUE")
 
-parcelas$segunda_sec <- check_point_intersections(geompoints = st_centroid(st_make_valid(parcelas)), buffers = secciones)
-parcelas <- parcelas %>% dplyr::filter(segunda_sec == "TRUE")
 
-propiedad_horizontal$segunda_sec <- check_point_intersections(geompoints = st_centroid(propiedad_horizontal), buffers = secciones)
-propiedad_horizontal <- propiedad_horizontal %>% dplyr::filter(segunda_sec == "TRUE")
+parcelas$restringidas <- st_intersects(parcelas, locaciones_restringidas, sparse = FALSE) %>% apply(1, any)
 
-espacios_verdes$segunda_sec <- check_point_intersections(geompoints = st_centroid(espacios_verdes), buffers = secciones)
-espacios_verdes <- espacios_verdes %>% dplyr::filter(segunda_sec == "TRUE")
+st_intersects(parcelas, locaciones_restringidas, sparse = FALSE) %>% apply(1, any)
 
-locaciones_restringidas$segunda_sec <- check_point_intersections(geompoints = locaciones_restringidas, buffers = secciones)
-locaciones_restringidas <- locaciones_restringidas %>% dplyr::filter(segunda_sec == "TRUE")
+check_point_intersections()
+
+
+
+
+propiedad_horizontal <- propiedad_horizontal %>%
+  st_make_valid() %>%
+  mutate(segunda_sec = check_point_intersections(geompoints = st_centroid(.), buffers = secciones)) %>%
+  filter(segunda_sec == "TRUE")
+
+
+espacios_verdes <- espacios_verdes %>%
+  st_make_valid() %>%
+  mutate(segunda_sec = check_point_intersections(geompoints = st_centroid(.), buffers = secciones)) %>%
+  filter(segunda_sec == "TRUE")
+
+locaciones_restringidas <- locaciones_restringidas %>% 
+  mutate(segunda_sec = check_point_intersections(geompoints = ., buffers = secciones)) %>% 
+  filter(segunda_sec == "TRUE")
+
 # Arreglamos la capa "Gimnasios municipales" (polígonos)
-locaciones_restringidas <- st_centroid(locaciones_restringidas)
+# locaciones_restringidas <- st_centroid(locaciones_restringidas)
 
 ##
-
-places_list_sf <- nearest_polygon(points_sf = places_list_sf,
-                                  polygons_sf = manzanas_sf,
-                                  polygon_id_col = "objectid_1")
-
-places_list_sf$espacio_verde <- check_point_intersections(geompoints = places_list_sf, buffers = espacios_verdes, radius = 2)
-places_list_sf <- places_list_sf %>% dplyr::filter(!espacio_verde == "TRUE") %>% 
-  dplyr::filter(!nearest_polygon_id %in% c(605, 610))
 
 
 comercio_sf <- nearest_polygon(points_sf = comercio_sf,
                                polygons_sf = manzanas_sf,
                                polygon_id_col = "objectid_1")
 
+
 locaciones_restringidas <- nearest_polygon(points_sf = locaciones_restringidas,
                                            polygons_sf = manzanas_sf,
                                            polygon_id_col = "objectid_1")
 
-parcelas$restringidas <- st_intersects(parcelas, locaciones_restringidas, sparse = FALSE) %>% apply(1, any)
+
+
+
+
+places_list_sf <- st_as_sf(places_list, coords = c("lng", "lat"), crs = st_crs(secciones)) %>% 
+  mutate(url_maps = paste0("https://www.google.com/maps/place/?q=place_id:", reference)) %>% 
+  filter(is.na(permanently_closed)) %>%
+  mutate(segunda_sec = check_point_intersections(geompoints = ., buffers = secciones),
+         espacio_verde = check_point_intersections(geompoints = ., buffers = espacios_verdes, radius = 2)) %>% # filter segunda seccion
+  filter(segunda_sec == TRUE, !espacio_verde == "TRUE")
+
+
+places_list_sf <- nearest_polygon(points_sf = places_list_sf,
+                                  polygons_sf = manzanas_sf,
+                                  polygon_id_col = "objectid_1") %>%
+                                  filter(!nearest_polygon_id %in% c(605, 610)) # excluimos manzanas excepcionales
+
 
 
 

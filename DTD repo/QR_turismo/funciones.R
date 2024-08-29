@@ -1,4 +1,5 @@
 
+
 library(tidyr)
 library(leaflet)
 library(stringr)
@@ -11,8 +12,6 @@ library(RColorBrewer)
 library(googleway)
 library(log4r)
 
-
-
 get_arcgis_services <- function(service = NULL, folder = NULL, layer = NULL, return_geojson = FALSE) {
   # Define the root URL of the ArcGIS REST API services directory
   root_url <- "https://webgis.ciudaddemendoza.gob.ar/server/rest/services"
@@ -21,7 +20,7 @@ get_arcgis_services <- function(service = NULL, folder = NULL, layer = NULL, ret
   token_response <- httr::POST("https://webgis.ciudaddemendoza.gob.ar/portal/sharing/rest/generateToken",
                                body = list(
                                  username = "cchavarini",
-                                 password = "",
+                                 password = readLines("C:/Users/arisalomon/Desktop/Github/DTD-repo/DTD repo/APIs/arcgis.txt"),
                                  referer = "webgis.ciudaddemendoza.gob.ar/portal",
                                  f = "json"),
                                encode = "form")
@@ -198,6 +197,7 @@ check_point_intersections <- function(buffers, geompoints, radius = NULL) {
   
   return(intersects_logical)
 }
+
 
 # Funcion para identificar manzana más cercana a cada punto y moverlos al borde
 nearest_polygon <- function(points_sf, polygons_sf, polygon_id_col) {
